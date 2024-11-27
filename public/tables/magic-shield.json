@@ -1,0 +1,55 @@
+{
+    "table_name": "magic-shield",
+    "notes": "Level: 1 -- Range: Touch -- Duration: Varies -- Casting time: 1 action -- Save: None",
+    "general": "The caster conjures up a magical shield that defends him from opponents.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Disc of shimmering blue force.",
+          "2": "Yellowish force-field.",
+          "3": "Giant hand that picks off attacks.",
+          "4": "Buckler that emits radiant light.",
+          "5": "Black, bottomless tear in the seam of reality.",
+          "6": "Whirlwind of air that buffets attackers."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1-4": "Minor corruption.",
+          "5-7": "Major corruption.",
+          "8": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s shield appears as force burst aimed inward instead of spreading out, causing 1d4 damage as it explodes against him.",
+          "2": "Shield is accidentally summoned to benefit nearest enemy, granting that enemy a +4 bonus to AC for 1d3 turns.",
+          "3": "Caster accidentally summons shield horizontally below his feet, lifting him up 3” from the ground and causing him to “slide” on it for next 1d3+1 rounds; this increases his speed by +10’ but imposes a -1 penalty to attacks, spell checks, damage, and AC as he slips and slides haphazardly.",
+          "4": "Caster completely encases himself in a shield that blocks all attacks, damage, spells, and physical contact between him and the rest of the world, rendering him invulnerable to attack but unable to move or communicate outside the bubble for 1d4 rounds."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster conjures a weak shield that provides a +2 bonus to AC for 1d6 rounds.",
+          "14-17": "The caster conjures a shield that provides a +4 bonus to AC for 2d6 rounds.",
+          "18-19": "The caster conjures shield that provides a +4 bonus to AC for 1d3 turns. When casting the spell, the caster can apply the shield to himself or one ally touched.",
+          "20-23": "The caster conjures a shield that provides a +4 bonus to AC for 1d3 turns. When casting the spell, the caster can apply the shield to himself or one ally touched. In addition to the AC bonus, the shield also blocks magic missiles automatically (missiles usually have no effect; see magic missile spell description).",
+          "24-27": "The caster conjures a shield that protects him or an ally touched. The shield lasts 1d4+1 turns and has three benefits: it provides a +4 bonus to AC; it blocks magic missiles automatically (see magic missile spell description); and it blocks most attacks from mundane projectiles, reducing damage from any arrow, sling stone, bolt, dart, or other ranged weapon by 10 points per attack for the duration of the spell.",
+          "28-29": "The caster conjures two shields that protect him and one ally touched. Each shield lasts 1d4 hours and has four benefits: it provides a +4 bonus to AC; it blocks magic missiles automatically (see magic missile spell description); it blocks most attacks from mundane projectiles, reducing damage from any arrow, sling stone, bolt, dart, or other ranged weapon by 10 points per attack for the duration of the spell; and it provides a benefit in counterspelling equal to a +2 bonus to any subsequent spell check made as a counterspell.",
+          "30-31": "The caster conjures a battalion of magical shields that protect him and his allies. The caster is automatically shielded, as are all allies within a 10’ radius. Each shield lasts 1d4+1 hours and follows the allies even if they leave the caster’s side. Each shield has four benefits: it provides a +6 bonus to AC; it blocks magic missiles automatically (see magic missile spell description); it blocks most attacks from mundane projectiles, reducing damage from any arrow, sling stone, bolt, dart, or other ranged weapon by 20 points per attack for the duration of the spell; and it provides a benefit in counterspelling equal to a +4 bonus to any subsequent spell check made as a counterspell.",
+          "32+": "The caster calls forth a globe of shimmering magical energies that protects him and his allies. The caster is automatically encased in this magical shield, as are all allies within a 10’ radius. The shimmering globes last until the next sunrise and follow the allies even if they leave the caster’s side. Each globe has five benefits: it provides a +8 bonus to AC; it blocks magic missiles automatically (see magic missile spell description); it reduces damage on all attacks against its target by 2 points; it blocks most attacks from mundane projectiles, reducing damage from any arrow, sling stone, bolt, dart, or other ranged weapon by 20 points per attack for the duration of the spell; and it provides a benefit in counterspelling equal to a +4 bonus to any subsequent spell check made as a counterspell."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,56 @@
+{
+    "table_name": "replication",
+    "notes": "Level: 5 -- Range: 100’ +10’ per CL or touch -- Duration: Varies -- Casting Time: Varies -- Save: None",
+    "general": "The caster creates a magical double of himself to carry out actions, observe distant events, and possibly cheat death. On a successful casting, the caster may choose to invoke any effect of equal to or less than his spell check, allowing a range of options with every successful casting to produce a weaker but potentially more useful result.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s skeleton glows orange-blue and steps from his body.",
+          "2": "Caster emits protoplasm from his body in the form of the duplicate.",
+          "3": "The caster vomits up the duplicate form.",
+          "4": "The caster peels his own skin from his body to create the duplicate."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s flesh becomes sentient and moves about his body uncontrollably.",
+          "2": "Caster’s face becomes featureless and his body loses all distinctive marks.",
+          "3": "Caster is stalked by a homunculus, a twisted parody of himself standing 3’ tall and harboring ill will towards its creator.",
+          "4": "Caster’s soul fragments from the casting and he loses a point of Personality permanently."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Duplicate is created, but it is hostile towards the caster.",
+          "2": "Duplicate is flawed and cannot perform its normal tasks or possess typical abilities.",
+          "3": "Caster’s body becomes semi-solid for 1d10 minutes (cannot move or perform any action other than speech until duration ends).",
+          "4": "Caster must make a DC 15 Will check or forget a random spell for the day.",
+          "5": "Caster becomes confused and believes himself to be an artificial creation. Nothing can convince him otherwise, and this mania can manifest itself as overconfidence (he’s not real so what difference does his safety make?) to paranoia (his creator is after him and will destroy him) to constant fear (he could revert to base materials at any moment). This derangement lasts for 24 hours."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster creates a semi-solid illusion of himself that he can see, speak, and hear through. This projected duplicate can be placed anywhere within view of the caster up to 100’ +10’ per CL. If line of sight is ever broken, the image vanishes. This duplicate image reproduces the caster’s movements and action, but these motions are illusionary and will only physically affect or injure a target who fails to make a Will save. The duration is one hour.",
+          "20-23": "The caster creates a semi-solid illusion of himself that he can see, speak, and hear through. This projected duplicate can be placed anywhere within view of the caster up to 100’ +10’ per CL. If line of sight is ever broken, the image vanishes. The duration is four hours. This duplicate image reproduces the caster’s movements and action. Physical motions are illusionary and will only physically affect or injure a target who fails to make a Will save, but the caster can cast spells through the duplicate image as if he were standing at its location. To do so, he must extend his concentration to the image’s position, rendering him unaware of events occurring around his physical form for the duration of the spellcasting.",
+          "24-25": "The caster creates an artificial duplicate of another creature out of base materials such as mud, clay, snow, ice, or dung. He must have a piece of the creature’s body, such as hair, fingernail, or blood, to do so. The creation is physically identical to the original creature but possesses only half of the original’s Hit Dice or levels (and a similarly reduced number of hit points, skills, and other abilities). The duplicate possesses none of the original’s memories, and while it can learn, it can never increase in level or ability. It is permanent until reduced to zero hit points, at which point it collapses into a lump of the base material it was crafted from. The duplicate is under the caster’s complete control, but commands must be given verbally or written, as no form of magical communication is granted by the spell. When the duplicate is killed, the original creature must make a DC 20 Fort save or take 1d4 damage. Only one such duplicate of a creature can exist at any time.",
+          "26-28": "The caster can replicate himself in a physical form by creating a duplicate of himself from base materials such as mud, clay, snow, ice, or dung. The duplicate possesses half his hit points and levels and can never advance in power. The duplicate can cast spells at half its creator’s level, but can never participate in a patron bond or summon a familiar as it is itself a servile creature. It has some degree of decision-making ability but is not sentient; it can handle open-ended directives but is completely under its creator’s control and performs commands without hesitation. It lasts until reduced to zero hit points, at which point it collapses into a heap of the base material it was crafted from. When the duplicate is killed, the caster must make a DC 20 Fort save or take 1d4 damage. Only one such duplicate of the caster can exist at any one time.",
+          "29-33": "The caster creates a duplicate body to harbor the soul of a dead creature. Creating the clone requires 1 week’s time, 1,000 gold pieces per level or Hit Die of the creature, and a portion of the dead creature’s flesh. Once complete, if the soul of the intended creature is still free and not restrained by magical means or returned to life, it inhabits the duplicate form and effectively lives again. This cloned body possesses all the ability, levels, and knowledge the creature had at the time of its death. If the soul is bound, resurrected, or otherwise prevented from occupying its new form, the spell fails and the soul can never be cloned via replication again.",
+          "34-35": "The caster creates a duplicate of his own body to harbor his soul in case of his sudden demise. The process involves 1 week’s time, 1,000 gold pieces per caster level and a permanent sacrifice of the caster’s hit points. At least one hit point must be given up by transfusing part of the caster’s essence into the inert form. For each hit point transferred, there is a cumulative 20% chance that the caster’s spirit will be drawn to this cloned body upon his death, allowing the caster to continue existence in a new form. The cloned caster retains all levels, abilities, and spells he possessed at the time of his death, but only has hit points equal to the amount poured into the duplicate body at the time the spell was cast. He can heal back to his full amount of health he possessed prior to casting replication (including the sacrificed points) with time or magical restoratives.",
+          "36-37": "The caster can temporarily restore to life any creature of which he possesses a physical fragment. The creature must have died a physical death for this effect to work, but there is no time limit for the spell to be effective. Once cast, the creature immediately returns to life with all the levels, powers, spells, and other abilities it possessed in life. It is under the complete command of the caster. The replicated creature remains in this state until reduced to zero hit points or for 10 minutes per caster level, after which time it collapses back into fragments and cannot be revived with replication ever again.",
+          "38+": "The caster can replicate up to 10 + CL dead creatures who return to life with all their levels, abilities, and powers they possessed in life. These duplicate creatures obey the caster unquestionably and remain intact for 1 hour per CL. When reduced to zero hit points or when the spell expires, they collapse back into fragments and cannot be revived with replication ever again."
+        }
+      }
+    ]
+  }
+  

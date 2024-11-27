@@ -1,0 +1,57 @@
+{
+    "table_name": "levitate",
+    "notes": "Level: 2 -- Range: Self or further (see below) -- Duration: Varies -- Casting time: 1 action -- Save: Will vs. spell check",
+    "general": "The caster or a target chosen by the caster levitates into the air. This spell is useful for getting over walls or into canyons and handy for carrying heavy objects.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target floats in air",
+          "2": "Bluish disc of force appears beneath target to lift it into air",
+          "3": "A great winged bird descends from above to lift target",
+          "4": "Pillar of phantasmal mist pushes creature into the air"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster permanently floats 1d6” above the ground",
+          "2": "Glass objects are permanently repelled whenever they come within 6” of the caster, much like how magnets repel each other",
+          "3": "Caster’s hair stands permanently on end",
+          "4": "Major",
+          "5": "Major",
+          "6": "Minor"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster is smashed 1d6+6” down into the ground, sinking straight into mud or dirt, or blasting through stone for 1 point of damage",
+          "2": "Caster rises 1d12” in the air and hangs there, unable to get any traction for movement, for 1d4 rounds before dropping back to the ground",
+          "3": "Caster shoots up violently into the air to a height of 1d4x10’, then falls to the ground, suffering 1d6 damage for every 10’ fallen",
+          "4": "All creatures within 20’ must make Will saves, and the creature with the lowest result shoots into the air, vanishing high in the sky, and is gone for 1d6+2 rounds before returning somewhere within a mile in a controlled descent from the sky"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "For up to 1 turn, the caster can rise or descend through the air at a rate of 20 vertical feet or horizontal feet per round of concentration. In a single round, the caster can move horizontally or vertically, but not both – this is levitation not flight. Complex maneuvers are not possible, and the caster’s AC is reduced by -2 while levitating. The caster may step off his vertical suspension at any point (for example, to step onto a castle wall). If the caster’s concentration is broken while still in the air, he falls to the earth, suffering 1d6 damage for each 10’ fallen.",
+          "16-19": "The caster can affect levitate himself or a touched target of up to 300 pounds. If the target is unwilling, it receives a Will save. If the Will save fails, the target remains levitated as long as the caster concentrates. For up to 1 turn, the caster or the target rises or descends through the air at a rate of 20 vertical feet or horizontal feet per round of concentration. In a single round, the caster may move horizontally or vertically, but not both – this is levitation not flight. Complex maneuvers are not possible, and the caster’s AC is reduced by -2 while levitating. The caster may step off his vertical suspension at any point (for example, to step onto a castle wall). If the caster’s concentration is broken while still in the air, he falls to the earth, suffering 1d6 damage for each 10’ fallen.",
+          "20-21": "The caster designates a space of up to 10’x10’. For up to 1 turn, all creatures or objects in that space are levitated as if on an invisible rising platform. There is no weight limit. No save is possible, although an unwilling creature can run to the edge of the “platform” and jump off. The caster may move this platform of air at a rate of up to 20’ vertically or 20’ horizontally for every round of concentration.",
+          "22-25": "The caster designates a space of up to 10’x10’. For up to 1 hour, all creatures or objects in that space are levitated as if on an invisible rising platform. There is no weight limit. No save is possible, although an unwilling creature can run to the edge of the “platform” and jump off. The caster may move this platform of air at a rate of up to 40’ vertically or 40’ horizontally for every round of concentration.",
+          "26-29": "The caster designates a space of up to 20’x20’. For up to 1 hour, all creatures or objects in that space are levitated as if on an invisible rising platform. There is no weight limit. No save is possible, although an unwilling creature can run to the edge of the “platform” and jump off. The caster may move this platform of air at a rate of up to 40’ vertically or 40’ horizontally for every round of concentration.",
+          "30-31": "The caster designates a space of up to 20’x20’. For up to 1 day, all creatures or objects in that space are levitated as if on an invisible rising platform. There is no weight limit. No save is possible, although an unwilling creature can run to the edge of the “platform” and jump off. The caster may move this platform of air at a rate of up to 60’ vertically or 60’ horizontally for every round of concentration.",
+          "32-33": "The caster designates a space of up to 30’x30’. For up to 1 day, all creatures or objects in that space are levitated as one, as if on an invisible rising platform. There is no weight limit. No save is possible, although an unwilling creature can run to the edge of the “platform” and jump off. The caster may move this platform of air at a rate of up to 60’ vertically or 60’ horizontally for every round of concentration.",
+          "34+": "The caster can levitate any object or creature he can see regardless of size or complexity. This could include an entire castle, a crowd of peasants, a massive boulder, or even a charging horde of barbarians. There is no weight limit, and the effect continues for up to 30 days or until dispelled. No save is possible, and an unwilling creature cannot escape. The caster may move the target in the air at a rate of up to 60’ vertically or 60’ horizontally for every round of concentration."
+        }
+      }
+    ]
+  }
+   

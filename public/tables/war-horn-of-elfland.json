@@ -1,0 +1,34 @@
+{
+    "table_name": "war-horn-of-elfland",
+    "notes": "Level: 2 (The King of Elfland) -- Range: Self -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The caster sounds a war horn carved from a beast of 5 HD or greater to summon the armies of Elfland. If the horn is adorned with jewels and metals worth no less than 500 gp, the caster gains a +2 bonus to spell checks. The horn must be sounded once every three rounds, or the spell ends. Allies vanish when slain or when the spell ends.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Hints of soldiers emerge from the shadows, coalescing into solid forms.",
+          "2": "An emerald mist passes over the land leaving warriors in its wake.",
+          "3": "A searing rainbow bridge arcs from over the horizon, bringing with it fierce warriors."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "A group of 1d5 brownie slingers answer the call. Each is armed with a sling, a satchel of sling bullets, and a short sword, but vanishes after taking a single point of damage. The spell lasts for 1d6+CL rounds, as long as the horn is sounded once every three rounds, or until all the fae are dismissed.",
+          "16-19": "A body of 1d5+CL trollish spearmen supported by 1d5 brownie slingers heed the call. The spearmen carry flashing long spears. Each ally vanishes after taking a single point of damage. The spell lasts for 1d8+CL rounds, as long as the horn is sounded once every three rounds, or until all the fae are dismissed.",
+          "20-21": "A rough band of 1d12+CL trollish spearmen and 1d8+CL brownie slingers answer the call. All vanish after taking a single point of damage. The spell lasts for 1d10+CL rounds, as long as the horn is sounded once every three rounds, or until all the fae are dismissed.",
+          "22-25": "A troop of 1d16+CL trollish spearmen, 1d8+CL brownie slingers, and 1d8 hob footmen answer the call. The spell lasts for 1d12 rounds, as long as the horn is sounded once every three rounds, or until all the fae are dismissed.",
+          "26-29": "A marauding force of 1d20+CL trollish spearmen, 1d16+CL brownie slingers, 1d12+CL hob footmen, and 1d10 pixie archers answer the summons. The spell lasts for 1d16 rounds, as long as the horn is sounded once every three rounds, or until all the fae are dismissed.",
+          "30-31": "A thundering company of 1d24+CL trollish spearmen, 1d20+CL brownie slingers, 1d16+CL hob footmen, 1d12+CL pixie archers, and 1d8 fomorians answer the summons. The spell lasts for 1d20 rounds, as long as the horn is sounded once every three rounds, or until all the fae are dismissed.",
+          "32-33": "The caster’s call for aid is answered by the full host of Elfland. The spell lasts for 1d24+CL rounds. Immediately re-roll the spell check to determine the type and number of fae that answer the call, re-rolling any spell failures or results of 32+. As long as the caster continues to sound the horn, re-roll the spell check again every third round, as new allies answer the call.",
+          "34+": "The full host of Elfland comes to the caster’s aid, stepping fully into the mortal realm. Immediately re-roll the spell check to determine the type and number of fae that answer the call, re-rolling any spell failures or results of 32+. As long as the caster continues to sound the horn, re-roll the spell check again every third round, as new allies answer the call. Each type of fae steps into the mortal realm with full hit points, not just 1 point, and are not dismissed until they reach 1 hit point. The spell ends when dismissed by the caster or by the King of Elfland himself."
+        }
+      }
+    ]
+  }
+  

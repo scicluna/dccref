@@ -1,0 +1,34 @@
+{
+    "table_name": "food-of-the-gods",
+    "notes": "Level: 1 -- Range: 30’ -- Duration: 24 hours (see below) -- Casting time: 1 turn -- Save: N/A",
+    "general": "The cleric calls upon the power of his deity to feed the masses. This spell either makes inedible food edible or magically creates viands when no other food and drink is available. Magically-created food is a spongy, grey, and bland-tasting substance that spoils after 24 hours. Magically-created water is clean rainwater that remains drinkable for as long as it is properly stored.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A glowing banquet table appears laden with food and then vanishes, leaving the meal behind.",
+          "2": "Food rains down from the heavens, collecting on flat surfaces or in upturned hands.",
+          "3": "The cleric vomits up the magically-created food and water.",
+          "4": "Inedible substances such as wood, stone, and dirt are transformed into edible substances."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The cleric can purify enough pre-existing spoiled food and tainted water to feed up to 1d6+CL people. This spell merely makes normally inedible food edible and has no effect on poison. This result does not create new food or water from thin air.",
+          "14-17": "The cleric creates food and water from thin air, creating enough to feed 5+CL people.",
+          "18-19": "The cleric creates food and water from thin air, creating enough to feed 10+CL people.",
+          "20-23": "The cleric creates food and water from thin air, creating enough to feed 15+CL people.",
+          "24-27": "The cleric creates food and water from thin air, creating enough to feed 20+CL people.",
+          "28-29": "The cleric creates enough food and water from thin air to feed 30+CL people or produces a revitalizing heroic feast for 5 people. The food and drink of a heroic feast imparts all the benefits of a full night’s sleep, restores a single point of temporary ability damage, and heals 1d4+CL points of damage.",
+          "30-31": "The cleric creates enough food and water from thin air to feed 30+CL people and produces a revitalizing heroic feast for 10 people. The food and drink of a heroic feast imparts all the benefits of a full night’s sleep, restores up to two points of temporary ability damage, and heals 1d6+CL points of damage.",
+          "32+": "The earth opens up to provide a cornucopia of food and drink for the cleric’s faithful followers. All food-producing locations within the cleric’s line of sight burst forth to provide food and water. This includes natural sources, such as fields and fruit trees that are suddenly laden with grain and food; civilized sources, such as market baskets and cooking pots, which are suddenly filled with delicious substances; and even the animals of the wild, which march forth and rest at the feet of the cleric, offering themselves for slaughter. This divine spectacle produces enough nourishing food to provide a solid meal for up to 100 people. Moreover, the choicest meals produce a single revitalizing heroic feast for 15 people. The food and drink of a heroic feast imparts all the benefits of a full night’s sleep, restores up to three points of temporary ability damage, and heals 1d10+CL points of damage."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,54 @@
+{
+    "table_name": "invisibility",
+    "notes": "Level: 2 -- Range: Self or more -- Duration: Varies -- Casting time: 1 action -- Save: Will vs. spell check DC (sometimes)",
+    "general": "l The caster makes himself invisible. This spell can also render allies invisible and can create an invisibility shield that prevents detection by other spells.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Subject turns invisible."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d16",
+        "table": {
+          "1": "One portion of caster’s body turns permanently invisible: (1) one hand, (2) one arm, (3) ears, (4) torso, (5) eyes, (6) one leg.",
+          "7": "Caster’s head becomes permanently and irrevocably visible, such that when he is otherwise turned invisible, his head remains visible and appears like a floating orb with no body.",
+          "8-11": "When caster turns invisible, his body polymorphs into another shape (visible to creatures that can see invisible): (8) bear, (9) ape-man, (10) wolf-man, (11) horse-man.",
+          "12-14": "Minor corruption.",
+          "15": "Major corruption.",
+          "16": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A wandering ghost that was formerly invisible is suddenly made visible within 15’ of caster.",
+          "2": "One randomly determined enemy within 20’ is made invisible for 1 turn (no effect if no nearby enemies).",
+          "3": "All enemies within 50’ are made invisible for 1 turn.",
+          "4": "For the next day, one randomly determined ally within 50’ glows as if suffused in bright sunlight, becoming the target for any animal-minded creature that attacks."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "The caster turns invisible. He must concentrate to remain invisible and cannot attack or move more than half speed. If the caster performs strenuous exertion, the invisibility dissipates. The spell lasts up to 1 turn or until dispelled.",
+          "16-19": "The caster turns invisible and remains invisible for up to 1 turn. The spell remains as long as the caster does not attack another creature (either directly or by spellcasting). The caster does not need to concentrate to remain invisible.",
+          "20-21": "The caster can turn himself invisible for 1 turn, as above, or one other man-sized creature or object he touches. If an object, it remains invisible for the full 1 turn. If a creature, it becomes visible the moment it attacks or at the expiration of the 1-turn duration.",
+          "22-25": "The caster bestows invisibility on himself and all allies within 10’. Additionally, the caster can render select objects invisible if he concentrates. The zone of invisibility continues to emanate in a 10’ radius around the caster as he moves. Allies that move in synch with the caster remain invisible. An attack by the caster or any ally in the zone of invisibility dismisses it. The zone lasts 1 turn.",
+          "26-29": "The caster creates a zone of invisibility with a 20’ radius for 1 turn, as above, or bestows invisibility only on himself for a duration of 1 hour.",
+          "30-31": "The caster can create a limited invisibility shield. This magical effect counters efforts to see invisibility, and also allows the caster to take aggressive action within it. The invisibility shield renders the caster invisible for 1 turn. During this time, he can perform any action (including an attack) without becoming visible. Additionally, the invisibility shield provides the caster with a Will save against any effect that threatens to reveal him, such as detect invisible. The caster can also cast the invisibility shield on an object or an ally touched.",
+          "32-33": "The caster creates an invisibility shield, as above, that extends in a 10’ radius around him for 1 turn. It renders allies invisible, but does not make inanimate objects or enemies disappear. While within the shield, allies (and the caster) can make attacks or other actions without the shield disappearing. Furthermore, the caster and his allies receive a Will save against efforts to make them visible.",
+          "34+": "As above, except the invisibility shield is a 20’ radius and lasts for 1 hour. Furthermore, the caster can “throw” the shield up to 100’ after a full round of concentration and then move it by up to 100’ per round with continued concentration. For example, the caster could cast the invisibility shield over a distant bridge, so that any allies passing through that spot are invisible, and then move the shield downstream when cavalry charge across."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,32 @@
+{
+    "table_name": "divine-symbol",
+    "notes": "Level: 2 -- Range: Self -- Duration: 1d6 rounds or more -- Casting time: 1 round -- Save: N/A",
+    "general": "The cleric channels the divine power of his deity into his holy symbol, which becomes a rallying point for the faithful, a weapon of righteousness, and a bane to the unholy.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "The cleric holds his holy symbol aloft and utters words of prayer. He is suddenly illuminated in a bright light. Even as the light fades, the cleric’s holy symbol burns with a brilliant radiance.",
+          "2": "The cleric’s holy symbol glows with an intense white light that radiates from the core of the symbol itself.",
+          "3": "The cleric’s holy symbol shines with a vibrant halo of celestial light that fills the surrounding area."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-13": "Failure.",
+          "14-15": "For a duration of 1d6 rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +1 enchantment. It deals 1d8+1 damage (modified by Str, as usual), with an additional +2 damage bonus against unholy creatures.",
+          "16-19": "For a duration of 2d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +1 enchantment. It deals 1d10+1 damage (modified by Str, as usual), with an additional +2 damage bonus against unholy creatures.",
+          "20-21": "For a duration of 2d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +2 enchantment. It deals 1d10+2 damage (modified by Str, as usual), with an additional +2 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +1 bonus to saving throws and morale checks.",
+          "22-25": "For a duration of 3d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +2 enchantment. It deals 1d12+2 damage (modified by Str, as usual), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +1 bonus to saving throws and morale checks.",
+          "26-29": "For a duration of 3d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +2 enchantment. It deals 1d14+2 damage (modified by Str, as usual), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +1 bonus to saving throws and morale checks. Finally, the cleric also receives a +4 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell.",
+          "30-31": "For a duration of 3d6+CL rounds, the cleric can attack with his holy symbol as if it were a magical weapon of +3 enchantment. It deals 1d16+3 damage (modified by Str, as usual), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +2 bonus to saving throws and morale checks. Finally, the cleric also receives a +4 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell.",
+          "32-33": "For a duration of 1d6+CL days, the cleric can attack with his holy symbol as if it were a magical weapon of +4 enchantment. It deals 1d16+4 damage (modified by Str, as usual), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +2 bonus to saving throws and morale checks. Finally, the cleric also receives a +6 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell.",
+          "34+": "For a duration of 1d6+CL days, the cleric can attack with his holy symbol as if it were a magical weapon of +4 enchantment. It deals 1d20+5 damage (modified by Str, as usual), with an additional +4 damage bonus against unholy creatures. In addition, as long as the cleric is visible to his allies and followers, they receive a +2 bonus to saving throws and morale checks. Finally, the cleric also receives a +6 bonus to all spell checks to turn unholy while using his holy symbol when under the influence of this spell."
+        }
+      }
+    ]
+  }
+  

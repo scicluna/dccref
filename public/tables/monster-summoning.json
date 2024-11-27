@@ -1,0 +1,57 @@
+{
+    "table_name": "monster-summoning",
+    "notes": "Level: 2 -- Range: 20’ -- Duration: Varies -- Casting time: 1 turn or less -- Save: None",
+    "general": "The caster must spend half the casting time drawing pentacle, then the remaining casting time conjuringmonster spirits. At end of the turn, the caster summons forth a monster. He must be familiar with the monster, and it must be native to this plane of existence. The master must have some material remnant of the monster to expend in the spell (e.g., hair, fur, paw, tooth, skull, etc.).",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Egg shimmers into existence, then hatches into the monster summoned.",
+          "2": "Flash of dark clouds and monster appears.",
+          "3": "Monster’s skeleton appears first, then organs appear, then muscles knit them together, then skin grows, and animal appears.",
+          "4": "Monster erupts from ground fully formed."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Minor.",
+          "2": "Minor.",
+          "3": "Minor.",
+          "4": "Major.",
+          "5": "Major.",
+          "6": "Major."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster summons forth 1d6 1 HD creatures that are not under his control and immediately attack him.",
+          "2": "Instead of summoning creatures, the caster sends himself to a place where the creatures live, arriving in a dark, dank cave where he must spend 1d4 rounds fighting an unknown monstrous opponent (judge’s discretion at 1d4 HD) before returning wounded and bloody.",
+          "3": "The caster sends his familiar away for 1d4 hours.",
+          "4": "The nearest ally is transformed into an intelligent ape, dressed in the same clothes and equipment, for 1d4 rounds."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "The caster summons one monster of 1 HD or less. The monster remains for up to 1 hour as long as it remains in the pentacle, though it hungers, thirsts, and rests as normal. It obeys the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 50% chance of releasing the monster from service. If the pentacle is broken or service is otherwise ended, the monster returns from whence it came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons.",
+          "16-19": "The caster summons two 1 HD monsters or one 2 HD monster. The monsters remain for up to 1 hour as long as they remain in the pentacle, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 50% chance of releasing a monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons.",
+          "20-21": "The caster summons two 1 HD monsters or one 2 HD monster. The monsters remain for up to 1 hour, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 50% chance of releasing monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons.",
+          "22-25": "The caster summons two monsters of 2 HD or less or one 4 HD monster. The monsters remain for up to 2 hours, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 25% chance of releasing monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons.",
+          "26-29": "With a reduced casting time of four rounds, the caster summons four 1 HD monsters, two 2 HD monsters, or one 4 HD monster. The monsters remain for up to 2 hours, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 25% chance of releasing monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons.",
+          "30-31": "With a reduced casting time of four rounds, the caster summons eight 1 HD monsters, four 2 HD monsters, two 4 HD monsters, or one 8 HD monster. The monsters remain for up to 4 hours, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 10% chance of releasing monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons.",
+          "32-33": "With a reduced casting time of only a single round, the caster summons eight 1 HD monsters, four 2 HD monsters, two 4 HD monsters, or one 8 HD monster. The monsters remain for up to 4 hours, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 10% chance of releasing monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came.",
+          "34+": "With a reduced casting time of only a single round, the caster summons sixteen 1 HD monsters, eight 2 HD monsters, four 4 HD monsters, two 8 HD monsters, or one 16 HD monster. The monsters remain for up to 24 hours, though they hunger, thirst, and rest as normal. They obey the caster’s commands within normal bounds; suicidal commands or those contrary to its nature have a 1% chance of releasing monster from service. If the pentacle is broken or service is otherwise ended, the monsters return from whence they came. Due to the nature of the summoning, the caster cannot directly harm a creature he summons."
+        }
+      }
+    ]
+  }
+  

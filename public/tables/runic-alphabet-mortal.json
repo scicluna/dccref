@@ -1,0 +1,51 @@
+{
+    "table_name": "runic-alphabet-mortal",
+    "notes": "Level: 1 -- Range: One inscribed rune -- Duration: Until triggered -- Casting time: 1 turn -- Save: Will save vs. spell check; -1 penalty if the target has an alignment opposed to the caster",
+    "general": "Wizards learn alphabets of magic symbols, which, when traced, cause incredible things to happen. There are different alphabets: dwarven runes, elder sigils, the hieroglyphs of the sphinxes, and the signs of individual mages. With this spell, the caster can create the simplest runes, those comprehensible to mortals. The caster’s alignment is imbued in the rune traced, and a being triggering the rune of an opposing alignment suffers more dire effects. The caster traces the sign using costly rare materials that must be purchased ahead of time for 50 gp per rune. The spell check is made, determining which energies are imbued into the rune; the caster can choose one rune at or below the result of the check, with the choice made when the rune is inscribed. The rune can be traced in any object: brooch, book, tombstone, archway, door, floor, tabletop, etc. Subtract -2 from the spell check to trace the rune in mid-air; -4 to trace the rune invisibly; or -8 to trace the rune permanently (does not vanish when triggered). The effect is triggered per the specific sign as described below: when touched, passed, gazed upon, etc. On a failed spell check, the sign fizzles and dissolves, and the materials use to make it are lost. On a success, the spell check becomes the DC for the opposing save. You can identify an unknown rune with a read magic spell or a successful runic alphabet spell check against the caster’s check result.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Inscribed rune"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster has a non-magical runic shape permanently seared onto one cheek.",
+          "2": "Caster’s forehead wrinkles such that it appears to house a third eye, which disappears upon close inspection.",
+          "3": "Minor.",
+          "4": "Major."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Randomly determined rune (roll d10+10 on spell table) is inscribed on the caster’s hand, then immediately detonated.",
+          "2": "Rune is traced but it will not activate under any circumstances, effectively providing a costly 'tattoo' to the subject marked.",
+          "3": "Caster inadvertently sears a permanent symbol that resembles a silhouette of his face.",
+          "4": "Caster forgets how to read and write for 1d6 turns, during which time he cannot cast this spell or any other that is dependent on literacy."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Alarm. A loud alarm sounds when the target object (up to man-sized) is disturbed (no save). Alternately, the alarm can notify the caster mentally and emit no audible noise. The notification has a range of 1 mile.",
+          "14-17": "Message. The rune chants a predetermined message when triggered (no save). The message may be repeated up to three times.",
+          "18-19": "Block. Creatures up to man-sized are unable to pass through or by the target door, window, portal, or inanimate object (Will save resists).",
+          "20-23": "Immobility. Creatures attempting to move the target object (up to man-sized, including aggregated objects such as a pile of coins) cannot lift or move it (Will save resists).",
+          "24-27": "Veracity. Creatures cannot lie or deceive within sight of this rune (Will save resists).",
+          "28-29": "Forgetfulness. Creatures viewing the target object (up to the size of one man per caster level) forget that it exists the moment their attention is removed from it (Will save resists).",
+          "30-31": "Sleep. Creatures viewing the triggering rune fall asleep (Will save resists). The sleep is normal and the target can be awakened through normal means.",
+          "32+": "Curse. The rune delivers a minor curse to the creature that views it (Will save resists). The curse drains 1d3 points of Luck and may have one other irritating secondary effect. (See appendix C for more info.)"
+        }
+      }
+    ]
+  }
+  

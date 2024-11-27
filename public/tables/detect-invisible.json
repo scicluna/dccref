@@ -1,0 +1,53 @@
+{
+    "table_name": "detect-invisible",
+    "notes": "Level: 2 -- Range: 60’ or more -- Duration: Varies -- Casting time: 1 action -- Save: Will vs. spell check DC (sometimes)",
+    "general": "The caster activates an inner sight to see the true nature of things. In doing so, he is able to see invisible creatures and objects. If the target creature or object is protected by an invisibility shield (per the invisibility spell), the caster’s spell check counts as the DC for the target’s Will save.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Caster’s eyes disappear, leaving only empty orbs.",
+          "2": "Caster’s eyes turn black.",
+          "3": "Caster shrouded in a dim mist."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Minor corruption.",
+          "2": "Major corruption.",
+          "3": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster inadvertently heightens the invisible effects of those around him, causing all invisible creatures within range to have the duration of their invisibility doubled.",
+          "2": "Caster causes his head to become invisible for 1d4 hours.",
+          "3": "Caster’s shadow quadruples for 1d4 days, causing him to cast a total of 4 shadows, occasionally moving independently, which causes terror among nearby peasants.",
+          "4": "Caster causes one randomly determined creature within 20’ to become invisible for 1d4 rounds."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster briefly sees all invisible inanimate objects within 60’. These objects flicker into sight then immediately disappear, leaving the caster with an impression of their location. Cannot see invisible creatures.",
+          "14-15": "The caster can see all invisible objects and creatures within 60’ until the end of the next round.",
+          "16-19": "The caster can see all invisible objects and creatures within 60’ for the next turn.",
+          "20-21": "The caster can see all invisible objects and creatures within 60’ for the next turn.",
+          "22-25": "The caster can see all invisible objects and creatures within 60’ for the next turn. Additionally, one ally touched can also see invisible things as the caster, as long as they maintain physical contact.",
+          "26-29": "The caster can see all invisible objects and creatures within 200’ for the next turn. Additionally, one ally touched can also see invisible things as the caster, as long as they maintain physical contact.",
+          "30-31": "For the next hour, the caster and all allies within 10’ can see all invisible objects and creatures within 200’.",
+          "32-33": "For the next hour, the caster and all allies within 10’ can see all invisible objects and creatures within 200’. Additionally, the caster can dispel invisibility by concentrating for one round, causing the target to make a Will save to suppress its invisibility for a number of rounds.",
+          "34+": "Caster suppresses all invisible creatures and objects within his line of sight. All objects and creatures of 3 or less HD become visible for one hour. Creatures of 4+ HD receive a Will save to resist. The caster also sees all secret doors, concealed compartments, and hidden latches for the next hour."
+        }
+      }
+    ]
+  }
+  

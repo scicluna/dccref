@@ -1,0 +1,55 @@
+{
+    "table_name": "runic-alphabet-fey",
+    "notes": "Level: 3 -- Range: One inscribed rune -- Duration: Until triggered -- Casting time: 1 turn -- Save: Will save vs. spell check; -1 penalty if of an alignment opposed to caster",
+    "general": "This spell grants the caster knowledge of the secret alphabet of the fey. The fey language is composed of eldritch sigils that house subtle but dangerous power. By casting this spell, the caster can trace a fey rune. The materials necessary to inscribe the rune cost 200 gp per rune. The spell check is made to determine which energies the caster can imbue in his rune; the caster can choose one rune at or below the result of the check, with the choice made when the rune is inscribed. The rune can be traced in any object: on a leaf or tree bark, on a cloak or ring, over a door, under a tabletop, and so on. Subtract -2 from the spell check to trace in mid-air; -4 to trace invisibly; or -8 to trace permanently (does not vanish when triggered). The effect is triggered per the specific sign as described below: when touched, passed, gazed upon, etc. On a failed spell check, the sign fizzles and dissolves and materials are lost. On a success, the spell check becomes the DC for the opposing save. The caster can identify an unknown rune with a successful spell check against the opposing caster’s check result.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Inscribed rune.",
+          "2": "Small skull-shaped clouds rise from the brewing potion.",
+          "3": "The brew churns and twists as if alive.",
+          "4": "The liquid defies gravity, climbing the walls of its container and dripping up towards the ceiling."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster has a non-magical runic shape permanently seared onto one cheek.",
+          "2": "Caster’s forehead wrinkles such that it appears to house a third eye, which disappears upon close inspection.",
+          "3": "Minor.",
+          "4": "Major."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Randomly determined rune (roll d16+10 on spell table) is inscribed on the caster’s hand and immediately detonated.",
+          "2": "Rune is traced but it will not activate under any circumstances, effectively providing a costly and unsightly ‘tattoo’ to the subject marked.",
+          "3": "Caster inadvertently sears a permanent symbol that resembles a silhouette of his face.",
+          "4": "Caster forgets how to read and write for 1d6 turns, during which time he cannot cast this spell or any other that is dependent on literacy for its effects."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "Pain. The first creature to disturb the rune feels a sharp pang of intense pain. The target takes 2d6 damage immediately and sprouts a bloody wound, as if it had been stabbed. The rune dissolves once triggered.",
+          "18-21": "Burn. The first creature to disturb the rune suffers a painful burning sensation. This causes 1d6+1 hit points of damage immediately, then 1d6 points one hour later, then 1d6-1 points an hour after that, then 1d6-2 and 1d6-3 points at the next two hour intervals. The rune dissolves once triggered.",
+          "22-23": "Rebuff. A creature attempting to pass through the place protected by the rune feels a strong hand pushing it back. The target must make a Will save against the spell check. Failure indicates it is rebuffed and cannot pass and takes 1d4 points of damage. The target may continue to attempt to pass each round until it succeeds but continues to take damage on any failed save. The rune remains intact until it is passed.",
+          "24-26": "Explosive. When triggered, the rune explodes in a fiery burst. All within 10’ take 3d6 damage and flammable objects catch fire.",
+          "27-31": "Safety. The object on which this rune is inscribed is protected. Creatures attempting to attack it must make a Will save. Failure indicates they lose the urge to attack, forget about the target, somehow miss wildly, or otherwise cannot succeed in an attack. Additionally, on a failed save the attacker immediately falls asleep for 1d4 rounds. Creatures that fail the save may attempt to attack on a subsequent round. The rune continues to protect its target until it is breached.",
+          "32-33": "Repulse. Any attempt to pass through this rune triggers a powerful force that sends the target flying back 3d20 feet. The force of the repulsion is such that the creature takes 1d8 damage from the repulsion. This rune is often placed near ledges or pits so the repulsion sends the victim into a dangerous place.",
+          "34-35": "Lightning rod. The first creature to disturb this rune observes the rune crackle and dissipate, but that is all. The target is now designated as a lightning rod. The next time the creature is in stormy weather of any kind, it automatically attracts 1d4 lightning bolts per minute, each doing 3d6 damage. If the creature is hit by a lightning bolt spell (or similar effect), it takes an additional 2d6 damage. The effect wears off after 7 days.",
+          "36+": "Rage. The first creature to disturb this rune is enveloped in an overwhelming rage. It must make a Will save or attack the nearest living creature (ally or not). It fights to the death. The first death at its hands ends the effect."
+        }
+      }
+    ]
+  }
+  

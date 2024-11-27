@@ -1,0 +1,58 @@
+{
+    "table_name": "comprehend-languages",
+    "notes": "Level: 1 -- Range: Self -- Duration: Varies -- Casting time: 1 turn -- Save: None",
+    "general": "The caster can understand non-magical words or images (such as treasure maps) that would otherwise be unintelligible.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s eyes glow.",
+          "2": "Text glows.",
+          "3": "Letters of text flow into new, legible shapes.",
+          "4": "None."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Caster’s eyes permanently glow a bright yellow.",
+          "2": "Skin is marred by faintly glowing tattoos of undecipherable enigmatic script.",
+          "3": "Afflicted speech: roll 1d12 any time caster speaks in any way, and on a 12 the words come out in a randomly determined language.",
+          "4": "Permanent interpretation: caster can permanently understand all spoken languages at juvenile level, including birdsong, insect buzzing, and subsonic speech like bat calls, such that constant drone of conversation around him makes it very difficult to concentrate (-1 to all concentration checks).",
+          "5": "Invisible heat rays from reading: whenever the caster reads any document, his eyes glow red and the document begins to heat up and eventually catches fire.",
+          "6": "Two dozen short tentacles sprout around each of the caster’s eye sockets.",
+          "7": "Minor corruption.",
+          "8": "Major corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster speaks in tongues, indecipherable to all, for 1d4 hours.",
+          "2": "Nearest ally speaks in a randomly determined language (roll as wizard on Appendix L) for 1d4 hours.",
+          "3": "All creatures within 30’ radius (including caster) stricken with inability to speak for 1d6 minutes.",
+          "4": "Caster loses ability to read and write for 1d4 days."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster can read writing in one terrestrial language for 1 turn. Terrestrial languages are those spoken by mortal, earthbound creatures, such as dwarves, giants, and goblins. Some sample of the language in question must be visible in front of you.",
+          "14-17": "The caster can read and understand (but not speak or write) one terrestrial language for 1 turn. Terrestrial languages are those spoken by mortal, earthbound creatures, such as dwarves, giants, and goblins.",
+          "18-19": "The caster can read, write, understand, and speak one terrestrial language for 1 turn. Terrestrial languages are those spoken by mortal, earthbound creatures, such as dwarves, giants, and goblins. The caster can speak the language in a very simple form, at the speech level of a young child. For example, he can communicate basic desires but nothing complex.",
+          "20-23": "The caster can read, write, understand, and speak one language for 1 hour. The language can be terrestrial, supernatural or extraplanar in origin. For example, he could speak with a demon or an elemental. The caster can speak the language fluently.",
+          "24-27": "The caster can fluently read, write, understand, and speak any one language for 1 hour per caster level or grant this ability to one creature he touches. If the target is unwilling, it can resist the casting with a Will save.",
+          "28-29": "The caster can fluently read, write, understand, and speak any one language for 1 day per caster level, grant this ability to one creature he touches, or grant this ability to all creatures within 20’, as long as they remain within that range. If any target is unwilling, it can resist the casting with a Will save.",
+          "30-31": "The caster gains the permanent ability to fluently read, write, understand and speak any one language. He must have exposure to the language, in either written or spoken form, to gain the ability. The caster effectively learns at an extraordinary rate, such that limited exposure is enough to learn, but he must have at least 10 minutes of immersive exposure in the week following the casting of this spell.",
+          "32+": "The caster gains the ability to read, write, understand, and speak all languages, regardless of origin or modernity, for a period of 1 day per caster level. He can speak to any creature, including unintelligent beasts (like eagles or ants) to the extent that they communicate."
+        }
+      }
+    ]
+  }
+  

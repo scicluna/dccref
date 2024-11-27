@@ -1,0 +1,55 @@
+{
+    "table_name": "feather-fall",
+    "notes": "Level: 1 -- Range: 25’ -- Duration: 1 round per caster level or until landing -- Casting time: instantaneous -- Save: Will to avoid",
+    "general": "The caster impedes his own or another person’s rate of descent when falling. This allows the target to  avoid injury or death or to glide upon the breeze. Note that this spell can be cast instantaneously, out of initiative order, if the caster or a target within range is falling",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target visibly enlarges.",
+          "2": "Target disappears then re-appears at greater size.",
+          "3": "Hundreds of tiny workmen appear to chop apart the target’s body and re-assemble it in greater volume.",
+          "4": "Target reverse-ages to the size and appearance of a baby, then amazingly grows back to adult appearance at larger than its former size."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster’s hair stands on end as if permanently plummeting through the air.",
+          "2": "The caster makes all descents (climbing down ropes, walking down stairs, sliding down poles, etc.) at half normal speed.",
+          "3": "Caster becomes subject to sporadic winds, which do not affect other characters, and must make a Strength check to stay upright (DC 5 for light winds, DC 10 for strong winds, and DC 15 against gusts).",
+          "4": "Caster’s hair permanently replaced by feathers.",
+          "5": "Sound of whistling wind accompanies the caster wherever he goes."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s speed of descent is increased, resulting in an additional 1d6 damage upon impact.",
+          "2": "Caster abruptly rises 10’ into the air before falling to the ground (taking 1d6 points of damage, or 2d6 if there is a hard surface 10’ or less above the caster’s head).",
+          "3": "Caster’s clothing and other possessions turn ethereal for 1d6x10 minutes and cannot be worn or used.",
+          "4": "Caster is blown 10-30 feet in a random direction by a gust of ghostly wind."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Caster reduces the speed at which he falls. With a successful Fortitude save (DC 10 +1 for each 10’ fallen), he takes no damage. On a failed save, he suffers only half damage.",
+          "14-17": "Caster falls at a graceful rate of 50’ per round and takes no damage if he lands before the spell expires. Otherwise, he suffers half damage and is allowed a Fort save (DC 10 +1 for each 20’ fallen) to avoid all damage.",
+          "18-19": "Caster and three additional creatures within range fall at a rate of 50’ per round. They take no damage if they land before the spell expires. Otherwise, they suffer half damage and are allowed a Fort save (DC 10 +1 for each 20’ fallen) to avoid all damage.",
+          "20-23": "Caster and six additional creatures fall at a rate of 50’ per round. They take no damage if they land before the spell expires. Otherwise, they suffer half damage and are allowed a Fort save (DC 10 +1 for each 20’ fallen) to avoid all damage.",
+          "24-27": "Caster gains the ability to glide on the air by leaping from a height 30’ or more above the ground. The caster soars on the breeze, drifting back to earth at a vertical rate of 10’ per round, arriving on the ground when he reaches the maximum distance he can glide. His movement rate is 60’ per round while gliding, and if he fails to reach solid ground before the spell expires, he falls and suffers normal damage upon impact.",
+          "28-29": "Caster and up to three additional creatures can glide on the winds. They soar on the breeze, drifting back to earth at a vertical rate of 10’ per round, arriving on the ground when reaching the maximum distance they can glide. Their movement rate is 60’ per round while gliding, and if they fail to reach solid ground before the spell expires, they fall and suffer normal damage upon impact.",
+          "30-31": "Caster and up to six additional creatures can glide on the winds. They soar on the breeze, drifting back to earth at a vertical rate of 10’ per round, arriving on the ground when reaching the maximum distance they can glide. Their movement rate is 60’ per round while gliding, and if they fail to reach solid ground before the spell expires, they fall and suffer normal damage upon impact.",
+          "32+": "Caster can fall any distance regardless of height or duration of fall without taking damage. Additionally, the caster is immune to any related hazards, such as thin atmosphere, intense cold, or even high temperatures generated by re-entry into an atmosphere from a vacuum."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,59 @@
+{
+    "table_name": "write-magic",
+    "notes": "Level: 3 -- Range: N/A -- Duration: N/A -- Casting Time: See below -- Save: N/A",
+    "general": "The caster transcribes magical writings onto a scroll, which can be read at a later time to create a spell-like effect. The result of the spell check determines the level of spell the caster can transcribe, the number of spells that can be written, and if the caster can create any unique properties as part of the casting. Most spellcasters sign their scrolls, and they may attach curses or wards to prevent others from reading them.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster creates a magic scroll.",
+          "2": "The scroll emanates a faint glow of magical energy.",
+          "3": "The ink on the scroll glows with a shimmering effect.",
+          "4": "The scroll seems to pulse with an aura of arcane power."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Minor corruption.",
+          "2": "Caster's eyes glow faintly when reading or writing.",
+          "3": "The caster begins to see arcane symbols in everyday objects.",
+          "4": "The caster becomes compulsively drawn to write arcane symbols wherever they go.",
+          "5": "Major corruption.",
+          "6": "The caster begins to speak in a language known only to otherworldly entities.",
+          "7": "Greater corruption.",
+          "8": "The caster's handwriting becomes unnervingly precise and alien in appearance."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "One of the spells the caster is attempting to inscribe is accidentally activated through the inscription process, causing the spell to take effect immediately.",
+          "2": "The caster copies down the spell and in the process forgets it, such that he cannot cast it for the remainder of the day.",
+          "3": "The caster has a terrible memory loss and forgets all spells for the rest of the day.",
+          "4": "One of the spells the caster attempts to inscribe is gone from his memory for 1d4+1 days, and he simply cannot remember it under any circumstances."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, misfire, and corruption!",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster can transcribe one level 1 spell.",
+          "18-21": "The caster can transcribe two level 1 spells.",
+          "22-23": "The caster can transcribe one level 2 spell or three level 1 spells. Additionally, the caster can transcribe the scroll such that the reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll.",
+          "24-26": "The caster can transcribe one level 3 spell or four spells of level 1 or 2. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll.",
+          "27-31": "The caster can transcribe one level 4 spell or five spells of levels 1, 2, or 3. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll.",
+          "32-33": "The caster can transcribe one level 5 spell or six spells of levels 1, 2, 3, or 4. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll.",
+          "34-35": "The caster can transcribe up to seven spells of any level. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll. The caster can also transcribe the spells in a manner such that the spell check of the reader is influenced either positively or negatively. The caster can provide a modifier of -2, -1, +1, or +2 to the reader’s spell check.",
+          "36+": "The caster can transcribe up to eight spells of any level. Additionally, the caster can transcribe the scroll such that a reader other than himself or a designated subject may be subject to a curse or rune. The curse or rune must be generated via a separate spell, but that spell does not count toward the spells recorded on a scroll. The caster can also transcribe the spells in a manner such that the spell check is pre-determined. The caster must make a spell check for each spell he writes. When the scroll is read, the spells are cast at that spell check result automatically, with no need for an additional check by the reader."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,58 @@
+{
+    "table_name": "read-magic",
+    "notes": "Level: 1 -- Range: 5’ -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The caster can read magical text, such as magical scrolls, books, and tomes, as well as magical inscriptions on swords, arches, and the like. This allows comprehension but does not activate the spell. The caster can learn the reverse of this spell, called obfuscate magic, which renders magical text illegible (even with the aid of this spell)",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster’s eyes glow.",
+          "2": "Text glows.",
+          "3": "Letters of text flow into new, legible shapes.",
+          "4": "None."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Minor corruption.",
+          "2": "Minor corruption.",
+          "3": "Caster’s skin is inscribed with 1d6 glowing tattoos of mystic runes.",
+          "4": "Caster’s eyes take on a yellow film whenever he looks upon the printed word.",
+          "5": "Caster’s fingertips are permanently blotted in ink.",
+          "6": "Major corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster’s mind scrambles letters, preventing him from reading for 1d4 days.",
+          "2": "Caster scrambles visual perception for all allies within 20’, meaning none of them can read for 1d3 hours.",
+          "3": "Caster inadvertently enchants nearest text (probably a book on his person but could be further away), translating it into a magical text that can now only be read via read magic.",
+          "4": "1d6 printed pages within 100’ are magically distorted such that the letters un-ink, rearrange themselves, and then re-imprint, rendering the page completely unreadable unless the letters are manually resorted.",
+          "5": "The nearest book is translated into another language entirely (reference Appendix L for ideas; roll d% as wizard).",
+          "6": "For the next day, every word spoken by the wizard appears visually in front of him as a gust of dark smoke shaped like the appropriate letters, emanating from his mouth."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (1 or less) corruption; (2+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster can read magic text for 1 round, long enough to read a single sentence or phrase. He retains understanding of this phrase even after the duration ends. Reading a complete spell scroll typically takes 1 turn per spell level, so this is not enough time to read a complete spell.",
+          "14-17": "The caster can read magic text for 1 turn, long enough to read a level 1 spell. He retains understanding of this phrase even after the duration ends.",
+          "18-19": "The caster can read magic text for 2 turns, long enough to read a level 2 spell. He retains understanding of this phrase even after the duration ends. The caster can also read basic magic runes and glyphs, enough to decipher the general message of a runic alphabet spell or other rune-based inscription.",
+          "20-23": "The caster can read magic text for 3 turns, long enough to read a level 3 spell. He retains understanding of this phrase even after the duration ends. The caster can also read basic magic runes and glyphs, enough to decipher the general message of a runic alphabet spell or other rune-based inscription.",
+          "24-27": "The caster and one adjacent ally can read magic text for 1 hour. Both caster and ally can also read basic magic runes and glyphs, enough to decipher the general message of a runic alphabet spell or other rune-based inscription.",
+          "28-29": "For a period of 1 day, the caster and all allies within 20’ can read all magic text, all runes and inscriptions, and 1d4 additional mundane written languages, starting with the first unfamiliar language encountered during the duration and ending after 1d4 have been encountered.",
+          "30-31": "For a period of 1 week, the caster and all allies within 20’ can read all magic text, all runes and inscriptions, and 1d4+2 additional mundane written languages, starting with the first unfamiliar language encountered during the duration and ending after 1d4+2 have been encountered.",
+          "32+": "For a period of 1 month, the caster can read all writing – whether mundane or magical, runic or alphabetic, inscribed or invisible. If there is text present within line of sight, the caster can read it."
+        }
+      }
+    ]
+  }
+  

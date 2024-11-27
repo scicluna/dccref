@@ -1,0 +1,38 @@
+{
+    "table_name": "crit-table-2",
+    "notes": "",
+    "general": "",
+    "sub_tables": [
+        {
+            "subtable_name": "Results",
+            "dice_size": "1d20",
+            "table": {
+                "0": "Miss! Hesitation costs you the perfect strike!",
+                "1": "Strike misses critical organs. Inflict a paltry +2d3 damage with this strike.",
+                "2": "Slashes to head removes foe’s ear. Inflict +1d6 damage with this strike and leave the enemy with a nasty scar.",
+                "3": "Clean strike to back. Inflict +2d6 damage with this strike.",
+                "4": "Blow to chest staggers foe. You can make an immediate free attack.",
+                "5": "Blow pierces foe’s kidneys. Inflict +3d3 damage with this strike, and the foe is stunned for 1 round.",
+                "6": "Foe dazed by ferocious attack; his speed and actions are reduced by half.",
+                "7": "Strike to chest grazes vital organ. Inflict +3d4 damage with this strike.",
+                "8": "Strike cuts a line down foe’s face. He is blinded by blood for 1d4 rounds.",
+                "9": "Foe stumbles over his own limbs, falling prone. Make another attack.",
+                "10": "Masterful strike! Inflict +2d6 damage with this strike.",
+                "11": "Strike severs larynx. Foe is reduced to making wet fish noises.",
+                "12": "Savage strike! Foe must succeed on a Fort save (DC 10 + PC level) or faint from the pain.",
+                "13": "Foe disoriented by quick strikes. Foe suffers a -4 penalty to attack rolls for 1d4 rounds.",
+                "14": "Strike to head. Foe must make a Fort save (DC 10 + PC level) or fall unconscious.",
+                "15": "Blow drives foe to ground. Inflict +2d6 damage with this strike, and the enemy is knocked prone.",
+                "16": "Lightning-fast shot to the face pops the foe’s eye like a grape. Foe is permanently blinded in one eye and can take no actions for 1d3 rounds.",
+                "17": "Strike pierces lung. Inflict +2d6 damage with this strike, and the foe can take only one action on his next turn.",
+                "18": "Devastating strike to back of head. Inflict +1d8 damage with this strike, and the foe must make a Fort save (DC 10 + PC level) or fall unconscious.",
+                "19": "Attack severs major artery. Inflict +1d10 damage with this strike, and the foe must make a Fort save (DC 10 + PC level) or fall unconscious from shock and massive blood loss.",
+                "20": "Throat slashed! Inflict +2d6 damage with this strike, and the foe must make a Fort save (DC 13 + PC level) or die in 1d4 rounds.",
+                "21": "Strike pierces spinal column. Inflict +3d6 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer paralysis.",
+                "22": "Chest skewered, spearing a variety of organs. Inflict +2d6 damage with this strike, and the foe must make a Fort save (DC 13 + PC level) or die in 1d4 rounds.",
+                "23": "Strike through ear canal enters the brain. Ear wax instantly removed, and the foe must make a Fort save (DC 15 + PC level) or die instantly. Inflict an extra +2d6 damage on successful save.",
+                "24+": "Strike through heart! Inflict +3d6 damage with this strike, and the foe must make a Fort save (DC 20 + PC level) or die instantly."
+            }
+        }
+    ]
+}

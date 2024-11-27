@@ -1,0 +1,34 @@
+{
+    "table_name": "paralysis",
+    "notes": "Level: 1 -- Range: Touch or more -- Duration: 1 round or more -- Casting time: 1 action -- Save: Will save vs. spell check",
+    "general": "The light of the cleric’s deity prevents his enemies from raising a hand to perform baleful deeds.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Crackle of electricity.",
+          "2": "Black ropy binds.",
+          "3": "White pallor.",
+          "4": "Ethereal gray mist."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The cleric’s hands and melee weapons are charged with the energy of paralysis. The cleric must make a normal attack on his next round. If it succeeds, he causes normal damage and his enemy must make a Will save or be paralyzed. The paralyzed creature is unable to move or take any physical action for 1d6+CL rounds.",
+          "14-17": "The cleric’s hands and melee weapons are charged with the energy of paralysis. The charge remains for 1d4+CL rounds. Any attack by the cleric during this period delivers normal damage plus paralysis if the target fails a Will save. The paralyzed creature is unable to move or take any physical action for 1d6+CL rounds.",
+          "18-19": "The cleric’s melee weapons and missile fire weapons are charged with paralysis. The charge remains for 1d4+CL rounds. Any attack by the cleric during this period delivers normal damage plus paralysis if the target fails a Will save. The paralyzed creature is unable to move or take any physical action for 1d6+CL rounds.",
+          "20-23": "The cleric designates one creature within 30’ and paralyzes it with a word. If the creature is 2 HD or less, it is automatically paralyzed. If 3 HD or more, it receives a Will save to resist. Paralysis lasts for 1d8+CL rounds.",
+          "24-27": "The cleric designates up to three targets within 100’ and paralyzes all of them. Any creature of 4 HD or less is automatically paralyzed. Creatures of 5 HD or more receive a Will save. Paralysis lasts for 2d6+CL rounds.",
+          "28-29": "The cleric imbues his touch with the power to paralyze an enemy. The cleric retains the latent paralysis touch for up to 24 hours. At any point during that time, he may discharge the paralysis with a spoken word. A melee attack may be necessary to touch a resisting target. The creature touched is automatically paralyzed if 6 HD or less. Creatures of 7+ HD receive a Will save. The paralysis lasts 4d6+CL hours.",
+          "30-31": "Choose any one of the effects above, and the duration of the paralysis is doubled.",
+          "32+": "Choose any one of the effects above, and the duration of the paralysis is permanent. The paralysis can only be cured via magical means, such as a cleric’s ability to lay on hands or the spell cure paralysis."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,55 @@
+{
+    "table_name": "animal-summoning",
+    "notes" : "Level: 1 -- Range: 20’ -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The caster invokes animal spirits to summon forth a mundane animal. The caster must be familiar with the animal type and have some material remnant to expend in casting the spell (e.g., hair, fur, paw, tooth, skull, etc.).",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "An egg shimmers into existence, then hatches into the animal summoned.",
+          "2": "A flash of dark clouds and the animal appears.",
+          "3": "The animal’s skeleton appears first, then organs appear, then muscles knit them together, then skin grows, and the animal appears.",
+          "4": "Animal erupts from the ground fully formed."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Wizard takes on minor facial trait of the animal he attempted to summon, such as whiskers, longer ears, cat eyes, etc.",
+          "2": "Wizard emits an odor which humans find strange but animals find irresistible.",
+          "3-5": "Minor corruption.",
+          "6-7": "Major corruption.",
+          "8": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster inadvertently summons a swarm of aggravating insects, such as bees, wasps, or locusts.",
+          "2": "Instead of summoning an animal, the caster inadvertently sends one away: The caster’s familiar or the next-closest mundane animal vanishes for 1d4 rounds only to return dirty, wet, and angry.",
+          "3": "Caster summons only part of an animal, causing a pile of bloody rabbit ears, severed goat horns, dislocated wolf legs, or bloody viscera to appear.",
+          "4": "Caster correctly summons an animal but incorrectly places it inside a nearby building or terrain feature, or the floor/ground if there is no other nearby feature – the animal dies instantly and its body is difficult to recover now that it is fused with the object."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster summons one mundane animal of 1 HD or less. The animal remains for up to 1 hour, obeys commands within normal bounds, and cannot be directly harmed by the caster.",
+          "14-17": "The caster summons one mundane animal of up to 2 HD, or two animals of 1 HD or less. The animals remain for up to 1 hour, obey commands within normal bounds, and cannot be directly harmed by the caster.",
+          "18-19": "The caster summons one mundane animal of up to 2 HD, or two animals of 1 HD or less. The animals remain for up to 2 hours, obey commands within normal bounds, and cannot be directly harmed by the caster.",
+          "20-23": "The caster summons one mundane animal of up to 4 HD, two animals of 2 HD, or up to four animals of 1 HD or less. The animals remain for up to 2 hours, obey commands within normal bounds, and cannot be directly harmed by the caster.",
+          "24-27": "The caster summons one mundane animal of up to 8 HD, two animals of 4 HD, four animals of 2 HD, or up to eight animals of 1 HD or less. The animals remain for up to 2 hours, obey commands within normal bounds, and cannot be directly harmed by the caster.",
+          "28-29": "The caster summons one mundane animal of up to 8 HD, two animals of 4 HD, four animals of 2 HD, or up to eight animals of 1 HD or less. The animals remain for up to a day, obey commands within normal bounds, and cannot be directly harmed by the caster.",
+          "30-31": "The caster summons one mundane animal of up to 16 HD, two animals of up to 8 HD, four animals of up to 4 HD, or up to eight animals of 2 HD or less. The animals remain for up to a day, obey commands within normal bounds, and cannot be directly harmed by the caster.",
+          "32+": "The caster summons a large group of mundane animals. All animals must be of the same type, and the total hit dice must be 100 HD or less. The herd remains for up to a week, obey commands, and even undertake suicidal commands or those contrary to their nature."
+        }
+      }
+    ]
+  }
+  

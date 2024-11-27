@@ -1,0 +1,57 @@
+{
+    "table_name": "wizard-sense",
+    "notes": "Level: 4 -- Range: 60’ or more (see below) -- Duration: 1 round per caster level -- Casting Time: 1 round -- Save: None",
+    "general": "The caster extends his senses beyond the normal human range to observe distant events or glimpse the truth.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s eyes turn dead white.",
+          "2": "A third eye opens in the caster’s forehead.",
+          "3": "Fleshy antennae extend from the top of the caster’s head.",
+          "4": "Caster’s eyes vanish completely from their sockets."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster’s eyes permanently vanish (sight is unaffected).",
+          "2": "Caster gains a permanent third eye.",
+          "3": "Caster’s ears become bat-like.",
+          "4": "Caster’s eyes never close, even in sleep.",
+          "5": "Caster sees meaningless visions from time to time that may interrupt his concentration.",
+          "6": "Strange events from distant lands can be seen in the caster’s eyes."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster observes false events, believing them to be true.",
+          "2": "Caster struck blind and deaf for 1d4 hours.",
+          "3": "Caster broadcasts embarrassing or dangerous secrets to those under observation.",
+          "4": "Caster’s eyes literally fall out of his head and roll away, blinding him until they are placed back in their sockets."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster can see magical auras, invisible creatures, and pierce illusions of all types to see creatures and objects in their true forms. This mystical sight also reveals secret doors and traps if they are present. The enhanced vision has a limit of 60’.",
+          "20-23": "As above, but the caster also gains x-ray vision, allowing him to see through up to 30’ of stone and 60’ of wood or other less-dense material. Lead or gold foils x-ray vision.",
+          "24-25": "The caster extends his hearing to detect sound and conversation at a distance. The caster must choose a location either well known to him (his own home, for instance) or within sight of his current position (beyond a closed door, a copse of trees, the roof of a nearby tower, etc.). The caster clearly hears any normal noises occurring within a 60’ radius of that designated locale.",
+          "26-28": "Similar to the above, but the caster extends his vision to observe whatever is in seeing distance from his designated location. Illumination is a factor, and the caster can only observe an area in a 10’ radius from his chosen point if the space is dark. The caster’s sight is considered normal for this effect and does not gain the additional spectrums of vision noted above.",
+          "29-33": "The caster creates an invisible eye that he can send out to reconnoiter or spy for him. The eye moves at 30’ per round and is incorporeal, so it can pass through solid matter. It ‘sees’ up to 10’ in darkness and up to 60’ in brightly lit conditions. The eye can see magical auras, invisible creatures, and discern illusions. It sees traps if they are present. There is no limit on how far the eye may travel from the caster, but it vanishes when the spell expires regardless of position.",
+          "34-35": "The caster can see and hear events occurring at a location up to 10 miles away for each level of experience he possesses. The location need not be familiar to him, but if it is not familiar, he must possess an object from the location he wishes to see (e.g., a leaf from a tree at that place, or a stone from a tower at that location, etc.). He is otherwise free to choose his target. Lead and gold shielding do not protect the site from observation, but certain rare, mystic materials might at the judge’s discretion. The caster has normal sight and hearing to a range of 60’ from the chosen location and can also see invisible creatures, magic auras, traps, and the truth behind illusions.",
+          "36-37": "The caster can see and hear events occurring at a location up to 100 miles away for each level of experience he possesses. The location need not be familiar to him, but if it is not familiar, he must possess an object from the location he wishes to see (e.g., a leaf from a tree at that place, or a stone from a tower at that location, etc.). He is otherwise free to choose his target. Lead and gold shielding do not protect the site from observation, but certain rare, mystic materials might at the judge’s discretion. The caster has normal sight and hearing to a range of 60’ from the chosen location and can also see invisible creatures, magic auras, traps, and the truth behind illusions.",
+          "38+": "The caster witnesses events occurring on other planes of existence, with almost unlimited range. He can spy on the happenings in the Halls of Hell, in the palaces of the gods, in the realm of the dead, or into the cold depths of space to watch alien forms at play. The caster can see invisible or concealed creatures in these places. The judge has the final word on what is observed and where and whether those being watched detect the caster’s prying eyes."
+        }
+      }
+    ]
+  }
+  

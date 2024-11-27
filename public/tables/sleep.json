@@ -1,0 +1,54 @@
+{
+    "table_name": "sleep",
+    "notes": "Level: 1 -- Range: 60’ -- Duration: Varies -- Casting time: 1 action -- Save: Will vs. spell check DC",
+    "general": "The caster lulls a target into a deep, sound sleep.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Ray of shimmering dust",
+          "2": "Swan’s wings which rise from the earth to enfold target",
+          "3": "Soft white clouds that engulf target’s head",
+          "4": "Waves of blue light"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster acquires persistent insomnia, which has no immediate obvious effect but manifests as an ongoing penalty to all rolls. As his sleep deprivation increases, starting with -1 and increasing to -2 after a week and -3 after a month.",
+          "2": "Caster emits a noxious odor that causes heads to turn within 20’.",
+          "3": "Minor.",
+          "4": "Major."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster immediately falls into a natural sleep.",
+          "2": "Caster plus 1d4 closest allies immediately fall into a natural sleep.",
+          "3": "Caster collapses into a coma, from which he can only be awakened with medical attention or magical means.",
+          "4": "Caster jolts all creatures within 50’ to total alertness, cancelling all sleep (magical or otherwise) as well as all dazes, hallucinations, and other distractions."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1) corruption; (2+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "One target within range must make its save or fall asleep for 1d6 turns. Target can be awakened through normal means. When casting the spell, the caster must specify an interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+          "14-17": "Up to two targets within range must save or fall asleep for 1d6 turns. Targets can be awakened through normal means. When casting the spell, the caster must specify an interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+          "18-19": "Up to three targets within range must save or fall asleep for 1d4 hours. Targets can be awakened through normal means. When casting the spell, the caster must specify an interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+          "20-23": "Up to four targets must save or fall into a normal sleep for 1d6 hours, or one target can be placed in a supernatural sleep for 1d4 hours. While normal sleep can be interrupted by normal means, the supernatural sleep can be disrupted only via dispel magic or similar cancellation effects. However, both normal and supernatural sleep must have a specified interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+          "24-27": "Up to eight targets must save or fall into a normal sleep for 1d7 days, or one target can be placed in a supernatural sleep for 1d3 days with no saving throw. While normal sleep can be interrupted by normal means, the supernatural sleep can be disrupted only via dispel magic or similar cancellation effects. However, both normal and supernatural sleep must have a specified interrupt condition which automatically awakens the target. For example, being kissed by a prince, smelling the fragrance of a rose, or hearing a clock strike midnight. The caster must possess material components related to the interrupt condition.",
+          "28-29": "With a range of 200’, the caster can place a single target into a supernatural, ongoing, endless sleep with no saving throw; or normal ongoing sleep (with a save) to a group of up to 16 targets. While the normal sleep can be interrupted by normal means, the supernatural sleep can be interrupted only by one specified interrupt condition (e.g., the kiss of a prince or the fragrance of a rose) or anti-magic effects such as dispel magic.",
+          "30-31": "The caster puts great crowds of people to sleep. All unfriendly creatures within a 200’ radius must make a saving throw or fall asleep. The sleep is natural and the targets can be awakened with normal means (rough shaking, water on the face, etc.). The creatures remain asleep for 1d7+1 days if not awakened.",
+          "32+": "Natural slumber to all things: the caster causes the world around him to slow and sleep. All creatures within 500 yards fall asleep. Creatures of 4 or fewer HD receive no save. The affected creatures include birds, insects, and small animals as well as people. Both friendly and unfriendly creatures are affected. Plants are also affected; those that close their petals or retract flowers at night behave as if it is nighttime. The effect is supernatural in aspect and cannot be disturbed. The affected world continues to slumber until a specific interrupt condition occurs (e.g., the new moon rises, or 100 years have passed). Only powerful magic can end the effect sooner."
+        }
+      }
+    ]
+  }
+  

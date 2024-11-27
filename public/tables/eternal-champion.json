@@ -1,0 +1,52 @@
+{
+    "table_name": "eternal-champion",
+    "notes": "Level: 3 -- Range: 1 mile -- Duration: Until sunset -- Casting time: One night’s dreams -- Save: N/A",
+    "general": "By way of mystic draughts imbibed before sleep, the caster dream-speaks with the great warriors of ages past and future. One such warrior is summoned forth to fight for the caster’s cause. When the caster wakes, the warrior steps forth from the next day’s sunrise, and disappears at sunset with all his belongings. The warrior believes himself to be dreaming, but otherwise acts just as he would act in normal circumstances. The warrior summoned by this spell is inclined, by alignment and proclivities, to fight for the caster’s cause and does so provided he is not offended or otherwise dissuaded. If slain, his body and all belongings vanish to mist. There is a 10% chance the warrior has ancient knowledge of immediate and practical use to the caster, provided the caster asks the right questions. The caster may only have one eternal champion at any time. Casting this spell while an eternal champion already exists from a prior casting will cause the second casting to fail. The summoned warrior has stats as noted in the spell check descriptions below.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "See below."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "caster is haunted by dream-like flashbacks to a primordial time, such that any time he rolls a natural 13 on any die roll (whether attack, spell check, saving throw, or anything else), he freezes up for 1d4 rounds and is unable to take any action during that time",
+          "2": "caster is marked by supernatural powers as a champion of a certain cause in the distant past, which is never revealed, but supernatural creatures now take on a markedly negative disposition toward the caster, and their chances of being hostile are generally increased by +25%",
+          "3": "the eternal champion the caster attempted to summon was posted as a permanent guard in the Courts of Chaos, and so displeased are the champion’s superiors with the caster’s failed summoning that he is marked with a sign of disfavor, visible only to chaos lords and their minions, who henceforth treat the caster with displeasure",
+          "4": "minor",
+          "5": "major",
+          "6": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d2",
+        "table": {
+          "1": "caster marks an allied warrior as a candidate for the castings of eternal warrior by spellcasters of other times and places, such that this warrior has a 1% chance of randomly disappearing on any given day as he is summoned to fight for distant causes by others who cast this spell",
+          "2": "in casting this spell, the caster inadvertently reverses its parameters and sends himself to the time of the warrior instead of summoning him for the caster’s use, such that the caster disappears at the next sunrise and reappears at the next sunset, bloodied and weary as if he had fought the entire day (treat as 2d4 hp loss and 1d6 randomly determined spells expended); the caster has no memories of his time away"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "A mighty fighter appears with stats as a level 3 warrior, normal ability scores, and mundane equipment.",
+          "18-21": "As level 4 warrior with ability scores of 2d6+6 (judge rolls) and mundane equipment.",
+          "22-23": "As level 5 warrior with all ability scores at 16 and a named +1 sword.",
+          "24-26": "As level 5 warrior with all ability scores at 16, and the warrior is known to the annals of legend. He wields a legendary unique magic weapon of +2 enchantment. He inspires the caster’s party’s retainers and henchmen with an extra +1 morale bonus.",
+          "27-31": "As level 5 warrior with all ability scores at 18, and the warrior is a well-known legend. He wields a legendary unique magic weapon of +3 enchantment. He inspires the caster’s party’s retainers and henchmen with an extra +1 morale bonus.",
+          "32-33": "As level 6 warrior with all ability scores at 18. This warrior is one held in the greatest esteem; he is a living legend of deific proportions. Simply fighting at his side grants a +1 bonus to attacks and damage to the caster and all allies within 100’. The warrior wields a legendary unique magic weapon of +4 enchantment. He inspires the caster’s party’s retainers and henchmen with an extra +2 morale bonus.",
+          "34-35": "As level 6 warrior with all ability scores at 20. This warrior is one held in the greatest esteem; he is a living legend of deific proportions. Simply fighting at his side grants a +1 bonus to attacks and damage to the caster and all allies within 100’. The warrior wields a legendary unique magic weapon of +4 enchantment. He inspires the caster’s party’s retainers and henchmen with an extra +2 morale bonus. In addition, the warrior brings with him three retainers who themselves have statistics as level 3 warriors with normal ability scores and mundane equipment.",
+          "36+": "As level 7 warrior with all ability scores at 22. He is the greatest warrior ever known; in legends and stories, no warrior is his equal. Simply fighting at his side grants a +2 bonus to attacks and damage to the caster and all allies within 100’. The warrior wields a legendary unique magic weapon of +5 enchantment. He inspires the caster’s party’s retainers and henchmen with an extra +2 morale bonus. In addition, the warrior brings with him ten retainers who themselves have statistics as level 3 warriors with normal ability scores and mundane equipment."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,56 @@
+{
+    "table_name": "transference",
+    "notes": "Level: 3 -- Range: 10’ per level -- Duration: Varies -- Casting Time: 1 round -- Save: Will to negate",
+    "general": "The caster takes possession of another body, either temporarily or permanently.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s body collapsed like an empty skin, leaving flaccid flesh behind.",
+          "2": "Target’s features shift and bubble for a moment before returning to normal.",
+          "3": "Ectoplasm erupts from the caster’s mouth and forces its way into the target’s head.",
+          "4": "Ghostly doppelgangers of the caster and target wrestle briefly in the air between them before subsiding into the target’s body."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster ages 1 year.",
+          "2": "Caster’s eyes take on a horrifically hypnotic cast, making others loath to meet his gaze.",
+          "3": "Caster occasionally speaks in tongues without being aware of it.",
+          "4": "Caster’s reflection is that of another person."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "All reflective surfaces within a 15’ radius shatter (magic items allowed a DC 5 save to remain intact).",
+          "2": "Caster temporarily swaps souls with that of an inoffensive animal nearby (rat, louse, bird, etc); swap lasts 1d3 rounds.",
+          "3": "Spell targets the wrong victim; make a new spell check against a random target.",
+          "4": "Caster falls into a coma for 1d4 rounds.",
+          "5": "Psychic backlash allows all within 15’ radius to read the caster’s mind for 1d4 hours."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster insidiously inflicts his will upon his target, allowing him to control the target’s action for a number of rounds equal to his CL. The victim is allowed a Will save each round to resist the caster’s control for that round.",
+          "18-21": "The caster can possess a sleeping victim and take control of the target’s body for up to 8 hours. Roll 1d8 + the caster’s Intelligence modifier to determine the number of hours this possession lasts, with a result of 8+ indicating the possession lasts a full 8-hour sleep cycle.",
+          "22-23": "The caster can take full possession of a target who fails a Will save. The caster’s own body becomes inert during this time, falling into a comatose state. The target’s soul is shunted into a tiny mental prison during this time, and it is forced to observe helplessly as its own body engages in any number of vile actions.",
+          "24-26": "The caster can take full possession of a target who fails a Will save. The caster’s own body becomes inert during this time, falling into a comatose state. The target’s soul is shunted into a tiny mental prison during this time, and it is forced to observe helplessly as its own body engages in any number of vile actions.",
+          "27-31": "The caster can take full possession of a target who fails a Will save. The caster’s own body becomes inert during this time, falling into a comatose state. The target’s soul is shunted into a tiny mental prison during this time, and it is forced to observe helplessly as its own body engages in any number of vile actions. Additionally, the caster can jump from body to body at will so long as his new chosen target fails a Will save each time a jump is attempted.",
+          "32-33": "The caster can take full possession of a target who fails a Will save. The caster’s own body becomes inert during this time, falling into a comatose state. The target’s soul is shunted into a tiny mental prison during this time, and it is forced to observe helplessly as its own body engages in any number of vile actions. Additionally, the caster can jump from body to body at will so long as his new chosen target fails a Will save each time a jump is attempted.",
+          "34-35": "The caster can temporarily escape death by transferring his soul into a receptacle specially prepared to house it. This object can be most anything the spell caster desires (gemstone, statue, painting, book, etc.), but the special preparations needed to prepare the item cost 500 gold pieces for each decade the receptacle’s power is intended to last.",
+          "36+": "The caster immediately obliterates the soul of his victim and takes permanent possession of its body. The caster’s own physical form is destroyed in the casting, seemingly incinerated by spontaneous combustion. If the target makes the Will save, there is no effect."
+        }
+      }
+    ]
+  }
+  

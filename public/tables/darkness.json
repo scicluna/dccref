@@ -1,0 +1,54 @@
+{
+    "table_name": "darkness",
+    "notes": "Level: 1 -- Range: 20’ radius or more -- Duration: 1 turn or more -- Casting time: 1 action or more -- Save: N/A",
+    "general": "The cleric extinguishes the light of the sun, demonstrating the great power of his deity. From a distance, the darkness appears to be a space of deepest night; no light will penetrate it. Creatures within are blinded.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Shadowy cloud of darkness.",
+          "2": "Absolute blackness.",
+          "3": "Thick oily black mist."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster gains a minor facial trait related to darkness, such as pale skin, blackened eyes, or dark veins.",
+          "2": "Caster exudes a faint smell of burning sulfur or charred wood.",
+          "3": "Minor corruption: A faint aura of darkness clings to the caster, making their presence unsettling.",
+          "4": "Major corruption: The caster’s eyes become wholly black and unsettling to others."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster inadvertently summons a zone of darkness around themselves instead of their target.",
+          "2": "The spell backfires, and the caster is blinded by the darkness for 1d3 rounds.",
+          "3": "The darkness forms in the wrong location, causing confusion and causing the caster to miss their target.",
+          "4": "Caster is briefly trapped in their own zone of darkness and cannot move or cast spells for 1 round.",
+          "5": "Caster accidentally extinguishes a light source they were unaware of, leaving them in complete darkness."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The space immediately surrounding the cleric, to a radius of 20’, goes completely dark, as if all light had been extinguished. The darkness remains fixed to its location and lasts for 1 turn.",
+          "14-17": "The cleric can designate a point within 20’ and create a 20’-radius sphere of darkness that remains fixed at that point for a duration of 1 turn.",
+          "18-19": "The cleric can designate a point within 100’ and create a 20’-radius sphere of darkness that remains fixed at that point for a duration of 1 turn.",
+          "20-23": "The cleric can designate a point within 100’ and create a 20’-radius sphere of darkness centered at that point. The darkness remains for a duration of 1 turn. By concentrating on future rounds, the cleric can move the sphere of darkness up to 40’ per round, beyond the original 100’ range if desired.",
+          "24-27": "The cleric can designate a point within 200’ and create a sphere of darkness up to 40’ radius centered at that point. The darkness remains for 2 turns. By concentrating on future rounds, the cleric can move the sphere of darkness up to 80’ per round, beyond the original 200’ range if desired.",
+          "28-29": "The cleric can extinguish sources of light. He designates a point within 200’, and a sphere of darkness up to 40’ in radius appears at that point. The cleric can move this sphere at a speed of 80’ per round. No concentration is required. The sphere lasts for 1 hour. In addition, all terrestrial sources of light within the sphere of darkness are extinguished.",
+          "30-31": "With a sweep of his arm, the cleric can cast an enormous space into darkness. The cleric can choose one of three effects: a cone extending 400’ to a final width of 100’; a sphere up to 60’ radius centered at any point within 300’; or a wide line, up to 1,000’ long and 10’ wide. Within the area of effect, total darkness reigns; no light source can penetrate. The cleric can move the dark space up to 100’ per round without concentration. It lasts for up to 1 day or until dismissed.",
+          "32+": "The cleric can blot out the sun, the moon, the stars, or other sources of light. This extraordinary display of divine power requires great concentration. If this result is achieved, the cleric may continue to concentrate. All light sources that illuminate a space 500’ in all directions begin to fade. For every round the cleric concentrates, light sources fade by 1d20%. The judge rolls each round the cleric continues to concentrate. When the total breaks 100%, all light sources have been completely extinguished, and the countryside around the cleric is completely darkened. The maximum range is the cleric’s CL x 1,000’. The effect continues as long as the cleric concentrates."
+        }
+      }
+    ]
+  }
+  

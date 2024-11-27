@@ -1,0 +1,58 @@
+{
+    "table_name": "transmute-earth",
+    "notes": "Level: 4 -- Range: Touch or 30’ -- Duration: Varies -- Casting Time: 1 round -- Save: None",
+    "general": "The caster commands the earthly elements to do his bidding.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s skin resembles rough-hewn rock.",
+          "2": "Caster’s voice becomes gravelly.",
+          "3": "Earth rumbles at the caster’s feet.",
+          "4": "Small, odd-colored crystals erupt from the ground around the caster."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster’s skin turns slate-colored.",
+          "2": "Caster’s hands become rock-like (+1 to damage in unarmed combats).",
+          "3": "Caster’s body riddled with striations of quartz.",
+          "4": "Caster needs to eat 1 lb. of dirt each day.",
+          "5": "Caster must sleep on a bed of stone to gain a restful night’s sleep.",
+          "6": "Caster cries tears of stone."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Minor tremor knocks all in a 30’ diameter to the ground unless a DC 10 Reflex save is made.",
+          "2": "The ground beneath the caster turns to mud and he sinks up to his waist in the morass.",
+          "3": "A hail of stones falls from the sky doing 1d3 damage to the caster and anyone else within 10’ of him.",
+          "4": "The forces of Earth rebel against the caster: caster must make a DC 10 Fort save or turn to stone for 1d4 rounds."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "Caster turns natural rock up to 30’ away into mud. The area of effect is a 10’ cube of stone per caster level. The created mud has a maximum depth of half its length or width (whichever is greater). Creatures caught in the morass that cannot fly, levitate, or otherwise escape sink into the mud and drown if it is over their head. (Drowning creatures take 1d6 points of Stamina damage per round and die when Stamina reaches 0; lost Stamina is restored immediately if they are removed from the morass.) If the creature is taller than the depth of the mud, its movement is reduced by 50%. The mud hardens to stone in 1d6 days.",
+          "20-23": "Caster creates a large opening in any stone, clay, mud, or iron barrier he touches. This breech is 5’ wide × 10’ high × 10’ deep and lasts for 1 hour + 1 turn per caster level. Multiple castings of this spell allow the caster to pass through thicker barriers.",
+          "24-25": "Caster can mold stone he touches as if it were soft clay. The caster affects an area of stone equal to a half cubic foot per caster level. The level of detail is crude, but the object functions as intended (stone weapons inflict damage, stone trap doors open, stone manacles restrain prisoners, etc.).",
+          "26-28": "Caster creates a wall of rock 3” thick and 10’ square per caster level. There must be pre-existing stone for the wall to connect to in order to create this barrier. The wall can be vertical or horizontal and can be fashioned into a ramp or bridge as needed. The wall is permanent barring effects that destroy magic.",
+          "29-33": "Caster conjures a wall of raw iron to bar passage and protect him and his allies. The wall is ¼” thick per caster level and 10’ square per caster level. The wall must rest on a firm surface or it topples over, crushing anyone underneath it (1d10 damage per caster level). The wall is permanent unless affected by magic.",
+          "34-35": "Caster can counteract petrification magics and attacks, restoring a touched victim and his belongings to their natural states.",
+          "36-37": "Caster may transform himself into a more potent version of living stone. In this living stone form, he gains +4 to AC and a natural Strength of 18. His Agility cannot be higher than 9, his movement is reduced to 15’, and he cannot swim. He makes no additional noise when moving. The transformation lasts 1 round per caster level.",
+          "38-39": "The caster gains medusa eyes. With a gaze, he can turn a target up to 30’ away into stone (Fort save vs. spell check avoids). The transformation is permanent. The medusa eyes last for 1 round per caster level.",
+          "40+": "The caster gains a fearful command of the earth. He can raise small mountains (500’ per caster level in height), turn swaths of arable land into solid stone or liquid mud (1 mile diameter per caster level), and open gaping chasms (100’ long and 50’ deep per caster level). All of these effects destroy buildings, crops, alter the courses of rivers, collapse dams, and produce other destructive, landscape-altering effects at the judge’s creation."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,38 @@
+{
+    "table_name": "crit-table-4",
+    "notes": "",
+    "general": "",
+    "sub_tables": [
+        {
+            "subtable_name": "Results",
+            "dice_size": "1d20",
+            "table": {
+                "0": "Battle rage makes friend and foe indistinguishable. Foe is hit for +2d8 damage, and the ally nearest him is also hit by a rebounding blow for 1d4 damage.",
+                "1": "Herculean blow. Inflict +2d12 damage with this strike.",
+                "2": "Ferocious strike leaves foe’s weapon hand dangling from the stump of a wrist. Inflict +1d12 damage with this strike.",
+                "3": "Strike sweeps foe to the ground. Inflict +1d12 damage with this strike and make another attack on prone enemy.",
+                "4": "Hammering blow drives nose cartilage into brain. Inflict +1d12 damage with this strike, and the foe suffers 1d6 Int loss.",
+                "5": "Foe’s weapon shattered. If the foe has no weapon, inflict +2d12 damage with this strike.",
+                "6": "Strike shatters foe’s breastbone. The foe must make a Fort save (DC 15 + PC level) or fall unconscious as his internal organs collapse.",
+                "7": "Foe driven back by furious assault. Inflict +2d12 damage with this strike, and the foe forgoes his next attack.",
+                "8": "Concussive strike leaves foe dazed. Inflict +1d8 damage with this strike and make a second attack.",
+                "9": "Blow to throat carries through to spinal column, reducing everything in between to pasty mush. Inflict +2d12 damage with this strike, and the foe loses speech for 1d4 weeks.",
+                "10": "Blow craters temple. The foe must make a Fort save (DC 15 + PC level) or be blinded by pain and blood for 1d4 rounds.",
+                "11": "Strike reduces face to a formless mass of flesh and bone fragments. Inflict +2d12 damage with this strike, and the foe has trouble making hard consonants.",
+                "12": "You see red! Inflict +1d12 damage with this strike as you are overcome by battle rage.",
+                "13": "Hammering strike to torso crushes lesser organs into paste. Inflict +2d12 damage with this strike.",
+                "14": "Blow to spinal column numbs lower limbs. The foe suffers a -4 penalty to AC as he learns to walk again.",
+                "15": "Fearsome strike drives enemy to the blood-splattered floor. Foe cowers in fear, prone, for 1d4 rounds.",
+                "16": "Blow shatters shield. Inflict +2d12 damage with this strike. If the foe has no shield, he is stunned by pain for 1d4 rounds.",
+                "17": "Foe’s kneecap explodes into red mist. Foe’s movement drops to 0’, and you make another attack.",
+                "18": "Frontal lobotomy. Inflict +1d12 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer amnesia. The foe is stunned for 1d4 rounds, regardless.",
+                "19": "Strike to weapon arm. Foe takes triple damage from his own weapon as it is hammered into his face. Foe drops weapon in dumbfounded awe.",
+                "20": "Blow crushes spinal cord. Inflict +3d12 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or suffer permanent paralysis.",
+                "21": "Blow reduces internal organs to jelly. Death is inevitable in 1d8 rounds.",
+                "22": "Target is disemboweled, spilling his entrails onto the ground. The foe dies of shock in 1d6 rounds.",
+                "23": "Strike to chest explodes heart. Inflict +3d12 damage with this strike, and the foe must make a Fort save (DC 15 + PC level) or die instantly.",
+                "24+": "Skull crushed like a melon. Inflict +3d12 damage with this strike, and the foe must make a Fort save (DC 20 + PC level) or die in 1d3 rounds."
+            }
+        }
+    ]
+}

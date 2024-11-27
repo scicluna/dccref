@@ -1,0 +1,58 @@
+{
+    "table_name": "planar-step",
+    "notes": "Level: 3 -- Range: Potentially infinite (see below) -- Duration: Permanent transfer of location -- Casting time: 1 round or more (see below) -- Save: Unwilling targets receive Will save vs. spell check DC",
+    "general": "With this spell, the caster steps to another place in the universe. At its lesser castings, this spell allows the caster to teleport to another place on the same world. At its higher castings, this spell takes the caster to other planes or even dimensions with a single step. The spell transports caster and all his belongings and potentially other creatures as well. The higher the spell check, the further the caster travels and the more accurately he arrives. The success of this spell is determined in large part by the caster’s familiarity with the location to which he intends to arrive. Each spell check result indicates the base chance of success depending on where the caster attempts to travel and his level of familiarity. This percentile chance is rolled when the caster decides where to travel. If the percentile indicates failure, the caster automatically suffers a misfire.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Targets simply vanish then reappear at target point.",
+          "2": "Targets explode in a cloud of smelly brimstone, then appear in a similar explosion at target point.",
+          "3": "Targets fade away, appearing to turn to mist then vanish into the air before reappearing in a similar manner."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Caster’s appearance ages nearly 100 years, although his body does not suffer any degeneration, but he appears wrinkled, haggard, and ancient.",
+          "2": "Caster is permanently unhinged from the material plane, such that whenever any die roll comes up as a natural 13, he flickers out of existence for 1d4 rounds, returning with no memory of where he has been and with a 10% chance of random wounds causing 1 point of damage.",
+          "3": "Caster is a dimensional magnet, attracting the attention of creatures that can leap through space and time, such that he inevitably draws the attacks of demons, elementals, and other extraplanar creatures when they are present (judge’s discretion).",
+          "4": "Major.",
+          "5": "Major.",
+          "6": "Greater.",
+          "7": "Greater.",
+          "8": "Greater."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster and all nearby allies are transported 1d10 miles in a random direction.",
+          "2": "Caster and all nearby allies randomly swap positions and are physically rearranged.",
+          "3": "Caster’s clothes and possessions are transported 1d20 miles in a random direction, but he remains in place, naked and without equipment.",
+          "4": "The entire party’s weapons are teleported to an unknown place."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "With a single step, the caster travels to a location up to 100 miles distant on this world, which he has personally seen before. The caster arrives with a margin of error equal to 1d10 miles, minus 1 mile per caster level; if the result is 0 or less, he arrives on target; otherwise he arrives at the indicated distance in a randomly determined direction with a 20% chance of arriving in a dangerous manner and taking 1d4 points of damage (partly embedded in the earth, above ground then experience a short fall, etc.).",
+          "18-21": "With a single step, the caster travels to a location up to 200 miles distant on this world, which he must be familiar with, either via personal experience, detailed knowledge and study, or second-hand accounts. The caster arrives with a margin of error of 1d4 miles if he has personal experience with the location or 1d16 miles minus 1 mile per caster level if he doesn’t. If the result is 0 or less, the caster arrives on target; otherwise he arrives at the indicated distance in a randomly determined direction with a 20% chance of arriving in a dangerous manner and taking 1d4 points of damage. The caster can take up to one other man-sized creature with him, who must be in physical contact. That creature receives a Will save to resist if unwilling.",
+          "22-23": "With a single step, the caster travels to a location up to 500 miles distant on this world. The caster must be familiar with the location, either via personal experience, detailed knowledge and study, or second-hand accounts. The caster arrives with a margin of error of 1d3 miles if he has personal experience with the location or 1d14 miles minus 1 mile per caster level if he doesn’t. If the result is 0 or less, the caster arrives on target; otherwise he arrives at the indicated distance in a randomly determined direction with a 20% chance of arriving in a dangerous manner and taking 1d4 points of damage. The caster can take up to four other man-sized creatures with him, who must be in physical contact. Creatures receive a Will save to resist if unwilling.",
+          "24-26": "With a single step, the caster travels to a location up to 2,000 miles distant on this world or any adjacent moon or planet. The caster must be familiar with the location, either via personal experience, detailed knowledge and study, or second-hand accounts. The caster arrives with a margin of error of 1d3 miles if he has personal experience with the location or 1d12 miles minus 1 mile per caster level if he doesn’t. If the result is 0 or less, the caster arrives on target; otherwise he arrives at the indicated distance in a randomly determined direction with a 20% chance of arriving in a dangerous manner and taking 1d4 points of damage. The caster can take up to four other man-sized creatures with him, who must be in physical contact. Creatures receive a Will save to resist if unwilling.",
+          "27-31": "The caster draws a magic circle up to 40’ in diameter, which requires one round of drawing time for every 10’ of diameter. At the end of the last round of drawing, the spell is cast, and all creatures within the circle are transported to a distant location anywhere on this plane of existence or within 100 miles of the caster’s equivalent point on another, adjacent plane of existence. Creatures receive a Will save to resist if unwilling. The caster must be familiar with the target location, either via personal experience, detailed knowledge and study, or second-hand accounts. If on the same plane, the caster arrives with a margin of error of 1d3 miles if he has personal experience with the location or 1d10 miles minus 1 mile per caster level if he doesn’t. If on a different plane, the caster arrives with a margin of error of 1d10 miles if he has personal experience with the location or 1d20 miles minus 1 mile per caster level if he doesn’t. If the result is 0 or less, the caster arrives on target; otherwise he arrives at the indicated distance in a randomly determined direction with a 20% chance of arriving in a dangerous manner and taking 1d4 points of damage.",
+          "32-33": "With a wave of the hand, the caster transports himself plus a selection of creatures within 40’ to another location. The caster can choose to transport all creatures within 40’, up to a number equal to his caster level, or all except a number of exclusions equal to his caster level. The planar step transports the caster and the targets to a distant location anywhere on this plane of existence or within 1,000 miles of the caster’s equivalent point on another plane of existence that need not be adjacent. Creatures receive a Will save to resist if unwilling. The caster does not need to be familiar with the target location; he can specify simply “a point on the elemental plane of fire.” The caster arrives with a margin of error, which is a die roll less 1 mile per caster level if familiar with the location, or a die roll with no modifier if unfamiliar with the location. The die roll is 1d3 miles if on the same plane, 1d10 miles if on an adjacent plane, or 1d30 miles if on a non-adjacent plane. If the result is 0 or less, the caster arrives on target; otherwise he arrives at the indicated distance in a randomly determined direction with a 20% chance of arriving in a dangerous manner and taking 1d4 points of damage.",
+          "34-35": "The caster transports boats, armies, fortresses, and even small cities between the planes. Unwilling targets always receive a Will save to resist. The caster can transport himself or a number of allies equal to his caster level with perfect accuracy to any point on this or an adjacent plane or within 1,000 miles of his equivalent point on a non-adjacent plane. Transporting greater targets has a margin of error equal to 2d30 miles less 1 mile per caster level. (The judge may adjust this per the guidelines on spell results given above, depending on the size of the object being transported and the caster’s familiarity with the target location.) Casting time is greatly increased due to the physical stress of moving large objects, and spellburn is required, as follows. The judge should use these general sizes as guidelines for the requirements of the specific objects at hand: boats require 5 points of spellburn and 1 turn of casting time; large groups of people or armies require 10 points of spellburn and 1 hour of casting time; fortresses, castles, and the like require 15 points of spellburn and 1 day of casting time; and small cities require 20 points of spellburn and 1 week of casting time.",
+          "36+": "The caster transports boats, armies, fortresses, and even small cities as result 34-35 above, except he completes the spell with unerring accuracy and can even teleport objects to other dimensions beyond our conception of space and time, potentially visiting gods and alien intelligences. Alternately, the caster can create a permanent portal between the planes. The caster designates one object as the portal, typically a door, window, gate, archway, well, or cave mouth. The object need not require physical passage, though; the caster could also designate a pedestal, throne, obelisk, tile, or river, or even a boat or wagon that when utilized acts as the portal. A corresponding object on “the other side” is also designated, though the portals need not be two-way. The caster must spend one week at each location as the casting time for this spell and utilize exotic planar materials costing 50,000 gp per “direction” in addition to the cost of the objects (i.e., a one-way portal costs 50,000 gp, while a two-way portal costs 100,000 gp). A minimum of 10 points of spellburn is required. The objects become permanently linked up to any physical distance and across any number of planes or dimensions. Creatures passing through the portals are instantly transported back and forth with no save or other requirements."
+        }
+      }
+    ]
+  }
+  

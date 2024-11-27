@@ -1,0 +1,56 @@
+{
+    "table_name": "slow",
+    "notes": "Level: 3 -- Range: 20’ + 10’ per CL -- Duration: Varies -- Casting time: 1 round -- Save: Sometimes (Will)",
+    "general": "The caster impairs the ability of the targeted creature to move at its normal speed. This spell can also be cast to cancel haste.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Target appears elongated and stretched in several directions.",
+          "2": "Target is surrounded by a gray mist that partially obscures it.",
+          "3": "Target seems to droop toward the ground, moving with difficulty."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Caster is returned to an age of 1d10+5 years, quite possibly reducing him to a child-like state; he retains all mental attributes but receives a -2 penalty to Strength, and +1 bonus to Stamina and Agility; he is treated as a child by all who encounter him.",
+          "2": "Caster makes himself and all within 20’ younger by a factor of -2d10 years, possibly reducing already-young PCs to a child-like state.",
+          "3": "Caster’s speech patterns slow significantly, such that it takes him twice as long as normal to communicate, and any time he casts a spell he must take twice the normal casting time or receive a -1 penalty to the spell check as he stutters and stumbles on his slurred, slow words.",
+          "4": "The caster acquires a ponderous gait that permanently reduces his speed by -5’.",
+          "5": "Major.",
+          "6": "Greater."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster slows time for himself, causing him to miss his next action.",
+          "2": "Caster slows time for himself and 1d4 allies within 20’, causing all of them to miss their next action.",
+          "3": "Caster ages himself by 1d10+10 years.",
+          "4": "Caster grants slow to a nearby bug, which buzzes about somnolently before flying off into the distance."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "One target within range immediately drops to the bottom of the initiative count (no save). If it has already acted this round, it does not receive another action at the end of the initiative count.",
+          "18-21": "One target within range skips its next activation (no save).",
+          "22-23": "One target within range is slowed to half its normal speed (Will save to resist). Its movement rate is halved, and it can take its normal actions only once every other round (with the first ‘skip’ being its next activation). It automatically drops to the bottom of the initiative count. The effect lasts for 1d6+1 rounds.",
+          "24-26": "The caster can target two creatures, each of which is slowed to half its normal speed (Will save to resist). The targets’ movement rate is halved, and they can take their normal actions only once every other round (with the first ‘skip’ being their next activation). They automatically drop to the bottom of the initiative count (in the same relative order of initiative). The effect lasts for 1d6+1 rounds.",
+          "27-31": "The caster designates a target within range. That target and all other creatures (friendly or not) within 20’ are potentially slowed (Will save to resist). Those that fail their save are slowed to half normal speed. Their movement rate is halved, and they can take their normal actions only once every other round (with the first ‘skip’ being their next activation). They automatically drop to the bottom of the initiative count (in the same relative order of initiative). The effect lasts for 1d6+1 rounds.",
+          "32-33": "The caster selects one target within range. If it fails a Will save, it is removed from the normal flow of time. Each round, roll d%. On a roll of 01-25, the creature can move and act as normal. A roll of 26-90 indicates it remains frozen in place and can take no actions. This effect continues until 91-00 is rolled, at which point the creature slips back into the normal flow of time and the effect ends.",
+          "34-35": "The caster selects one target within range. That target and all creatures within 20’ (friendly or not) are removed from the normal flow of time (no save). This is a one-time event; other creatures can subsequently move into the affected area without consequence. Each round, roll d%. On a roll of 01-25, all affected creatures can move and act as normal. A roll of 26-90 indicates those creatures remain frozen in place and can take no actions. This effect continues until 91-00 is rolled, at which point all affected creatures slip back into the normal flow of time and the effect ends.",
+          "36+": "The caster creates a sphere of slowness. The caster designates a space within line of sight. All creatures within a 100’ radius of that point are slowed. Additionally, any creature that enters that point is slowed. There is no visible indication of the field. Creatures receive a Will save to resist. Failure indicates they move at half speed and receive an activation only once every other round. The effect lasts as long as the targets remain within the sphere of slowness and extends for another 2d6 rounds thereafter when they leave. The sphere itself persists for 1d5 hours."
+        }
+      }
+    ]
+  }
+  

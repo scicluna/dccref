@@ -1,0 +1,33 @@
+{
+    "table_name": "true-name",
+    "notes": "Level: 3 -- Range: 100’ per CL or unlimited (see below) -- Duration: Instantaneous -- Casting time: 1 action -- Save: Will vs. spell check DC",
+    "general": "l The cleric calls upon his deity to reveal the true name of an individual or creature, allowing him to more easily affect the named target with his magic. This spell works only on intelligent creatures and magical constructions that were named by their creator. Un-dead, slimes, animals, and similar creatures that do not possess names are immune to this spell. Other creatures may or may not be affected at the judge’s discretion. A successful Will save indicates that the target’s true name remains hidden from the cleric. In order to gain the knowledge of a creature’s true name (or one of them; many creatures possess a number of secret names of varying power), the cleric must either be within range and have a clear view of the target or possess a personal item or physical component (blood, hair, fingernails, etc.) of the target. If the cleric has a portion of the target’s physical body, this spell can be cast at any distance provided that the target is on the same plane of existence as the cleric. Once a creature’s true name is known, the cleric permanently enjoys the benefits indicated by the spell check below. He can attempt to recast the spell to further deduce the target’s secret name(s), but a failure on subsequent castings of the spell makes the target permanently immune to further attempts by the cleric – he has learned all he can about his target. Due to the complexities and magical nature of true names, the cleric cannot easily share a true name with another person. Attempts to write or speak the true name become garbled in the communication process and the would-be recipient of the name must make a spell check with a result equal to or greater than that of the cleric’s spell check to comprehend the priest’s attempt to share the true name. Failure means it is impossible for the recipient to understand the cleric and he cannot make another attempt to comprehend the true name unless the cleric recasts the spell. An individual whose true name has fallen into the possession of another can attempt to nullify that name and negate all bonuses granted to the possessor of the name. This usually requires the intervention of a patron or god, undertaking a quest, subjecting oneself to powerful memory- or identity-erasing magics, or other means determined by the judge.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A divine servant of the cleric’s deity appears and whispers the target’s true name into his ear.",
+          "2": "The true name appears in the air before the cleric, written in celestial fire and visible only to him.",
+          "3": "The cleric is subject to a brief hallucination of the target’s naming at birth.",
+          "4": "A nearby animal croaks the target’s true name in a harsh, unearthly voice."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-15": "Failure.",
+          "16-17": "The cleric learns the simplest inkling of the target’s lesser secret name. The target suffers a -1 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name.",
+          "18-21": "The cleric learns the actual pronunciations of the target’s lesser secret name. The target suffers a -2 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name.",
+          "22-23": "The cleric learns of the target’s greater secret name. The target suffers a -3 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name. Attempts to magically sway, dominate, or dismiss the target gain a +2 bonus to the spell check.",
+          "24-26": "The cleric learns of the target’s greater secret name. The target suffers a -3 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name. Attempts to magically sway, dominate, or dismiss the target gain a +3 bonus to the spell check.",
+          "27-31": "The cleric learns the target’s true secret name. The target suffers a -4 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name. Attempts to magically sway, dominate, or dismiss the target gain a +4 bonus to the spell check. All other spell checks against the target gain a +1 bonus.",
+          "32-33": "The cleric learns the target’s true secret name. The target suffers a -4 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name. Attempts to magically sway, dominate, or dismiss the target gain a +4 bonus to the spell check. All other spell checks against the target gain a +2 bonus.",
+          "34-35": "The cleric learns not only the target’s true name but the true names of all its living blood relatives. The target and its family members suffer a -5 penalty to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name. Attempts to magically sway, dominate, or dismiss the target gain a +5 bonus to the spell check. All other spell checks against the target gain a +3 bonus.",
+          "36+": "The cleric learns the true name of the target’s dynasty. Any creatures of the target’s family line suffer a penalty equal to -5 or the cleric’s CL +2 (whichever is greater) to all saving throws against spells cast by the cleric and/or others in possession of the target’s true name. All spell checks made against the target or its dynasty gain a positive bonus equal to +4 or the cleric’s CL +2 (whichever is greater)."
+        }
+      }
+    ]
+  }
+  

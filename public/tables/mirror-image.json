@@ -1,0 +1,54 @@
+{
+    "table_name": "mirror-image",
+    "notes": "Level: 2 -- Range: Self or touch -- Duration: 1 round or longer -- Casting time: 1 round -- Save: Will vs. spell check",
+    "general": "This spell creates illusionary doubles of the caster, which mimic his actions exactly. They appear in the space directly around him and distract opponents, who tend to strike the mirror images instead of the caster. More powerful castings can create duplicates of allies or objects. The total number of doubles the caster can create of himself, allies, or objects cannot exceed his Int score.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "See below."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Major.",
+          "2": "Major.",
+          "3": "Major.",
+          "4": "Minor.",
+          "5": "Minor.",
+          "6": "Minor."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster creates a “backward” mirror image of himself, such that the mirror image’s left hand carries what the caster holds in his right hand, and so on, meaning the mirror image (which lasts for 1d6 rounds) is obviously different than the caster.",
+          "2": "The caster creates 1d6 mirror images, but they’re all different people, not “mirrors” at all, and frankly they have odd habits or strange tics that make them discomforting to be around for their 1d6+1 round duration.",
+          "3": "The caster generates 1d4+1 extra shadows that dance around his feet, sometimes into the light rather than away from it, lasting the rest of the day.",
+          "4": "The caster creates a mirror image of himself that is short and fat, like a funhouse mirror, lasting 1d6 rounds."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "A single mirror image blinks into existence directly adjacent to the caster. It looks exactly like him, and mimics his actions and speech. It must remain within 5’ of the caster at all times. Any creature attempting to attack the caster automatically strikes the mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round can make a Will save to distinguish the caster’s true self from the mirror image. Ranged attacks (e.g., dragon breath) may cause the mirror image to vanish and still wound the caster. The mirror image lasts for 1d4 rounds or until dispelled.",
+          "16-19": "1d4+1 mirror images blink into existence next to the caster and must remain within 5’ of him. They look exactly like him, and mimic his actions and speech. Any creature attempting to attack the caster automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round can make a Will save to distinguish the caster’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the caster. The mirror images last for 1d6+1 rounds or until dispelled.",
+          "20-21": "1d6+1 mirror images blink into existence next to the caster and must remain within 5’ of him. They look exactly like him, and mimic his actions and speech. Any creature attempting to attack the caster automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round can make a Will save to distinguish the caster’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the caster. The mirror images last for 1d4 turns or until dispelled.",
+          "22-25": "The caster can create mirror images of himself or a creature he touches. 1d6+1 mirror images blink into existence next to the target and must remain within 5’ of him. They look exactly like him, and mimic his actions and speech. Any creature attempting to attack the target automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round may make a Will save to distinguish the target’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the target. The mirror images last for 1d4 turns or until dispelled.",
+          "26-29": "The caster can create mirror images of himself or a creature he touches. 1d8+1 mirror images blink into existence next to the target and must remain within 5’ of him. They look exactly like him, and mimic his actions and speech. Any creature attempting to attack the target automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round may make a Will save to distinguish the target’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the target. The mirror images last for 1 hour or until dispelled.",
+          "30-31": "The caster can create mirror images of any creature or object within 30’, provided it is human-sized or smaller. Moreover, he can create different mirror images at once, such that he could create some duplicates of himself, some of his warrior ally, and some of his other thief ally. He can even mirror inanimate objects, meaning he could replicate a treasure chest or cause a door to have multiple iterations. The duplicates can still be dispelled with a strike, but using the spell in this manner may delay or confuse opponents or allow for a bluffing maneuver. Up to 1d10+2 mirror images can be created, and each must remain within 5’ of the spell’s target. Each mirror image looks exactly like the spell’s target and mimics its actions and speech (if the original target is capable of such things). Any creature attempting to attack the target automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round may make a Will save to distinguish the target’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the target. The mirror images last for 1 hour or until dispelled.",
+          "32-33": "The caster can create mirror images of any creature or object within 30’, provided it is human-sized or smaller. Moreover, he can create different mirror images at once, such that he could create some duplicates of himself, some of his warrior ally, and some of his other thief ally. He can even mirror inanimate objects, meaning he could replicate a treasure chest or cause a door to have multiple iterations. The duplicates can still be dispelled with a strike, but using the spell in this manner may delay or confuse opponents or allow for a bluffing maneuver. Up to 1d12+4 mirror images can be created, and each must remain within 5’ of the spell’s target. Each mirror image looks exactly like the spell’s target, and mimics its actions and speech (if the original target is capable of such things). Any creature attempting to attack the target automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round may make a Will save to distinguish the target’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the target. The mirror images last for 1 hour or until dispelled. Additionally, if the caster replicates himself and then concentrates, he can send his doubles to perform illusionary assignments. The doubles can move up to 50’ away from the caster and move or talk. They cannot physically interact with objects (e.g., open a door) or cause actual damage, but they can feign an attack and sow confusion.",
+          "34+": "The caster can create mirror images of any creature or object within 30’, provided it is human-sized or smaller. Moreover, he can create different mirror images at once, such that he could create some duplicates of himself, some of his warrior ally, and some of his other thief ally. He can even mirror inanimate objects, meaning he could replicate a treasure chest, or cause a door to have multiple iterations. The duplicates can still be dispelled with a strike, but using the spell in this manner may delay or confuse opponents, or allow for a bluffing maneuver. The caster can create a number of mirror images equal to his Int score, and each must remain within 5’ of the spell’s target. Each mirror image looks exactly like the spell’s target, and mimics its actions and speech (if the original target is capable of such things). Any creature attempting to attack the target automatically strikes a mirror image instead, which disappears instantly once hit. An opponent who concentrates for a full round may make a Will save to distinguish the target’s true self from the mirror images. Ranged attacks (e.g., dragon breath) may cause the mirror images to vanish and still wound the target. The mirror images last for 1 day or until dispelled. Additionally, if the caster replicates himself and then concentrates, he can send his doubles to perform illusionary assignments. The doubles can move up to 50’ away from the caster and move or talk. They cannot physically interact with objects (e.g., open a door) or cause actual damage, but they can feign an attack and sow confusion."
+        }
+      }
+    ]
+  }
+  

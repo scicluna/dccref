@@ -1,0 +1,55 @@
+{
+    "table_name": "make-potion",
+    "notes": "Level: 3 -- Range: Self -- Duration: Permanent -- Casting Time: 1d6+1 hours, plus material harvesting time and brewing time (minimum one week) -- Save: None",
+    "general": "The caster creates mystical brews that grant supernormal powers to those who consume them. The result of the spell check determines which kind of potion can be created, as indicated below; each casting allows the caster to choose one potion from the eligible results at his spell check or less. This portion of the spell requires 1d6+1 hours to cast. Once a potion is decided upon, the caster must spend money equal to half the potion’s spell check number (rounded down) × 25 gp to procure the necessary equipment and base ingredients for the potion. In addition, each brew requires a special substance that must be harvested by the caster himself and then brewed, which takes roughly one week after the spell is cast. See below for suggested special ingredients and more details on potion effects. Unlike other spells, the judge, not the caster, makes the spell check roll to determine the caster’s success. REFERENCE PAGE 224 OF BOOK FOR INGREDIENTS LISTS FOR EACH POTION",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The liquid glows with scintillating colors.",
+          "2": "Small skull-shaped clouds rise from the brewing potion.",
+          "3": "The brew churns and twists as if alive.",
+          "4": "The liquid defies gravity, climbing the walls of its container and dripping up towards the ceiling."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s flesh takes on a permanent acrid smell.",
+          "2": "Caster’s hands are mottled and stained by strange essences.",
+          "3": "Liquids writhe snake-like within any container handled by the caster.",
+          "4": "Liquids boil away in the caster’s presence."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The potion explodes, resulting in 1d10 points of damage (Fort save against a DC equal to the intended potion’s spell check number is allowed for half damage).",
+          "2": "The potion seems fine, but in truth has no magical properties.",
+          "3": "Re-roll a normal result, and potion has the opposite intended effect as deemed appropriate by the judge.",
+          "4": "Re-roll a normal result, and potion functions as intended but for half the usual duration."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Misfire and corruption!",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "Love potion, poison.",
+          "18-21": "Animal control, gaseous form, healing.",
+          "22-23": "Shrinking, growth, levitation, water-breathing.",
+          "24-26": "Polymorph, speed, heroism.",
+          "27-31": "Invisibility, human control, fire resistance.",
+          "32-33": "Undead control, extraordinary healing, flying.",
+          "34-35": "Super-heroism, giant strength.",
+          "36+": "Longevity, invulnerability."
+        }
+      }
+    ]
+  }
+  

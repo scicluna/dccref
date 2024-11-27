@@ -1,0 +1,55 @@
+{
+    "table_name": "ward portal",
+    "notes": "Level: 1 -- Range: 10’ -- Duration: Varies -- Casting time: 1 action -- Save: None",
+    "general": "The caster magically wards a portal against passage. Any door, trap door, gate, portcullis, grate, or other such portal can be affected.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Sigil engraved upon portal",
+          "2": "Portal clouded by unnatural shadow",
+          "3": "Portal turns to stone/iron/steel/rock",
+          "4": "Magic circle encloses portal",
+          "5": "Mass of chains and ropes binds portal",
+          "6": "No visible effect"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1-3": "Minor",
+          "4-5": "Major",
+          "6": "Greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "For next 1d6 hours, any door the caster approaches automatically slams shut and locks",
+          "2": "All doors within 100’ slam shut and lock",
+          "3": "All doors within 100’ automatically unlock and open",
+          "4": "1d4 illusory doors appear on wall beside nearest door"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Portal is stuck fast but can still be opened by mortal means with immense effort (DC 20 Strength check).",
+          "14-17": "Portal is held in place for 2d6x10 minutes. It cannot be opened by mortal means, though a knock spell or powerful magical creature can open it.",
+          "18-19": "Portal is held in place for 2d6x10 hours. It cannot be opened by mortal means, though a knock spell or powerful magical creature can open it.",
+          "20-23": "Portal completely disappears, leaving in its place only a blank space of wall for 2d6x10 hours. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal reappears, it remains locked for another 1d4x10 hours.",
+          "24-27": "Portal completely disappears, leaving in its place only a blank space of wall for 2d6x10 days. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal reappears, it remains locked for another 2d6x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck.",
+          "28-29": "Portal completely disappears, leaving in its place only a blank space of wall for 4d6x10 days. During this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal reappears, it remains locked for another 4d6x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck.",
+          "30-31": "Portal completely disappears, leaving in its place only a blank space of wall for 4d6x10 days. The portal will reappear and unlock by the mental command of the caster. Otherwise, during this time, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. When the portal reappears, it remains locked for another 4d6x10 weeks. Additionally, any creature that opens the portal during the time of the ongoing effect (through magical means, of course) is subject to a curse: Will save or -2 Luck. Finally, a guardian is summoned. Any creature that attempts to open the door is attacked by something that lashes out from the door with: (roll 1d4) (1) tentacles, (2) fangs, (3) claws, (4) barbed tail. The attacking appendage has the following statistics: Atk +6, 1d6 dmg, AC 16, 20 hp.",
+          "32+": "Portal completely disappears, leaving in its place only a blank space of wall. This is an ongoing permanent effect. The portal will reappear and unlock by the mental command of the caster, but until then, no passage is possible via normal means. Portal can be detected with a detect invisibility spell; if detected, it is treated as locked, and cannot be opened by mortal means except through a knock spell or similar powerful magic. Any creature that forces open the portal against the caster’s intent is subject to a curse: Will save or -2 Luck. Finally, a guardian is summoned. Any creature that attempts to open the door is attacked by something that lashes out from the door with: (roll 1d4) (1) tentacles, (2) fangs, (3) claws, (4) barbed tail. The attacking appendage has the following statistics: Atk +12, 2d6 dmg, AC 18, 40 hp."
+        }
+      }
+    ]
+  }
+  

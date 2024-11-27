@@ -1,0 +1,54 @@
+{
+    "table_name": "lokerimons-orderly-assistance",
+    "notes": "Level: 4 -- Range: Varies -- Duration: Varies -- Casting Time: 1 action -- Save: Will vs. spell check DC",
+    "general": "The caster creates a conduit between himself and other spellcasters, allowing him to assist their spellcasting and to offset the costs of spellburn. Provided the spell’s duration allows, the caster can maintain the conduit and perform other actions with a DC 11 Will save. If the save fails, the conduit collapses, but the caster can perform his other action normally. For the purposes of this spell the caster initiating the spell is called the primary caster.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "A glimmering path of light connects the caster and his chosen target(s).",
+          "2": "The eyes of the connected casters glow with the same eerie blue illuminations.",
+          "3": "Sparks of magical lightning flicker between the connected casters."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster assumes alien personality traits borrowed from the connected casters.",
+          "2": "Caster must make a DC 10 Will check to avoid lending assistance to anyone who requests it from him.",
+          "3": "Caster suffers a permanent -1 to spell checks when alone.",
+          "4": "Physically touching another living person causes the caster great pain and inflicts 1 point of damage per round of contact if a DC 8 Fort save is failed."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "All spellcasters within 20’ suffer a -2 penalty to spell checks for 1d3 rounds.",
+          "2": "Caster temporarily loses a random point of Strength, Agility, or Stamina as spellburn ripples through his body (he gains no benefit from this spellburn).",
+          "3": "Caster’s next successful casting causes an ally to lose a point of Strength, Agility, or Stamina as spontaneous spellburn wracks his body (the affected person is chosen by the judge and this spellburn provides no bonus to the cast spell).",
+          "4": "Caster makes two spell checks on his next spell and must apply the lower roll."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster opens a magical conduit to another spellcaster within 20’ of his position. All spells cast by the connected caster gain a bonus to spell checks equal to the primary spellcaster’s Intelligence modifier or +2 (whichever is higher). In addition, the primary caster can contribute a single point of spellburn to the connected caster if the connected caster casts a spell while connected. This connection lasts for a single round.",
+          "20-23": "The caster opens a magical conduit to another spellcaster within 20’ of his position. All spells cast by the connected caster gain a bonus to spell checks equal to the primary spellcaster’s Intelligence modifier or +3 (whichever is higher). In addition, the primary caster can contribute up to two points of spellburn to the connected spellcaster if the connected caster casts a spell while connected. The conduit lasts for a number of round equal to the primary caster’s CL or until he chooses to break the conduit.",
+          "24-25": "The caster opens a magical conduit to up to two other spellcasters within 20’ of his position. All spells cast by the connected casters gain a bonus to spell checks equal to the primary spellcaster’s Intelligence modifier or +3 (whichever is higher). In addition, if the primary caster uses a point of spellburn immediately after casting this spell (after this result is determined), he does not benefit but can contribute that point of spellburn to each connected spellcaster’s efforts. This connection lasts for one round.",
+          "26-28": "The caster opens a magical conduit to any and all spellcasters of his choice within 40’ of his position. All spells cast by the connected casters gain a bonus to spell checks equal to the primary spellcaster’s Intelligence modifier or +3 (whichever is higher). In addition, if the primary caster uses a point of spellburn immediately after casting this spell (after this result is determined), he does not benefit but can contribute that point of spellburn to each connected spellcaster’s efforts. This connection lasts for a number of rounds equal to the primary caster’s CL or until he breaks the conduits. The primary caster can sever certain conduits while maintaining others if he wishes.",
+          "29-33": "The caster opens a magical conduit to a single caster within 20’ per CL. Spells cast by that connected caster gain a +4 bonus to spell checks. Each time the connected caster casts a spell, the primary caster can contribute points of spellburn up to his CL to assist the connected caster’s spell checks. This connection lasts for a number of rounds equal to the primary caster’s CL or until he breaks the conduit.",
+          "34-35": "The caster opens a magical conduit to a single caster within 20’ per CL. The next spell cast by that connected caster gains a bonus to the spell check equal to the primary caster’s CL. Each time the connected caster casts a spell, the primary caster can contribute points of spellburn up to his CL to assist the connected caster’s spell checks. In addition, each time the connected caster casts a spell, the primary caster can make a spell check using all his applicable modifiers. The connected caster can use his spell check or that of the primary caster’s to determine the power of the spell. The primary caster need not know the spell to make a spell check; he is simply contributing magical power. If both spell checks fail and the spell is lost, the connected caster loses it not the primary caster. This connection lasts for a number of rounds equal to the primary caster’s CL or until he breaks the conduit.",
+          "36-37": "The caster opens a magical conduit to any and all casters of his choosing within 20’ per CL. Spells cast by the connected casters gain a bonus to the spell check equal to the primary caster’s CL. Each time the connected casters cast a spell, the primary caster can contribute points of spellburn up to his CL to assist the connected casters’ spell checks. However, the primary caster cannot expend more points in spellburn than he has CL in a single round. Thus a 10th level caster could assist two other casters with 5 points of spellburn each, but could not assist a third because he has reached his maximum expenditure for the round. In addition, the primary caster can make a spell check with all applicable modifiers for any spell cast by the connected casters. The connected casters can use their own spell checks or that of the primary caster’s to determine the power of the assisted spells. The primary caster need not know the spells he aids to make a spell check. If the spell checks fail and the spell is lost, the connected casters lose it not the primary caster. This connection lasts for a number of rounds equal to the primary caster’s CL or until he breaks the conduits. The primary caster can sever certain conduits while maintaining others if he wishes.",
+          "38+": "A sizzling web of magical energy forms around the caster connecting him with any other casters of his choice within 100’. This connection lasts for twice the primary caster’s CL in rounds. During that time, the primary can either assist connected casters with a bonus to their spell checks equal to his CL or hinder them by reducing their spell checks by the same amount. In addition, the primary caster can choose to assist the connected casters with spellburn. All points contributed as spellburn are twice as effective (one point of spell burn adds +2 to the spell check). The primary caster can also dampen the spellburn efforts of hostile casters connected in the web, requiring them to spend twice as many spellburn points to receive a bonus (two points of spellburn add a +1 bonus). This connection lasts for a number of rounds equal to twice the primary caster’s CL or until he breaks the conduits. The primary caster can sever certain conduits while maintaining others if he wishes."
+        }
+      }
+    ]
+  }
+  

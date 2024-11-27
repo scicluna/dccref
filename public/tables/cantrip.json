@@ -1,0 +1,43 @@
+{
+  "table_name": "cantrip",
+  "notes": "Level: 1 -- Range: Up to 20’ per caster level -- Duration: Varies -- Casting time: 1 action -- Save: Will vs. spell check as applicable",
+  "general": "As wizards learn their craft, they practice many minor incantations that produce simple visual or auditory effects. This spell can be used to apply magical energy to many minor tasks. With the inherent risks that come from spellcasting, few wizards are so bold as to frequently invoke cantrips, but their availability is sometimes valuable. The cantrip spell can be used to enact any effect the caster pronounces at casting, within the limits of the spell, as outlined on the spell check table below",
+  "sub_tables": [
+    {
+      "subtable_name": "Manifestation",
+      "dice_size": "1d1",
+      "table": {
+        "1": "Varies"
+      }
+    },
+    {
+      "subtable_name": "Corruption",
+      "dice_size": "1d1",
+      "table": {
+        "1": "N/A"
+      }
+    },
+    {
+      "subtable_name": "Misfire",
+      "dice_size": "1d4",
+      "table": {
+        "1": "Caster accidentally summons a large bee that proceeds to chase him.",
+        "2": "Caster generates a patch of glue that attaches his boot to the floor until it is broken with a DC 15 Strength check.",
+        "3": "Caster’s hair changes color (at judge’s discretion).",
+        "4": "Caster’s eyes change color (at judge’s discretion)."
+      }
+    },
+    {
+      "subtable_name": "Spell Results",
+      "dice_size": "1d20",
+      "table": {
+        "1": "Lost, failure, and misfire.",
+        "2-11": "Lost. Failure.",
+        "12-13": "The caster creates a simple visual effect at a distance of up to 20’ per caster level. For example, a flash of light, dancing lights, a ray of moonlight, or a patch of darkness.",
+        "14-17": "As above, or the caster can create a simple auditory effect at similar range. For example, a whispered sentence, enhancing his voice to a booming shout, a fake dog bark, or basic ventriloquism.",
+        "18-19": "As above, or the caster can create a simple kinetic effect at similar range. For example, shove a mug off a table, tear the buttons off a dress, twist a knob, or cause a deck of cards to shuffle itself.",
+        "20+": "As above, or the caster can generate a dangerous fluid or energy of some kind that does up to 1d3 damage. For example, a dollop of acid or a freezing chill."
+      }
+    }
+  ]
+}

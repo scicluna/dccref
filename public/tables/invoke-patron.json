@@ -1,0 +1,43 @@
+{
+    "table_name": "invoke-patron",
+    "notes": "Level: 1 -- Range: Self -- Duration: Varies -- Casting time: 1 round, and the spell may be cast only a limited number of times, according to results of patron bond -- Save: None",
+    "general": "In order to learn this spell, the caster must first cast patron bond. The particulars of this spell vary according to the terms of the patron. In casting this spell, the wizard invokes the name of a supernatural patron  to request aid. This spell requires at least 1 point of spellburn. The patron responds by sending aid according to the nature of its followers; the judge will provide specifics. Note that continued casting of this spell may taint the wizard spiritually and physically.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "varies",
+        "table": {
+          "1": "The caster’s eyes glow with an unnatural light as the patron answers.",
+          "2": "A dark shadow looms around the caster, followed by a whispered voice that only the caster can hear.",
+          "3": "The ground trembles as if the patron is responding with immense power.",
+          "4": "A cryptic symbol appears in the air before the caster, glowing faintly with the essence of the patron."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1-4": "Minor corruption.",
+          "5-7": "Major corruption.",
+          "8": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (3 or less) corruption + patron taint; (4-5) corruption; (6+) patron taint.",
+          "2-11": "Failure. Unlike other spells, invoke patron may not be lost for the day. Depending on the results of patron bond, the wizard may still be able to cast it.",
+          "12-13": "Per judge.",
+          "14-17": "Per judge.",
+          "18-19": "Per judge.",
+          "20-23": "Per judge.",
+          "24-27": "Per judge.",
+          "28-29": "Per judge.",
+          "30-31": "Per judge.",
+          "32+": "Per judge."
+        }
+      }
+    ]
+  }
+  

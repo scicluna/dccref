@@ -1,0 +1,52 @@
+{
+    "table_name": "nythuuls-procupine-coat",
+    "notes": "Level: 2 -- Range: Self -- Duration: 1 round per CL -- Casting time: 1 action -- Save: N/A",
+    "general": "This spell cloaks the caster in a bristling layer of sharp quills. The quills act as armor, increases unarmed melee damage, and with more potent results, can be used as a ranged weapon.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "The caster’s skin is covered in long, sharp quills like that of a porcupine."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster’s body hair becomes stiff and quill-like.",
+          "2": "Small quills speckle the caster’s face and his nose assumes a hedge-hog-like quality.",
+          "3": "The caster’s skin constantly itches and may impose a -1 penalty to tasks that require finesse or concentration at the judge’s discretion.",
+          "4": "The caster develops a taste for worms and grubs, preferably freshly rooted from the earth."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "The quills knit together, immobilizing the caster for 1d4 rounds until they fall out of his flesh.",
+          "2": "The quills appear underneath the caster’s flesh, causing 1 point of damage to him each round he moves more than 5’ or engages in any spellcasting or physical attacks.",
+          "3": "The quills are soft and oily, providing no protection and require a successful DC 8 Ref save each time the caster wishes to pick up an item or walk at more than half normal speed, with a failed save meaning the caster drops the item or slips and falls.",
+          "4": "The caster’s eyes turn small and beady, and his distance vision suffers (all attacks or spell checks against targets farther than 10’ away suffer a -2 penalty).",
+          "5": "Quills fire from the caster’s body at random, requiring all within 15’ of him to make a DC 10 Reflex save or suffer 1d4 damage."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse.",
+          "2-13": "Failure, but spell is not lost.",
+          "14-15": "The caster’s body erupts in stiff, sharp quills that provide a +1 bonus to his AC. These quills do not inhibit spellcasting and spell checks made by the caster are unmodified.",
+          "16-19": "The caster’s body erupts in stiff, sharp quills that provide a +1 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 10 Ref save immediately after his attack or suffer 1d3 points of damage from contact with the quills.",
+          "20-21": "The caster’s body erupts in stiff, sharp quills that provide a +2 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 15 Ref save immediately after his attack or suffer 1d4 points of damage from contact with the quills. The caster’s quill-covered hands can also be used in melee combat. A successful attack with them inflicts 1d6 damage.",
+          "22-25": "The caster’s body erupts in stiff, sharp quills that provide a +2 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d4 points of damage from contact with the quills. The caster’s quill-covered hands can also be used in melee combat. A successful attack with them inflicts 1d6 damage. Lastly, the caster can throw the quills as a missile attack. Each has a range of 20/40/60 and does 1d6 points of damage on a successful strike.",
+          "26-29": "The caster’s body erupts in stiff, sharp quills that provide a +3 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d4+CL points of damage from contact with the quills. The caster’s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +2 bonus to attack rolls and inflict 1d8+2 damage on a successful hit. The quills can be thrown as a missile attack. Each has a range of 20/40/60 and does 1d6 points of damage on a successful strike.",
+          "30-31": "The caster’s body erupts in stiff, sharp quills that provide a +4 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d6+CL points of damage from contact with the quills. The caster’s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +4 bonus to attack rolls and inflict 1d8+4 damage on a successful hit. Lastly, up to three quills can be thrown as a missile attack against a single target each round. The quills have a range of 20/40/60, impart a +4 magical bonus to attack rolls, and do 1d8+4 points of damage on a successful strike. A separate attack roll is made for each thrown quill.",
+          "32-33": "The caster’s body erupts in stiff, sharp quills that provide a +5 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 20 Ref save immediately after his attack or suffer 1d8+CL points of damage from contact with the quills. The caster’s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +5 bonus to attack rolls and inflict 1d8+5 damage on a successful hit. Lastly, up to six quills can be thrown as a missile attack against a single target each round. The quills have a range of 20/40/60, impart a +5 magical bonus to attack rolls, and do 1d8+5 points of damage on a successful strike. A separate attack roll is made for each thrown quill.",
+          "34+": "The caster’s body erupts in stiff, sharp quills that provide a +6 bonus to his AC. These quills do not inhibit spellcasting, and spell checks made by the caster are unmodified. In addition, anyone that attacks the caster in melee combat must make a DC 25 Ref save immediately after his attack or suffer 1d10+CL points of damage from contact with the quills. The caster’s quill-covered hands can also be used in melee combat and are considered magical weapons for the purpose of affecting targets protected from normal attacks. The quills impart a +6 bonus to attack rolls and inflict 1d8+6 damage on a successful hit. Lastly, up to six quills can be thrown as a missile attack against a single target each round. The quills have a range of 20/40/60, impart a +6 magical bonus to attack rolls, and do 1d8+6 points of damage on a successful strike. A separate attack roll is made for each thrown quill. In addition, the caster gains the ability to simultaneously hurl all the quills from his body, filling a 30’ radius area around him with flying, razor-sharp spikes. All targets within that area suffer (CL)d10 damage (i.e., a level 6 caster would inflict 6d10 damage) unless protected by solid cover, in which case they receive a DC 20 save for half damage but may still take damage from the razor-sharp spikes penetrating the cover. Those protected by a magic shield with a spell check of 24+ are also unaffected by this burst of quills. Once this effect occurs, the caster no longer gains the benefits of the porcupine coat."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,33 @@
+{
+    "table_name": "wood-wyrding",
+    "notes": "Level: 2 -- Range: 30’ + 5’ per CL -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The cleric destroys the functionality of wooden objects, rendering them useless or causing them to attack their owners.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The target object(s) is limned with colored radiance appropriate to the cleric’s deity.",
+          "2": "The cleric’s fingers temporarily become stick-like and leafed.",
+          "3": "The smell of fresh-cut wood and fallen leaves fills the air around the cleric.",
+          "4": "Protoplasmic vines coil around the target object(s)."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-13": "Failure.",
+          "14-15": "The cleric causes a wooden object 5’ square or smaller to bend and warp, destroying its functionality. Shutters spring open, arrows and spears become bent and useless, affected melee weapons impart a -4 penalty to attack rolls, chest lids pop open, etc.",
+          "16-19": "The cleric causes a wooden object 10’ square or smaller to bend and warp, destroying its functionality. Doors become jammed in their frames, small boats spring leaks, wagon wheels warp, etc. The cleric can affect multiple, smaller, wooden objects as long as they do not exceed the affected size in total.",
+          "20-21": "The cleric causes a wooden object 20’ square or smaller to bend and warp, destroying its functionality. Bridges break, roofs collapse, walls buckle, sailing ships spring leaks, etc. The cleric can affect multiple, smaller, wooden objects as long as they do not exceed the affected size in total.",
+          "22-25": "The cleric causes a number of small wooden objects equal to his level to suddenly sprout long, sharp thorns that inflict 1d6+CL damage to any creature carrying, wearing, or otherwise touching the affected objects. Carried objects are automatically dropped. The affected objects cannot be larger than a spear or shield. Magical wooden objects are unaffected.",
+          "26-29": "The cleric changes one wooden item per CL (of spear size or smaller) into a serpent that attacks other creatures as commanded by the cleric. Magical wooden objects are unaffected. Each serpent has the following stats: Init +1; Atk bite +2 melee (dmg 1d3+CL), AC 12, HD 1d8+CL; MV 30’; SV Fort +3, Ref +4, Will +2, AL N. In addition, there is a cumulative 5% per CL that the serpents are venomous (DC 12 Fort or 1d3 Stamina).",
+          "30-31": "The cleric changes one wooden item per CL (of spear size or smaller) into an even larger serpent that attacks other creatures as commanded by the cleric. Magical wooden objects are unaffected. Each serpent has the following stats: Init +3; Atk bite +4 melee (dmg 1d6+CL), AC 14, HD 2d8+CL; MV 30’; SV Fort +4, Ref +6, Will +2, AL N. In addition, there is a cumulative 10% per CL that the serpents are venomous (DC 14 Fort or death).",
+          "32-33": "The cleric has terrifying command over wooden objects. He may warp objects the size of tall trees, destroying wooden palisades, collapsing massive bridges, causing catapults and siege towers to fail spectacularly, etc. Moreover, using the same warped wood, he can transform any sufficiently shaped segment of the destroyed object (such as a fallen tree, log, or beam) into a titanic serpent with the stats of a giant boa constrictor (see Appendix P) that obeys his commands.",
+          "34+": "With a startling invocation, the cleric invokes the power of his deity to destroy all wooden objects near him. To a range of 100’ per CL, he causes all wood to instantaneously rot, leaving nothing but spongy powder behind. Even magical wood may be affected, with a chance of 5% per CL. This spell effectively disarms armed troops wielding spears, bows & arrows, or other wooden weapons; destroys wood-frame homes, possibly crushing those within; causes entire wooden palisades to vanish; sinks fleets of ships; and causes other spectacular effects."
+        }
+      }
+    ]
+  }
+  

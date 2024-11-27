@@ -1,0 +1,29 @@
+{
+    "table_name": "righteous-fire",
+    "notes": "Level: 5 -- Range: 100’ + 10’ per CL -- Duration: Instantaneous -- Casting time: 1 action -- Save: See below",
+    "general": "The cleric invokes a conflagration of divine fire to burn his foes.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "See below."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-19": "Failure.",
+          "20-21": "The cleric designates one target, which is suddenly engulfed in holy flame. The creature takes 1d6+2 points of damage per CL (maximum 10d6+20). A Ref save reduces the damage suffered by half.",
+          "22-25": "A column of fire roars down to fill a 20’ cubic area. The fire does 1d6+1 points of damage per CL (maximum 10d6+10). A Ref save reduces the damage suffered by half.",
+          "26-27": "A column of fire roars down to fill a 20’ cubic area. The fire does 1d10+2 points of damage per CL (maximum 10d10+20). A Ref save reduces the damage taken by half. Any creature slain by the fire is completely incinerated, leaving no remains and likely no possibility of revivification.",
+          "28-29": "The cleric calls down two columns of divine flame. They each fill a 20’ cubic area. The fires do 1d12+3 points of damage per CL (maximum 10d12+30). No save is possible. A creature caught in both columns only takes damage once. Any creature slain by the fire is completely incinerated, leaving no remains and likely no possibility of revivification.",
+          "30-35": "The cleric calls down three columns of divine flame. They each fill a 20’ cubic area. The fires do 1d20+4 points of damage per CL (maximum 10d20+40). No save is possible. A creature caught in both columns only takes damage once. Any creature slain by the fire is completely incinerated, leaving no remains and likely no possibility of revivification.",
+          "36-37": "The cleric designates a nearby cloud in the sky, which proceeds to rain burning fire and lava down upon the ground. This affects an area of up to half a square mile. (If indoors or underground, this spell is still effective.) All creatures caught by the conflagration suffer 1d20 points of damage per CL. In addition, all creatures must make a Ref save; those that fail catch fire and suffer an additional 1d6 points of damage each round until the flames are extinguished with a subsequent save. Any creature slain by the initial rain of fire is completely incinerated.",
+          "38+": "Pointing to a nearby mountain, hill, or rock anywhere within line of sight, the cleric raises his arms and calls forth a volcano from the ground. Gouts of liquid fire burst forth from the ground as lava coalesces all around. All creatures within a mile of the volcano are instantly killed via immolation unless they are immune to fire, such as fire elementals, or have extraordinary magical protection. All creatures to a range of the next five miles take an initial damage of 6d6 from lava and fire, then an additional 2d6 damage per round (no save) from the rain of fire, soot, coals, and ash until they reach a safe distance of five miles away. The sky is blackened by volcanic ash, weather patterns are disrupted, crops are destroyed, cities are leveled, and the wrath of a deity is evident."
+        }
+      }
+    ]
+  }
+  

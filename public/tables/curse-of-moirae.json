@@ -1,0 +1,35 @@
+{
+    "table_name": "curse-of-moirae",
+    "notes": "Level: 2 (The Three Fates) -- Range: Varies -- Duration: Varies -- Casting time: 1 round -- Save: Will vs. spell check when appropriate",
+    "general": "The caster measures out the target’s life as best a mortal can, increasing the likelihood of an untimely (though, ultimately, preordained) end. After casting the spell, the caster has 1d4+CL rounds to successfully make a touch attack against a target, triggering the curse. If the caster fails to bestow the curse on a target, the caster must succeed on a Fort save (DC 10+CL) or take 1d3 points of damage per CL.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster’s fingertips become smudged with soot that is transferred to the target with a successful attack.",
+          "2": "A small black spider appears in the caster’s palm that leaps to the target with a successful attack.",
+          "3": "The caster’s physical attacks manifest as a gout of black mist, exhaled onto the target.",
+          "4": "The caster’s lips blacken to the color of charcoal, and the curse is bestowed with a kiss (a successful attack)."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "The target suffers a -2 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d4+CL rounds. The target takes an additional 1d4 damage each time it is struck for damage during the spell’s duration.",
+          "16-19": "The target suffers a -4 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d6+CL rounds. The target takes an additional 1d6 damage each time it is struck for damage during the spell’s duration.",
+          "20-21": "The target suffers a -6 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d8+CL rounds. The target takes an additional 1d8 damage each time it is struck for damage during the spell’s duration.",
+          "22-25": "The target suffers a -8 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d10+CL rounds. The target takes an additional 1d10 damage each time it is struck for damage during the spell’s duration.",
+          "26-29": "The target suffers a -10 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d12+CL rounds. The target takes an additional 1d12 damage each time it is struck for damage during the spell’s duration.",
+          "30-31": "The target suffers a -10 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d12+CL rounds. The target takes an additional 1d14 damage each time it is struck for damage during the spell’s duration.",
+          "32-33": "The target suffers a -10 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d12+CL rounds. The target takes an additional 1d16 damage each time it is struck for damage during the spell’s duration. Finally, the target will die of natural causes (at the judge’s discretion) at the end of 24 hours. This final curse is lifted if the target succeeds on a Fort save (DC 15+CL) or if the caster is slain before the spell reaches its grisly end.",
+          "34+": "The target suffers a -10 penalty to all saving throws, AC, and attacks against the caster and his allies for the next 1d12+CL rounds. The target takes an additional 1d20 damage each time it is struck for damage during the spell’s duration. Finally, the target will die of natural causes (at the judge’s discretion) at the end of the next hour. This final curse is lifted if the target succeeds on a Fort save (DC 15+CL), but even slaying the caster does not bring the spell to an end."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,32 @@
+{
+    "table_name": "bottomfeeder-bond",
+    "notes": "Level: 3 (Bobugbubilz) -- Range: 30’ or more -- Duration: 1 turn or more -- Casting time: 2 rounds -- Save: Will vs. spell check DC for intelligent creatures",
+    "general": "Bobugbubilz holds court on a distant plane populated by endless horizons of swampland. In this place he is lord of all amphibians, as well as many other swamp dwellers, including crocodiles, catfish, venomous snakes, and biting flies. This spell reinforces the caster’s bond to Bobugbubilz in the eyes of his mortal followers, and with such a bond the caster gains some degree of control over such creatures.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "See below."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "All mundane swampland creatures that come within 30’ of the caster regard him with a neutral disposition. Swampland creatures include all amphibians, as well as crocodiles, fish, snakes and other reptiles, insects, and any other mundane creature that lives in a swamp. Intelligent swamp-dwellers, such as lizardmen, receive a Will save to resist the spell effect. If failed, they perceive the caster as non-threatening. The effect continues for 1 turn, or until the caster takes an action that threatens or harms the creatures.",
+          "18-21": "As above, except even magical, un-dead, or extra-planar swampland creatures regard the caster as non-threatening. This includes lacedons (water-dwelling ghouls), swamp zombies, witch doctors, scrags (water-dwelling trolls), and primal variants of swamp-dwellers. Intelligent creatures receive a Will save to resist, as above.",
+          "22-23": "As above, and the caster is regarded as non-threatening by all reptilian, amphibian, piscine, and insectoid creatures, as well as the specific swamp-dwelling varieties. Dragons are not considered reptilian for these purposes. Intelligent creatures receive a Will save to resist, as above.",
+          "24-26": "As above, and the spell’s range is extended to 100’.",
+          "27-31": "As above, and the spell’s duration is extended to 1 hour.",
+          "32-33": "All reptilian, amphibian, piscine, and insectoid creatures within 100’ regard the caster as not only neutral but potentially as a friend and ally. Unintelligent and mundane creatures of 4 HD or less are automatically affected, while intelligent, magical, and extraplanar creatures, or those of 5 or more HD receive a Will save to resist. Affected creatures hop, slither, and slide to the caster’s side in an effort to nuzzle and offer their assistance. The effect lasts for 1d6+2 turns. While under this friendly influence, the creatures obey the caster’s commands to the best of their ability (limited by their intelligence and physical capabilities, of course). Creatures sent into dangerous situations or those that oppose their nature receive another Will save at a +4 bonus to break the effect. Examples would include fish ordered out of the water, frogs ordered to fight a creature much larger than themselves, and so on.",
+          "34-35": "As above, and the effect extends to 200’ with a duration of 2d6+4 turns.",
+          "36+": "As above, and the effect is ongoing for 1d6 days, to a range of 200’. Creatures affected remain under the spell’s influence until its duration ends. By the time the spell ends, the caster is like the Pied Piper of swampland creatures, trailed by a train of crocodiles, snakes, fish, toads, frogs, and tadpoles, along with a veritable cloud of insects. When the effect disperses, this mass of creatures slithers off into the muck."
+        }
+      }
+    ]
+  }
+  

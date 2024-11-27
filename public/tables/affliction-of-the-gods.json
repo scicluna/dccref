@@ -1,0 +1,33 @@
+{
+    "table_name": "affliction-of-the-gods",
+    "notes": "Level: 4 -- Range: 50’ + 10’ per CL -- Duration: Varies -- Casting time: 1 action -- Save: Fort vs. spell check DC",
+    "general": "The cleric strikes down his enemies with afflictions, conditions, and wounds. Those opposed to the cleric’s faith suffer a -2 penalty to their Fort save. The spell affects all enemies in a 10’ square per CL, sparing allied creatures in the area. Effects vary depending on the spell result.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The targets’ skin roils and bubbles as the blight enters their bodies.",
+          "2": "Coils of divine light streak down from on high or burst from the ground, wrapping themselves around the targets.",
+          "3": "Rays of energy shine from the cleric’s holy symbol and touch each affected target in turn.",
+          "4": "Ghostly figures coalesce around the targets, touching their faces with insubstantial hands."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-17": "Failure.",
+          "18-19": "All enemies within the area of effect must make a Fort save or be deafened for CL hours. Deaf creatures suffer a -4 penalty to initiative rolls and to avoid surprise. Deaf spellcasters suffer a -2 penalty to spell checks.",
+          "20-23": "All targets within the area of effect must make a Fort save or be crippled for CL hours. Crippled creatures have their movement reduced to 5’ and suffer a -2 penalty to attack rolls, damage rolls, saving throws, and spell checks.",
+          "24-25": "All targets within the area of effect must make a Fort save or be blinded for CL hours. Blind creatures suffer a -4 penalty to initiative, attacks, damage rolls, saving throws, and spell checks. They are also easily surprised and firing missile weapons incurs a -8 penalty to hit, with a 50% chance of hitting a random ally if missed.",
+          "26-27": "All targets within the area of effect must make a Fort save or temporarily lose 1d8 Strength per CL for 24 hours. Creatures reduced to 0 Strength fall unconscious until they recover at least one Strength point.",
+          "28-33": "All targets within the area of effect are afflicted with a flesh-eating bacteria. Each round, they must make a Fort save or take 1d6 cumulative damage (1d6 on round 1, 2d6 on round 2, etc.) for CL rounds. Success avoids damage for that round only. Organic materials worn or carried are destroyed in 1d4 rounds. Neutralize disease or magical flame can destroy the bacteria, though the flame inflicts full damage.",
+          "34-35": "All targets within the area of effect must make a Fort save or be stricken with a divine plague. The plague causes 1d10+CL damage and a loss of 1 Luck point immediately. Each subsequent day, the target must make a DC 25 Fort save (DC decreases by 1 daily) or suffer another 1d6 damage and lose 1 Luck point. The disease lasts for 4 days + 1 day per CL.",
+          "36-37": "All targets within the area of effect must make a Fort save or spontaneously combust! Non-magical possessions and the victims themselves burn for 1d10 damage per round. Extinguishing the flames requires a full-round action and a DC 20 Reflex save.",
+          "38+": "The cleric’s deity intervenes, utterly annihilating all targets within the area of effect who fail their Fort save. The targets melt into pools of bloody slime and vanish. The cleric’s spell checks suffer a -10 penalty for a week due to the deity’s direct involvement unless he undertakes a significant task in the deity’s name."
+        }
+      }
+    ]
+  }
+  

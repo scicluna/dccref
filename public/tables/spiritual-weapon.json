@@ -1,0 +1,30 @@
+{
+    "table_name": "spiritual-weapon",
+    "notes": "Level: 3 -- Range: 60’ + 20’ per CL -- Duration: 1 round per CL -- Casting time: 1 action -- Save: N/A",
+    "general": "The cleric empowers his own personal weapon with his faith, allowing it to smite his enemies as if wielded by an unseen warrior. Attacks with this weapon use the cleric’s normal melee attack modifier and his normal attack dice, although the melee attack roll is adjusted by the cleric’s Strength or Personality modifier (whichever is higher). Greater spell checks increase attack and damage rolls, as well as add additional action dice. The weapon uses the cleric’s crit die and table for determining the results of a critical hit. If cast upon a magical weapon, the cleric adds any “pluses” the weapon has to his spell check. The spiritual weapon itself cannot be targeted or damaged by physical attacks, but can be rendered harmless with a dispel magic or a similar magic-negating effect. Additionally, while the spiritual weapon is empowered, it also gains one or more special abilities, chosen by the cleric: Unholy Avenger, Holy Shock, Light of the Lord, Sacred Defender.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "The cleric’s weapon glows with a divine radiance and leaps into the air, moving about as if wielded by an invisible champion."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-15": "Failure.",
+          "16-17": "The cleric can direct the weapon to attack a single target within range. The weapon has the cleric’s normal chance to hit (modified by Strength or Personality) and inflicts normal damage (also modified by Strength or Personality). The weapon has one special ability. The weapon continues attacking without any concentration, but changing targets requires one action to recall and redirect it.",
+          "18-21": "The cleric can direct the weapon to attack a single target within range. The weapon gains +1 to hit, inflicts an additional 1d3 damage, and has one special ability. The weapon continues attacking without concentration, but changing targets requires one action to recall and redirect it.",
+          "22-23": "The cleric can direct the weapon to attack any target within range. The weapon gains +2 to hit, inflicts an additional 1d4 damage, and has one special ability. The weapon continues attacking without concentration, and the cleric can redirect it with only a thought. The weapon returns to the cleric’s hand at the end of the spell.",
+          "24-26": "The cleric can direct the weapon to attack any target within range. The weapon gains +3 to hit, inflicts an additional 1d5 damage, and has two special abilities. The weapon continues attacking without concentration, and the cleric can redirect it with only a thought. The weapon returns to the cleric’s hand at the end of the spell.",
+          "27-31": "The cleric can direct the weapon to attack any target within range. The weapon gains an additional action die for multiple attacks (the next lowest in the dice chain). These attacks can target two creatures within 10’ of one another. The weapon gains +3 to hit, inflicts an additional 1d5 damage, and has two special abilities. The cleric can redirect it with only a thought. The weapon returns to the cleric’s hand at the end of the spell.",
+          "32-33": "The cleric can direct the weapon to attack any target within range. The weapon gains an additional action die for multiple attacks (the next lowest in the dice chain). These attacks can target two creatures within 10’ of one another. The weapon gains +4 to hit, inflicts an additional 1d6 damage, and has three special abilities. The cleric can redirect it with only a thought. The weapon returns to the cleric’s hand at the end of the spell.",
+          "34-35": "The cleric can direct the weapon to attack any target within range. The weapon gains two additional action dice for multiple attacks (the next lowest in the dice chain). These attacks can target up to three creatures within 10’ of one another. The weapon gains +4 to hit, inflicts an additional 1d6 damage, and has three special abilities. The cleric can redirect it with only a thought. The weapon returns to the cleric’s hand at the end of the spell.",
+          "36+": "The cleric can direct the weapon to attack any target within range. The weapon gains two additional action dice (both 1d24) for multiple attacks. These attacks can target up to three creatures within 10’ of one another. The weapon gains +5 to hit, inflicts an additional 1d8 damage, and has all four special abilities. The cleric can redirect it with only a thought. The weapon returns to the cleric’s hand at the end of the spell."
+        }
+      }
+    ]
+  }
+  

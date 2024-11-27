@@ -1,0 +1,59 @@
+{
+    "spell_name": "scorching-ray",
+    "notes": "Level: 2 -- Range: 80’ -- Duration: Instantaneous -- Casting time: 1 action -- Save: Ref partial (see below)",
+    "general": "The caster summons the flames of Hell to immolate his foes.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d5",
+        "table": {
+          "1": "arcing ray of fire",
+          "2": "laser beam",
+          "3": "flaming bullet",
+          "4": "sizzling gout of flame",
+          "5": "burning hands followed by spray of sparks"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "all hair on the caster’s head is permanently burned off (including eyebrows and facial hair)",
+          "2": "the caster’s hands and arms are blackened, as if they had been charred and burned",
+          "3": "the caster’s skin is permanently sunburned, causing discomfort and pain when he wears armor or rough fabrics",
+          "4": "the caster’s face is caught in a burst of flame, melting his flesh into a horribly grotesque appearance",
+          "5": "the caster develops an extreme sensitivity to heat, automatically taking an extra +1 damage on all dice related to fire damage from now on",
+          "6": "greater",
+          "7": "major",
+          "8": "minor"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "caster explodes a ball of fire centered on himself, causing 1d6 damage and burning up all flammable objects on his person",
+          "2": "caster sends forth an errant ray of fire that causes 1d6 damage to one randomly determined ally within 30’",
+          "3": "caster lights the nearest ally on fire briefly for 1d4 damage",
+          "4": "caster inadvertently reverses the spell, summoning a wave of chilling cold that automatically extinguishes all flames within 100’ of him"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse.",
+          "2-11": "Failure, but spell is not lost.",
+          "12-13": "One target takes 1d6 + caster level damage. Additionally, it must make a Reflex save vs. spell check or catch fire. Each round thereafter it suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected.",
+          "14-15": "One target takes 1d8 + caster level damage. Additionally, it must make a DC 15 Reflex save or catch fire. Each round thereafter it suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected.",
+          "16-19": "The caster can launch two rays, at the same target or at two targets. Each ray does 1d10 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected.",
+          "20-21": "The caster can launch three rays, at the same target or different targets. Each ray does 1d12 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected.",
+          "22-25": "The caster sends forth a fanning wave of flames. The attack is shaped like a cone, centered on the caster and expanding to a width of 40’ at its farthest end 80’ away. All targets within the cone take 1d12 + caster level damage. Additionally, each target must make a DC 15 Reflex save or catch fire. Each round thereafter the target suffers an additional 1d6 damage until it succeeds on a DC 15 Reflex save to extinguish the fire. Flammable objects on the target (e.g., scrolls or tomes) have a 75% chance of catching fire unless protected.",
+          "26-29": "The caster detonates a blast of fire centered on himself. He suffers no damage, but all targets within 20’ are automatically immolated for 1d12 points of damage. In addition, the blast sends out up to a dozen jets of flame, each 80’ long and aimed at a single target. Each jet does 1d20 + caster level damage and automatically catches the target on fire for an additional 1d6 damage each round until the target makes a DC 15 Reflex save. Flammable objects on the target (e.g., scrolls or tomes) automatically catch fire. No target can be damaged by more than one jet of flame.",
+          "30-31": "The caster detonates a blast of fire centered on himself. He suffers no damage, but all targets within 30’ are automatically immolated for 1d20 points of damage. In addition, the blast sends out up to a dozen jets of flame, each 80’ long and aimed at a single target. Each jet does 1d20 + caster level damage and automatically catches the target on fire for an additional 1d8 damage each round until the target makes a DC 15 Reflex save. Flammable objects on the target (e.g., scrolls or tomes) automatically catch fire. No target can be damaged by more than one jet of flame.",
+          "32-33": "The caster summons a jet of magma and flame from the earth’s core, which explodes upward from his feet then blasts out at his enemies. He can direct a scorching ray of flame at any target he can see, to a range of 1,000’. The amount of damage done by each ray depends on how much the caster must dilute the pure magma of the earth’s core. A single target takes 6d20+CL damage; 2-5 targets each take 4d20+CL damage; 6-10 targets each take 3d12+CL damage; 11-30 targets each take 1d20+CL damage; 31-50 targets each take 1d12+CL damage; 51-100 targets each take 1d8 damage; and 101 or more targets each take 1d6 damage. Every target must succeed on a DC 15 Reflex save or catch fire, suffering an additional 1d6 damage every round thereafter until they again succeed on a DC 15 Reflex save."
+        }
+      }
+    ]
+  }
+  

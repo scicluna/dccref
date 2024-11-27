@@ -1,0 +1,59 @@
+{
+    "table_name": "color-spray",
+    "notes": "Level: 1 -- Range: 40’ -- Duration: Instantaneous -- Casting time: 1 action -- Save: Will vs. check",
+    "general": "The caster summons forth a spray of brilliant colors that blind and dazzle the target.",
+    "sub_tables": [
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Caster’s skin permanently changes to a rainbow pattern.",
+          "2": "Caster’s eyes each change to a new, different color.",
+          "3": "Caster’s hair changes color.",
+          "4": "Caster’s skin changes color.",
+          "5-7": "Minor corruption.",
+          "8": "Major corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Colored energy blasts back on the caster, blinding him for 1d4 rounds.",
+          "2": "Color spray is delayed uncontrollably; judge secretly rolls a die type of his choice; spell is discharged that many rounds later on new re-rolled spell check result.",
+          "3": "Color sprays arc in different random directions rather than together in a cohesive rainbow; roll 1d12 for direction (clock face with 12:00 ahead of caster); 1d4+1 color hues blast out, each in a different direction, causing blindness (1d4 rounds, DC 12 Will save to resist) to first creature in that direction, whether friend or foe."
+        }
+      },
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Spray of colored arrows.",
+          "2": "Rainbow from above.",
+          "3": "Flash of variegated hues.",
+          "4": "Spotlight of rotating colors from the sky.",
+          "5": "Cloud of many colors or a single color.",
+          "6": "Shadow of subdued, washed-out colors.",
+          "7": "Inversion of colors in the affected area.",
+          "8": "Rope-like coils of light that emanate from the caster’s fingertips."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1) corruption; (2) patron taint (or corruption if no patron); (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "One target within range must make a Will save or be blinded for 1d4 rounds. Sightless creatures are immune.",
+          "14-17": "Up to two individual targets within range must make a Will save or be blinded for 1d4 rounds. Sightless creatures are immune.",
+          "18-19": "Up to three targets within range can be targeted. Each target must make two Will saves or be affected. Targets that fail one save are blinded; targets that fail both saves are blinded and knocked unconscious. Duration is 2d4+1 rounds. Sightless creatures are immune.",
+          "20-23": "Up to three targets within range can be targeted. Each target of 2 or less HD is automatically affected; targets of more than 2 HD must make two Will saves or be affected. Targets that fail one save are blinded; targets that fail both saves are blinded and knocked unconscious. Duration is 2d4+1 rounds. Sightless creatures are immune.",
+          "24-27": "A blast of colored chaos affects all targets in a cone 40’ long and from 10’ to 30’ wide (caster can decide). All targets, including allies, within the cone take 1d4 damage, are knocked unconscious for 3d4+1 rounds, and awake blinded for another 1d4+1 rounds. Creatures of 2 HD or less receive no save; others can attempt a Will save to resist. Sightless creatures are immune.",
+          "28-29": "A blast of colored chaos affects all targets in a cone 40’ long and from 10’ to 30’ wide (caster can decide). All targets, including allies, within the cone take 1d6 damage, are knocked unconscious for 3d4+3 rounds, and awake blinded for another 2d4+1 rounds. Creatures of 3 HD or less receive no save; others can attempt a Will save to resist. Sightless creatures are immune.",
+          "30-31": "A blast of colored chaos affects all targets in a cone 100’ long and from 10’ to 40’ wide (caster can decide). The caster may specify whether the cone affects all targets or only enemies. Affected creatures within the cone take 1d8 damage, are knocked unconscious for 3d4+3 rounds, and awake blinded for another 2d4+1 rounds. Creatures of 4 HD or less receive no save; others can attempt a Will save to resist. Sightless creatures are immune.",
+          "32+": "An incredible surge of rainbow light blasts forth from the caster’s fingertips. The spell creates an arcing pattern around the caster, forming a powerful rainbow shining down from the heavens toward the caster’s fingers. The display of light is visible for several miles. All enemies within 200’ of the caster’s location are potentially affected: creatures of 5 HD or less are affected automatically; all others are affected on a failed save. Affected creatures take 2d6 damage, are knocked unconscious for 1d4+1 turns, and awake blinded for another turn. Moreover, allies who see the display are awed and inspired, and receive a +1 morale bonus to all rolls (attack, damage, saves, skills, etc.) for the next 1d4 rounds."
+        }
+      }
+    ]
+  }
+  

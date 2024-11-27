@@ -1,0 +1,57 @@
+{
+    "spell_name": "ray-of-enfeeblement",
+    "notes": "Level: 2 -- Range: 150’ -- Duration: Instantaneous -- Casting time: 1 action -- Save: Will vs. spell check",
+    "general": "This necromantic spell requires at least 1 point of spellburn. The caster issues a dangerous strength-draining ray, which destroys the physical prowess of a target. Reducing a creature to 0 Strength transforms it into a jelly-like mass, unable to support its own weight or defend itself from attacks. If a target does not have a defined Strength score, assume 10 for normal humans and man-sized creatures. Lost ability scores heal back at the normal rate.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d5",
+        "table": {
+          "1": "black ray",
+          "2": "flaming ray",
+          "3": "wavering disruption of the air",
+          "4": "line of steam",
+          "5": "billowing jet of mist"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d10",
+        "table": {
+          "1": "caster’s muscles wither, causing him to permanently lose 1 point of Strength",
+          "2": "whenever the caster takes Strength damage in the future, he heals at an abnormally slow rate, requiring two days of healing to recover one lost Strength point",
+          "3": "the caster is no longer able to expend Strength points in spellburn",
+          "4-7": "minor",
+          "8-9": "major",
+          "10": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "one randomly determined ally within range is stricken with a ray that causes him to temporarily lose 1d6 Strength points (no save)",
+          "2": "all allies within range temporarily suffer a wave of weakness, causing them to drop weapons and shields, release their holds on ropes, and so on",
+          "3": "the nearest 1d4 enemies receive a ray of power, which grants them a +2 Strength bonus to attacks and damage for the next turn",
+          "4": "the caster shoots himself in the foot (literally) with a ray of enfeeblement, reducing the strength of his legs and cutting his movement rate in half for the next turn"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse.",
+          "2-11": "Failure, but spell is not lost.",
+          "12-13": "With full concentration for one round, the caster can attack one target within range, which must make a Will save or temporarily lose 1d6 points of Strength.",
+          "14-15": "With full concentration for one round, the caster can attack one target within range, which must make a Will save or temporarily lose 1d8+1 points of Strength.",
+          "16-19": "With full concentration for one round, the caster can attack one target within range that temporarily loses 3d6+1 points of Strength. Creatures of 1 HD or less receive no save; others receive a Will save. Additionally, the caster gains 2 points of Strength for 1 turn (does not stack with multiple castings of this spell).",
+          "20-21": "The caster can launch two rays. Each ray does 3d6+1 Strength damage. Creatures of 2 HD or less receive no save; others receive a Will save. Additionally, the caster gains 3 points of Strength for 1 turn.",
+          "22-25": "The caster can launch three rays. Each ray does 4d6+1 Strength damage. Creatures of 2 HD or less receive no save; others receive a Will save. Additionally, the caster gains 4 points of Strength for 1 turn.",
+          "26-29": "The caster can launch four rays. Each ray does 4d6+1 Strength damage. Creatures of 3 HD or less receive no save; others receive a Will save. Additionally, the caster gains 5 points of Strength for 1 turn.",
+          "30-31": "The caster can launch five rays. Each ray does 4d6+1 Strength damage. Creatures of 3 HD or less receive no save; others receive a Will save. Additionally, the caster gains 6 points of Strength for 1 turn.",
+          "34+": "The caster sends forth a burst of debilitating energy that weakens all enemies within a 150’ range! All enemies within range take 4d6+4 Strength damage. Creatures of 3 HD or less receive no save; others receive a Will save. Additionally, the caster gains 6 points of Strength for 1 turn."
+        }
+      }
+    ]
+  }
+  

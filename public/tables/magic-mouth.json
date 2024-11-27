@@ -1,0 +1,54 @@
+{
+    "table_name": "magic-mouth",
+    "notes": "Level: 2 -- Range: Varies -- Duration: 1 hour or longer -- Casting time: 1 turn -- Save: N/A",
+    "general": "This spell creates a magical mouth that speaks when certain triggers occur.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Caster’s discretion."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "The caster stutters terribly.",
+          "2": "The caster mumbles constantly, even in his sleep.",
+          "3": "The caster’s teeth start to decay at an alarming rate and fall out at the rate of 1 every 1d7 days until magically healed.",
+          "4": "The caster can’t stop repeating the phrase his magic mouth was meant to impart.",
+          "5": "Minor.",
+          "6": "Major."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A roughly human-sized magic mouth appears, but it does not speak and has absolutely terrible halitosis, which proceeds to stink up the entire area until it vanishes 1d7 days later.",
+          "2": "A magic mouth appears for 1d6 hours but it mumbles and stutters such that it cannot be understood.",
+          "3": "The caster inadvertently creates a 2’ tall magic nose instead of a magic mouth, and the nose lasts for 1d8 hours during which time it oozes mucus in a rather disgusting display.",
+          "4": "The magic mouth appears on top of the caster’s own mouth and lasts for 1d6 rounds, during which time his speech is limited to the phrase he was planning to impart to the magic mouth."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "The caster can create a magic mouth on an inanimate surface he touches. The magic mouth lasts 1 hour. It will speak a single phrase of up to 10 words whenever any creature approaches within 20’. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 2’ wide or smaller. The mouth cannot attack or take any action other than speak.",
+          "16-19": "The caster can create a magic mouth on an inanimate surface he touches. The magic mouth lasts 1 day. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 2’ wide or smaller. The mouth cannot attack or take any action other than to speak.",
+          "20-21": "The caster can create a magic mouth on an inanimate surface he touches. The magic mouth lasts 1 day. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. Once its phrase is spoken, the mouth has limited ability to converse on a single subject. Treat the mouth as Int 6; its knowledge is limited to a single subject that the caster can dictate in the 1-turn casting time. For example, the caster might describe the contents of a room or discuss the denizens of a dungeon. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 2’ wide or smaller.",
+          "22-25": "The caster can create a magic mouth on an inanimate surface within 100’. The magic mouth lasts 1 week. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. Once its phrase is spoken, the mouth has limited ability to converse on a single subject. Treat the mouth as Int 6; its knowledge is limited to a single subject that the caster can dictate in the 1-turn casting time. For example, the caster might describe the contents of a room or discuss the denizens of a dungeon. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 4’ wide or smaller.",
+          "26-29": "The caster can create a magic mouth within 100’. It can be cast on a surface or in midair. The magic mouth lasts 1 month. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. Once its phrase is spoken, the mouth has limited ability to converse on a single subject. Treat the mouth as Int 6; its knowledge is limited to a single subject that the caster can dictate in the 1-turn casting time. For example, the caster might describe the contents of a room or discuss the denizens of a dungeon. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 4’ wide or smaller.",
+          "30-31": "The caster can create a magic mouth within 100’. It can be cast on a surface or in midair. The magic mouth lasts 1 year. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. Once its phrase is spoken, the mouth has limited ability to converse on a single subject. Treat the mouth as Int 6; its knowledge is limited to a single subject that the caster can dictate in the 1-turn casting time. For example, the caster might describe the contents of a room or discuss the denizens of a dungeon. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 4’ wide or smaller.",
+          "32-33": "The caster can create a magic mouth within 100’. It can be cast on a surface or in midair and has a permanent duration. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. Once its phrase is spoken, the mouth has limited ability to converse on a single subject. Treat the mouth as Int 6; its knowledge is limited to a single subject that the caster can dictate in the 1-turn casting time. For example, the caster might describe the contents of a room or discuss the denizens of a dungeon. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 4’ wide or smaller.",
+          "34+": "The caster can create a magic mouth within 100’. It can be cast on a surface or in midair and has a permanent duration. The caster can specify a trigger condition. For example, any creature approaching within a certain distance, a specific creature, a certain kind of creature, and so on. Assume the magic mouth can perceive its surroundings to a distance of 100’ or as limited by line of sight. The magic mouth will speak a phrase of up to 20 words whenever the condition is triggered. Once its phrase is spoken, the mouth has limited ability to converse on a single subject. Treat the mouth as Int 12; its knowledge is limited to a single subject that the caster can dictate in the casting time. The caster can extend the casting time to up to 1 hour and impart additional knowledge to the mouth during this time. For example, the caster might describe the contents of a room or discuss the denizens of a dungeon. The magic mouth’s appearance is at the discretion of the caster (human, animal, etc.), as long as it is 6’ wide or smaller."
+        }
+      }
+    ]
+  }
+  

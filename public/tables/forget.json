@@ -1,0 +1,58 @@
+{
+    "table_name": "forget",
+    "notes": "Level: 2 -- Range: Touch or more -- Duration: 1 round or more -- Casting time: 1 round -- Save: Will vs. spell check",
+    "general": "The caster makes a creature forget something.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Gray-toned fingertip",
+          "2": "Flaming fingertip",
+          "3": "Cone of mist"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Caster’s facial features 'smooth out,' becoming extremely generic and difficult to remember.",
+          "2": "Caster has difficulty remembering details, and each day tends to forget several minor details from the day previous, such that in adventures, whenever a detail of prior adventures need to be recalled, there is a 25% chance the character cannot remember it.",
+          "3": "Minor corruption.",
+          "4": "Minor corruption.",
+          "5": "Minor corruption.",
+          "6": "Major corruption.",
+          "7": "Major corruption.",
+          "8": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Among the spells the caster can still cast today, he forgets how to cast one randomly determined spell for the remainder of the day.",
+          "2": "Caster permanently forgets the last 24 hours of his life.",
+          "3": "Caster forgets his own name and for the next month has the hardest time remembering it, no matter how many times he is reminded.",
+          "4": "Caster accidentally installs his own childhood memories in the minds of all allies within 20’, giving them a potentially confusing pastiche of memories and introducing many embarrassing childhood incidents into their awareness (e.g., bedwetting, spankings, first love, etc.)."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "After spending a round casting this spell, the caster must attempt a touch attack on the next round. If he misses, the spell is wasted. If the caster touches a target, it receives a Will save; failure means it loses its memory of the last 1d6 rounds. To the creature, events in this time period never happened. Anything learned or memorized in this time period is also forgotten. This effect automatically disrupts concentration and typically disrupts any ongoing spells or magical rituals. The forgotten memories never return.",
+          "16-19": "The caster can target one creature within 30’. The target receives a Will save to resist. Failure means it loses its memory of the last 1d6 turns. To the creature, events in this time period never happened. Anything learned or memorized in this time period is also forgotten. This effect automatically disrupts concentration and typically disrupts any ongoing spells or magical rituals. The forgotten memories never return.",
+          "20-21": "The caster can target an object or one creature within 30’. If he targets an object (for example, a doorknob or a sling stone), the spell is triggered when that object next touches a living creature (any living creature – including the caster). The latent spell remains active for 1 day. Once the spell is triggered, either by direct targeting or via a touched object, the target receives a Will save to resist. Failure means it loses its memory of the last 1d6 hours. To the creature, events in this time period never happened. Anything learned or memorized in this time period is also forgotten. This effect automatically disrupts concentration and typically disrupts any ongoing spells or magical rituals. The forgotten memories never return.",
+          "22-25": "The caster can target an object or one creature within 100’. If he targets an object (for example, a doorknob or a sling stone), the spell is triggered when that object next touches a living creature (any living creature – including the caster). The latent spell remains active for 1 week. Once the spell is triggered, either by direct targeting or via a touched object, the target receives a Will save to resist. Failure means it loses its memory of the last 1d7 days. To the creature, events in this time period never happened. Anything learned or memorized in this time period is also forgotten. This effect automatically disrupts concentration and typically disrupts any ongoing spells or magical rituals. The forgotten memories never return.",
+          "26-29": "The caster can target an object or one creature within 100’. If the caster targets an object (for example, a doorknob or a sling stone), the spell is triggered when that object next touches a living creature (any living creature – including the caster). The latent spell remains active for 1 week. The spell can have one of two effects. If cast on an object, the spell trigger allows the target a Will save to resist. Failure means it loses its memory of the last 1d4+1 months. To the creature, events in this time period never happened. Anything learned or memorized in this time period is also forgotten. This effect automatically disrupts concentration and typically disrupts any ongoing spells or magical rituals. The forgotten memories never return. Alternately, instead of targeting a range of recent memories, the caster can target one specific memory he knows exists within a creature familiar to him. For example, if the target first met the caster two months ago, he can erase all traces of that encounter. If the target learned a new spell six months ago, the caster can make it forget that spell. This memory is lost permanently. When used in combat, this spell can cause an enemy caster to forget a spell he intends to use.",
+          "30-31": "The caster can create a zone of forgetfulness that extends around him to a range of 40’. Any unfriendly creature entering this zone must make a Will save or potentially lose its recent memories. If the target fails, it immediately forgets why it is there or what it is trying to do. This can potentially cause hostile creatures to become neutral or even friendly. The zone of forgetfulness moves with the caster and lasts for one hour. While the effect is active, the caster can choose to expend all remaining spell energy to end the spell early by targeting one creature within 100’ to wipe its memory blank. The affected creature experiences total amnesia, forgetting its name, its origin, and any and all class abilities. It may retain some skills (such as a warrior’s attack bonus, based on years of muscle training) but mental talents (such as spellcasting) are lost.",
+          "32-33": "The caster can create a zone of forgetfulness that extends around him to a range of 100’. Any unfriendly creature entering this zone must make a Will save or potentially lose its recent memories. If the target fails, it immediately forgets why it is there or what it is trying to do. This can potentially cause hostile creatures to become neutral or even friendly. The zone of forgetfulness moves with the caster and lasts for one hour. While the effect is active, the caster can choose to expend all remaining spell energy to end the spell early by targeting one creature within line of sight to wipe its memory blank. Line of sight can include scrying devices and crystal balls. The affected creature experiences total amnesia, forgetting its name, its origin, and any and all class abilities. It may retain some skills (such as a warrior’s attack bonus, based on years of muscle training) but mental talents (such as spellcasting) are lost.",
+          "34+": "The caster can influence the memories of vast groups of people and potentially even change them. By casting this spell, all creatures within 1 mile are caught within the caster’s sphere of forgetfulness. Creatures of 1 HD or less are automatically affected, while those of 2+ HD receive a save that is adjudicated by the judge. Creatures that make their save do not have their memories altered, which may leave them feeling crazy when everyone around them remembers something different. The caster can change the common memories of affected creatures in up to three important ways, with all minor details altered collectively to support the change. For example, the caster can change memories of what the king’s face looks like, or whether last summer was hot, or the number of cows in Old Man Hanson’s field. Additionally, the caster can pick out a total of 10 HD of people within the affected area to affect more substantially. This can be ten characters of 1 HD, or one character of 10 HD, or any combination thereof. These affected creatures receive a second save, and on a failure they experience amnesia to a depth of time defined by the caster: a few weeks, several months, years, or their entire lives."
+        }
+      }
+    ]
+  }
+  

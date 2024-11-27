@@ -1,0 +1,35 @@
+{
+    "table_name": "shield-maiden",
+    "notes": "Level: 2 (Sezrekan) -- Range: Self -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The caster summons a shield maiden, a spirit warrior bound to protect the caster at the cost of her own life. Shield maidens intercede on physical attacks, taking damage in place of their master for any successful attack within 4 points of the caster's target AC. No more than 50 shield maidens can be summoned in the totality of a campaign, and summoning multiple maidens simultaneously causes them to attack the caster before vanishing.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A simple cloth doll grows to become a life-sized shield maiden, replete with armor and wielding a spear.",
+          "2": "A lock of blond hair is consumed in a burst of light, leaving a shield maiden standing in the dissipating smoke.",
+          "3": "The caster draws a line across his palm with a dagger, and a shield maiden emerges from the pooling blood.",
+          "4": "The caster calls out to the sky, and a shield maiden appears, stepping from between the rays of the dazzling sun."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "A shield maiden appears with stats as a level 1 warrior, 10 hp, and mundane equipment. She serves for 1 hour before vanishing into mist.",
+          "16-19": "A shield maiden appears with stats as a level 2 warrior, 15 hp, and mundane equipment. She serves for 1 day before vanishing into mist.",
+          "20-21": "A shield maiden appears with stats as a level 3 warrior, 20 hp, and mundane equipment. She bears a kite shield, granting +1 to her master’s AC against ranged attacks and +1 to saves against physical damage. She serves for 1 week before vanishing into mist.",
+          "22-25": "A shield maiden appears with stats as a level 4 warrior, 25 hp, and armed with a +1 spear. She bears a great shield, granting +2 to her master’s AC, +3 vs. ranged attacks, and +2 to saves against physical damage. She serves for 1 month before vanishing into mist.",
+          "26-29": "A shield maiden appears with stats as a level 4 warrior, one exceptional ability score, 25 hp, and armed with a +2 spear. She bears a great shield, granting +2 to her master’s AC, +3 vs. ranged attacks, and +2 to saves against physical damage. She can make an immediate counterattack against any foe that strikes her master. She serves for 1 year before vanishing into mist.",
+          "30-31": "A shield maiden appears with stats as a level 5 warrior, two exceptional ability scores, 30 hp, and armed with a +2 spear. She bears a great shield, granting +2 to her master’s AC, +3 vs. ranged attacks, and +2 to saves against physical damage. She can make an immediate counterattack against any foe that strikes her master. She serves for 1 year before vanishing into mist.",
+          "32-33": "A shield maiden appears with stats as a level 6 warrior, three exceptional ability scores, 35 hp, armed with a +2 spear, astride a pegasus. She bears a great shield, granting +2 to her master’s AC, +3 vs. ranged attacks, and +2 to saves against physical damage. She can make an immediate counterattack against any foe that strikes her master. She serves for 10 years before vanishing into mist.",
+          "34+": "A shield maiden appears with stats as a level 7 warrior, four exceptional ability scores, 50 hp, and armed with a +2 spear, astride a pegasus. She bears a +1 great shield, granting +3 to her master’s AC, +4 vs. ranged attacks, and +3 to saves against physical damage. She can make an immediate counterattack against any foe that strikes her master. She serves for the remainder of her master’s life. Upon the caster’s death, she vanishes into mist."
+        }
+      }
+    ]
+  }
+  

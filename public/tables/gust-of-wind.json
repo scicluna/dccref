@@ -1,0 +1,55 @@
+{
+    "table_name": "gust-of-wind",
+    "notes": "Level: 3 -- Range: 10’ or more -- Duration: Instantaneous or longer -- Casting time: 1 round -- Save: N/A",
+    "general": "The caster exhales and his breath becomes a mighty gust of wind. The wind is sufficient to extinguish small flames, like candles and torches, and may push back creatures flying or even walking in the caster’s direction. The wind will fan large fires into larger conflagrations and send unattended objects skidding away.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "current of colored air that materializes into fast-moving gust",
+          "2": "storm of churning air behind caster, which whirls into gust of wind",
+          "3": "dozens of tiny cyclones that sweep outward from caster",
+          "4": "nothing more than a mundane gust of wind"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d5",
+        "table": {
+          "1": "the caster attracts thunderstorms and lightning strikes like a living lightning rod, such that he takes an additional +1 damage from all lightning-based attacks and is perpetually the recipient of natural thunderstorms, eventually granting him a strange reputation amongst his peers",
+          "2": "the caster’s sneezes become colossal in nature, sending forth gusts of wind that extinguish flames and send small objects flying",
+          "3": "when the caster talks, his breath is powerful enough to cause flames to waver 100’ away and send small objects shooting away",
+          "4": "major",
+          "5": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d3",
+        "table": {
+          "1": "a gust of errant wind sends the caster’s belongings (weapon, backpack, spell book, etc.) flying 1d4x10’ in a randomly determined direction",
+          "2": "the caster summons a torrential windstorm centered on himself, which presses him into the ground for 1d4 rounds and prevents him from moving or taking any action each round unless he can make a DC 20 Strength check",
+          "3": "all arrows within 100’ are enchanted to ride the wind more effectively, and receive an additional +1 bonus to damage rolls for the next turn"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1) corruption; (2) patron taint (or corruption if no patron); (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The gust of wind is a cone shape originating from the caster with a range of 10’ and a final width of 10’. All creatures in the affected area must make a DC 14 Strength check or be forced back to the edge of the cone. Unattended objects of less than 10 pounds are also pushed back. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d6 damage.",
+          "18-21": "The gust of wind is a cone shape originating from the caster with a range of 20’ and a final width of 20’. All creatures in the affected area must make a DC 16 Strength check or be forced back to the edge of the cone. Unattended objects of less than 20 pounds are also pushed back. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d6 damage.",
+          "22-23": "The gust of wind is a cone shape originating from the caster with a range of 40’ and a final width of 20’. All creatures in the affected area must make a DC 18 Strength check or be forced back to the edge of the cone. Unattended objects of less than 30 pounds are also pushed back. Closed flames, such as those in a lantern, are extinguished 25% of the time. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d8 damage.",
+          "24-26": "The gust of wind is a cone shape originating from the caster with a range of 100’ and a final width of 30’. All creatures in the affected area must make a DC 20 Strength check or be forced back to the edge of the cone. Unattended objects of less than 50 pounds are also pushed back. Closed flames, such as those in a lantern, are extinguished 50% of the time. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d10 damage.",
+          "27-31": "The gust of wind is a cone shape originating at any point designated by the caster within 200’. It has a range of 100’ and a final width of 40’. The caster can use this cone to push objects toward him if he points the cone in such a direction. All creatures in the affected area must make a DC 22 Strength check or be forced back to the edge of the cone. Unattended objects of less than 75 pounds are also pushed back. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d12 damage and is pinned against the obstruction until it makes a DC 22 Strength check or the wind dies down. Closed flames, such as those in a lantern, are extinguished 50% of the time. Additionally, the gust of wind continues for up to 2 rounds for as long as the caster continues to concentrate. Creatures attempting to enter the area of the gust must make a DC 22 Strength check to do so, and missile weapons launched into the area of the wind take a -6 penalty to their attack roll.",
+          "32-33": "The gust of wind originates at any point designated by the caster within 1,000’. The caster can control the vertical and horizontal shape of the wind gust and can send it snaking into the sky, around a corner, or down a pit. Creatures caught within the gust move along the designated vector. Those tossed into the air take normal falling damage when ejected (1d6 points per 10’ fallen). The gust has a range of 300’ and a final width of 100’. The caster can use this gust of wind to push objects toward him if he points the cone in such a direction. All creatures in the affected area must make a DC 28 Strength check or be forced back to the edge of the cone. Unattended objects of less than 200 pounds are also pushed back. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d14 damage and is pinned against the obstruction until it makes a DC 28 Strength check or the wind dies down. Closed flames, such as those in a lantern, are extinguished 90% of the time. Additionally, the gust of wind continues for up to 10 rounds for as long as the caster continues to concentrate. Creatures attempting to enter the area of the gust must make a DC 28 Strength check to do so, and missile weapons launched into the area of the wind take a -8 penalty to their attack roll.",
+          "34-35": "The caster generates a massive gust of wind that emanates from him in an arc up to 360 degrees. If the caster wishes to protect allies (who are behind him, for example), he can limit the arc to less than the full 360 degrees; i.e., the wind could emanate in a 270-degree angle and the rear 90-degree arc could be protected. The gust of wind travels up to 400’ in all directions and can vector in a manner designated. For example, the caster could send the wind up into the sky or push targets down into the ground. Creatures that are at a vertical height when the wind diminishes take normal falling damage (1d6 per 10’ fallen). The caster can use this massive burst to send an entire army to the edges of the windstorm. All creatures in the affected area must make a DC 30 Strength check or be forced back to the edge of the effect. Unattended objects of less than 400 pounds are also pushed back. If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d16 damage and is pinned against the obstruction until it makes a DC 30 Strength check or the wind dies down. All flames in the area are automatically extinguished. The gust of wind continues for up to 20 rounds for as long as the caster continues to concentrate. Creatures attempting to enter the area of the gust must make a DC 30 Strength check to do so, and missile weapons launched into the area of the wind take a -10 penalty to their attack roll.",
+          "36+": "The caster calls forth a wind gust that is like a miniature thunderstorm, complete with dark gusts of rain, lightning, and thunder. The storm lasts for 1d4 turns (no concentration required) or until the caster ends the effect. The caster can protect a 'bubble' centered around him and up to 40’ in diameter. All other creatures within 1,000’ in all directions are affected. All creatures are jostled by the winds for 1d6 damage per round and steadily pushed by the winds to the outer edges of the storm at a rate of 100’ per round (DC 30 Strength check to resist). If a target being pushed back impacts an obstruction before hitting the edge of the cone, it takes 1d20 damage and is pinned against the obstruction until it makes a DC 30 Strength check or the wind dies down. In addition, creatures caught within the area of effect are struck by myriad flashes of ball lightning, taking 2d6-4 points of lightning damage each round (result of 0 or less indicates no lightning strikes this round). All caught within the gust are soaking wet; all flames are extinguished; and torches are difficult to re-light because of the moisture. Unattended objects of less than 500 pounds are also pushed back to the edge of the thunderstorm. It is impossible to launch missile fire weapons in the thunderstorm."
+        }
+      }
+    ]
+  }
+  

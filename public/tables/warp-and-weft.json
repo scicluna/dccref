@@ -1,0 +1,34 @@
+{
+    "table_name": "warp-and-weft",
+    "notes": "Level: 3 (The Three Fates) -- Range: 1d100’ +10’ per CL -- Duration: 1d3+CL turns, except where noted -- Casting time: 2 rounds -- Save: Will save vs. spell check if unwilling",
+    "general": "Servant to the Three Fates, the caster can bend, stretch—and in rare instances— weave the threads of destiny that rule the universe. Such power always comes with great risk, and even the caster’s masters are loath to alter what has already been decided. Once cast, the spell effect can be declared at any time, regardless of initiative order. Each time the spell is unsuccessfully cast there is a cumulative 1% chance that the caster winks from existence, never to return. If the caster elects to turn the spell’s effects on himself, he must first attempt a Will save vs. spell check or immediately cease to exist.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Caster freezes for the duration of the casting time, perceiving the strands and threads of fate that make up the universe.",
+          "2": "Large, pale, interdimensional spiders descend through rifts in reality, drawing threads of fate-silk behind them.",
+          "3": "A dusky hue passes over the caster’s vision and all living creatures within his sight appear as corpses, as he witnesses the inevitable end to all living things."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster can alter a single saving throw, ensuring that a failed save is successful or a successful save is failed.",
+          "18-21": "The caster can alter 1d3 saving throws or attack rolls, making failed rolls successful or vice versa.",
+          "22-23": "The caster can alter 1d5 saving throws, attack rolls, or damage rolls. He can make failed rolls successful or vice versa or ensure maximum or minimum damage on damage rolls.",
+          "24-26": "The caster can alter 1d7 saving throws, attack rolls, spell checks, skill checks (including thief skills), or damage rolls. He can make failed checks successful or vice versa or ensure maximum or minimum results on damage rolls. Altered spells succeed at the lowest possible spell check result, or fail, but are not lost.",
+          "27-31": "As result 24-26 above or the caster can cause 1d3 targets to suffer critical failures or successes to attack rolls or spell checks.",
+          "32-33": "As result 24-26 above or the caster can cause 1d5 targets to suffer critical failures or successes to attack rolls or spell checks.",
+          "34-35": "As result 24-26 above and the caster can cause 1d7 targets to suffer critical failures or successes to attack rolls or spell checks.",
+          "36+": "The caster can alter 1d7 saving throws, attack rolls, spell checks, skill checks (including thief skills), or damage rolls, and cause 1d7 targets to suffer critical failures or successes to attack rolls or spell checks. Alternatively, for 1d5+CL rounds, the caster determines the failure or success of every die rolled within the spell’s radius. This includes attacks, saving throws, spell checks, skill checks (including thief skills), and damage rolls. Damage rolls can be maximized or minimized. Altered spells succeed at the lowest possible check result, or fail, but are not lost. The caster’s control of fate is not fine enough to determine critical failures or successes for attacks and spell checks (though such results can still be generated naturally). There is a 5% cumulative chance per round that the Fates reject the caster’s intervention, ending the spell and inflicting 1d20 damage to all creatures within the spell radius."
+        }
+      }
+    ]
+  }
+  

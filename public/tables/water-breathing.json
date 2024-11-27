@@ -1,0 +1,56 @@
+{
+    "table_name": "water-breathing",
+    "notes": "Level: 3 -- Range: Touch -- Duration: 1 hour per caster level -- Casting Time: 1 round -- Save: Will to negate",
+    "general": "The caster grants himself and others the ability to breathe water and function beneath the waves.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target grows gill slits on the neck.",
+          "2": "Target’s body becomes scaly and assumes a greenish-blue or silver hue.",
+          "3": "Target’s eyes bulge fishlike in their sockets and its mouth puckers.",
+          "4": "Target’s nose and mouth transform into thin slits."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster must immerse himself in water for 10 minutes each day or suffer great pain (-2 to all rolls).",
+          "2": "Caster’s voice takes on a bubbling, distorted quality as if speaking underwater.",
+          "3": "Caster’s flesh becomes permanently discolored and scaly.",
+          "4": "Caster’s nose and ears vanish and are replaced with flaps of fishy flesh."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster gasps for breath and passes out for 1d10 minutes.",
+          "2": "Caster’s skin becomes dry and cracked, and if not immersed in water for 1 hour, he temporarily loses 1 point of Stamina.",
+          "3": "Caster and all within 10’ of him are buffeted by a rain of fish that do 1d4 points of damage.",
+          "4": "Caster loses the ability to speak for 1d6 hours.",
+          "5": "Caster’s skin becomes covered in slick mucus for 1d6 hours, reducing movement by 10 feet per round and inflicting a -2 penalty to attacks, spell checks, skill checks involving a firm grip, and initiative, but the slime does grant a +2 bonus to escape restraints."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "Caster can breathe underwater for the duration of the spell. This does not protect his belongings or improve his movement rate underwater nor does it make him unable to breathe air.",
+          "18-21": "Caster and up to three additional creatures can breathe underwater for the duration of the spell. This does not protect their belongings or improve their movement rate underwater nor does it make them unable to breathe air.",
+          "22-23": "Caster and up to six additional creatures can breathe underwater for the duration of the spell. This does not protect their belongings or improve their movement rate underwater nor does it make them unable to breathe air.",
+          "24-26": "Caster and up to ten additional creatures can breathe underwater for the duration of the spell. In addition, the caster (and only the caster) gains great swimming ability that lets him move at his normal rate beneath the waves, and all of his belongings are magically protected from the submersion. His allies’ belongings are not similarly protected.",
+          "27-31": "Caster and up to three additional creatures gain the ability to breathe underwater, swim at normal speed while underwater, and have their belongings magically protected from the effects of submersion.",
+          "32-33": "Caster and up to six additional creatures gain the ability to breathe underwater, swim at normal speed while underwater, and have their belongings magically protected from the effects of submersion.",
+          "34-35": "Caster and up to ten additional creatures gain the ability to breathe underwater, swim at normal speed while underwater, and have their belongings magically protected from the effects of submersion.",
+          "36+": "The caster becomes an aquatic creature for as long as he remains in the water. He can breathe water and air with equal ability, move normally underwater, suffer no damage from pressures found at extreme depths, and can speak with any intelligent aquatic creature. All of his possessions are protected from submersion. As a creature of the water, the caster gains a +2 bonus to all rolls made while in the water. Additionally, any creature that holds the caster’s hand gains the same benefit as long as contact is maintained. The duration of this transformation is permanent or until the caster completely exits the water and steps foot on dry land once again."
+        }
+      }
+    ]
+  }
+  

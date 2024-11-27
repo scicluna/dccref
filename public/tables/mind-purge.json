@@ -1,0 +1,56 @@
+{
+    "table_name": "mind-purge",
+    "notes": "Level: 5 -- Range: 20’ plus 10’ per level -- Duration: Varies -- Casting Time: 1 round -- Save: Will vs. Spell check DC",
+    "general": "The caster blasts his victim’s mind with magical amnesia, causing the target to temporarily or even permanently forget everything about itself.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target spews smoke from nose, ears, and mouth.",
+          "2": "A flash of crimson fire bursts from the target’s eyes.",
+          "3": "Tendrils of evil-looking protoplasm erupt from the caster’s hands to burrow into the target’s head.",
+          "4": "The caster inhales streams of sparkling energy from the target’s mouth."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster becomes absent-minded and must make a DC 7 Luck check each morning or misplace a randomly determined, useful object.",
+          "2": "Caster lacks name-recognition (he may be physically memorable, but nobody can ever place his name).",
+          "3": "One person at random completely forgets the caster.",
+          "4": "Caster takes on habits or physical tics possessed by another (typically someone he has cast this or other mind control spells on in the past); habit/tic is determined randomly or chosen by the judge."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster forgets who he is for 1d3 rounds (no spellcasting and stands befuddled trying to recall who he is and what he is doing).",
+          "2": "All within 15’ radius must make a DC 10 Will save or forget 1 random memory.",
+          "3": "Universe forgets where the caster was and misplaces him (caster is randomly moved 1d10×10’ away from current location and must re-roll initiative if in combat).",
+          "4": "Any allies (including caster) within a 15’ radius of the caster must make a DC 10 Will save or believe themselves to be another randomly determined ally for 1d3 rounds.",
+          "5": "Caster must make a spell check for his most powerful spell or forget it for the day."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster causes a spellcasting target to immediately make a spell check for every spell known. Any result of 'lost' or 'failure' on the spell check indicates the target loses the ability to cast that spell for the day. Corruption, misfires, or disapproval is never invoked as a result of these enforced spell checks.",
+          "20-23": "The caster causes a spellcasting target to immediately make a spell check for every spell known. The target suffers a penalty to spell checks equal to the caster’s Intelligence or Luck modifier (whichever is greater). Any result of 'lost' or 'failure' on the spell check indicates the target loses the ability to cast that spell for the day. Corruption, misfires, or disapproval is never invoked as a result of these enforced spell checks.",
+          "24-25": "Target is afflicted with amnesia and completely forgets its identity. Victims of this spell lose their spellcasting abilities if they possess them. They remain in the amnesic state until a remove curse is cast upon them or until they make a successful Will save at the start of the next day (a new save is allowed each day).",
+          "26-28": "The caster reduces the target’s Personality and Intelligence to 3 if the victim fails a Will save. Targets that use spells suffer a -2 penalty to their saving throws. This effect is permanent until a remove curse or other powerful restorative magic is cast on the victim.",
+          "29-33": "The caster can choose 1 target per level of experience and reduce the target’s Personality and Intelligence to 3 if the victim fails a Will save. Targets who use spells suffer a -2 penalty to their saving throws. This effect is permanent until a remove curse or other powerful restorative magic is cast on the victim.",
+          "34-35": "The caster purges knowledge of his target’s identity from those around him, making the target a complete stranger to them for all intents and purposes. All friends, allies, and enemies (not including the spellcaster) within 100’ per CL must make a Will save or completely forget the victim’s identity and any relationship they may have with it. The forgetfulness is permanent unless negated via dispel magic, remove curse, or similar great magic.",
+          "36-37": "The caster purges knowledge of his target’s identity from all who have ever met the target, making the target a complete stranger to them for all intents and purposes. All friends, allies, and enemies, including everyone the target has ever met regardless of distance from the target at the time the spell is cast, must make a Will save or completely forget the victim’s identity and any relationship they may have with it. The forgetfulness is permanent unless negated via dispel magic, remove curse, or similar great magic.",
+          "38+": "The caster removes the target’s identity from the multiverse. Not only does the target lose all his mental facilities, but anyone who had ever heard of the target forgets it exists. Books mentioning the target’s name become blank, songs written about the target are forgotten, and even stone carvings depicting the target become featureless. It is as if the target had never existed. Only the intervention of divine power can restore the target’s identity to the cosmos."
+        }
+      }
+    ]
+  }
+  

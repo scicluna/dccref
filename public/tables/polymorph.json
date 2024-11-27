@@ -1,0 +1,57 @@
+{
+    "table_name": "polymorph",
+    "notes": "Level: 4 -- Range: 30’ -- Duration: Varies -- Casting Time: 1 round -- Save: Will vs. Spell check DC",
+    "general": "The caster transforms himself or another into a different creature.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target’s body twists and boils like molten clay.",
+          "2": "A puff of smoke obscures the target temporarily, revealing its changed form when the smoke disperses.",
+          "3": "The target shines with blinding light that fades away, leaving it in its new shape.",
+          "4": "The target’s skin turns inside out, revealing its internal organs, before twisting back to take on a different shape."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "One of the caster’s appendages transforms into that of another creature.",
+          "2": "Caster’s eyes become slitted like a serpent’s.",
+          "3": "Caster gains a scaly tail.",
+          "4": "Caster’s tongue becomes forked.",
+          "5": "Caster’s hair is replaced by feathers.",
+          "6": "Caster’s speech takes on an animalistic tone."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target is transformed into an inoffensive animal or pest.",
+          "2": "Partial transformation leaves the target with a changed head but a normal body.",
+          "3": "Target’s skin changes but that is all.",
+          "4": "Spell attracts 1d4 specimens of the intended transformation type to the caster’s position unless completely inappropriate for type, climate, or terrain; creatures arrive in 1d100 minutes, angry and hungry."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster can transform himself into a creature with Hit Dice less than or equal to his own. He assumes the creature’s form and manner of locomotion, as well as the ability to survive in the creature’s normal habitat but gains no other powers. The transformation lasts 1 minute per caster level.",
+          "20-23": "The caster can transform himself or another target into a creature with Hit Dice less than or equal to his own. The target is allowed a Will save to negate the transformation if unwilling. The changed character assumes the creature’s form and manner of locomotion, as well as the ability to survive in the creature’s normal habitat but gains no other powers. The transformation lasts 1 minute per caster level.",
+          "24-25": "The caster can transform himself or another target into a creature with Hit Dice less than or equal to his own. The target is allowed a Will save to negate the transformation if unwilling. The changed character assumes the creature’s form and manner of locomotion, as well as the ability to survive in the creature’s normal habitat but gains no other powers. The transformation lasts 1 hour per caster level.",
+          "26-28": "The caster transforms himself into a creature with Hit Dice less than or equal to one and a half times his level. In addition, the caster can use one of the creature’s racial powers or abilities. The change lasts 1 hour per level.",
+          "29-33": "The caster transforms himself or another target into a creature with Hit Dice less than or equal to one and a half times his level. The target is allowed a Will save to negate the transformation if unwilling. The target can use one of the creature’s racial powers or abilities. The change lasts 1 hour per level.",
+          "34-35": "The caster changes himself completely into a new creature, gaining all of that creature’s powers and abilities. This could include class abilities if appropriate. The creature cannot have more Hit Dice than twice the caster’s level. The transformation lasts until the caster chooses to return to his normal form or 24 hours have passed.",
+          "36-37": "The caster changes himself or another target completely into a new creature, with all of that creature’s powers and abilities. This could include class abilities if appropriate. The target is allowed a Will save to negate the transformation if unwilling. The creature cannot have more Hit Dice than twice the caster’s level. The transformation lasts until the caster chooses to end the effect or 24 hours have passed.",
+          "38+": "The caster transforms himself or another target into a creature with HD up to the target’s level and the caster’s CL combined. The transformed creature possesses all the racial abilities and powers of the new form. The change is permanent and no saving throw is allowed."
+        }
+      }
+    ]
+  }
+  

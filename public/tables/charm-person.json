@@ -1,0 +1,55 @@
+{
+    "table_name": "charm-person",
+    "notes": "Level: 1 -- Range: 120’ -- Duration: Varies -- Casting time: 1 round -- Save: Will vs. check",
+    "general": "The caster charms an enemy to become a friend! Any mundane living humanoid can be affected normally. Druids can also use this spell on animals. Wizards can attempt this spell on monsters and un-dead with a -2 check penalty and attempt to affect outsiders and demons with a -4 check penalty.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Flash of light.",
+          "2": "Lulling harmony.",
+          "3": "Black cloud.",
+          "4": "Glittering pixie dust.",
+          "5": "Black beam.",
+          "6": "Moonbeam from above."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1-3": "Minor corruption.",
+          "4-5": "Major corruption.",
+          "6": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster falls in love with intended target.",
+          "2": "1d4 randomly determined nearby creatures fall in love with each other.",
+          "3": "Caster inadvertently puts intended target to sleep (Will save to resist).",
+          "4": "Target is not charmed but instead repulsed and angered by caster."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "A single target must make a Will save or be dazed for 1d4 rounds. Dazed targets can move at half speed but can perform no other actions.",
+          "14-17": "A single target must make a Will save or fall under the caster’s complete control, as if it were his friend. The target is but a shell of its former self, operating at a -2 penalty to all rolls, saves, checks, and ability scores while under the wizard’s control. The target receives another save to break the charm according to its original Intelligence.",
+          "18-19": "A single target must make a Will save or fall under the caster’s complete control, as if it were his friend. The target operates at full normal functionality while charmed. The target receives another save to break the charm according to its original Intelligence.",
+          "20-23": "The wizard can target a number of creatures equal to his caster level. Each target must make a Will save or fall under the caster’s complete control. The target operates at full normal functionality while charmed and receives another save to break the charm according to its original Intelligence.",
+          "24-27": "The caster can target a number of creatures equal to 1d6 + caster level. Each target must make a Will save or fall under the caster’s complete control. The target operates at full normal functionality while charmed and receives another save to break the charm according to its original Intelligence.",
+          "28-29": "The caster can target a number of creatures equal to 2d6 + caster level. Each target must make a Will save or fall under the caster’s complete control. The target operates at full normal functionality while charmed and receives another save to break the charm according to its original Intelligence.",
+          "30-31": "The caster can target a number of creatures equal to 3d6 + caster level. Targets of equal to or less HD than the caster do not receive a save. Those with greater HD than the caster must make a Will save or fall under the caster’s complete control. The target operates at full normal functionality while charmed and receives another save to break the charm according to its original Intelligence.",
+          "32+": "The caster can influence the emotions of large groups of people, including crowds of public spectators or armies of angry warriors. The caster can attempt to charm up to 100 people at once, as long as they are within his line of sight. Targets of equal to or less HD than the caster do not receive a save. Those with greater HD than the caster must make a Will save or fall under the caster’s complete control. The targets operate at full normal functionality while charmed and receive another save to break the charm according to their original Intelligence."
+        }
+      }
+    ]
+  }
+  

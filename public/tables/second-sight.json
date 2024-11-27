@@ -1,0 +1,33 @@
+{
+    "table_name": "second-sight",
+    "notes": "Level: 1 -- Range: Self -- Duration: 1 round or more -- Casting time: 1 turn -- Save: N/A",
+    "general": "Using sortilege, haruspicy, or some other method appropriate to the cleric, he augurs the future. In doing so, the cleric gains insight about the consequences his actions will bring.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "a third eye appears in the cleric’s forehead",
+          "2": "the cleric’s eyes glow",
+          "3": "the cleric’s eyes are fused shut but he can still see"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "For one round, the cleric glimpses the future. In doing so, he gains great insight into the most effective manner to complete any action. The cleric receive a +4 bonus to a single roll of his choosing on his next round, whether it’s an attack roll, damage roll, skill check, spell check, or something else.",
+          "14-17": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is a 75% chance that the sense the cleric receives is accurate.",
+          "18-19": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is an 80% chance that the sense the cleric receives is accurate.",
+          "20-23": "The cleric has a hint of possible outcomes. He must spend the following round concentrating on a choice that must be made in the next 30 minutes. For example, he may be deciding which direction to turn in a dungeon or whether to enter a room. The cleric gets a sense of whether the action will be to his benefit or harm. There is an 85% chance that the sense the cleric receives is accurate.",
+          "24-27": "For the next hour, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make – a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is an 85% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next hour) will be a bane or boon.",
+          "28-29": "For the next hour, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make – a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 90% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next hour) will be a bane or boon.",
+          "30-31": "For the next day, the cleric receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make – a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 95% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next day) will be a bane or boon. For example, a cleric could divine the results of a great battle to be fought on the morrow and gain a sense that although he will emerge unharmed from the battle, it will be harmful to his church.",
+          "32+": "The cleric has read the tablets of time. For the next month, he receives an ongoing sense of possible outcomes. At every significant decision or juncture, he receives a premonition regarding the decision he must make – a sense of foreboding or certitude depending on whether the action bodes well for him (or not). For any given action, there is a 99% chance that the sense is accurate. By concentrating, the cleric can receive a sense of whether a future action (one to be taken within in the next day) will be a bane or boon. For example, a cleric could divine the results of a great battle to be fought on the morrow and gain a sense that although he will emerge unharmed from the battle, it will be harmful to his church. In addition, the cleric receive a +1 bonus to all rolls while the second sight is active, reflecting his general insight into the consequences of all actions."
+        }
+      }
+    ]
+  }
+  

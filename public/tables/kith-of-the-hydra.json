@@ -1,0 +1,35 @@
+{
+    "table_name": "kith-of-the-hydra",
+    "notes": "Level: 2 (Azi Dahaka) -- Range: Self -- Duration: Varies -- Casting time: 1 hour -- Save: None",
+    "general": "Azi Dahaka is the sire and patron of all hydras. By embracing the secret of the hydra, the caster shirks death’s coil, gaining the ability to return from the dead—but only at great sacrifice. Wounds knit, shattered bones mend, and even limbs grow back. However, ongoing damage (for instance, if the caster’s body remains crushed beneath a boulder) does not cease. If the body is utterly and entirely destroyed, the spell fails. If a caster attempts to recast the spell while still under the influence of a previous casting, he is irrevocably transformed into a mindless hydra. This spell requires a minimum spellburn of 4 points.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A single tendril of hair turns into a slender snake, rooted in the caster’s scalp.",
+          "2": "A snake takes form in the caster’s throat, speaking his words with its forked tongue.",
+          "3": "Caster’s eyes take on the serpentine cast of a snake.",
+          "4": "Caster molts like a snake, slowly shedding his skin."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "If the caster dies within the next hour, his body is restored to full hit points upon the next new moon. Roll 1d3 upon rebirth: the caster suffers the permanent loss of (1) 1d5 Stamina, (2) 1d5 Strength, or (3) 1d5 Agility.",
+          "16-19": "If the caster is slain within the next six hours, his body is restored to full hit points with the coming dusk. Roll 1d3 upon rebirth: the caster suffers the permanent loss of (1) 1d4 Stamina, (2) 1d4 Strength, or (3) 1d4 Agility.",
+          "20-21": "If the caster dies in the next 24 hours, his body is restored to full hit points six hours following his death. Roll 1d3 upon rebirth: the caster suffers the permanent loss of (1) 1d3 Stamina, (2) 1d3 Strength, or (3) 1d3 Agility.",
+          "22-25": "If the caster is slain in the next week, his body is restored to full hit points one hour following his death. Roll 1d3 upon rebirth: the caster suffers the permanent loss of (1) 1d2 Stamina, (2) 1d2 Strength, or (3) 1d2 Agility.",
+          "26-29": "If the caster dies before the next full moon, his body is restored to full hit points the following round. Roll 1d3 upon rebirth: the caster suffers the permanent loss of (1) 1 point of Stamina, (2) 1 point of Strength, or (3) 1 point of Agility.",
+          "30-31": "If the caster is slain before the next solstice, his body is restored to full hit points the following round. The caster can return to life twice in this manner. Roll 1d3 upon each rebirth: the caster suffers the permanent loss of (1) 1 point of Stamina, (2) 1 point of Strength, or (3) 1 point of Agility.",
+          "32-33": "If the caster is slain in the next year, he is restored to full hit points the following round. The caster can return to life thrice in this manner. Roll 1d3 upon each rebirth: the caster suffers the permanent loss of (1) 1 point of Stamina, (2) 1 point of Strength, or (3) 1 point of Agility.",
+          "34+": "If the caster is slain in the next hundred years, he is restored to full hit points the following round. The caster can return to life a number of times equal to 1d7 + caster level. This roll must be made by the judge and must not be shared with the player. Roll 1d3 upon each rebirth: the caster suffers the permanent loss of (1) 1 point of Stamina, (2) 1 point of Strength, or (3) 1 point of Agility."
+        }
+      }
+    ]
+  }
+  

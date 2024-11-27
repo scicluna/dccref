@@ -1,0 +1,32 @@
+{
+    "table_name": "vermin-blight",
+    "notes": "Level: 4 -- Range: 200’ + 10’ per CL -- Duration: 1 round per CL -- Casting time: 1 action -- Save: N/A",
+    "general": "The cleric summons forth a swarm of insects to attack his foes. Refer to page 419 for statistics on the insect swarm.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Cleric emits a susurration of wings and the swarms appear.",
+          "2": "Insects pour from the cleric’s open hands.",
+          "3": "Insects boil up from the ground at the targets’ feet.",
+          "4": "Chrysalises sprout from the cleric’s body and then open to release the swarm."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-17": "Failure.",
+          "18-19": "The cleric summons a single insect swarm. The swarm attacks any creatures within its area but does not move from that spot, remaining there until the spell’s duration expires. The swarm receives a +2 bonus to attacks and damage or +3 against unholy creatures.",
+          "20-23": "The cleric summons two insect swarms that occupy any two areas adjacent to one another within the range of the spell. These swarms attack any hostile creatures within their areas, and will not attack friendly or allied creatures. They do not move from their locations, remaining there until the spell’s duration expires. The swarms receive a +4 bonus to attacks and damage or +6 against unholy creatures.",
+          "24-25": "The cleric summons three insect swarms that occupy any three areas of the cleric’s choosing within the range of the spell. The swarms are not required to be adjacent to one another. These swarms attack any hostile or unfriendly creatures within their areas but do not move from those locations, remaining there until the spell’s duration expires. The swarms receive a +6 bonus to attacks and damage or +9 against unholy creatures.",
+          "26-27": "The cleric summons four insect swarms that he may direct as he wishes. The swarms creep and crawl after a target or targets of the cleric’s choosing so long as they remain within the range of the spell. Directing a swarm does not require much concentration on the cleric’s part, and he is free to engage in other actions while commanding the insect swarm. The insects will only attack the enemies of the cleric. The swarms receive a +8 bonus to attacks and damage or +12 against unholy creatures.",
+          "28-33": "The cleric summons eight insect swarms that he may direct as he wishes. The swarms creep and crawl after a target or targets of the cleric’s choosing so long as they remain within the range of the spell. Directing a swarm does not require much concentration on the cleric’s part, and he is free to engage in other actions while commanding the insect swarm. The insects will only attack the enemies of the cleric. The swarms receive a +10 bonus to attacks and damage or +15 against unholy creatures.",
+          "34-35": "The cleric summons a titanic swarm of insects that fills an area equal to 100’ square per CL. All enemies within the area of effect are subject to attack. The swarm receives a +10 bonus to attacks and damage or +15 against unholy creatures. The insects also devour all organic substances in the area (whether used by friend or foe), including clothing, leather straps and sacks, saddles, etc.",
+          "36+": "The sky turns black with a biblical plague of locusts. The cleric can send this plague against an entire region, affecting one square mile per CL. The locust plague endures for more than a week, devouring all living matter in the affected area. The insects ravage the land, devouring crops, stripping leaves and bark from trees, destroying animal herds, consuming stored grain, and otherwise laying waste to the surrounding area. All living creatures in the affected area suffer 1d4 points of damage per day from the biting and scratching of insects. The cleric’s enemies automatically suffer 1d4+10 points of damage per round, and unholy creatures suffer 2d6+20 points of damage. The only way to protect against this damage is for a creature to enter an enclosed space (such as a stone tomb or underground vault) that locusts cannot penetrate."
+        }
+      }
+    ]
+  }
+  

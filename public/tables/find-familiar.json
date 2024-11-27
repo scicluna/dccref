@@ -1,0 +1,43 @@
+{
+    "table_name": "find-familiar",
+    "notes": "Level: 1 -- Range: Self -- Duration: Lifetime -- Casting time: 1 week -- Save: None",
+    "general": "This lengthy ritual prepares the caster to bond with a familiar. The familiar makes itself known during the ceremony 50% of the time; otherwise, the caster makes its acquaintance sometime in the weeks following the ritual. The spell check is made upon completion of the ritual, and a minimum spellburn of 10 points is required to cast this spell. The caster gains hit points equal to the familiar’s and other powers as well, depending on the creature summoned. Once the caster has summoned a familiar (whether having met it or not), he cannot summon another until the current one dies and a full moon passes. If a familiar dies, the caster immediately keels over in intense pain, loses twice the familiar’s hit points permanently, and suffers a -5 spell check penalty until the next full moon. The judge will provide more information (see page 316). ",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "varies",
+        "table": {
+          "1": "The familiar appears as a small creature of the caster’s choosing, and is bound to the caster for life.",
+          "2": "The familiar is an ethereal being, manifesting only under certain conditions or during specific times of day.",
+          "3": "The familiar appears in the form of a shadow or reflection that accompanies the caster.",
+          "4": "The familiar may be an elemental or spirit that takes a form appropriate to the caster’s arcane specialty."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1-3": "Minor corruption.",
+          "4-5": "Major corruption.",
+          "6": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Lost, failure, patron taint, and corruption. Unlike normal spells, the spell is lost for an entire month, not simply one day.",
+          "2-11": "Lost and failure. Unlike normal spells, the spell is lost for an entire month, not simply one day.",
+          "12-13": "Per judge.",
+          "14-17": "Per judge.",
+          "18-19": "Per judge.",
+          "20-23": "Per judge.",
+          "24-27": "Per judge.",
+          "28-29": "Per judge.",
+          "30-31": "Per judge.",
+          "32+": "Per judge."
+        }
+      }
+    ]
+  }
+  

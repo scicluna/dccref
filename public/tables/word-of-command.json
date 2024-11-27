@@ -1,0 +1,34 @@
+{
+    "table_name": "word-of-command",
+    "notes": "Level: 1 -- Range: 30’ or more -- Duration: 1 round or more -- Casting time: 1 round -- Save: Will save vs. spell check",
+    "general": "The cleric speaks a powerful word that carries with it the commanding will of his deity. Creatures hearing the word are bound to obey. The word must be a single word, which must describe an action. For example, “go,” “attack,” “retreat,” “speak,” “swim,” “grovel,” “silence,” and so on. The word must be spoken in the direction of a single sentient target within range. That target receives a Will save to resist; if failed, it must obey the command for its next round. The command is interpreted by the creature’s natural thought processes; e.g., issuing an “attack” command to an herbivore may have a different response than to a carnivore. The word of command cannot be longer in length than a single word and may be subject to misinterpretation. If the command is completely contrary to a creature’s natural instinct, it receives a +4 bonus to its Will save to resist; for example, commanding a desert lizard to “swim” or any command of “suicide.”",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "word resounds in booming voice",
+          "2": "word echoes many times",
+          "3": "word seems to come from all around, including the air and ground",
+          "4": "word appears in the sky in fiery letters before dissipating"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The cleric can speak a word at a target within 30’. If the creature fails its save, it must obey the command for one round.",
+          "14-17": "The cleric can speak a word at a target within 30’. If the creature fails its save, it must obey the command for a number of rounds equal to 1d6+CL.",
+          "18-19": "The cleric can speak a word at a target within 30’. He may combine the word of command with a gesture that clarifies its intent. For example, “attack” or “go” with a pointed finger. If the creature fails its save, it must obey the command for a number of rounds equal to 1d6+CL.",
+          "20-23": "The cleric can speak a word at a target within 60’. He may combine the word of command with a gesture that clarifies its intent. For example, “attack” or “go” with a pointed finger. If the creature fails its save, it must obey the command for a number of turns equal to 1d6+CL.",
+          "24-27": "The cleric can speak a word at multiple targets within 60’ of his location. He can target up to six creatures, each of whom must be within range and within line of sight. The same command applies to all targets, and each target receives its own save. The cleric may combine the word of command with a gesture that clarifies its intent. For example, “attack” or “go” with a pointed finger. If a target fails its save, it must obey the command for a number of turns equal to 1d6+CL.",
+          "28-29": "The cleric can speak a word at multiple targets within a range of up to 200’. He can target up to 1d6 targets per caster level, each of whom must be within range and within line of sight. The same command applies to all targets, and each target receives its own save. The cleric may combine the word of command with a gesture that clarifies its intent. For example, “attack” or “go” with a pointed finger. If a target fails its save, it must obey the command for a number of days equal to 1d7+CL. The target receives a new Will save each morning.",
+          "30-31": "The cleric can speak a word at multiple targets within a range of up to a mile. He can target up to 50 targets per caster level (yes, 50), each of whom must be within range and within line of sight. The same command applies to all targets. Targets of 2HD or less are automatically affected; higher-level targets each receive their own save. The cleric may combine the word of command with a gesture that clarifies its intent. For example, “attack” or “go” with a pointed finger. The cleric’s voice is magically amplified such that all targets can hear him. If a target fails its save, it must obey the command for a number of days equal to 1d7+CL. The target receives a new Will save each morning.",
+          "32+": "The cleric can speak a word at all targets he can see. He can choose to exclude up to 10 targets per caster level, but otherwise all targets within line of sight are affected. The same command applies to all targets. Targets of 3HD or less are automatically affected; higher-level targets each receive their own save. The cleric may combine the word of command with a gesture that clarifies its intent. For example, “attack” or “go” with a pointed finger. The cleric’s voice is magically amplified such that all targets can hear him. If a target fails its save, it must obey the command for a number of days equal to 1d7+CL. The target receives a new Will save each morning."
+        }
+      }
+    ]
+  }
+  

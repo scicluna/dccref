@@ -1,0 +1,57 @@
+{
+    "table_name": "control-fire",
+    "notes": "Level: 4 -- Range: 15’ -- Duration: Varies -- Casting Time: 1 action -- Save: Fort partial (sometimes)",
+    "general": "The caster creates and manipulates fire to bar passage, immolate his opponents, and protect himself from damage. On a successful casting, the caster may choose to invoke any effect of equal to or less than his spell check, allowing a range of options with every successful casting to produce a weaker but potentially more useful result.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s body ignites with harmless flame.",
+          "2": "Nearby flames leap from their sources to twist about the caster.",
+          "3": "Flame falls from the heavens to take the form of the caster’s creations.",
+          "4": "The caster vomits forth a gout of fire that fulfills the effect of the spell."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster’s hair turns to flickering flames that produce no heat.",
+          "2": "Caster leaves a trail of scorched footprints wherever he goes.",
+          "3": "Caster’s clothes constantly smolder and must be replaced daily.",
+          "4": "The odor of smoke permanently accompanies the caster.",
+          "5": "Caster’s body becomes covered in burn scars.",
+          "6": "Caster must light a fire of campfire-size or greater each day and bask in its heat for at least 10 minutes or suffer a -1 penalty to all spell checks."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "All creatures within 15’ of the caster (including the caster) must make a Fort save equal to 5+CL or catch fire (1d6 damage each round until extinguished).",
+          "2": "All fire sources within a 15’ radius of the caster produce thick, obscuring smoke that fills a 10’ cube around it each round for 1d4 rounds.",
+          "3": "Spell takes effect but in a random area or on a random creature within 30’ of the caster (reroll spell check to determine effect and strength as if the caster were casting the spell again).",
+          "4": "Caster burns off all his own body hair."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster is wreathed in magical fire. Any creature attacking the caster in melee suffers damage equal to 1d6+CL. In addition, the caster suffers only half damage from cold-based attacks. This effect lasts 1 turn per caster level.",
+          "20-23": "The spell caster produces spear-like manifestations of magical fire that he may hurl up to 25’ feet + 5’ per CL. The spears strike without fail (although magic shield and other similar effects deflect the spears as if they were magic missiles), inflicting damage equal to 1d8 points plus 2 additional points per caster level. The caster creates 1 spear per level of experience and may throw up to two per action die, beginning on his next action die. The spears remain in existence for one hour or until thrown.",
+          "24-25": "Caster creates a wall of fire up to 60’ away. The wall is 20’ high and 15’ long per caster level or ring-shaped with a radius of 10’ plus 5’ per caster level. Creatures within 10’ of the wall suffer damage equal to 1d6+CL. Creatures passing through the wall suffer damage equal to 4d6+CL. The wall stands for as long as the caster concentrates or 1 round per level if the caster chooses not to maintain the barrier.",
+          "26-28": "The caster can create any single effect listed above, and all damage done is increased by 1 die (e.g., fire spears inflict 2d8 + 2 points per CL).",
+          "29-33": "The caster can create any two of the effects listed above, and all damage done is increased by 1 die.",
+          "34-35": "The caster can create all three of the effects noted above, and all damage is increased by 1 die.",
+          "36-37": "The caster creates a conflagration that affects an area 50’ in diameter. The range is any location within sight of the caster (including magical scrying). All creatures caught in the inferno suffer damage equal to 10d10 + 2 points per CL (Fort save for half damage). The fire ignites any naturally flammable substances and can be used to create a forest fire, burn down a town, etc. The magical flame remains in existence for 1 hour per caster level, though the mundane flames it creates will continue to burn as long as they have fuel.",
+          "38+": "Caster creates a wildfire that ravages the landscape, destroys buildings, causes lakes to boil, and otherwise reduces the land to cinders. Fire is 100 square yards in size for each level the caster possesses and moves in a random direction for a distance equal to 1 mile per caster level. All creatures caught in the fire must make a Fort save or die. The magical flame remains in existence for 1 hour per caster level, though the mundane flames it creates will continue to burn as long as they have fuel."
+        }
+      }
+    ]
+  }
+  

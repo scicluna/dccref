@@ -1,0 +1,57 @@
+{
+    "table_name": "control-ice",
+    "notes": "Level: 4 -- Range: 20’ per caster level -- Duration: Varies -- Casting Time: 1 action -- Save: Fort partial (sometimes)",
+    "general": "The caster creates ice walls or blasts of frigid cold to hinder or harm his enemies. On a successful casting, the caster may choose to invoke any effect of equal to or less than his spell check, allowing a range of options with every successful casting to produce a weaker but potentially more useful result.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s eyes turn icy blue.",
+          "2": "Temperature drops in a 10’ diameter around caster.",
+          "3": "Caster’s skin and hair become covered in rime.",
+          "4": "Arctic winds appear from nowhere."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster’s touch freezes small volumes (cup-sized) of liquid.",
+          "2": "Caster’s breath freezes normal plant life.",
+          "3": "Caster constantly shivers with cold.",
+          "4": "Caster’s breath steams no matter what the surrounding temperature.",
+          "5": "Caster’s eyes permanently become an unnatural icy-blue.",
+          "6": "Caster suffers a -2 penalty to spell checks, saves, and all other rolls related to fire-based magics."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster encased in ice and immobilized; it takes 1d3 rounds to free the caster from his icy cocoon.",
+          "2": "Floor around caster becomes ice in a 15’ radius, requiring all to make a DC 10 Reflex save or fall prone.",
+          "3": "Random ally of the caster is frozen in place as above.",
+          "4": "All liquids on the caster (including magical ones) freeze suddenly and shatter their containers; liquids may thaw and be lost if steps are not taken to save them."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster blasts an area 40’ in diameter with frigid sleet, doing 2d6+CL damage (Fort save for half) to creatures caught in its area of effect. Affected creatures are also blinded and their movement is reduced by half. Creatures attacking or moving within the area must make a Ref save or slip and fall prone. Sleet melts in 1d4+2 rounds.",
+          "20-23": "The caster blasts an area 40’ in diameter with frigid sleet, doing 3d10+CL damage (Fort save for half) to creatures caught in its area of effect. Affected creatures are also blinded and their movement is reduced by half. Creatures attacking or moving within the area must make a Ref save or slip and fall prone. Sleet melts in 1d6+2 rounds.",
+          "24-25": "The caster conjures a vertical wall of solid ice to bar his enemies’ passage and protect his allies. The wall is 1” thick per caster level and up to 10’ square per caster level. Opponents can break through the wall with a Strength check vs. spell check DC but suffer 1d4+CL points of cold damage per round while doing so. The wall lasts for 1 turn per caster level. Magical fire destroys the wall in a single round.",
+          "26-28": "The caster conjures a vertical wall of solid ice to bar his enemies’ passage and protect his allies. Additionally, the wall emits painful waves of cold from the side opposite the caster. All within 30’ of the wall suffer 1d4+CL damage each round. The wall is 1” thick per caster level and up to 10’ square per caster level. Opponents can break through the wall with a Strength check vs. spell check DC but suffer 1d6+CL points of cold damage per round while doing so. The wall lasts for 1 turn per caster level. Magical fire destroys the wall in a single round.",
+          "29-33": "The caster creates a cone of sub-zero cold that drains the heat from all creatures in its area of effect. The cone is 20’ long per caster level and has a width of 10’ per caster level at its terminus. Victims suffer 1d12 damage per caster level with no save.",
+          "34-35": "The caster creates a cone of sub-zero cold that drains the heat from all creatures in its area of effect. The cone is 20’ long per caster level and has a width of 20’ per caster level at its terminus. Victims suffer 1d20+10 damage per caster level with no save (roll 1d20 per caster level, then add 10 x CL).",
+          "36-37": "The caster creates a vicious ice storm that affects an area 100 yards in diameter. In addition to inflicting 6d10+CL points of damage on creatures within the area of effect, the storm destroys crops, causes roofs to collapse, freezes rivers, chokes roads with ice, and produces other destruction at the judge’s discretion. The ice storm lasts for 1 hour per caster level, though the mundane ice that is created may take longer to melt.",
+          "38+": "The caster creates a vicious ice storm that affects an area 1 mile in diameter for each level the caster possesses. In addition to inflicting 6d10+CL points of damage on creatures within the area of effect, the storm destroys crops, causes roofs to collapse, freezes rivers, chokes roads with ice, and produces other destruction at the judge’s discretion. The ice storm lasts for 1 hour per caster level, though the mundane ice that is created may take longer to melt."
+        }
+      }
+    ]
+  }
+  

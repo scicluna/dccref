@@ -1,0 +1,63 @@
+{
+    "table_name": "magic-missile",
+    "notes": "Level: 1 -- Range: 150’ or more -- Duration: Instantaneous -- Casting time: 1 action or 1 turn (see below) -- Save: None",
+    "general": "The caster hurls a magical missile that automatically hits an enemy.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d10",
+        "table": {
+          "1": "Meteor.",
+          "2": "Flaming arrow.",
+          "3": "Force arrow.",
+          "4": "Screaming, clawing eagle.",
+          "5": "Black beam.",
+          "6": "Ball lightning.",
+          "7": "Splash of acid.",
+          "8": "Ray of frost.",
+          "9": "Force dagger.",
+          "10": "Force axe."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1-4": "Caster’s hands and forearms change color to match shades of most commonly cast magic missile: (1) electric yellow, (2) icy blue, (3) acid green, (4) vivid red.",
+          "5": "Pupils and irises vanish while eyes turn a chalky white.",
+          "6": "Fingertips turn translucent and nearly invisible, appearing ghost-like or as if they were composed of pure force energy.",
+          "7": "From now on, every time he casts magic missile, the caster turns invisible for 1d6 rounds.",
+          "8": "Caster gains a permanent force stone that rapidly orbits his head, impacting with any creature that approaches within 3’ to cause searing pain and 1 point of damage every round – which, unfortunately, includes allies attempting to heal or those who fight adjacent to the caster in melee."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Explosion of missiles sprays in all directions – all creatures within 100’ (allies and enemies) are hit by 1d4-1 missiles, each doing 1 point of damage.",
+          "2": "Missiles launch then ricochet back on caster, who is hit by 1d3-1 missiles for 1 point of damage each.",
+          "3": "Explosion of force energy centered on caster, causing 1d6 damage to caster and all within 10’ (DC 10 Ref save for half).",
+          "4": "Delayed blast – no effect now, but at a random point sometime in the next 24 hours, determined whenever the caster rolls his next 1 on any dice roll (not just a d20), a single magic missile bolts forth to strike one randomly determined character within 100’ for 1d4 damage (strikes the caster if there are no other targets) – if no 1 is rolled in 24 hours, risk passes without damage.",
+          "5": "Caster becomes charged with force energy, such that the next creature or object he touches suffers a blast damage for 1d6+1 damage to target and 1 point of damage to caster.",
+          "6": "Force energy manifests in downward direction, burning a hole in the ground under caster – ground beneath him rapidly disintegrates to a depth of 1d20 feet, and he sinks with the falling depth of the ground to find himself at bottom of pit – there is no initial falling damage since he “rides” the drop in ground level but depth of pit may open to lower level of the dungeon (potentially causing damage), and he must now climb out."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster throws a single missile that does 1 point of damage. He must have line of sight to the target. The missile never misses, though it may be blocked by certain magic (e.g., magic shield).",
+          "14-17": "The caster throws a single missile that does damage equal to 1d4 + caster level. He must have line of sight to the target. The missile never misses, though it may be blocked by certain magic (e.g., magic shield).",
+          "18-19": "The caster throws 1d4 missiles that deal damage equal to 1d4 + caster level. All missiles must be aimed at a single target to which the caster has line of sight. The missiles never miss, though they may be blocked by certain magic (e.g., magic shield).",
+          "20-23": "The caster throws 1d4+2 missiles that do damage equal to 1d6 + caster level. Each missile can be aimed at a separate target to which the caster has line of sight. The missiles never miss, though they may be blocked by certain magic (e.g., magic shield).",
+          "24-27": "The caster throws a single powerful missile that does damage equal to 4d12 + caster level. The missile must be aimed at a single target to which the caster has line of sight, at a maximum range of 1,000’. The missile never misses, though it may be blocked by certain magic (e.g., magic shield).",
+          "28-29": "The caster throws 1d6+3 missiles that do damage equal to 1d8 + caster level. Each missile can be aimed at a single target at any range, as long as the caster has line of sight. The missiles never miss, though they may be blocked by certain magic (e.g., magic shield).",
+          "30-31": "The caster throws 2d6+1 missiles that each do damage equal to 1d8 + caster level. Each missile can be aimed at a separate target. Range is line of sight, regardless of whether a direct path exists; e.g., the caster may launch a magic missile through a crystal ball or other scrying device. These missiles have limited ability to defy magic shield and other protections; compare this spell check against the spell check used to create the magic shield. If the magic missile check is higher, the magic shield has only a 50% chance of absorbing the missiles (roll individually for each missile). Any missiles that make it through do damage equal to 1d8 + caster level, as noted above.",
+          "32+": "The caster throws 3d4+2 missiles that each do damage equal to 1d10 + caster level. He may direct these missiles individually as a single action, or he may direct them all at a single target that is not present or visible, provided he has specific knowledge of that target. In this case, the caster must have a physical memento of the target (hair, fingernail, vial of blood, etc.) and spend 1 turn concentrating to cast the spell, then continue concentrating as the missiles seek their target. The missiles seek out this target even if it is concealed or invisible, though they have a maximum range of 100 miles. The missiles turn, curve, retrace their route, and make every effort to reach the target, although they cannot cross planes. The missiles can travel up to 10 miles per second provided no obstacles are present, but speed is much lower if, for example, they must navigate underground caverns. Provided a direct route exists, the missiles strike the target unerringly."
+        }
+      }
+    ]
+  }
+  

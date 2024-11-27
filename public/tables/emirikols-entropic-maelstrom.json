@@ -1,0 +1,53 @@
+{
+    "table_name": "emirikols-entropic-maelstrom",
+    "notes": "Level: 3 -- Range: 50’ + 10’ per CL -- Duration: 1 round per CL -- Casting Time: 1 action -- Save: Fort save",
+    "general": "This spell produces an entropic storm that fills a 40’ square area. Those caught within this maelstrom are attacked by the elemental forces of Chaos, resulting in age, decay, or transformation. All creatures of Lawful alignment suffer a -1 to saving throws to resist the spell; Chaotic creatures enjoy a +1 bonus to their saves.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "A bank of lightning-filled, purple-black fog appears, and the howling of the damned is heard within its misty confines."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "caster’s eyes are replaced by purplish-black orbs that crackle with silent lightning",
+          "2": "caster’s body is mottled with veins of unseemly colors (bile yellow, dull tan, phlegm ochre, etc.)",
+          "3": "caster is afflicted with premature aging (hair turns grey, wrinkles and liver spots appear, etc.)",
+          "4": "garments of cloth and leather decay at an alarming rate when worn, forcing the caster to replace his wardrobe weekly"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "caster must make a DC 10 Fort save or be temporarily aged 2d20 years for 24 hours",
+          "2": "all the caster’s non-magical possessions suddenly rust or rot away",
+          "3": "entropic backlash knocks the caster back 15’ feet and inflicts 1d4 damage",
+          "4": "a rain of fish or frogs falls in a 40’ area around the caster, causing all to make a DC 8 Fort save or suffer 1d3 damage from bludgeoning",
+          "5": "caster and all other creatures within a 20’ radius suddenly change places – the judge can reposition the affected targets by choice or at random"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The maelstrom affects non-living, non-magical metal and organic materials, causing them to decay and oxidize. Weapons, armor, and items made from iron, steel, wood, or leather must make a DC 10 Fort save or become brittle. These objects either impose a -2 penalty to attack and damage rolls or suffers a -2 reduction in AC, depending on the item. On a critical hit (by the weapon or against the armor), the item falls to pieces regardless of the critical hit roll result.",
+          "18-21": "The maelstrom affects metal and organic materials, causing them to decay and oxidize. Even magical items and constructs of metal or organic materials are subject to this magical decay. Weapons, armor, and items made from iron, steel, wood, or leather must make a DC 15 Fort save or become brittle. These objects either impose a -2 penalty to attack and damage rolls or suffers a -2 reduction in AC, depending on the item. On a critical hit (by the weapon or against the armor), the item falls to pieces regardless of the critical hit roll result. Magical items must make a DC 10 Fort save to avoid the same fate and can add any 'pluses' they possess to the saving throw roll. Constructed, magical creatures must make a Fort save vs. spell check result or suffer 1d10+CL damage from the maelstrom’s effects.",
+          "22-23": "All living creatures within the spell’s area of effect must make a Fort saving throw or be overwhelmed by weariness and ennui. They temporarily lose 1d4 points of Strength and Stamina, and all attack rolls, saving throws, spell checks, and ability checks are made at a -3 penalty for the duration of the spell.",
+          "24-26": "All living creatures within the area of effect must make a Fort save or be affected by a random affliction. The judge should roll separately for each affected creature, as it is possible for different disabilities to affect the targets. Possible afflictions include: (roll 1d8) (1) blindness, (2) deafness, (3) paralyzation, (4) crippled (speed reduced to 5’ round), (5) speak in tongues (no spell casting possible), (6) unconsciousness, (7) temporary insanity, and (8) temporary amnesia. The judge may substitute other afflictions as desired.",
+          "27-31": "The maelstrom draws out and consumes magical energy within the area of effect, causing those who command spells to either feed the storm or suffer. Each round they are within the spell’s area of effect, all spellcasters must make a Will save or be forced to release a portion of their magical energy in spell form. On a failed save, the caster’s next action must be to cast a spell or suffer 1d6+CL damage. The caster can choose which spell he performs to feed the maelstrom and makes a spell check as normal. If the spell check is successful, the spell is devoured by the maelstrom and the caster takes no damage. On a failed spell check, the caster loses the spell for the day (regardless of a spell check failure result indicating otherwise) and takes 1d6+CL damage. Non-spellcasters automatically take 1d3+CL points of damage for every round they are in the area of effect.",
+          "32-33": "All living creatures within the area of effect are aged 2d10 years (or 2d10x10 years if an elf or other long-lived race). They permanently lose a point of Strength, Stamina, and Agility and may suffer other cosmetic changes (hair goes gray or is lost, wrinkles, liver spots, etc.) at the judge’s discretion.",
+          "34-35": "All living creatures within the area of effect must make a Fort save or be transformed by the maelstrom. The spell affects the targets’ physical make-up, altering flesh and bone into other, less seemly substances. The judge should roll separately for each affected creature, as it is possible for different transformations to affect the targets. Possible transformations include (roll 1d8) (1) glass, (2) bile, (3) sand, (4) primordial ooze, (5) phlegm, (6) tin, (7) dead vermin, (8) cancerous tissue. The judge may substitute other substances as desired. Transformed creatures can be restored by powerful magics provided circumstances allow the majority of their altered form to be salvageable. For example, a creature transformed into bile while standing in a fast-moving stream has little chance of having all his material form collected and would be lost forever (barring divine intervention).",
+          "36+": "All mortal creatures within the area of effect are torn apart by the uncaring, chaotic forces that reside in the heart of the cosmos. Their physical forms dissolve into primordial sludge, their possessions are destroyed on the atomic level, and their life forces are consumed by entropy. Any who witness this utter destruction are paralyzed by the futility of existence for 1d6 rounds and may develop nervous tics or have their hair turn white in fright. Those destroyed by the spell cannot be restored to life by any means, nor can their belongings be recovered or recreated. Entropy wins in the end."
+        }
+      }
+    ]
+  }
+  

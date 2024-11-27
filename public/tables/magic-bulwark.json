@@ -1,0 +1,56 @@
+{
+    "table_name": "magic-bulwark",
+    "notes": "Level: 5 -- Range: 10’ radius centered on caster -- Duration: 10 minutes per CL -- Casting Time: 1 round -- Save: None",
+    "general": "The caster surrounds himself with a field that disrupts magic, provides him with a bonus to counterspell, and grants him immunity from low-power spells.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster is encased in a field of coruscating light that flashes whenever targeted by magic.",
+          "2": "A stream of small glowing orbs whirls around the caster, dissipating one by one when intercepting magical attacks.",
+          "3": "Shadowy mouths hang in the folds of the caster’s garments, devouring spells cast against him.",
+          "4": "A cloud of glowing smoke wreathes the caster’s body."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster gains a new, violent red scar whenever he suffers damage from a magic attack.",
+          "2": "Caster becomes addicted to casting, temporarily losing 1 point of Stamina any day he does not perform a spell, and needing progressively more spells to avoid the Stamina loss in the form of 2 spells/day after 2 months, 3 spells/day after 3 months, 4 spells/day after 4 months, etc.",
+          "3": "Caster permanently glows a soft blue color.",
+          "4": "Caster’s eyes suffer magical trauma rendering him completely color-blind."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "The caster suffers a -2 penalty to any spell checks performed for the rest of the day.",
+          "2": "Magic is attracted to the caster and any spell cast at a target within 25’ of him has a 50% chance of targeting him instead, but the effect fades after 1d4 hours.",
+          "3": "Caster cannot cast spells for the normal duration of magic bulwark and can only use magical items or counterspells during that time.",
+          "4": "All spells cast within 15’ of the caster (including his own) suffer a -2 penalty to spell checks.",
+          "5": "Caster loses one random spell for the day."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The magic field causes all spell checks made against the caster to suffer a -1 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell.",
+          "20-23": "The magic field causes all spell checks made against the caster to suffer a -2 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell.",
+          "24-25": "The magic field causes all spell checks made against the caster to suffer a -3 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell.",
+          "26-28": "The magic field causes all spell checks made against the caster to suffer a -4 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell.",
+          "29-33": "The magic field causes all spell checks made against the caster to suffer a -5 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell. In addition, the caster gains a +1 bonus to any attempt he makes to counterspell.",
+          "34-35": "The magic field causes all spell checks made against the caster to suffer a -5 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell. In addition, the caster gains a +2 bonus to any attempt he makes to counterspell.",
+          "36-37": "The magic field grants the caster immunity to all level 1 spells. It causes all other spell checks made against the caster to suffer a -5 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell. In addition, the caster gains a +3 bonus to any attempt he makes to counterspell.",
+          "38+": "The magic field grants the caster immunity to all level 1 and 2 spells. It causes all spell checks made against the caster to suffer a -5 penalty. This adjustment requires no action on the part of the caster, and it does not apply to spell duel rolls or counterspell efforts. This protection remains in effect for the duration of the spell. In addition, the caster gains a +4 bonus to any attempt he makes to counterspell."
+        }
+      }
+    ]
+  }
+  

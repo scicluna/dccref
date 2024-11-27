@@ -1,0 +1,32 @@
+{
+    "table_name": "restore-vitality",
+    "notes": "Level: 2 -- Range: Touch or further -- Duration: Permanent -- Casting time: 1 round -- Save: N/A",
+    "general": "The cleric restores lost vitality to a creature. Typically this restores lost ability scores or broken/severed limbs, though it can also heal. This spell cannot restore lost Luck. The spell can be cast on the cleric or an ally.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "The target is cured with no visible effect.",
+          "2": "The target is cured and the mark of the cleric’s deity appears as a birthmark or small scar in a place that was previously affected by the ability loss.",
+          "3": "A shaft of heavenly light shines on the target, bathing him in light as his ability scores are restored."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-13": "Failure.",
+          "14-15": "The cleric restores ability score drain that is non-permanent in nature. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores 1 point of temporarily lost Strength, Stamina, Agility, Intelligence, or Personality. The ability score cannot be increased higher than the target’s original maximum. Alternately, the cleric can heal 1 hit point of damage, up to the target’s maximum.",
+          "16-19": "The cleric restores ability score drain that is non-permanent in nature. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores 2 points of temporarily lost Strength, Stamina, Agility, Intelligence, or Personality. The ability score cannot be increased higher than the target’s original maximum. Alternately, the cleric can heal 4 hit points of damage, up to the target’s maximum. The cleric cannot combine healing ability scores and hit points.",
+          "20-21": "The cleric restores ability score drain, even if it is permanent in nature. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores 1d4+CL points of lost Strength, Stamina, Agility, Intelligence, or Personality. If the restoration is associated with an injury, the injury is also healed. For example, if the lost Strength was from a broken limb or a severed hand, that limb is restored to functionality, provided the severed body parts were retained. The ability score cannot be increased higher than the target’s original maximum. Alternately, the cleric can heal 2d4+CL hit points of damage, up to the target’s maximum. The cleric cannot combine healing ability scores and hit points.",
+          "22-25": "The cleric restores ability score drain, even if it is permanent in nature, and heals 2d6+CL lost hit points. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores 1d6+CL points of lost Strength, Stamina, Agility, Intelligence, or Personality. If the restoration is associated with an injury, the injury is also healed. For example, if the lost Strength was from a broken limb or a severed hand, that limb is restored to functionality, provided the severed body parts were retained. The ability score cannot be increased higher than the target’s original maximum.",
+          "26-29": "The cleric restores ability score drain, even if it is permanent in nature, and heals 3d6+CL lost hit points. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores 1d8+CL points of lost Strength, Stamina, Agility, Intelligence, or Personality. If the restoration is associated with an injury, the injury is also healed. For example, if the lost Strength was from a broken limb or a severed hand, that limb is restored to functionality, provided the severed body parts were retained. The ability score cannot be increased higher than the target’s original maximum.",
+          "30-31": "The cleric may designate up to four targets within 30’ range. For all targets, the cleric restores ability score drain, even if it is permanent in nature, and heals 4d6+CL lost hit points. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores 3d4+CL points of lost Strength, Stamina, Agility, Intelligence, or Personality. If the restoration is associated with an injury, the injury is also healed. For example, if the lost Strength was from a broken limb or a severed hand, that limb is restored to functionality, provided the severed body parts were retained. The ability score cannot be increased higher than the target’s original maximum.",
+          "32-33": "The cleric may designate up to 10 targets within 60’ range. For all targets, the cleric restores all ability score drain, even if it is permanent in nature, and heals all creatures to their full hit point totals. Whether caused by spellburn, monster attack, broken limbs, or other means, the spell restores all points of lost Strength, Stamina, Agility, Intelligence, and Personality. If the restoration is associated with an injury, the injury is also healed. For example, if the lost Strength was from a broken limb or a severed hand, that limb is restored to functionality, provided the severed body parts were retained. The ability score cannot be increased higher than the target’s original maximum.",
+          "34+": "The cleric targets a single creature within 30’. It is restored to its full and perfect health: hit points are restored to maximum, ability scores are restored to their normal levels, and the creature is cured of all disease, illness, and infection, whether mundane or supernatural in origin. The creature is cured of any health problems not associated with its natural state, provided the body’s functionality still exists. For example, if temporarily blinded, it has its sight restored; if deafened, it can now hear; if lamed, it can now walk. Lost limbs do re-grow, and defects caused by physical means (e.g. blindness caused by the plucking of eyeballs from the skull) are corrected, even if the missing body parts are not at hand. In addition, the creature permanently gains +1 hit point to its maximum total. This benefit may be received multiple times, but for each hit point permanently gifted to a single target after the first, the cleric permanently loses 1 hit point."
+        }
+      }
+    ]
+  }
+  

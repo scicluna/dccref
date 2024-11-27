@@ -1,0 +1,58 @@
+{
+  "table_name": "fire-resistance",
+  "notes": "Level: 2 -- Range: Self or more -- Duration: 1 turn or more -- Casting time: 1 round -- Save: N/A",
+  "general": "The caster increases his resistance to heat and fire",
+  "sub_tables": [
+    {
+      "subtable_name": "Manifestation",
+      "dice_size": "1d4",
+      "table": {
+        "1": "Caster’s skin turns hard and black, like lava.",
+        "2": "Subject turns watery like an elemental.",
+        "3": "Shimmering white force globe envelops subject.",
+        "4": "Evanescent angels fan back flames."
+      }
+    },
+    {
+      "subtable_name": "Corruption",
+      "dice_size": "1d8",
+      "table": {
+        "1": "Caster’s face takes on a burned, distorted look as if he had been caught in a terrible fire.",
+        "2": "Caster’s eyebrows are scorched off.",
+        "3": "Caster’s fingernails turn black.",
+        "4": "Caster’s skin takes on a permanent sunburned hue.",
+        "5": "Minor corruption.",
+        "6": "Major corruption.",
+        "7": "Major corruption.",
+        "8": "Greater corruption."
+      }
+    },
+    {
+      "subtable_name": "Misfire",
+      "dice_size": "1d4",
+      "table": {
+        "1": "Caster causes a fire to erupt on his person, as his clothing, scrolls, or other possessions suddenly catch fire, dealing 1d4 damage before sputtering out.",
+        "2": "Caster makes himself more vulnerable to fire; he receives a -2 save penalty against fire-based effects and suffers an additional point of damage from fire for the next 1d4 hours.",
+        "3": "Caster creates a wave of cold that passes instantaneously but not before deep-freezing all liquids on his person (including potions).",
+        "4": "Caster lights a fire at the feet of one randomly determined person within 50’, inflicting 1d4 damage."
+      }
+    },
+    {
+      "subtable_name": "Spell Results",
+      "dice_size": "1d20",
+      "table": {
+        "1": "Lost, failure, and misfire.",
+        "2-11": "Lost. Failure.",
+        "12-13": "Failure, but spell is not lost.",
+        "14-15": "The caster gains limited resistance to fire. For the next turn, he ignores 1 hp of fire damage each round.",
+        "16-19": "For the next turn, the caster ignores up to 2 hp of fire damage each round. Additionally, the caster gains a +2 bonus to all saving throws to resist fire (including saves to resist fire- or heat-based spells).",
+        "20-21": "For the next turn, the caster ignores up to 5 hp of fire damage each round. Additionally, the caster gains a +4 bonus to all saving throws to resist fire (including saves to resist fire- or heat-based spells). Finally, the caster and objects on his person cannot catch fire. Although intense heat and flames may still harm him and scorch his possessions, they will not ignite.",
+        "22-25": "For the next turn, the caster ignores up to 10 hp of fire damage each round, and allies within 10’ also resist up to 5 hp of fire damage each round. Additionally, the caster gains a +4 bonus to all saving throws to resist fire (including saves to resist fire- or heat-based spells). Finally, the caster and objects on his person cannot catch fire. Although intense heat and flames may still harm him and scorch his possessions, they will not ignite.",
+        "26-29": "The caster creates a shield of fire resistance around himself for one turn. All heat or fire damage within 20’ is suppressed: the caster and creatures within 10’ ignore a collective 30 hp of fire damage each round. As the 'heat sink' is absorbed, the caster selects where any overflow damage is directed. For example, if all allies within 20’ take 17 hp of fire damage in a round, it is completely absorbed. However, if the next round produces 6 hits for a total of 34 points of fire damage, then 4 points of damage overflow. The caster selects which hits are completely resisted, partially resisted, and which bypass the shield to inflict those 4 points of overflow damage.",
+        "30-31": "All fires within 30’ of the caster are instantaneously extinguished. Additionally, all heat or fire damage within 30’ is suppressed for one turn: the caster and creatures within 10’ ignore a collective 40 hp of fire damage each round. As the 'heat sink' is absorbed, the caster selects where any overflow damage is directed. For example, if all allies within 20’ take 37 hp of fire damage in a round, it is completely absorbed. However, if the next round produces 9 hits for a total of 54 points of fire damage, then 4 points of damage overflow. The caster selects which hits are completely resisted, partially resisted, and which bypass the shield to inflict those 4 points of overflow damage.",
+        "32-33": "The caster and all allies within 30’ are completely immune to fire and heat for the next turn. The caster takes no damage from fire, lava, magma, fireballs, and so on. The caster cannot be set afire, nor will objects in contact with him ignite.",
+        "34+": "The caster creates a shimmering bubble of cool, fresh air in which heat and fire cannot survive. The bubble appears like a calm blue cloud that surrounds the caster and extends to a radius of 30’ in all directions. Fires that enter the bubble (either via the caster’s movement or the fire being launched in his direction) are automatically extinguished. Air and water temperature within the bubble automatically drops to room temperature, regardless of outside influences. Fresh oxygen is constantly replenished in the bubble. The caster and all creatures within the bubble are effectively immune to fire and heat. The bubble lasts for one hour per caster level."
+      }
+    }
+  ]
+}

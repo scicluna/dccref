@@ -1,0 +1,56 @@
+{
+    "table_name": "haste",
+    "notes": "Level: 3 -- Range: Caster or 20’ radius from caster -- Duration: 1d4 rounds or more -- Casting time: 2 rounds -- Save: N/A",
+    "general": "The caster gains quickness of motion. The caster’s actions are amplified in speed such that he can move at twice the speed of a normal man – or faster! At higher levels, this spell also affects some creatures within a 20’ radius of the caster. However, creatures affected by this spell age at an abnormal rate while under its influence. Additional actions gained are as follows: Movement: hastened creatures double their movement speed. In some cases it may be tripled, as noted below. Action dice: hastened creatures gain additional action dice. According to their class, these action dice may be used for attacks, spellcasting, turning, laying on hands, or skill checks. If the character currently has only one action die, the extra action die is the same as that one (usually a d20). If the character has multiple action dice (due to high class level or other factor), the extra action die is equal to the character’s lowest action die. For example, if the character’s action dice are 1d20+1d14, he gains an extra 1d14 as a third action die. This spell can also be cast to cancel the spell slow.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "target appears blurred",
+          "2": "target is surrounded by a hazy aura much like a shimmering heat wave",
+          "3": "no manifestation when target stands still, but its movements are lightning-fast"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "caster immediately ages 2d10+10 years",
+          "2": "caster ages himself, and everyone within 20’ by 2d10+10 years",
+          "3": "caster acquires a series of tics and erratic motions that mark his every action, causing uncomfortable moments when in civilized society",
+          "4": "caster is perpetually nervous and on edge, flitting about in constant motion like a hummingbird, giving him a -1 penalty to any actions that require concentration",
+          "5": "major",
+          "6": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "caster slows time for himself, causing him to miss his next action",
+          "2": "caster slows time for himself and 1d4 allies within 20’, causing all of them to miss their next activation",
+          "3": "caster ages himself by 1d10+10 years",
+          "4": "caster grants haste to a nearby bug, which buzzes about viciously before flying off into the distance"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster gains double movement speed and one extra action die each round. The duration is 1d4+1 rounds.",
+          "18-21": "The caster gains an immediate extra action die this round (after casting the spell), which can be used to attack or cast another spell. Thereafter, he gains double movement speed and one extra action die each round for 1d6+2 rounds.",
+          "22-23": "The caster gains double movement speed and one extra action die. The caster gains an extra action die this round (after casting the spell), which can be used to attack or cast another spell. Additionally, one other designated creature within 20’ is affected, beginning on its next activation. The duration is 2d4+1 rounds.",
+          "24-26": "The caster experiences a moment of unnatural stillness. The world around him seems to slow to a near-immobility. He immediately gains 1d4 extra actions this round (after casting the spell), all at his normal action die (usually d20), which may be used to attack or cast spells. After this moment of pause, he gains double movement speed and one extra action die each round for 2d4+2 rounds.",
+          "27-31": "The caster and up to three allies within range all gain double movement speed and one extra action die for a total of 2d4+2 rounds.",
+          "32-33": "The caster gains triple movement speed and two extra action dice each round. Additionally, four other designated creatures within range gain double movement speed and one extra action die each round. The duration is 3d4 rounds.",
+          "34-35": "The caster and four other designated creatures within range gain triple movement speed and two extra action dice each round. The duration is 3d4 rounds.",
+          "36+": "The world around the caster slows. He and up to four designated creatures within range may take an additional 1d4+1 actions immediately. They proceed in initiative order as if they were in their own 'time bubble' where they and only they can take actions; other creatures’ initiative counts are simply skipped. Those affected by the spell can move, attack, cast spells, and perform other actions during this time, but these 'extra rounds' of time count collectively as only one round for the purpose of spell durations or special effects. Once this time bubble evaporates, the caster and other affected creatures return to normal initiative order and regular combat order resumes. At that point, the caster gains quadruple movement speed and three extra action dice each round. Additionally, the other designated creatures within range gain triple movement speed and two extra action dice each round. The duration is 3d4 rounds."
+        }
+      }
+    ]
+  }
+  

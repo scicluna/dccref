@@ -1,0 +1,33 @@
+{
+    "table_name": "remove-curse",
+    "notes": "Level: 3 -- Range: Touch -- Duration: Instantaneous -- Casting time: 1 round -- Save: See below",
+    "general": "The cleric calls upon divine power to banish the baleful effects of a curse on a person or object. A minor curse causes a loss of 2 or less ability score points; a moderate curse impacts 3-4 ability score points or has a limiting effect (penalty to rolls, reduced speed, etc.); and a major curse impacts 5+ ability score points or has a debilitating effect (blindness, deafness, immobility, etc.). When a save is called for, the affected individual or object either makes a second saving throw against the curse (save and DC are the same as the original curse), or, if no save was allowed against the original curse, the creature or object may make either a Fort or Will save (player’s discretion) against a DC of 10 + the HD of the creature that bestowed the curse. If the save is successful, the cursed creature or object is no longer affected by the curse. If the save fails, the curse remains in effect and 24 hours must pass before the cleric can again attempt to remove the curse.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Sparkling water flows from the cleric’s hand to wash the target creature clean.",
+          "2": "The target vomits up a black goop that quickly vanishes.",
+          "3": "The cleric brushes the target with his hand, peeling away corrupt flesh to reveal unblemished skin beneath.",
+          "4": "A divine fire burns away the curse."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-15": "Failure.",
+          "16-17": "A single cursed individual or object is allowed to make a new saving throw to escape the effects of a minor curse.",
+          "18-21": "A number of cursed individuals or objects equal to the cleric’s CL are allowed to make a saving throw to escape the effects of a minor curse. If only a single cursed creature or object is targeted, they gain a bonus to their saving throw equal to the CL.",
+          "22-23": "The cleric automatically removes a minor curse from a single individual or allows a saving throw to remove a moderate curse from a single cursed individual or object.",
+          "24-26": "The cleric automatically removes a minor curse from a number of individuals or objects equal to his CL or allows a saving throw to remove a moderate curse from a number of cursed individuals or objects equal to his CL. If only a single cursed creature or object is targeted, it gains a bonus to the saving throw equal to the CL.",
+          "27-31": "The cleric automatically removes a minor or moderate curse from a single individual or allows a saving throw to remove a major curse for a single cursed individual or object.",
+          "32-33": "The cleric automatically removes a minor or moderate curse from a number of individuals or objects equal to his CL or allows a saving throw to remove a major curse for a number of cursed individuals or objects equal to his CL. If only a single cursed creature or object is targeted, they gain a bonus to their saving throw equal to the CL.",
+          "34-35": "The cleric automatically removes any curse affecting a single creature or object, regardless of the curse’s potency.",
+          "36+": "The cleric automatically removes any curse affecting a number of creatures equal to his CL. In addition, if the creature or creatures that bestowed the curse(s) is currently alive, it automatically becomes the victim of its own curse regardless of its location or distance away from the cleric."
+        }
+      }
+    ]
+  }
+  

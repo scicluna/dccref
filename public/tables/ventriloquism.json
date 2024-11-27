@@ -1,0 +1,52 @@
+{
+    "table_name": "ventriloquism",
+    "notes": "Level: 1 -- Range: 30’ or more -- Duration: 1 round or more -- Casting time: 1 action -- Save: Sometimes (Will; see below)",
+    "general": "The caster projects the sound of his voice from another place, such as an adjacent room, an animal or statue, down a hallway, etc.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Heat waves in area of sound",
+          "2": "Puffs of air and disturbance of dust, as if someone were speaking from that position",
+          "3": "Sparkling air",
+          "4": "Echo or reverberation"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d12",
+        "table": {
+          "1-6": "Caster can still speak normal languages but the sound of his voice permanently changes to resemble that of a (1) horse’s neighing, (2) bee’s buzzing, (3) goat’s braying, (4) pig’s oinking, (5) lion’s roaring, (6) dog’s barking",
+          "7-12": "Caster’s voice is permanently displaced to always emanate from (7) his feet, (8) his left hand, (9) his back (often making him hard to hear), (10) a point 20’ above him, (11) the point of whatever weapon he carries, (12) the nearest person of the opposite gender"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster creates an enormous booming noise centered on himself, drawing attention to his location",
+          "2": "Caster scrambles all speech within 100’ of himself for the next 1d4+1 hours, causing each person’s voice to always issue from another nearby character, creating ongoing confusion about who is speaking",
+          "3": "Caster changes his voice to that of a high-pitched squeal and throws the source towards his feet, such that all of his conversation for the next 1d4 hours sounds like they are coming from a mouse scurrying around his feet",
+          "4": "Caster throws his voice onto another plane, to a place he has no knowledge of, so that every time he speaks, no noise issues forth, but a randomly determined demon is annoyed constantly in another place – caster is effectively mute for 1d4 hours and there is a 25% chance the annoyed demon tracks him down to shut him up"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster projects one short phrase in his own voice to a place within 30’ and line of sight. The position of origin is subject to the visual manifestation described above. Listeners that fail a Will save (rolled by judge) believe the noise to originate from the place designated; if they succeed on the save, they hear the voice from its true origin point of the caster’s location.",
+          "14-17": "The caster projects a short phrase to a place within 30’ and line of sight. He can use his own voice, or he can simulate another voice or sound that he has previously heard. For example, the caster can make the goblin captain appear to shout “Retreat!” in the goblin’s own voice. The position of origin is subject to the visual manifestation described above. Listeners that fail a Will save (rolled by judge) believe the noise to originate from the place designated; if they succeed on the save, they hear the voice from its true origin point of the caster’s location.",
+          "18-19": "The caster projects a short phrase to a place within 30’ and line of sight. He can use his own voice, or he can simulate another voice or sound that he has previously heard. For example, the caster can make the goblin captain appear to shout “Retreat!” in the goblin’s own voice. There is no visual manifestation, only the sound created. Listeners that fail a Will save (rolled by judge) believe the noise to originate from the place designated; if they succeed on the save, they hear the voice from its true origin point of the caster’s location.",
+          "20-23": "The caster projects a short phrase to a place within 30’ and line of sight. He can use his own voice, or he can simulate another voice or sound that he has previously heard. For example, the caster can make the goblin captain appear to shout “Retreat!” in the goblin’s own voice. There is no visual manifestation, and listeners receive no save; they automatically hear the noise from the point designated.",
+          "24-27": "The caster projects sounds to a place within 60’, even if it is beyond his line of sight. He can issue ongoing sounds for up to 1 turn as long as he concentrates. The caster can use his own voice, or he can simulate other voices or sounds he has previously heard. For example, he can simulate different voices in an ongoing conversation. There is no visual manifestation, and listeners receive no save; they automatically hear the noise from the point designated.",
+          "28-29": "The caster projects sounds to a range of up to 300’, even beyond his line of sight For every full turn the caster concentrates, he can create an ongoing effect that lasts 1 hour, for a maximum duration of 24 hours. For example, he could concentrate for 3 turns and then leave an ongoing sound effect that lasts for 3 hours. Once the caster stops concentrating, the ongoing effect is “prerecorded”; i.e., the ongoing spell simulates the sounds requested (running water, stamping hooves, ongoing conversation, crackling fire, etc.), but the caster cannot change those sounds. The sounds created can be any the caster imagines, though ensuring accuracy requires him to have some reference point or have heard the sound before. Listeners do not receive a save.",
+          "30-31": "The caster projects sounds to a range of up to 1 mile, even beyond his line of sight. In addition, he can hear what is happening at the point where he throws his voice. For every full turn the caster concentrates, he can create an ongoing sound effect that lasts 1 day, for a maximum duration of 30 days. For example, he could concentrate for 3 turns and then leave an ongoing sound effect that lasts for 3 days (running water, stamping hooves, ongoing conversation, crackling fire, etc.). Once the caster stops concentrating, the ongoing effect continues, and he need only concentrate for one round to hear what is happening at the point of origin or change the running soundtrack should he so choose. The sounds created can be any the caster imagines, though ensuring accuracy requires him to have some reference point or have heard the sound before. Listeners do not receive a save.",
+          "32+": "The caster can create nearly unlimited sound effects at will. He can create the sounds of massive thunderstorms, the crashing of waves on a cliff, the charge of a regiment of mounted knights, or the shouts of a thousand orcs. The sounds are true three-dimensional sounds; i.e., they surround the listeners and come from the appropriate directions not simply from a single origin point. The caster can extend these sound effects to a convincing range of 1 mile from the spell’s target location, and that location can be anywhere that the caster has either personally visited (including other planes and dimensions) or currently has visibility to, even if that visibility is through scrying or a crystal ball. The caster can also hear all sounds from the target point as if he was standing there. Once he has cast the spell, the sound effect continues without concentration for up to 1 year or until the caster bids them cease. At any point, the caster can concentrate for one round to change the ongoing sound effect or hear what goes on at that place."
+        }
+      }
+    ]
+  }
+  

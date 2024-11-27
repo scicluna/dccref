@@ -1,0 +1,56 @@
+{
+    "table_name": "eldritch-hound",
+    "notes": "Level: 3 -- Range: Varies -- Duration: Varies -- Casting time: 1 turn -- Save: N/A",
+    "general": "The caster summons forth an otherworldly hound to hunt for him. This eldritch hunter is a vile creature of the Abyss with no good intentions. This spell requires a minimum of 1 point of spellburn, and that spellburn will not heal until the eldritch hound returns from whence it came. It has no permanent form on the material plane and usually appears as a shadow or steaming mist. The caster must make known to the hound the object or person it seeks in clear and direct terms; ambiguity may result in the wrong target being sought. A physical sample, such as clothing, hair, or a vial of blood, is preferable; a painting, description, name (or true name) is of secondary value. The hound has an extraordinary sense of smell, as well as rudimentary ESP and second sight. Provided with sufficient foundational evidence and a trail to seek, it is usually very successful in finding its target. It will seek and return the specified person or object, dead or alive, to the place where it was first summoned. It has no preference between 'dead' or 'alive' and usually chooses the most expedient manner. Of course, if the object is on a distant continent or in a dangerous labyrinth, the eldritch hound may be in for a long and potentially unsuccessful journey. A caster who attempts to place terms on the hound – such as to retrieve an object alive or to make a retrieval only at a certain time or after a certain event, may or may not succeed, as noted in the spell check results below. Unless noted otherwise, the hound flies at 100’, has ability scores of 14, and can perform any action a normal man could perform. It listens but never speaks. It has AC 18, 4d12 hp, attacks at +8 (2d6 damage), and saves as the caster. It will not fight arbitrarily or even in the caster’s defense – it will only fight to retrieve the specified person or object, and only then if combat is completely unavoidable. It is patient and would prefer to wait than fight. Provided with sufficient information, there is a base chance the hound succeeds in finding the trail of its target (as noted in the spell checks below), though it cannot shift between planes (unless noted otherwise below), and success in locating the object does not always mean success in retrieving it within the indicated time. The judge may modify this base chance as appropriate.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "an invisible presence that makes dogs and horses nervous",
+          "2": "a shadowy thing that never quite comes into focus",
+          "3": "a steamy mist that brings a dank humidity with it",
+          "4": "a shimmering heat wave that leaps from place to place"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "caster’s face takes on the appearance of a hound",
+          "2": "caster is a magnet to other eldritch hounds, and if one is ever set against him, its chances of success are increased by +25% (minimum 1% chance of failure)",
+          "3": "whenever the caster attempts any spell going forward, a result of 1 always results in summoning an eldritch hound in addition to any other effects (corruption, misfire, patron taint, etc.), and the eldritch hound summoned makes one angry attack against the caster, then vanishes",
+          "4": "caster’s skin grows a thin coat of hound-like fur",
+          "5": "greater",
+          "6": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d3",
+        "table": {
+          "1": "the eldritch hound appears and immediately attacks the caster, fighting to the death",
+          "2": "the eldritch hound appears and misinterprets its mission, proceeding to track a randomly determined target friendly to the caster",
+          "3": "the eldritch hound summoned is weak and feeble and becomes associated with the caster’s use of this spell in the future, such that when this spell is next cast, there is a 50% chance the feeble hound appears (AC 8, 5 hp, no attack); such a hound has a -50% chance in finding the trail of its target, and each time it appears, there is a new 50% chance it appears on the next casting, until such time as a casting finally succeeds without it appearing"
+        }
+      },
+      {
+        "subtable_name": "Casting Time Maximum Effect",
+        "dice_size": "1d36",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster summons an eldritch hound within a magic circle that he draws. Once the magic circle is rendered, the hound has 24 hours to pursue its target before it is drawn back from whence it came. Provided with sufficient information, there is a base 75% chance the hound succeeds in finding the trail of its target. The hound refuses any terms beyond 'dead or alive.'",
+          "18-21": "The caster summons an eldritch hound within a magic circle that he draws. Once the magic circle is rendered, the hound has 1d6+1 days to pursue its target before it is drawn back from whence it came. Provided with sufficient information, there is a base 80% chance the hound succeeds in finding the trail of its target. The hound refuses any terms beyond 'dead or alive.'",
+          "22-23": "The caster summons an eldritch hound within a magic circle that he draws. Once the magic circle is rendered, the hound has 1d7+7 days to pursue its target before it is drawn back from whence it came. Provided with sufficient information, there is a base 85% chance the hound succeeds in finding the trail of its target. The hound refuses any terms beyond 'dead or alive.'",
+          "24-26": "The caster summons an eldritch hound within a magic circle that he draws. Once the magic circle is rendered, the hound has 1d7+7 days to pursue its target before it is drawn back from whence it came. Provided with sufficient information, there is a base 85% chance the hound succeeds in finding the trail of its target. The hound is able to switch planes in its pursuit and has a 25% chance of understanding and accepting up to 2 terms in its hunt (e.g., 'return the creature alive' or 'capture the target only after it has given birth'). The chance is rolled independently for each term.",
+          "27-31": "The caster summons an eldritch hound that possesses vast knowledge of all things on the material plane. There is a 50% chance it has advance knowledge of the target, no matter how obscure, and may provide the caster with some previously unknown knowledge as it begins its search. The hound has 1d7+14 days to pursue its target before it is drawn back from whence it came. There is a base 90% chance the hound succeeds in finding the trail of its target. The hound is able to switch planes in its pursuit and has a 25% chance of understanding and accepting up to 2 terms in its hunt (e.g., 'return the creature alive' or 'capture the target only after it has given birth'). The chance is rolled independently for each term.",
+          "32-33": "The caster summons an eldritch hound that possesses extraordinary knowledge of all things on the material plane. There is a 95% chance it has advance knowledge of the target, no matter how obscure, and may provide the caster with some previously unknown knowledge as it begins its search. The hound has 1d7+21 days to pursue its target before it is drawn back from whence it came. There is a base 95% chance the hound succeeds in finding the trail of its target. The hound is able to switch planes in its pursuit and has a 50% chance of understanding and accepting up to 2 terms in its hunt (e.g., 'return the creature alive' or 'capture the target only after it has given birth'). The chance is rolled independently for each term.",
+          "34-35": "The caster summons an eldritch hound that possesses extraordinary knowledge of all things on the material plane. There is a 95% chance it has advance knowledge of the target, no matter how obscure, and may provide the caster with some previously unknown knowledge as it begins its search. The hound has 1d7+21 days to pursue its target before it is drawn back from whence it came. There is a base 95% chance the hound succeeds in finding the trail of its target. The hound is able to switch planes in its pursuit and has a 50% chance of understanding and accepting up to 3 terms in its hunt (e.g., 'return the creature alive' or 'capture the target only after it has given birth'). The chance is rolled independently for each term. The hound is extraordinary for its type: it flies at 200’, has ability scores of 18, AC 20, 8d12 hp, attacks at +12 (3d6 damage), and uses the caster’s saves with a +2 bonus to the roll.",
+          "36+": "The caster summons an eldritch hound that possesses extraordinary knowledge of all things on the material plane. The hound has advance knowledge of the target, no matter how obscure, and may provide the caster with some previously unknown knowledge as it begins its search. The hound has 1d6+1 months to pursue its target before it is drawn back from whence it came. There is a base 99% chance the hound succeeds in finding the trail of its target. The hound is able to switch planes in its pursuit and automatically accepts up to 4 terms in its hunt (e.g., 'return the creature alive' or 'capture the target only after it has given birth'). The hound is extraordinary for its type: it flies at 400’, has ability scores of 20, AC 22, 12d12 hp, attacks at +16 (4d6 damage), and uses the caster’s saves with a +2 bonus to the roll."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,34 @@
+{
+    "table_name": "sequester",
+    "notes": "Level: 1 (Sezrekan) -- Range: Varies -- Duration: 1d24 hours per CL -- Casting time: 1 turn -- Save: Will or Skill check vs. spell check when appropriate (see below)",
+    "general": "The Path of the Old One requires absolute attention and dedication. The caster secures an area against intrusion, permitting reflection and study so that he can plot his next move.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "A wash of arctic air chills the affected area, leaving a light sheen of ice.",
+          "2": "The affected area glows faint green in dim light.",
+          "3": "The sounds of latching locks, slamming doors, and eager workers speaking in alien tongues fills the air as the dweomer settles over the affected area.",
+          "4": "The affected area takes on a forgotten air: dust settles in the corners, cobwebs hang from the ceiling, and the air grows staid and foul."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster secures an area up to 100 square feet in size. Doors and windows are magically sealed, requiring a DC 15 Pick Locks check to open. The caster is instantly alerted to any being entering the warded area.",
+          "14-17": "The caster secures an area up to 500 square feet in size. Doors and windows are magically sealed, requiring a DC 15 Pick Locks check or a password to open. The caster can declare up to 2 portals magically trapped (Find/Disable Traps DC 15; 1d10+CL fire damage). The caster is instantly alerted to any being entering the warded area.",
+          "18-19": "The caster secures an area up to 1,000 square feet in size. Doors and windows are magically sealed, requiring a DC 18 Pick Locks check or a password to open. Lesser doors and windows are treated as stout wood for purposes of destruction (15 hp). The caster can declare up to 4 portals trapped (Find/Disable Traps DC 18; 1d12+CL fire damage). The caster is instantly alerted to any being entering the area.",
+          "20-23": "The caster secures an area up to 3,000 square feet in size. Doors and windows are magically sealed, requiring a DC 20 Pick Locks check or a password to open. Lesser doors and windows are treated as iron bound for purposes of destruction (30 hp). The caster can declare up to 6 portals trapped (Find/ Disable Traps DC 18; 1d14+CL fire damage) and place a single pit trap up to 20’ in depth (Find Traps DC 18). The caster is instantly alerted to any being entering the area.",
+          "24-27": "The caster secures an area up to 6,000 square feet in size. Doors and windows are magically sealed, requiring a DC 20 Pick Locks check or a password to open. Lesser doors and windows are treated as iron for purposes of destruction (60 hp). The caster can declare up to 8 portals trapped (Find/ Disable Traps DC 20; 1d20+CL fire damage) and place 4 pit traps up to 40’ in depth (Find Traps DC 20). The caster is instantly alerted to any being entering the area.",
+          "28-29": "The caster secures an area up to 10,000 square feet in size. Doors and windows are magically sealed, requiring a DC 20 Pick Locks check or a password to open. Lesser doors and windows are treated as iron for purposes of destruction (60 hp). The caster can declare up to 8 portals trapped (Find/ Disable Traps DC 20; 1d24+CL fire damage) and place 4 pit traps up to 60’ in depth (Find Traps DC 20). The caster and his allies within the sequestered area are immune to scrying. The caster and his allies are instantly alerted to any being entering the area.",
+          "30-31": "The caster secures an area up to 10,000 square feet in size. Doors and windows are magically sealed, requiring a DC 20 Pick Locks check or a password to open. Lesser doors and windows are treated as iron for purposes of destruction (60 hp). The caster can declare up to 8 portals trapped (Find/ Disable Traps DC 20; 1d24+CL fire damage) and place 4 pit traps up to 60’ in depth (Find Traps DC 20). The caster and his allies within the sequestered area are immune to scrying, summoning or teleportation. The caster and his allies are alerted to any being entering the area.",
+          "32+": "The caster secures any single structure (a keep, tower, palace, dungeon, etc.) regardless of size. Doors and windows are magically sealed, requiring a DC 20 Pick Locks check or a password to open. Lesser doors and windows are treated as iron for purposes of destruction (60 hp). The caster can declare up to 8 portals trapped (Find/ Disable Traps DC 20; 1d24+CL fire damage), place 4 pit traps that teleport victims to an oubliette 100 miles distant (Find Traps DC 20), and a troop of 50 suits of animated armor (treat as skeletons that cannot be turned). The caster and his allies within the sequestered area are immune to scrying, summoning or teleportation. The caster and his allies are alerted to any being entering the area."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,53 @@
+{
+    "table_name": "breathe-life",
+    "notes": "Level: 3 -- Range: Touch -- Duration: 1 turn or longer -- Casting time: 1 turn -- Save: N/A",
+    "general": "With an enchanted breath from his lungs, the caster brings life to an inanimate object. This spell can make statues move, turn clay figurines into obedient homunculi, cause spell books to defend themselves against interlopers, and transform dungeon doors into stalwart guardians. The spell requires a short ritual and a variety of special ingredients that vary according to the object to be animated. This spell does not work on the remains of living creatures and cannot be used as a substitute for animate dead. The object moves according to its nature, typically at a speed of 20’ or less: a book may move like an inchworm, a clay statuette may move according to the legs or wings with which it is endowed, a door might waddle about on its corners, and so on. In combination with other spells used in the casting ritual, the animated creature may speak (e.g., magic mouth), fly (e.g., fly), or have other properties (e.g., invisibility, fire resistance, etc.). The caster can include up to one additional spell effect per CL and must succeed in a casting of that spell with a minimum of 1 point of spellburn for it to take effect. The animated creature does not always obey the whims of its creator. Except as noted below, the creator must make a DC 5 Personality check to elicit obedience to any specific command that places the object in danger or is opposed to its nature (i.e., sending a clay statue into a body of water or asking a book to leap above a fire).",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "See below."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "one of caster’s fingers permanently transforms into material he intended to animate; i.e., if he was trying to animate a stone statue, his finger becomes living stone",
+          "2": "objects of the intended type (e.g., gemstones if the caster targeted a gem) become inexplicably animated around the caster, quivering or jumping or shaking; this effect extends to a 10’ radius and affects objects of that type for the rest of the caster’s life",
+          "3-4": "minor",
+          "5": "major",
+          "6": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "targeted object does not come to life but instead takes 1d6 hit points of damage (which may be enough to destroy or shatter a small object)",
+          "2": "the breath of life does come forth but it appears in the wrong object, such that one randomly determined small object within 20’ (pebble, dagger, hat, boot, belt, pine cone, etc.) begins dancing about as it comes to life for 1d6 days",
+          "3": "re-roll spell check, ignoring failed results, until a success is rolled, so that target object does come to life but the hit points it is endowed with come from the caster, who immediately takes equivalent damage, which heals normally but may be sufficient to kill the caster if the object is large enough",
+          "4": "target object is not animated but all small objects weighing less than 5 pounds within 30’ of the caster suddenly come to life for 1d10 turns, creating total pandemonium, as weapons, clothing, foodstuffs, and everything else dance around the party"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster breathes life into one small object. It must weigh 10 lbs. or less and be no larger than one cubic foot. For a period of 1d24 turns, the object is treated as a living creature with 1d4 hit points and the following ability scores: Int 2, Str 6, Agi 12. The animated creature’s AC varies according to material.",
+          "18-21": "The caster breathes life into one moderately sized object. It must weigh 100 lbs. or less and be no larger than man-sized. For a period of 1d24 turns, the object is treated as a living creature with 2d4 hit points and the following ability scores: Int 2, Str 10, Agi 10. The animated creature’s AC varies according to material.",
+          "22-23": "The caster breathes life into one large object. It must weigh 500 lbs. or less and be no larger than man-sized. For a period of 1d4 days, the object is treated as a living creature with 3d8 hit points and the following ability scores: Int 2, Str 16, Agi 10. The animated creature’s AC varies according to material.",
+          "24-26": "The caster breathes life into one large object. It must weigh 500 lbs. or less and be no larger than man-sized. For a period of 1d4 weeks, the object is treated as a living creature with 3d8 hit points and the following ability scores: Int 2, Str 16, Agi 10. The animated creature’s AC varies according to material.",
+          "27-31": "The caster breathes life into one large object. It must weigh 500 lbs. or less and be no larger than man-sized. For a period of 1d4 weeks, the object is treated as a living creature with 3d8 hit points and the following ability scores: Int 2, Str 16, Agi 10. The animated creature’s AC varies according to material. Additionally, the caster has complete control over the creature. It never questions the caster’s directives, even if asked to complete seemingly impossible or suicidal tasks.",
+          "32-33": "The caster breathes life into one very large object that can be quite intelligent. It can weigh up to 2,000 lbs. and be up to three times man-sized. For a period of 1d4+1 weeks, the object is treated as a living creature with 6d8 hit points and the following ability scores: Int 8, Str 20, Agi 10. The animated creature’s AC varies according to material. Additionally, the caster has complete control over the creature. It never questions the caster’s directives, even if asked to complete seemingly impossible or suicidal tasks.",
+          "34-35": "The caster breathes permanent life into an inanimate object. If the proper shell is built for the caster’s creation, he can use this spell to create golems, living statues, homunculi, and other such things. The caster can construct a golem-like body, per the notes below, as a receptacle for the spell. Construction time is a minimum of 1 month. The target of the casting can weigh up to 10,000 lbs. and be up to four times man-sized. To attempt the creation of permanent life, the caster must cast a ritualized version of this spell requiring one week’s time and a minimum of 10 points of spellburn; otherwise, a lesser casting of this spell is treated as result 32-33 above. The caster has complete control over the creature. It never questions the caster’s directives, even if asked to complete seemingly impossible or suicidal tasks. DCC RPG does not include complete statistics for golems and other such creatures, as the author prefers to leave the pursuit of such things up to the reader’s creativity. As general guidelines, the creation of a man-sized golem-like shell for this spell can proceed with stats as follows. Larger or smaller golems can also be created, of course. The shells below do not include special properties; they are simply receptacles. See result 36+ below for more on special properties. A shell costs 10,000 gold pieces to create plus additional costs as noted below. Sufficient raw materials are obviously required. Wood: Init -1; Atk fist +4 melee (dmg 1d6+3); AC 10; HD 6d8+6; MV 30’; Act 1d20; SP double damage from fire; SV Fort +2, Ref +3, Will +4; Int 8, Str 18, Agi 10. Construction costs: 10,000 gp + 1,000 gp. Clay: Init -2; Atk fist +6 melee (dmg 1d8+3); AC 10; HD 6d8+6; MV 20’; Act 1d20; SP double damage from water-based attacks; SV Fort +3, Ref +2, Will +4; Int 8, Str 18, Agi 10. Construction costs: 10,000 gp + 5,000 gp. Stone: Init -2; Atk fist +7 melee (dmg 1d8+4); AC 12; HD 8d8+16; MV 20’; Act 1d20; SV Fort +4, Ref +2, Will +4; Int 8, Str 20, Agi 8. Construction costs: 10,000 gp + 5,000 gp. Iron: Init -2; Atk fist +8 melee (dmg 1d10+5); AC 14; HD 10d8+30; MV 20’; Act 1d20; SV Fort +6, Ref +3, Will +5; Int 8, Str 22, Agi 8. Construction costs: 10,000 gp + 10,000 gp. Flesh: Init -1; Atk fist +5 melee (dmg 1d5+2); AC 12; HD 10d8; MV 30’; Act 1d20; SV Fort +8, Ref +4, Will +8; Int 12, Str 16, Agi 10. Construction costs: 10,000 gp + 15,000 gp. Precious metal: Init -1; Atk fist +4 melee (dmg 1d4+2); AC 12; HD 8d8+16; MV 30’; Act 1d20; SP potentially unique properties according to metal used; SV Fort +6, Ref +3, Will +6; Int 12, Str 16, Agi 10. Construction costs: 10,000 gp + 50,000 gp. Gemstone: Init -1; Atk fist +6 melee (dmg 3d6); AC 11; HD 8d8; MV 30’; Act 1d20; SP potentially unique properties according to metal used; SV Fort +8, Ref +4, Will +5; Int 10, Str 16, Agi 10. Construction costs: 10,000 gp + 100,000 gp.",
+          "36+": "As result 34-35 and the caster can build a shell that is imbued with unique properties. For example, the caster could build a flesh golem that can absorb and heal itself from electrical shocks or an iron golem that can breathe poisonous gas. The caster can create one unique property per CL. The cost of creating the shell is increased by another 10,000 gp per unique property. For every unique property endowed, the casting time is increased by another week and another point of spellburn is required. In addition, the caster must successfully cast the necessary spells to imbue the special property."
+        }
+      }
+    ]
+  }
+  

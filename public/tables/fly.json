@@ -1,0 +1,58 @@
+{
+    "table_name": "fly",
+    "notes": "Level: 3 -- Range: Self or touch -- Duration: 1 turn or more -- Casting time: 1 round -- Save: N/A",
+    "general": "The caster grants flying ability to himself or another creature. The speed and duration vary according to the check result. The speed is halved when ascending and doubled when in a vertical dive. Heavily encumbered creatures fly at half the given speed. Maneuverability is generally good, equivalent to a large bird (such as an eagle or hawk). The duration is always rolled in secret by the judge, and the subject does not know when his flight will end until he falls to the ground.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "target manifests wings (angelic or demonic in appearance, depending on alignment)",
+          "2": "target is surrounded by a thousand tiny birds that lift it into the air",
+          "3": "clouds manifest at the target’s feet",
+          "4": "no visible manifestation"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "caster grows fowl-like feathers around his ankles and feet",
+          "2": "the space between the caster’s back and arms becomes webbed and feathered, almost like wings, but they are so spindly they do not grant any benefit",
+          "3": "caster becomes an object of attraction to birds, insects, and other flying objects, which frequently buzz about him, causing annoyance, making hiding difficult, and making him unpopular with civilized society",
+          "4": "caster gains 2d20+20 pounds, growing an enormous belly almost overnight and is suddenly more 'earthbound' than he ever realized – the weight is impossible to lose no matter how hard the caster diets or exercises",
+          "5": "the caster becomes susceptible to attacks by elemental air, taking an additional +1 damage on all damage dice associated with air elementals, gusts of wind, cyclones, and other such effects",
+          "6": "major",
+          "7": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "caster sinks 6” into the ground, his feet cracking through dirt or stone, and cannot move until he spends a full round to extricate himself",
+          "2": "caster sends all his possessions into flight, but not himself, such that his clothes, weapons, spell books, and other things launch into the air for 1d4+1 rounds, moving 60’ per round in a randomly determined direction, leaving him naked and possession-less to chase them wherever they may fall",
+          "3": "caster sends all weapons within 30’ into the air, flying into a great flock then shooting off into the distance, moving at a speed of 60’ for 1d4+1 rounds",
+          "4": "caster and 1d4 randomly determined targets within 30’ grow enormously heavy and must move at half speed for the next turn"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The target flies at a speed of 30’. The flying ability lasts for 1 turn.",
+          "18-21": "The target flies at a speed of 60’. The flying ability lasts for 1d6+1 turns.",
+          "22-23": "The target flies at a speed of 90’. The flying ability lasts for 1d6+4 hours.",
+          "24-26": "The caster can grant flight to up to two man-sized creatures (himself plus one other, or two others) or one creature twice the size of a man (such as an ogre). He must be touching the targets. The caster flies at 90’ while others fly at 60’. The spell’s duration is 1d6+8 hours.",
+          "27-31": "The caster can grant flight to up to four man-sized creatures (himself plus three others, or four others) or one creature up to four times the size of a man (such as a giant). The targets must be within 10’ of the caster. The caster flies at 90’ while other creatures fly at 30’. The spell’s duration is one day. The flying creatures can each carry up to twice a normal man’s load.",
+          "32-33": "The caster draws a magic circle on the ground, and all creatures within that circle are granted flight. For each round spent drawing, the caster can render a circle up to 10’ in diameter. For example, if he spends 4 rounds drawing a magic circle, it will be 40’ in diameter. The magic circle can be a maximum of 100’ in diameter, and the spell is cast at the end of the round the caster finishes drawing it; e.g., if he spends 6 rounds drawing a 60’-diameter magic circle, the spell is cast on the end of the sixth round. All creatures within the circle, including the caster, are granted flight regardless of their size (e.g., even giants are granted flight if they are within the circle). The flight speed is 90’ for the caster and 60’ for all others. The duration is one day. The flying creatures can each carry up to twice a normal man’s load.",
+          "34-35": "The caster raises his arms and grants flight to an entire army! All creatures within 300’ of the caster, up to giant-sized, are granted flight. Their speed is 30’ and they may fly for 1d4+1 turns. The caster himself can fly at 90’ for one day, and any creatures he directly touches can fly at 60’ for one day. (Typically, a maximum of 8 human-sized creatures can crowd around the caster and touch him during the casting.) All flying creatures can each carry up to twice a normal man’s load.",
+          "36+": "At this extraordinary level of casting, the caster can grant flight to geographical objects. Castles, mountains, towns, and lakes can be sent into the air. Additionally, when cast on a human target (including the caster), the spell can be rendered permanent. When targeting geographic objects or large groups of people, the caster can effectively grant flight in a manner that would normally be called 'miraculous.' The target can fly at a speed of 20’ (for a mountain), 30’ (for a giant), 60’ (for a man-sized creature), and 90’ (for the caster), for durations of up to a day. The caster can lift hundreds or even thousands of targets into the air at once or send them into the air in the city or castle they occupy. If aimed at a single target, a casting of this power level grants flight ability of great duration. The caster must expend a minimum of 1 point of spellburn. The duration starts at 1 week for 1 point of spellburn, and increases with every subsequent expenditure as follows: 2 = a month, 3 = six months, 4 = a year, 5 = five years, 6 = a decade, 7 = twenty years, 8 = forty years, 9 = sixty years, and 10 = permanent."
+        }
+      }
+    ]
+  }
+  

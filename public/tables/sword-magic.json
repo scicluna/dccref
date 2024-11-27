@@ -1,0 +1,55 @@
+{
+    "table_name": "sword-magic",
+    "notes": "Level: 3 -- Range: Self -- Duration: Permanent -- Casting Time: A month or more (see below) -- Save: None",
+    "general": "Magic weapons can be created by spellcasters using this spell. A spell check determines the possible abilities and properties of the weapon to be created. The specifics are determined by the material components, craftsmanship, and other elements incorporated by the caster. This spell is cast as an ongoing ritual through the weapon-forging process, and the caster may need a partner to forge the weapon if he is not a blacksmith himself. Spellburn utilized in the casting is lost for the duration of the casting and only heals when the spell is complete. All costs are expended before the spell check is made, and failure means all costs are lost; a weapon that is unsuccessfully enchanted can be re-forged to recover half the material costs involved. Generally speaking, follow this process to create a magic weapon: Forge the weapon: The weapon must be forged while this spell is cast. A dagger, short sword, long sword, or two-handed sword is easily enchanted. Using this spell to enchant other kinds of weapons entails a -1 penalty to the spell check, increased to -2 if the caster is not proficient with the weapon in question. Construction of the physical weapon itself costs a minimum of 100x the cost of a normal weapon of that type in raw materials of the highest quality, plus any wages paid to the blacksmith(s). The basic enchantment: The spell check determines the basic enchantment. The caster’s level determines the maximum possible effectiveness of the weapon: CL5 = +1, CL6 = +2, CL7 = +3, CL8 = +4, CL10 = +5. Make the spell check and compare the result to Table 8-4 to determine the “plus” of the weapon. The cost of a plus, in addition to the weapon itself, is as follows, reflected in extraordinarily rare materials: +1 = 5,000 gp; +2 = 10,000 gp; +3 = 50,000 gp; +4 = 500,000 gp; +5 = 1,000,000 gp. Page 230 The weapon’s intelligence: A magic weapon is always intelligent. The single spell check determines the basic enchantment, the weapon’s intelligence, and all other aspects of the magic sword. Reference Table 8-4 to determine the dice rolled for the weapon’s Intelligence and how it communicates. The weapon has a personality that is a blend of the caster’s, the blacksmith involved, patrons invoked, and any other particulars of its creation (a dragon-bane weapon may be arrogant like a dragon). Alignment: A magic weapon is usually, but not always, the same alignment as its creator. Reference Table 8-3 for the result of the spell check. Weapons of different alignments than their creators will not be easy to use. Banes: A magic weapon can be constructed for the purpose of slaying a particular kind of foe. Reference Table 8-4 to determine the number of potential banes at any given spell check result and Table 8-5 for the effects of various banes. Each bane built into a weapon costs from 20,000 to 100,000 gp and requires voluminous material samples of the creature type in question (for example, a dozen dragon corpses or 100 orcs). The cost depends on the level of effect and is at the discretion of the judge (i.e., the most deadly result of instant death costs the most, while the simplest result of a bonus to hit is the cheapest). The caster must declare what kind of banes he is trying to instill in his weapon. Depending on the spell check, he may be successful in none, some, or all of those. If a limited number is granted, the judge randomly determines which are successful. Special purpose: A magic weapon always has a special purpose, and it is not always under the control of the caster. The special purpose is determined by the most recondite of factors, ranging from astrological signs to natural terrain to the most subtle properties used in the crafting of the weapon. Table 8-4 indicates the dice rolled for a weapon’s special purpose, based on the spell check; those dice are then rolled on table 8-6. The result is always random, then the caster can utilize spellburn to shift the table’s results. For every point of spellburn, he can increase or decrease his roll by 1 point. This spellburn is determined after rolling for the special purpose. The level of spellburn employed determines the caster’s knowledge of the process and how carefully he can actually influence the result of his crafting. Under certain circumstances, particularly if a caster has a powerful patron, the judge may choose a special purpose that is aligned with the caster’s patron or some other greater power. There is no gp cost to a special purpose. Powers: Sword powers come in three varieties: type I, type II, and type III (see tables 8-7, 8-8, and 8-9). The special check determines which powers a sword may have. The caster pays a cost to imbue a sword with powers: 10,000 gp for each type I power, 20,000 gp for each type II power, and 50,000 for each type III power. Depending on the result of the spell check, the weapon will have some number of those powers evident at the completion of the casting. It is quite possible that the caster will spend the money to imbue the powers but his spell check will not be sufficient to complete them, or his spell check results in a percentile chance which does not yield those powers. Creation properties: Several of the entries above note specialized circumstances that can influence a sword’s final traits. These creation properties are sometimes known factors, and other times are incidental events that affect the creation process inadvertently. Here are some potential creation properties, which can be used by the player to attempt to influence the final weapon created and by the judge to introduce unusual purposes or powers beyond the intent of the creator. Creation properties: crafter (not necessarily caster) is an elf, dwarf, giant, god, demon, last of a line, a wronged king, or seventh son; weapon is crafted on the plane of fire (or in a volcano or lava lake), on the plane of water (or under the sea, deep in a lake, or on a sailing ship), on the plane of earth (or far below in the underdeep, or within a mine), on the plane of air (or on a cloud, or atop a mountain above the clouds), on the plane of a demon prince or one of the Nine Hells, in the lair of a great dragon, in a graveyard or ossuary, a lich’s crypt, a vampire’s coffin, or a mummy’s tomb, on a great battlefield, or in the fey lands; date of crafting is the birthday of a prince, the day a witch is hanged, or on the death of a god; moment of completion is at sunset, sunrise, high noon, during a full moon, during an eclipse; material components of sword include remnants of a pegasus, dragon, demon, un-dead, etc.; creator’s Luck is at a certain level; iron or wood from which sword is forged is from a specific place; creator’s spoken language includes a certain tongue; and so on.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Creation of a magic weapon."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Minor.",
+          "2": "Minor.",
+          "3": "Minor.",
+          "4": "Major.",
+          "5": "Major.",
+          "6": "Major.",
+          "7": "Greater.",
+          "8": "Greater."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Lost and corruption.",
+          "2": "Failure, but spell is not lost.",
+          "3": "Per above and table 8-4.",
+          "4": "Per above and table 8-4."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost and corruption.",
+          "2-15": "Failure, but spell is not lost.",
+          "16-17": "Per above and table 8-4.",
+          "18-21": "Per above and table 8-4.",
+          "22-23": "Per above and table 8-4.",
+          "24-26": "Per above and table 8-4.",
+          "27-31": "Per above and table 8-4.",
+          "32-33": "Per above and table 8-4.",
+          "34-35": "Per above and table 8-4.",
+          "36+": "Per above and table 8-4."
+        }
+      }
+    ]
+  }
+  

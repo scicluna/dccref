@@ -1,0 +1,54 @@
+{
+    "table_name": "flaming-hands",
+    "notes": "Level: 1 -- Range: 15’ -- Duration: Instantaneous -- Casting time: 1 action -- Save: None",
+    "general": "The caster produces gouts of fire from his bare hands to burn his enemies.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s hands burst into flames.",
+          "2": "Fires spring from the wizard’s fingertips.",
+          "3": "Caster’s hands turn into roiling, smoking flame.",
+          "4": "Skin blackens and peels away to reveal skeletal hands dripping lava."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Hands permanently blackened.",
+          "2": "Bare touch causes paper to ignite 25% of the time.",
+          "3": "Body hair burned away permanently.",
+          "4": "Caster suffers a permanent -2 penalty on spell checks to cold-based magics."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Flame jets from random appendage, spoiling aim; randomly determine where and in what direction the flame gouts; jet causes 1d3 damage to everything within 15’ range in that direction.",
+          "2": "Caster’s hands ignite causing him 1d3 damage.",
+          "3": "1d4 random possessions of the caster catch fire and burn to char.",
+          "4": "All fire within a 15’ radius of the caster is immediately snuffed out."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "A single blast of fire strikes one target within range for 1d3 points of damage.",
+          "14-17": "Spell produces a blast of fire that burns a single target within range for 1d6 points of damage.",
+          "18-19": "Spell produces a blast of fire that burns a single target within range for 1d6+CL points of damage.",
+          "20-23": "Spell produces a blast of fire that burns up to three targets within range for 1d6+CL points of damage. All targets must be within 10’ of one another.",
+          "24-27": "Spell produces a blast of fire that burns up to three targets within range for 2d6+CL points of damage. All targets must be within 10’ of one another.",
+          "28-29": "Caster creates a single blast of fire 10’ wide and 30’ long that does damage equal to 3d6+CL to all caught in the blast.",
+          "30-31": "Caster creates two blasts of fire 10’ wide and 30’ long. Each can be directed within a 180° arc of his position, doing damage equal to 3d6+CL to all caught in the blast.",
+          "32+": "Caster can blast fire in a 360° arc outward from his body. Within that complete radius he can pick one ‘wedge’ of 0-180° where fire does not blast (i.e., to protect allies in that position). All creatures within the affected arc, out to a range of 40’, are immolated, taking damage equal to 4d10+CL."
+        }
+      }
+    ]
+  }
+  

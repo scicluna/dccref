@@ -1,0 +1,31 @@
+{
+    "table_name": "tadpole-transformation",
+    "notes": "Level: 1 (Bobugbubilz) -- Range: Self -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "A true servant of Bobugbubilz enjoys the calm of the deep swamp. The relaxing buzz of mosquitoes and biting flies, the cooling touch of muddy water, the irregular splashes of frogs and fishes, and the deep-throated calls of the swampland bullfrogs: these are the sounds and sights that bring happiness to Bobugbubilz and his thralls. This spell enables the caster to enjoy such sensations by changing his body to best accommodate them.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "See below."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster’s legs double in girth, his ankle joints extend, and his legs double-back like a frog’s. He can now hop distances equal to twice his normal walking speed. This means the caster can make a standing leap clear across chasms and pits or hop rapidly to move at twice his normal speed. The transformation lasts for 1d6 turns.",
+          "14-17": "The caster grows a stiff, tadpole-like tail. He can now swim at a speed equal to double his normal walking speed. The transformation lasts for 1d6 turns.",
+          "18-19": "The caster grows gills in the side of his neck. He can now breathe underwater for 1d6 turns.",
+          "20-23": "The caster’s mouth distorts into the wide, gulping maw of a frog, and his tongue lengthens. He gains a bite attack that deals 1d6 damage plus Strength modifier. Additionally, the caster can extend his sticky tongue with great accuracy. As a ranged attack, he can target any object within 40’ with his tongue. Success indicates the caster latches onto the object and can reel it back with an effective Strength of 20 (for purposes of the sticky tongue only)—the target must make an opposed Strength check to resist. The effect lasts for 1d6 turns.",
+          "24-27": "The caster undergoes a broad transformation that grants him frog legs, a stiff tadpole tail, gills, and a frog mouth, as the above four results. The effect lasts for 1d6 turns.",
+          "28-29": "The caster gains all effects from results 24-27 above, and the duration is extended to 1d6 hours.",
+          "30-31": "The caster is transformed into a walking avatar of Bobugbubilz. His girth and mass grows to roughly double normal. His arms and legs thicken, he grows a tadpole-like tail, and his frog-like mouth is imposing in size. He gains the hopping, swimming, breathing, biting, and tongue-lashing abilities outlined in results 12-23 for a period of 1d6 hours. In addition, due to his larger size and constitution, he gains 2d6 temporary hit points and is treated as having a Strength of 18 for all normal purposes (including melee combat).",
+          "32+": "The caster is transformed into a walking avatar of Bobugbubilz. His girth and mass grows to roughly triple normal. His arms and legs thicken, he grows a tadpole-like tail, and his frog-like mouth is imposing in size. He gains the hopping, swimming, breathing, biting, and tongue-lashing abilities outlined in results 12-23 for a period of 1d6 days, which can be cut short at any point he wishes. In addition, due to his larger size and constitution, he gains 3d6 temporary hit points and is treated as having a Strength of 22 for all normal purposes (including melee combat)."
+        }
+      }
+    ]
+  }
+  

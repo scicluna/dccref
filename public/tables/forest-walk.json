@@ -1,0 +1,33 @@
+{
+    "table_name": "forest-walk",
+    "notes": "Level: 1 (The King of Elfland) -- Range: Varies -- Duration: Varies -- Casting time: 1 action -- Save: None",
+    "general": "The caster teleports between trees of the same species using the secret paths of Elfland. Travel is limited to similar biomes and tree species, and at the judge's discretion, emerging from a tree may confer surprise. The caster can specify a tree they know or describe a general destination, such as 'an oak tree in the orc realms 100 miles north.'",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "A door, set into the stump of a tree, is suddenly revealed.",
+          "2": "The caster slowly diminishes, fading into shadow, as they vanish into the arbor.",
+          "3": "The caster sprouts leaves and bark skin and is quickly absorbed into the tree."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster steps through one tree and instantly emerges from another tree up to 100 yards away.",
+          "14-17": "The caster steps through one tree and instantly emerges from another tree within the same forest, up to one mile distant.",
+          "18-19": "The caster steps through one tree and instantly emerges from another tree within the same forest, up to 100 miles distant.",
+          "20-23": "The caster and up to 1d4 + CL allies step through a tree and are instantly transported to another tree within the same forest, up to 100 miles distant.",
+          "24-27": "The caster and up to 1d8 + CL allies step through a tree and are instantly transported to another tree within the same forest, up to 100 miles distant.",
+          "28-29": "The caster and up to 1d12 + CL allies step through a tree and are instantly transported to another tree within the same forest, up to 1,000 miles distant.",
+          "30-31": "The caster and up to CL × 100 allies step through a tree and are instantly transported to another tree, anywhere on the same plane. This spell remains active long enough for all allies to step through the tree, allowing an army to march through. Allies may include mounted units or those in boats if the tree is adjacent to a waterway.",
+          "32+": "The caster and any number of allies can step through a tree to be instantly transported to another tree, on any plane. Of course, trees of the same species typically grow on similar planes of existence, so planar travel with this is limited, but a carefully cultivated specimen nurtured in advance of casting of this spell can be used as an “anchor point” on another plane. Servants of the King of Elfland use this spell to instantly travel between waystations on his realm of existence and many other planes."
+        }
+      }
+    ]
+  }
+  

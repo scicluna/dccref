@@ -1,0 +1,86 @@
+{
+    "table_name": "blessing",
+    "notes": "Level: 1 -- Range: Self or touch -- Duration: 1 turn or more -- Casting time: 1 action or more (see below) -- Save: N/A",
+    "general": "The cleric beseeches the blessing of his god. If bestowed, this blessing can be a great boon to the success of his endeavors. The spell can be cast on the cleric himself, on an object, or on one of the cleric’s allies. The spell is most effective on allies with the same alignment. Casting this spell on a target with a different alignment incurs a -1 penalty to the spell check, and casting the spell on a target with an opposite alignment or in allegiance to an opposed deity incurs a -2 penalty. The casting time reflects prayer and meditation as the cleric uses his holy symbol to conduct the blessing ritual. Blessings cast under auspicious circumstances receive a bonus of +1 to +4, according to the judge’s discretion. Such circumstances include casting in the temple of the cleric’s god, casting on a sacred holiday, or casting with the use of a holy relic. Likewise, casting under inauspicious circumstances, such as in an unholy enemy temple, receives a penalty ranging from -1 to -4.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target glows.",
+          "2": "Target is limned in a brilliant aura.",
+          "3": "Target manifests an angelic crown.",
+          "4": "The heavenly host sings softly when the blessing is present."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster gains a minor facial trait of the animal he attempted to summon, such as whiskers, longer ears, cat eyes, etc.",
+          "2": "Caster emits an odor which humans find strange but animals find irresistible.",
+          "3": "Minor corruption.",
+          "4": "Major corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster inadvertently summons a swarm of aggravating insects, such as bees, wasps, or locusts.",
+          "2": "Instead of summoning an animal, the caster inadvertently sends one away: The caster’s familiar or the next-closest mundane animal vanishes for 1d4 rounds only to return dirty, wet, and angry.",
+          "3": "Caster summons only part of an animal, causing a pile of bloody rabbit ears, severed goat horns, dislocated wolf legs, or bloody viscera to appear.",
+          "4": "Caster correctly summons an animal but incorrectly places it inside a nearby building or terrain feature, or the floor/ground if there is no other nearby feature – the animal dies instantly and its body is difficult to recover now that it is fused with the object."
+        }
+      },
+      {
+        "subtable_name": "Spell Results (Self)",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The cleric receives a +1 bonus to all attack rolls for 1 turn.",
+          "14-17": "The cleric receives a +1 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+          "18-19": "The cleric receives a +2 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+          "20-23": "The cleric receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn.",
+          "24-27": "The cleric receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn.",
+          "28-29": "The cleric radiates an aura of exquisite holiness. All allies within 30’ of the caster receive a blessing that grants a +4 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus lasts for one hour.",
+          "30-31": "At this level of power, the blessing applies to the cleric and to an enterprise he serves in the name of his deity. All persons involved in the enterprise with the cleric receive a +1 bonus to all activities associated with the enterprise, as long as it remains in the service of the cleric’s deity.",
+          "32+": "At this level of power, the blessing applies to the cleric and to an enterprise he serves in the name of his deity. Moreover, the blessing bestowed to an ongoing enterprise is permanent, as long as it is favored by the cleric’s deity."
+        }
+      },
+      {
+        "subtable_name": "Spell Results (Other)",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The ally receives a +1 bonus to all attack rolls for 1 round.",
+          "14-17": "The ally receives a +1 bonus to all attack rolls for 1 turn.",
+          "18-19": "The ally receives a +1 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+          "20-23": "The ally receives a +2 bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks for 1 turn.",
+          "24-27": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn.",
+          "28-29": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn. In addition, the ally radiates a holy aura.",
+          "30-31": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn.",
+          "32+": "The ally receives a bonus to all attack rolls, damage rolls, saving throws, skill checks, and spell checks. The bonus is equal to 1d3+CL (rolled at time of casting) and lasts for 1 turn."
+        }
+      },
+      {
+        "subtable_name": "Spell Results (Object)",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Failure.",
+          "2-11": "Failure.",
+          "12-13": "The cleric can bless a vial of liquid to create holy water. The holy water does 1d4 damage when splashed upon unholy creatures. It remains holy for 1 day, as long as it is used in the service of the cleric’s deity.",
+          "14-17": "The cleric can create holy water or bless a small amulet. The amulet is considered holy and magical for the duration of the spell, which is 1 day.",
+          "18-19": "The cleric can create holy water, a holy amulet, or bless a weapon. A blessed weapon grants a +1 bonus to all attack and damage rolls or a +2 bonus to attack and damage rolls against unholy creatures. The weapon remains holy for 1 day and is considered magical.",
+          "20-23": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus, and holy weapons grant a +2 or +3 bonus.",
+          "24-27": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus for one month, and holy weapons grant a +2 or +3 bonus for one month.",
+          "28-29": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus for one year, and holy weapons grant a +2 or +3 bonus for one year.",
+          "30-31": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus permanently, and holy weapons grant a +2 or +3 bonus permanently.",
+          "32+": "The cleric can create holy water, a holy amulet, or a holy weapon, as above with the following changes: holy water remains potent permanently, holy amulets grant a +2 bonus permanently, and holy weapons grant a +2 or +3 bonus permanently."
+        }
+      }
+    ]
+  }
+  

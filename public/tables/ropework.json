@@ -1,0 +1,54 @@
+{
+    "table_name": "ropework",
+    "notes": "Level: 1 -- Range: 30’ or more -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The caster summons a rope from nowhere and commands it to do his bidding. The rope can be used to entangle foes, climb walls, cross ravines, lift friends or enemies, shape itself into writing, or do other amazing things. Unlike other spells, casting ropework allows the caster to choose any result at or below the spell check.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Normal rope appears from thin air.",
+          "2": "Rope drops down from above.",
+          "3": "Rope explodes from the ground like a serpent, then changes to look like rope.",
+          "4": "Multi-colored threads sprout from the ground and coalesce into a rope."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s skin takes on a ropy look and feel.",
+          "2": "Caster’s arms elongate 1d4+4” and joints soften, giving the limbs a tentacle-like consistency.",
+          "3": "Caster grows a sixth finger on each hand.",
+          "4": "Caster grows a sixth toe on each foot."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "For the next 1d4 hours, caster repels ropes as if by an invisible force field – ropes always 'bounce away' when he approaches, and they slip out of his hand whenever he tries to grab one.",
+          "2": "Rope is summoned to immediately bind the caster securely (DC 15 Agility or Strength check to escape, or rope must be cut).",
+          "3": "Caster plus 1d4 nearest allies are all drawn together by magically summoned rope which proceeds to bind them in a complex knot (DC 15 Agility or Strength check to escape, or rope must be cut).",
+          "4": "1d4 animated ropes appear and begin attacking all nearby creatures! (AC 8, 5 hp each, attack whip +3 melee (damage 1d3))."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster summons a rope of up to 100’ in length from nowhere. The rope remains in existence for 1 turn.",
+          "14-17": "The caster summons a rope as above. Using an existing rope or the summoned one, he can command the rope to rearrange itself into any shape. This can be a symbol (such as an arrow or square), writing (cursive or block), numbers, or anything else. The rope takes 1d4 rounds to arrange itself, depending on the complexity of the request.",
+          "18-19": "The caster summons a rope as above. Using an existing rope or the summoned one, he can command the rope to entangle one target. The rope rapidly loops itself around the target, then constricts. The target receives a Reflex save against the spell check DC to escape; otherwise, it is constrained. A constrained target cannot move or take any action other than to talk. Once constrained, the target can attempt on future rounds to escape with a Strength or Agility check (to burst the rope or wiggle free) against the spell check DC.",
+          "20-23": "The caster summons a rope as above. Using an existing rope or the summoned one, he can command the rope to rise into the air. The rope can rise straight up, at an angle, or hang in the air horizontally. It does not need to be anchored to anything and will support up to 400 pounds of weight without being anchored (anchoring it may allow it to support more weight). The rope can be climbed as normal. The rope remains in this position, magically floating in the air, for up to 1 turn, at which point it drops to the ground.",
+          "24-27": "The caster summons a rope as above. Using an existing rope or the summoned one, he can command the rope to lift a target into the air. The rope loops itself lightly around the legs and waist of the target (requiring about 5 feet of its total length), then lifts the target to whatever height is indicated, as long as the base of the rope still touches the ground. The rope can lift a target that weighs up to 400 pounds. The target can be lifted straight up or at an angle, at a speed of 50’ per round.",
+          "28-29": "The caster summons a rope as above. Using an existing rope or the summoned one, he can command the rope to entangle a target (as result 18-19 above) or lift it up (as result 24-27 above), and then also have the rope drag the target at a speed of up to 30’ per round. The rope can be commanded to move up to 1 turn as long as one end of it is within 30’ of you.",
+          "30-31": "As any result above, and the spell’s range is extended to 300’.",
+          "32+": "As any result above, and the spell’s duration is increased to 1 hour."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,57 @@
+{
+    "table_name": "mending",
+    "notes": "Level: 1 -- Range: 5’ -- Duration: Varies -- Casting time: 1 round -- Save: None",
+    "general": "The caster can repair damaged objects, generally of a simple and mundane nature. The reverse spell, tear, can cause minor defects and offers a Fort save to the affected object.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Object glows.",
+          "2": "Object disappears then reappears mended.",
+          "3": "Swarm of tiny gnomes crawl out from under nooks and crannies to repair object with hammer and anvil, then they run away.",
+          "4": "Object melts and then reforms mended."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Minor corruption.",
+          "2": "Minor corruption.",
+          "3": "Minor corruption.",
+          "4": "Minor corruption.",
+          "5": "Minor corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster’s clothes unravel and fall into a pile of threads at his feet.",
+          "2": "All straps, laces, buckles, and fasteners within 20’ of caster come undone, causing pants to fall off, shields to fall to the ground, sacks to spill their contents, boots to come unlaced, backpacks to slip from shoulders, etc.",
+          "3": "Deep gouts of rust appear on all metal weapons within 10’, imposing a permanent -1 penalty to damage.",
+          "4": "A greenish patina tarnishes all precious metals on the caster’s person, reducing their value (and making their metal content suspect) until they are polished.",
+          "5": "The most complicated mechanical object within 20’ (probably a crossbow but review character sheets to be sure) breaks in a manner that is very difficult to repair.",
+          "6": "Caster suffers a minor but aggravating wound, such as a stubbed toe or bad hangnail, which causes no damage but inflicts a -1 penalty to all rolls for 10 minutes."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1) corruption; (2+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster repairs a minor defect in a simple object of non-magical, non-living nature. The repair lasts for 24 hours.",
+          "14-17": "The caster repairs a minor defect in a simple object of non-magical, non-living nature. The repair lasts for one week.",
+          "18-19": "The caster permanently repairs a minor defect in a simple object of non-magical, non-living nature. The defect to be repaired must be of a single material, be no more than 1 cubic foot in volume, and contain no moving parts or complex mechanisms.",
+          "20-23": "The caster permanently repairs one normal, complex object with moving parts and multiple elements.",
+          "24-27": "The caster permanently repairs a large, complex object of mundane origin, with moving parts and multiple elements, at a range of up to 100’.",
+          "28-29": "The caster permanently repairs a very large, complex object of mundane origin, even if it has moving parts and multiple elements, at a range of up to 100’.",
+          "30-31": "The caster permanently repairs very large objects of great complexity at a range of 100’, even if they are magical in nature.",
+          "32+": "The caster permanently repairs very large objects, even if they are complex or magical in nature, at a range of 100’. Optionally, the caster can cast this spell on a living creature to mend its wounds. Casting this spell on a living creature heals one debility per casting (e.g., blindness, deafness, a severed limb, etc.) or the equivalent of 2d6 hit points of damage."
+        }
+      }
+    ]
+  }
+  

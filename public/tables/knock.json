@@ -1,0 +1,56 @@
+{
+    "table_name": "knock",
+    "notes": "Level: 2 -- Range: 30’ or more -- Duration: Instant -- Casting time: 1 round -- Save: N/A",
+    "general": "The caster forces open a locked portal or object.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Resounding knocking sound",
+          "2": "Loud smashing sound",
+          "3": "Subtle sound of a lock clicking open",
+          "4": "Flash of light"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Minor",
+          "2": "Minor",
+          "3": "Minor",
+          "4": "Major",
+          "5": "Major",
+          "6": "Greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Caster accidentally strengthens the lock on the targeted door, increasing DCs to unlock/break it by +4",
+          "2": "Caster makes the targeted door invisible for 1d6 rounds",
+          "3": "Caster causes all fasteners on his person to come undone, including shoelaces, belts, potion stoppers, scroll cases, and so on"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "Targeting one locked chest, stuck door, bolted gate, tied rope, or other object or portal, the caster causes it to magically open. If locked by physical or mundane means, the targeted object automatically unlocks or unfastens – unless the object is of enormous size or supra-normal complexity. If locked by magical means, the spell has no effect.",
+          "16-19": "Targeting one locked chest, stuck door, bolted gate, tied rope, or other object or portal, the caster causes it to magically open. If locked by magical means, the spell has no effect. If locked by physical or mundane means, the targeted object automatically unlocks or unfastens. Even objects of enormous size (e.g., the gates of a cloud giant’s castle) or supra-normal complexity (e.g., the most complex clockwork lock ever devised by a level 20 gnomish locksmith) are opened, provided they are locked via a strictly physical nature.",
+          "20-21": "Targeting one locked chest, stuck door, bolted gate, tied rope, or other object or portal, the caster causes it to magically open. If locked by physical or mundane means, the targeted object automatically unlocks or unfastens. Even objects of enormous size (e.g., the gates of a cloud giant’s castle) or supra-normal complexity (e.g., the most complex clockwork lock ever devised by a level 20 gnomish locksmith) are opened, provided they are locked via a strictly physical nature. The caster may also be able to affect magically locked devices. If the result of this spell check is higher than the spell check result used to magically lock the object, it is opened. For example, a portal locked with ward portal could potentially be opened if the knock check result exceeds the original ward portal spell check.",
+          "22-25": "The caster creates a zone of unlocking that potentially affects all locked objects within 30’. The caster gains instant awareness of all such objects within range (including secret doors, if they are locked) and may choose instantaneously which to unlock. This includes locked chests, stuck doors, bolted gates, tied ropes, and other objects or portals. Even objects of enormous size (e.g., the gates of a cloud giant’s castle) or supra-normal complexity (e.g., the most complex clockwork lock ever devised by a level 20 gnomish locksmith) are opened. Objects locked via a physical nature are automatically unlocked, and objects locked by magic are unlocked if the result of this spell check is higher than the spell check result used to magically lock the object. For example, a portal locked with ward portal could potentially be opened if the knock check result exceeds the original ward portal spell check. The caster can use this spell to open extradimensional portals that have been locked or blocked.",
+          "26-29": "The caster creates a zone of unlocking that potentially affects all locked objects within 60’, or the caster can target all fasteners of any nature on a single target within 60’. If the latter, the spell affects belts, buttons, snaps, shoelaces, thongs closing sacks, cork stoppers in potions, and so on. A creature targeted with this effect receives no save, and typically finds itself suddenly naked and wet, as its clothes collapse around it, and ration and drinks begin to leak. If the former effect, the caster gains instant awareness of all blocked portals within range (including secret doors, if they are locked), and may choose instantaneously which to unlock. This includes locked chests, stuck doors, bolted gates, tied ropes, and other objects or portals. Even objects of enormous size (e.g., the gates of a cloud giant’s castle) or supra-normal complexity (e.g., the most complex clockwork lock ever devised by a level 20 gnomish locksmith) are opened. Objects locked via a physical nature are automatically unlocked, and objects locked by magic are unlocked if the result of this spell check is higher than the spell check result used to magically lock the object. For example, a portal locked with ward portal could potentially be opened if the knock check result exceeds the original ward portal spell check. The caster can use this spell to open extradimensional portals that have been locked or blocked.",
+          "30-31": "The caster instantly becomes aware of all portals, doors, and gates within 120’, including those that are invisible or extraplanar. All such portals are immediately unlocked unless subject to a magical effect created by a spell check higher than this one. Additionally, the caster can target one portal within range and permanently destroy it. Regardless of size, this door, gate, or window is instantly disintegrated, allowing permanent passage.",
+          "32-33": "The caster instantly becomes aware of all portals, doors, and gates within 120’, including those that are invisible or extraplanar. All such portals are immediately unlocked unless subject to a magical effect created by a spell check higher than this one. Additionally, the caster can target up to three portals within range and permanently destroy them. Regardless of size, these doors, gates, or windows are instantly disintegrated, allowing permanent passage through them.",
+          "34+": "In a staggering display of power, the caster causes all portals within 1 mile to blast open in a violent burst. This includes windows and shutters, cellar stairs and attic trapdoors, and oven doors and city gates, as well as normal doors and portals. Objects are affected regardless of size, complexity, or magic protection; even secret or invisible doors suddenly open, and passages concealed by tapestries are suddenly revealed as the tapestries fall or fray. There is a 25% chance that any given portal is also destroyed in the display of magic. Moreover, normal fasteners and stoppers are loosened or dislodged, such that wine corks fizz open, lids fall off dinner pots, shoelaces unlace, snaps loosen, belts unbuckle, and so on. The caster can vary the impact to range from 'completely disassembled,' where creatures’ clothes fall off and their wineskins burst to dowse them, to 'merely loosened' such that pants loosen and shoes are unlaced."
+        }
+      }
+    ]
+  }
+  

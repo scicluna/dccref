@@ -1,0 +1,32 @@
+{
+    "table_name": "binding",
+    "notes": "Level: 2 -- Range: 30’ or more -- Duration: Varies -- Casting time: 1 round -- Save: Will vs. spell check DC",
+    "general": "With this spell, the cleric binds a supernatural creature and forces it to obey his will. The spell is easiest if the creature has already been summoned for control via another spell. But the cleric may also cast this spell to control creatures encountered on their native planes. The cleric may target one creature already under the control of another spellcaster and summoned via another spell (for example, animal summoning, monster summoning, or invisible companion) or native to a non-material plane (for example, demons, devils, elementals, spirits, ghosts, etc.). The cleric binds that creature to obey his will instead of the will of its current master. A Will save is allowed to resist, but the Will save is made by the other spellcaster not the target creature, which is already dominated. If the check is successful, control of the bound creature transfers to the cleric casting binding. The cleric retains control for a time, after which control reverts back to the original caster (by which time the original summoning or controlling spell may have ended). This spell does not affect familiars or other creatures that voluntarily obey a spellcaster, only those under forcible control. Under certain circumstances, as noted below, the cleric may affect other targets as well. A creature under the cleric’s control can be commanded to take any action normally within its power, similar to the animal summoning spell. The creature must be capable of hearing the cleric’s commands and will execute them to the best of its ability. Suicidal or inherently contradictory commands grant the target another Will save to resist.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "glittery dust appears in a cloud surrounding the target",
+          "2": "a scintillating magical rope binds the target",
+          "3": "a sky-borne tether drops down and attaches to the target"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-13": "Failure.",
+          "14-15": "The cleric may target a creature up to 2 HD. If the spell succeeds, the cleric controls that creature for 1d6 rounds.",
+          "16-19": "The cleric may target a creature up to 4 HD. If the spell succeeds, the cleric controls that creature for 1d6+CL rounds.",
+          "20-21": "The cleric may target a creature up to 6 HD. If the spell succeeds, the cleric controls that creature for 2d6+CL rounds.",
+          "22-25": "The cleric may target a creature up to 6 HD. If the spell succeeds, the cleric controls that creature for 2d6+CL rounds. Alternately, the cleric may also choose to target one free-willed extraplanar creature of 4 HD or less currently on a non-native plane. It receives a Will save using its own modifier. The cleric controls the creature as if it were under the effects of an animal summoning spell of the same spell check. At the end of the duration, the creature reverts to its own free will.",
+          "26-29": "The cleric may target a creature up to 8 HD. If the spell succeeds, the cleric controls that creature for 2d6+CL turns. Alternately, the cleric may also choose to target one free-willed extraplanar creature of 6 HD or less currently on a non-native plane. It receives a Will save using its own modifier. The cleric controls the creature as if it were under the effects of an animal summoning spell of the same spell check. At the end of the duration, the creature reverts to its own free will.",
+          "30-31": "The cleric may target a creature up to 8 HD. If the spell succeeds, the cleric controls that creature for 2d6+CL turns. Alternately, the cleric may also choose to target one other creature of 8 HD or less, which can be any free-willed extraplanar creature currently on a non-native plane, any mundane animal, or any unintelligent monster. It receives a Will save using its own modifier. The cleric controls the creature as if it were under the effects of an animal summoning spell of the same spell check. At the end of the duration, the creature reverts to its own free will.",
+          "32-33": "The cleric may target a creature up to 12 HD. If the spell succeeds, the cleric controls that creature for 2d6+CL hours. Alternately, the cleric may also choose any other target, whether intelligent or not, or extraplanar or not, of up to 10 HD or less. It receives a Will save using its own modifier. The cleric controls the creature as if it were under the effects of an animal summoning spell of the same spell check. At the end of the duration, the creature reverts to its own free will.",
+          "34+": "The cleric may target any creature of any Hit Dice or power level and attempt to control that creature for 2d6+CL days. At the end of the duration, the creature reverts to its own free will."
+        }
+      }
+    ]
+  }
+  

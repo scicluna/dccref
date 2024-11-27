@@ -1,0 +1,33 @@
+{
+    "table_name": "detect-evil",
+    "notes": "Level: 1 -- Range: 60’ radius from cleric or more (see below) -- Duration: 6 turns -- Casting time: 1 action -- Save: Will vs. spell check DC (sometimes)",
+    "general": "The cleric holds up his holy symbol and detects emanations of evil within a ray that extends straight out 5’ wide and 60’ (or more) ahead of the symbol. The definition of 'evil' is based on the cleric: generally it encompasses creatures of opposed alignment, those unholy to the cleric’s deity, and those with clearly harmful intent. Depending on the strength of the spell, it may detect even more subtle dangers. This spell does not reveal creatures that are otherwise hidden but does inform the cleric that evil intentions radiate from a certain position. This spell may be reversed to detect good, which means creatures of allied alignment, common deity, or similar holy goals.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Evil creatures glow softly when viewed by the cleric.",
+          "2": "A heavenly chorus trumpets strident tones of warning whenever the cleric views an evil creature.",
+          "3": "Evil creatures emit terrible, dark shadows in all directions, clouding their appearance with a deep shroud of darkness."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Creatures of opposed alignment are potentially detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures receive a Will save vs. spell check DC to remain undetected by this spell.",
+          "14-17": "Creatures of opposed alignment are automatically detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures do not receive a Will save to remain undetected.",
+          "18-19": "To a range of 120’ in all directions from the cleric, creatures of opposed alignment are automatically detected, as well as objects inherently dangerous in nature (such as traps and cursed weapons). Evil creatures do not receive a Will save to remain undetected.",
+          "20-23": "The cleric is immediately aware of all evil creatures and objects within 180’. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric’s allies.",
+          "24-27": "The cleric is immediately aware of all evil creatures and objects within 180’. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric’s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric.",
+          "28-29": "The cleric is immediately aware of all evil creatures and objects within 180’. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric’s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -1 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range.",
+          "30-31": "The cleric is immediately aware of all evil creatures and objects within 240’. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric’s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -2 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range.",
+          "32+": "The cleric is immediately aware of all evil creatures and objects within 300’. In addition, evil creatures and objects shine with a faint, unearthly glow that is obvious to the cleric’s allies. In addition, the cleric is also aware of creatures with intentions harmful to him, even if the creatures are not opposed in alignment. For example, a mindless but aggressive spider would be detected, as would a hungry bear thinking of eating the cleric. The creatures detected by this spell are pained by the light of truth, suffering a -4 penalty to all attack rolls, damage rolls, skill checks, spell checks, and saving throws while in range."
+        }
+      }
+    ]
+  }
+  

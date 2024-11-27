@@ -1,0 +1,33 @@
+{
+    "table_name": "resist-cold-or-heat",
+    "notes": "Level: 1 -- Range: Self or more -- Duration: 1 round or more -- Casting time: 1 action -- Save: N/A",
+    "general": "The cleric repels the chilling effects of cold or heat, protecting himself and others. He can withstand such conditions without discomfort. When casting the spell, the cleric chooses which effect to resist (heat or cold). It is possible to cast the spell twice and create a resistance to both effects.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Reddish aura.",
+          "2": "Shimmering heat waves.",
+          "3": "Bluish skin tone."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The cleric counteracts the harmful effects of cold or heat upon his body. He can ignore up to 5 points of cold or heat/fire damage in the next round. If more than 5 points are sustained, subtract 5 from the total dice result to determine the final damage suffered.",
+          "14-17": "The cleric counteracts the harmful effects of cold or heat upon his body. He can ignore up to 5 points of cold or heat/fire damage for a number of rounds equal to 1d6+CL. If more than 5 points are sustained in a given round, subtract 5 from the total dice result to determine the final damage suffered.",
+          "18-19": "The cleric counteracts the harmful effects of cold or heat upon his body. He can ignore up to 10 points of cold or heat/fire damage for a number of rounds equal to 1d8+CL. If more than 10 points are sustained in a given round, subtract 10 from the total dice result to determine the final damage suffered.",
+          "20-23": "The cleric counteracts the harmful effects of cold or heat upon his body. He can ignore up to 10 points of cold or heat/fire damage for a number of rounds equal to 1d8+CL. If more than 10 points are sustained in a given round, subtract 10 from the total dice result to determine the final damage suffered. In addition, the cleric also receives a +4 bonus to all saving throws to resist cold- or heat-based effects.",
+          "24-27": "The cleric can protect others as well as himself. The cleric produces a sphere of resistance that emanates 10’ from his location. Everyone within this sphere can resist up to 10 points of cold or heat damage per round and receive a +2 bonus to all saving throws against cold- or heat-based effects. The cleric must concentrate to maintain the sphere, which can remain functioning for up to 1 turn.",
+          "28-29": "The cleric can protect others as well as himself. The cleric produces a sphere of resistance that emanates 20’ from his location. Everyone within this sphere can resist up to 20 points of cold or heat damage per round and receive a +4 bonus to all saving throws against cold- or heat-based effects. The cleric must concentrate to maintain the sphere, which can remain functioning for up to 1 turn.",
+          "30-31": "The cleric can protect others as well as himself. The cleric produces a sphere of resistance that emanates 20’ from his location. Everyone within this sphere can resist up to 20 points of cold or heat damage per round and receive a +4 bonus to all saving throws against cold- or heat-based effects. The sphere continues to function, without concentration, for a number of rounds equal to 1d10+CL. Each time it is about to expire, the cleric can concentrate for one round to extend the effect another 1d10+CL rounds, to a maximum duration of one hour.",
+          "32+": "The cleric can protect others as well as himself. The cleric produces a sphere of resistance that emanates 50’ from his location. Everyone within this sphere can resist up to 30 points of cold or heat damage per round and receive a +6 bonus to all saving throws against cold- or heat-based effects. The sphere continues to function, without concentration, for a number of turns equal to 1d6+CL. Each time it is about to expire, the cleric can concentrate for one round to extend the effect another 1d6+CL turns, to a maximum duration of one day."
+        }
+      }
+    ]
+  }
+  

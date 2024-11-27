@@ -1,0 +1,54 @@
+{
+    "table_name": "invisible-companion",
+    "notes": "Level: 2 -- Range: Varies -- Duration: Varies -- Casting time: 1 turn -- Save: N/A",
+    "general": "The caster summons forth an invisible creature to do his bidding. This invisible companion is under the caster’s control and undertakes various tasks",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "N/A – invisible!"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Minor",
+          "2": "Minor",
+          "3": "Minor",
+          "4": "Major",
+          "5": "Major",
+          "6": "Greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster accidentally turns his nearest ally invisible for 1d6 rounds.",
+          "2": "The caster accidentally turns his nearest enemy invisible for 1d6 rounds.",
+          "3": "The caster summons a visible companion which is deformed and horrible to look upon, such that until it is dismissed or 1d6 turns pass, the caster and all who look upon it must make DC 8 Fort saves or spend a round nauseated and vomiting.",
+          "4": "The caster summons an invisible 'companion' which is an obese, flatulent amphibian that will not leave until 1d6 hours have passed and makes constant noises and odors until then."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "The caster summons an invisible companion who serves for up to 1 turn or until dismissed or killed and provided it is contained within a magic circle that the caster draws. After that turn, or when the circle is broken, the companion departs. The companion moves within the circle at 30’, is considered to have ability scores of 12, can carry the same amount of gear as a strong man, and can perform any action a normal man could perform. It listens but never speaks. It has AC 16, 1d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +1 attack bonus. It is, of course, invisible, but does leave footprints or handprints depending on the activities directed by the caster.",
+          "16-19": "The caster summons an invisible companion who serves for up to 1d6 turns or until dismissed or killed. No magic circle is required. It can venture up to 100’ from the caster. The companion moves at 30’, is considered to have ability scores of 12, can carry the same amount of gear as a strong man, and can perform any action a normal man could perform. It listens but never speaks. It has AC 16, 1d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +1 attack bonus. It is, of course, invisible, but does leave footprints or handprints depending on the activities directed by the caster.",
+          "20-21": "The caster summons an invisible companion who serves for up to 2d6 hours or until dismissed or killed. No magic circle is required. It can venture up to 1 mile from the caster. The companion moves at 30’, is considered to have ability scores of 16, can carry the same amount of gear as a strong man, and can perform any action a normal man could perform. It listens but never speaks. It has AC 18, 2d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +3 attack bonus. It is, of course, invisible, but does leave footprints or handprints depending on the activities directed by the caster.",
+          "22-25": "The caster summons an invisible companion who serves for up to 1 day or until dismissed or killed. No magic circle is required. The companion moves at 60’ and can fly. It leaves no footprints or handprints. It is considered to have ability scores of 16, can carry a man in its arms, and can perform any action a normal man could perform. It listens but never speaks. It has AC 20, 3d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +5 attack bonus.",
+          "26-29": "The caster summons an invisible companion who serves for up to 1d6+1 days or until dismissed or killed. No magic circle is required. The companion moves at 120’ and can fly. It is considered to have ability scores of 18 and can perform any action a normal man could perform. Its alien intelligence prevents it from carrying on mundane conversations, but it can communicate simple information verbally in the Common tongue. There is a 10% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 20, 5d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +6 attack bonus, and its attacks are considered magical.",
+          "30-31": "The caster summons an invisible companion who serves for up to a month or until dismissed or killed. No magic circle is required. The companion moves at 120’ and can fly. It is considered to have ability scores of 20 and can perform any action a normal man could perform. It can carry as much weight as a large mule. Its alien intelligence prevents it from carrying on mundane conversations, but it can communicate simple information verbally in the Common tongue. There is a 20% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 21, 7d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +7 attack bonus, and its attacks are considered magical.",
+          "32-33": "The caster summons an invisible companion who serves for up to one year or until dismissed or killed. No magic circle is required. The companion moves at 120’ and can fly. It is considered to have ability scores of 21 and can perform any action a normal man could perform. It can carry as much weight as a large mule. Its alien intelligence prevents it from carrying on mundane conversations, but it can communicate simple information verbally in the Common tongue. There is a 50% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 22, 9d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +8 attack bonus, and its attacks are considered magical.",
+          "34+": "The caster reaches out into the infinite cosmos to call forth the invisible servant most useful to his purposes. This companion appears and pledges permanent service until it is dismissed, killed, or dies of old age (in 2d20+60 years). The companion moves at 150’ and can fly. It is not man-shaped, and although its exact form is difficult to discern, it makes its capabilities known at the time most useful to the caster. As long as the companion is present, the caster can make a Luck check once per week in a dire situation, and on a success it is revealed that the invisible companion has some heretofore unknown ability that is helpful in that situation (judge’s discretion). For example, the companion may be able to pick locks, or create fresh water, or heal wounds. The companion is considered to have ability scores of 22 and can carry as much weight as a large draft horse. It can communicate simple information verbally in the Common tongue. There is a 75% chance that it has some knowledge that is useful to the caster (whether from prior tasks or something from its native plane), provided he asks the right questions. It has AC 23, 11d8 hp, and all attacks against it have a 50% chance of missing due to its invisibility. It can wield weapons at a +9 attack bonus, and its attacks are considered magical."
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,57 @@
+{
+    "table_name": "enlarge",
+    "notes": "Level: 1 -- Range: Touch -- Duration: 1 turn per caster level -- Casting time: 1 round -- Save: None",
+    "general": "By touching a creature or object, or targeting himself, the caster causes the target to grow in size! In this manner, ropes can become longer, doors thicker, tables heavier, swords larger, and so on. Magical objects so increased retain their original magical potency; e.g., a +1 sword does not become a +2 sword, it simply becomes a larger magical sword. The caster can learn the reverse of this spell, reduce, which is used to make things smaller. Multiple castings of this spell do not stack, though reduce may be used to cancel enlarge.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Target visibly enlarges.",
+          "2": "Target disappears then re-appears at greater size.",
+          "3": "Hundreds of tiny workmen appear to chop apart the target’s body and re-assemble it in greater volume.",
+          "4": "Target reverse-ages to the size and appearance of a baby, then amazingly grows back to adult appearance at larger than its former size."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d16",
+        "table": {
+          "1-6": "One part of caster’s body is permanently enlarged to (1d3+1)x normal size as follows: (1) eyes, (2) ears, (3) nose, (4) hands, (5) shins, (6) feet.",
+          "7-10": "One part of caster’s body is permanently reduced to half normal size as follows: (7) eyes, (8) nose, (9) arms (-1 Str), (10) legs (-5’ speed).",
+          "11": "Hirsute: caster’s body hair grows unstoppably for 1d4 days, covering body in gorilla-like fur.",
+          "12": "Caster permanently enlarges in size, increasing his height by 2d6”, his weight by (1d6+1)x10 lbs., and his Str by +1, but his equipment does not enlarge.",
+          "13": "Caster’s fingers each grow by 1d6”, determined randomly by finger, making grasping difficult and inflicting a -1 Agility penalty.",
+          "14": "Minor corruption.",
+          "15": "Major corruption.",
+          "16": "Greater corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Nearest enemy is enlarged rather than ally by 50%, conferring a +2 bonus to Str (if no nearby enemy, ignore result).",
+          "2": "All enemies within 50’ are doubled in size, receiving a +3 bonus to Str.",
+          "3": "Target is reduced instead of enlarged, dropping in size by -25% and taking a -1 penalty to Str.",
+          "4": "Everything within 100’, including living creatures, objects, plants, buildings, and other such things, is reduced to mouse-scale; i.e., humans drop to approximately 6” tall, buildings reduce in size to corresponding scale, weapons are the size of toothpicks, and so on; affected creatures and objects remain affected even if they move beyond range and are restored to normal size in 1 day, but in the meantime they must survive as tiny creatures."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The target increases in size and mass by 10%. It becomes visibly larger and potentially intimidating, but not enough to confer statistical bonuses. Depending on the situation, this may be enough to reach a ledge that was previously out of reach, or otherwise pass some barrier. Armor and equipment worn by the target are similarly enlarged.",
+          "14-17": "The target increases in size by 25%, conferring a +1 bonus to attacks, damage, and AC due to greater size and strength.",
+          "18-19": "The target increases in size by 50%, conferring a +2 bonus to attacks, damage, and AC due to greater size and strength.",
+          "20-23": "The target doubles in size. A normal man becomes ogre-sized with this result, receiving a +4 bonus to attacks, damage, and AC due to greater size and strength. In addition, the target receives +10 hp from the new size. These hit points are lost first when the target is wounded, and damage suffered while giant-sized transfers to his normal hit point pool only if he first loses all 10 bonus hit points.",
+          "24-27": "The target triples in size. A normal man becomes giant-sized with this result, receiving a +6 bonus to attacks, damage, and AC due to greater size and strength. In addition, the target receives +20 hp from the new size. These hit points are lost first when the target is wounded, and damage suffered while giant-sized transfers to his normal hit point pool only if he first loses all 20 bonus hit points.",
+          "28-29": "The caster is able to select up to three targets, which all triple in size. Each receives a +6 bonus to all attack, damage, and AC due to larger size and strength. In addition, the targets receive +20 hp from the new size. These hit points are lost first when the targets are wounded, and damage suffered while giant-sized transfers to their normal hit point pools only if they first lose all 20 bonus hit points.",
+          "30-31": "The caster is able to select up to three targets, which all triple in size. Each receives a +6 bonus to all attack, damage, and AC due to larger size and strength. In addition, the targets receive +20 hp from the new size. These hit points are lost first when the targets are wounded, and damage suffered while giant-sized transfer to their normal hit point pools only if they first lose all 20 bonus hit points. The duration is increased to one day per caster level, but can be individually ended by the decision of any target.",
+          "32+": "The caster transforms himself or one target into a giant of truly godlike proportions. The target grows to a height of up to 100’, at the caster’s discretion. The target’s statistics are similarly improved due to his new size, to a maximum benefit of +10 to attack, damage, and AC if he reaches the full 100’ height. At that full height, he also receives a bonus of up to +100 hit points. These hit points are lost first when the target is wounded, and damage suffered while giant-sized transfers to his normal hit point pool only if he first loses all 100 bonus hit points. The duration of this extraordinary display of power depends on the size of the target: a target transformed to a 100’ height stays at that size for only 1 turn, while sizes of progressively smaller 10’ increments last 1 turn longer. For every 20’ less in size, the benefit to attacks, damage, and AC drops by -1, and the bonus hit points drop by -10, but the duration is extended by 1 turn. For example, a height of 40’ lasts 4 turns, and grants a bonus of +7 to attacks, damage, and AC, and +70 hit points."
+        }
+      }
+    ]
+  }

@@ -1,0 +1,43 @@
+{
+    "table_name": "luck-score",
+    "notes": "",
+    "general": "",
+    "sub_tables": [
+        {
+            "subtable_name": "Results",
+            "dice_size": "1d30",
+            "table": {
+                "1": "Harsh winter: All attack rolls",
+                "2": "The bull: Melee attack rolls",
+                "3": "Fortunate date: Missile fire attack rolls",
+                "4": "Raised by wolves: Unarmed attack rolls",
+                "5": "Conceived on horseback: Mounted attack rolls",
+                "6": "Born on the battlefield: Damage rolls",
+                "7": "Path of the bear: Melee damage rolls",
+                "8": "Hawkeye: Missile fire damage rolls",
+                "9": "Pack hunter: Attack and damage rolls for 0-level starting weapon",
+                "10": "Born under the loom: Skill checks (including thief skills)",
+                "11": "Fox’s cunning: Find/disable traps",
+                "12": "Four-leafed clover: Find secret doors",
+                "13": "Seventh son: Spell checks",
+                "14": "The raging storm: Spell damage",
+                "15": "Righteous heart: Turn unholy checks",
+                "16": "Survived the plague: Magical healing",
+                "17": "Lucky sign: Saving throws",
+                "18": "Guardian angel: Savings throws to escape traps",
+                "19": "Survived a spider bite: Saving throws against poison",
+                "20": "Struck by lightning: Reflex saving throws",
+                "21": "Lived through famine: Fortitude saving throws",
+                "22": "Resisted temptation: Willpower saving throws",
+                "23": "Charmed house: Armor Class",
+                "24": "Speed of the cobra: Initiative",
+                "25": "Bountiful harvest: Hit points (applies at each level)",
+                "26": "Warrior’s arm: Critical hit tables",
+                "27": "Unholy house: Corruption rolls",
+                "28": "The Broken Star: Fumbles",
+                "29": "Birdsong: Number of languages",
+                "30": "Wild child: Speed (each +1/-1 = +5’/-5’ speed)"
+            }
+        }
+    ]
+}

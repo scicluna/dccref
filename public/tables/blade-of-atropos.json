@@ -1,0 +1,34 @@
+{
+    "table_name": "blade-of-atropos",
+    "notes": "Level: 1 (The Three Fates) -- Range: Self -- Duration: Varies -- Casting time: 1 round -- Save: Will save vs. 15+CL when appropriate",
+    "general": "The Blade of Atropos is gifted to those willing to do the work of the Fates, bringing an end to chaos-creatures and those bearing the mark of arcane corruption. Casting the spell requires a non-magical sword; if the blade is decorated with jewels and precious metals (worth no less than 1,000 gp), the caster receives a +2 bonus to his spell check. If the blade leaves the caster’s hand, the spell immediately ends. Strength modifiers (positive or negative) have no effect on the caster’s to hit roll or damage rolls while wielding the blade.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The caster’s sword shines with righteous power, illuminating all within 60’.",
+          "2": "The caster’s blade crackles with magic, as electric-blue spider webs crawl up and down the sword.",
+          "3": "The caster’s blade shimmers in and out of existence, wreathed in tendrils of glowing green mist.",
+          "4": "Violet and purple light emanate from within the blade, shining through cracks that appear in the blade’s surface."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Attacks with the empowered blade are at a +1 to hit (+3 vs. chaos-creatures or corrupted casters) and inflict 1d12+CL in damage. The spell lasts for 1d3+CL rounds.",
+          "14-17": "Attacks with the enchanted blade are at a +2 to hit (+4 vs. chaos-creatures or corrupted casters) and inflict 1d14+CL in damage. The spell lasts for 1d5+CL rounds.",
+          "18-19": "Attacks with the enchanted blade are at a +3 to hit (+5 vs. chaos-creatures or corrupted casters) and inflict 1d16+CL in damage. The spell lasts for 1d6+CL rounds.",
+          "20-23": "A second blade appears in the air, mirroring the first. The caster can direct the second blade to attack targets within 10’ (at the caster’s lowest action die), while he fights with the enchanted blade in his hand. No concentration is required to direct the second blade. Attacks with the blades are at a +3 to hit (+5 vs. chaos-creatures or corrupted casters) and inflict 1d16+CL in damage. The spell lasts for 1d8+CL rounds.",
+          "24-27": "Two additional blades appear in the air, mirroring the first. The caster can direct the blades to attack targets within 50’ (at the caster’s lowest action die), while he fights with the enchanted blade in his hand. No concentration is required to direct the additional blades. Attacks with all three blades are at a+4 to hit (+6 vs. chaos-creatures or corrupted casters) and inflict 1d20+CL in damage. The spell lasts for 1d10+CL rounds.",
+          "28-29": "Two additional blades appear in the air, mirroring the first. The caster can direct the blades to attack targets within sight and 100’ (at the caster’s lowest action die), while he fights with the enchanted blade in his hand. No concentration is required to direct the additional blades. Attacks with all three blades are at a +5 to hit (+7 vs. chaos-creatures or corrupted casters) and inflict 2d12+CL in damage, except against chaos-creatures or corrupted casters, who must make Will saves or take damage equal to half their remaining hp (rounding up) or 2d12+CL, whichever is higher. The spell lasts for 1d12+CL rounds.",
+          "30-31": "Two additional blades appear in the air, mirroring the first. The caster can direct the blades to attack targets within sight and 500’ (at the caster’s lowest action die), while he fights with the enchanted blade in his hand. No concentration is required to direct the additional blades. Attacks with all three blades are at a +6 to hit (+8 vs. chaos-creatures or corrupted casters) and inflict 2d14+CL in damage. Chaos-creatures or corrupted casters struck by the blades must make Will saves or be banished from this plane of existence. The spell lasts for 1d14+CL rounds.",
+          "32+": "Two additional blades appear in the air, mirroring the first. The caster can direct the blades attack targets within sight (at the caster’s lowest action die), while he fights with the enchanted blade in his hand. No concentration is required to direct the additional blades. Attacks with the blades are at a +7 to hit (+9 vs. chaos-creatures or corrupted casters) and inflict 2d16+CL in damage. Chaos-creatures or corrupted casters struck by the blades must make Will saves or be immediately and permanently struck dead. The spell lasts for 1d16+CL rounds."
+        }
+      }
+    ]
+  }
+  

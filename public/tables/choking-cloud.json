@@ -1,0 +1,59 @@
+{
+    "table_name": "choking-cloud",
+    "notes": "Level: 1 -- Range: 50’ or more -- Duration: Varies -- Casting time: 1 action -- Save: None",
+    "general": "The caster summons forth a cloud of caustic, acidic mist that chokes his target.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Black cloud.",
+          "2": "Translucent mist.",
+          "3": "Explosion of ash.",
+          "4": "Geyser that erupts from the ground below the target.",
+          "5": "Yellow-green cloud.",
+          "6": "Red mist.",
+          "7": "Thick, oily fog.",
+          "8": "Blue cloud."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "Caster’s breath is now a toxic gas; whenever he exhales, anyone immediately adjacent must make a DC 12 Fort save or be ill for 1d4 hours (-1 to all rolls while sickened).",
+          "2": "Caster is surrounded at all times by a toxic cloud which automatically sickens everyone within 5’ for 1d4 hours unless they make a DC 12 Fort save (-1 to all rolls while sickened).",
+          "3": "Caster’s eyes change to translucent orbs which reveal a whirling cloud of gas.",
+          "4": "Certain kinds of creatures are able to detect the caster automatically if he is within half a mile and are attracted to him, notably incorporeal and ethereal creatures, as well as any monster from the elemental plane of air.",
+          "5-8": "Minor corruption."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Cloud of toxic gas explodes at a point centered on the caster (1d4x10’ radius, 1d4 damage to all within plus DC 12 Fort save or blinded for 1d4 rounds).",
+          "2": "Caster creates cloud successfully, but it is a healing cloud that heals 1d4 damage to all within 20’ of intended target.",
+          "3": "Cloud of toxic gas inadvertently catches fire, sparked by some nearby torch or lantern, and explodes as it emerges from the caster’s hand, causing 1d8 fire damage to the caster and everyone within 10’ of him.",
+          "4": "Caster successfully creates cloud, but it is entirely useless, serving only to create a vague, misty cloud that has no other impact."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1) corruption; (2) patron taint (or corruption if no patron); (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "One designated target is engulfed in a caustic, stinking cloud for 1d4 rounds, suffering a -1 penalty to all rolls (including attacks, damage, skills, and saves). The cloud follows the target; it cannot escape.",
+          "14-17": "Up to 1d4 small individual clouds of toxic gas appear around selected multiple targets, all of which must be within range. Each cloud inflicts a -1 penalty to all rolls (including attacks, damage, skills, and saves) for 1d4 rounds. The clouds follow their targets; they cannot escape.",
+          "18-19": "A single acidic, poisonous cloud appears with a radius of 20’ centered on a target of the caster’s choosing. For 1d4+2 rounds, targets in the cloud suffer a -2 penalty to all rolls (attacks, damage, skills, and saves) and take 1 point of damage each round. The caster can direct the cloud by concentrating; it moves up to 50’ per round at his command.",
+          "20-23": "A single acidic, poisonous cloud appears with a radius of 20’ centered on a target of the caster’s choosing. For 2d4+4 rounds, targets in the cloud suffer a -2 penalty to all rolls (attacks, damage, skills, and saves), take 2 points of damage each round, and must make a Fort save when first exposed or be poisoned (-1d4 Agility, duration 1 day). The caster can direct the cloud by concentrating; it moves up to 50’ per round at his command.",
+          "24-27": "A single acidic, poisonous cloud appears with a radius of 20’ centered on a target of the caster’s choosing within a 100’ range. For 2d4+4 rounds, targets in the cloud suffer a -4 penalty to all rolls (attacks, damage, skills, and saves), take 4 points of damage each round, and must make a Fort save when first exposed or be poisoned (-2d4 Agility, duration 1 day). The caster can direct the cloud by concentrating; it moves up to 50’ per round at his command.",
+          "28-29": "A single acidic, poisonous cloud appears with a radius of 30’ centered on a target of the caster’s choosing within a 200’ range. For 3d4+6 rounds, targets in the cloud suffer a -4 penalty to all rolls (attacks, damage, skills, and saves), take 8 points of damage each round, and must make a Fort save when first exposed or be poisoned (-3d4 Agility, duration 1d4 days). The caster can direct the cloud by concentrating; it moves up to 50’ per round at his command.",
+          "30-31": "The caster can create two acidic, poisonous clouds. Each appears with a radius of 30’ centered on a target of the caster’s choosing within a 200’ range. For 3d4+6 rounds, targets in the clouds suffer a -4 penalty to all rolls (attacks, damage, skills, and saves), take 8 points of damage each round, and must make a Fort save when first exposed or be poisoned (-3d4 Agility, duration 1d4 days). The caster can direct the clouds at will, without concentrating; they move up to 50’ per round at his command.",
+          "32+": "The caster calls down three toxic clouds of unmatched lethality. For each cloud, he can choose a size ranging from a single target up to a 30’ radius. The clouds can be targeted anywhere within 500’. The clouds come into existence instantly and remain for 1d4 turns. Each target within the clouds must make a Fort save or be killed immediately. Those that survive suffer a -6 penalty to all rolls (attacks, damage, skills, and saves) and take 10 points of damage each round from the toxic gases. The caster can direct the clouds at will, without concentrating; they move up to 50’ per round at his command."
+        }
+      }
+    ]
+  }
+  

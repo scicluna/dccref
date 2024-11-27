@@ -1,0 +1,56 @@
+{
+    "table_name": "turn-to-stone",
+    "notes": "Level: 3 -- Range: 30’ plus 10’ per caster level -- Duration: Various -- Casting Time: 1 round -- Save: Fortitude to avoid",
+    "general": "The caster turns other living beings to stone. A reverse version of this spell, turn to flesh, may be learned and can be used to cancel its effects. Casting this spell against a creature of water automatically inflicts an extra 1d4 damage per caster level.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s head turns medusa-like (horrible visage, snakes for hair, etc.).",
+          "2": "Caster’s eyes become orbs of polished marble.",
+          "3": "Tendrils of stone rise from the ground to wrap around the target and burrow into its flesh.",
+          "4": "The target sweats beads of quartz that accumulate to form a shell around it."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster’s hair become tiny, non-venomous serpents.",
+          "2": "Caster’s hands become crude and rocklike.",
+          "3": "The sound of grinding stone accompanies the caster when he walks.",
+          "4": "Caster’s voice becomes unnaturally gravelly like stone grinding together."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster turns himself to stone for 1d6 rounds.",
+          "2": "Caster’s body turns rocky and ungainly for 1d6 hours.",
+          "3": "Caster attracts loose stones and rubble to his position, inflicting anywhere from 1d3 to 1d30 points of damage.",
+          "4": "Caster becomes stone deaf for 1d3 hours and suffers a -2 penalty to spell checks during that time.",
+          "5": "Caster inadvertently targets another creature; make a new spell check and apply the results to a random creature within range."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-3) corruption; (4) patron taint (or corruption if no patron); (5+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster turns the target’s body partially mineral, making it heavy and causing it to sprout rock-like protrusions from the flesh. If the target fails a save, it suffers a -4 penalty to all attack rolls, Reflex saving throws, and initiative, as well as all skill checks involving mobility. This effect lasts 1 hour per caster level.",
+          "18-21": "The target turns partially to stone if it fails the save. If the target’s upper body is affected, it loses the ability to attack, speak, or cast spells, and must make a DC 10 Agility check to avoid falling prone. If the target’s lower body is affected, it is immobilized until the spell expires or is removed. The portion affected by the spell is either targeted by the caster or, if not specified, randomly determined by the judge. This effect lasts 1 hour per caster level.",
+          "22-23": "The target turns to stone if it fails the save. The target remains petrified for 1 day per caster level and cannot perform any action. The target remains aware of its surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and is otherwise incapacitated but does not starve or suffocate.",
+          "24-26": "Up to two targets within range can be affected, and turn to stone if they fail their saves. They remain petrified for 1 day per caster level and cannot perform any action. They remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate.",
+          "27-31": "Up to four targets within range can be affected, and turn to stone if they fail their saves. They remain petrified for 1 day per caster level and cannot perform any action. They remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate.",
+          "32-33": "The caster transforms one target into stone with no save allowed. In addition, the caster can cause the target to shatter with the flick of his wrist if the target fails a Fort save against this destructive gesture. If the save is successful, the target still remains petrified for a period of 1 week per caster level. During this time, the target remains aware of its surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and is otherwise incapacitated but does not starve or suffocate.",
+          "34-35": "The caster transforms all creatures within his sight to stone unless they make a successful Fort save. The caster cannot choose to affect certain creatures and spare others; the petrifying magic affects all within view. The effects last for 1 month per caster level. Victims remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate.",
+          "36+": "The caster turns a small geographic region to stone. All living creatures (animals, humanoids, monsters, trees, crops, etc.) are petrified unless they make a successful Fort save. The effect is permanent until negated by restorative magics, powerful artifacts, or divine influence. The area affected is equal to 100 yards per caster level. Victims remain aware of their surroundings as if buried beneath a thick layer of earth (sounds are muted and sight is hazy and narrow in scope) and are otherwise incapacitated but do not starve or suffocate."
+        }
+      }
+    ]
+  }
+  

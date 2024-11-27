@@ -1,0 +1,34 @@
+{
+    "table_name": "holy-sanctuary",
+    "notes": "Level: 1 -- Range: Self or more -- Duration: 1 round or more -- Casting time: 1 action -- Save: Will save vs. spell check",
+    "general": "The cleric invokes a place of sanctuary where he and his allies are safe from harm.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Glowing aura.",
+          "2": "Angelic halo.",
+          "3": "Beam of light from above.",
+          "4": "Lightness of feet that makes the cleric seem to float just above the ground."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "Enemies find it difficult to focus on attacking the cleric. They are distracted, and the cleric is more easily able to dodge their attacks. All attacks against the cleric for the next round suffer a -2 penalty.",
+          "14-17": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. In order to resist this compulsion and attack the cleric, an enemy must make a Will save vs. spell check DC. If the cleric is the only reasonable target, the creature need not make a save to attack the cleric. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+          "18-19": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. In order to resist this compulsion and attack the cleric, an enemy must make a Will save vs. spell check DC. This Will save is required even if the cleric is the only reasonable target. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+          "20-23": "Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric, it must choose to do so. Creatures of 3 HD or less cannot attack the cleric in any manner. Creatures of 4 HD or more may attempt a Will save to resist the compulsion and attack the cleric. This Will save is required even if the cleric is the only reasonable target. This effect lasts for 1 turn. It is immediately dispelled if the cleric attacks or takes aggressive action in any way.",
+          "24-27": "The cleric can create a holy sanctuary that includes himself and up to two allies within 5’. The other protected allies must remain within 5’ or the effect ends. Enemies are compelled to focus their attacks against other targets. As long as an attacker can reasonably attack some other target instead of the cleric and his protected allies, it must choose to do so. Creatures of 3 HD or less cannot attack in any manner; creatures of 4 HD or more may attempt a Will save to resist the compulsion. This effect lasts for 1 turn. It is immediately dispelled if the cleric or any of his protected allies attack or take aggressive action in any way.",
+          "28-29": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 5,000 square feet in area; e.g., a church, forest grove, or cave. This effect lasts for 1d7 days. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric’s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions.",
+          "30-31": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 5,000 square feet in area; e.g., a church, forest grove, or cave. This effect lasts for 1d7+3 weeks. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric’s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions.",
+          "32+": "The cleric may designate a place as a holy sanctuary. This must be a single building or self-contained location up to 10,000 square feet in area; e.g., a church, forest grove, or cave. The place designated as a holy sanctuary becomes sanctified forever, as long as the cleric’s deity retains respect for the cleric’s work and actions. Creatures within this place share the benefits of a holy sanctuary as follows, provided they are in the service of the cleric’s deity: enemies of less than 6 HD cannot attack unless they use magical weapons, and enemies of 7+ HD or those using magical weapons must make a Will save vs. spell check DC to attack. The effect on any one individual is dispelled if that creature makes an aggressive action. Note that enemies can still enter the place and converse with its residents; they simply cannot attack or make other aggressive actions."
+        }
+      }
+    ]
+  }
+  

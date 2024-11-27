@@ -1,0 +1,55 @@
+{
+    "table_name": "consult-spirit",
+    "notes": "Level: 3 -- Range: Self -- Duration: 1 or more questions -- Casting time: 1 hour -- Save: N/A",
+    "general": "The caster consults with an extraplanar spirit in order to make inquiries or pass on information. The spirit may be the ghost of a deceased person, a demon residing on another plane, a nature spirit occupying a lake or tree, the caster’s own supernatural patron, or even a god. This spell is most effective if the caster consults with a spirit he already knows. If the caster consults with his patron (per the patron bond spell) or one of the patron’s servants, add +1 to the spell check. If the caster consults with another specific spirit known to him from prior contact, legend, logical deduction (e.g., the caster sees a dead body and wishes to find its ghost), or research (e.g., the caster has visited his altar or read of his exploits), there is no modifier. If the caster has no knowledge of the spirit consulted, merely wishes to contact any spirit that will answer, or deliberately contacts a spirit of opposed alignment or interests, subtract -1 from the spell check. If the spirit is known to the caster, roll d% to determine its attitude: (01-20) friendly, (21-80) neutral, (81-00) hostile. A friendly or neutral spirit answers honestly to the best of its ability and has a base 50% chance of knowing the answer to any given question appropriate to its area of knowledge, modified by the judge’s discretion and the obscurity of the question. When questioning a hostile spirit, roll d%: it (01-50) provides misleading information; (51-80) refuses to answer; (81-95) attempts to probe the caster’s mind (Will save vs. DC of 4d6 or take 1d4 temporary Int damage); or (96-100) uses this connection to attempt enter the material plane.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "caster freezes and appears to do nothing for duration",
+          "2": "caster flickers in and out of existence as questioning occurs",
+          "3": "caster carries on one side of a conversation"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "caster’s face takes on the appearance of a randomly determined spirit (see page 319)",
+          "2": "caster’s consciousness is permanently linked to that of a randomly determined spirit, which has a 1% chance each day of taking possession of the caster’s body for a duration of 1d4 rounds during that day",
+          "3": "caster’s hair turns white and stands on end",
+          "4": "caster instantly ages 1d8+2 years",
+          "5": "caster’s skin wrinkles as if he were 100 years old, but he does not actually age and has no other signs or consequences of aging",
+          "6": "caster’s ears become sensitive to the noises of ghosts, and he can hear whenever spirits are near, even if no contact is made"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d3",
+        "table": {
+          "1": "caster successfully contacts his own spirit, where it resides beyond life and death awaiting his mortal conclusion, which gives way to a bizarre sense of déjà vu and disorientation that causes a -1 penalty to all actions for 1 turn",
+          "2": "caster contacts a spirit that immediately takes over his body, causing him to fall under the judge’s control for 1d6 rounds and act in a manner opposite of his normal tendencies and alignment",
+          "3": "caster forces his own spirit out of his body for 1d6 rounds, causing him to collapse into a catatonic state until his spirit returns"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster makes fleeting contact with the spirit, though contact is so brief he does not know to whom he speaks. The caster has just enough time to ask one simple question and hear an answer. The answer is of course from the spirit’s perspective, which may not be objective or omniscient.",
+          "18-21": "The caster establishes a simple rapport with the spirit and understands the nature of the entity to which he speaks. The caster has enough time to ask 2 simple questions.",
+          "22-23": "The caster establishes a basic rapport with the spirit and understands the nature of the entity to which he speaks. The caster has enough time to ask 3 simple questions.",
+          "24-26": "The caster establishes a basic rapport with the spirit and understands the nature of the entity to which he speaks. The caster has enough time to ask 4 simple questions.",
+          "27-31": "The caster establishes a strong rapport with the spirit. He understands its nature and is able to communicate with it. The connection is strong enough for introductory conversation. The caster can ask up to 5 simple questions or carry on a short conversation (of 5 minutes or less) in order to hear a story, understand a magical ritual explained by the spirit, and so on.",
+          "32-33": "In establishing a connection to the spirit, the caster immediately understands a great deal about it: its appearance, its motivations, its goals (either short-term or long-term), and its current state of mind (angry, pensive, calm, etc.). The caster can communicate with the spirit and can carry on a conversation of up to 1 hour in duration. This is enough time for a lengthy dialogue on any given subject. The caster can also get detailed information from the spirit on a subject in which it is an expert. Generally speaking, this is sufficient to confer a +1 bonus to activities based on the spirit’s knowledge and expertise.",
+          "34-35": "The caster establishes a powerful connection to the spirit. He immediately understands a great deal about it: its appearance, its motivations, its goals (either short-term or long-term), and its current state of mind (angry, pensive, calm, etc.). The caster can communicate with the spirit and can carry on a conversation of up to 1 hour in duration. In addition, the caster remains loosely connected to the spirit for the next 7 days. During this time, the caster can re-establish contact at any point with concentration of 1d10 turns, and this renewed concentration lasts for 1d5+1 turns before fading. This is generally enough time for a lengthy dialogue on any given subject. The caster can also get detailed information from the spirit on a subject in which it is an expert. Generally speaking, this is sufficient to confer a +1 bonus to activities based on the spirit’s knowledge and expertise.",
+          "36+": "The caster connects his mind to the spirit’s and steps into the spirit’s frame of reference. The caster’s thoughts and the spirit’s thoughts blur; he can access its memories and opinions; and it can do the same. For a period of 7 days, the caster is in constant contact with the spirit and occasionally loses track of his own self. While the spirit cannot control the caster’s mortal form, its personality may occasionally break through in the caster’s pattern of speech or body language. Great and powerful spirits may have profound knowledge beyond the caster’s understanding. The caster’s questions are quickly and accurately answered by the spirit, and the caster can surrender his free will to allow the spirit’s mind to guide his actions. Generally speaking, this is sufficient to confer a +4 bonus to activities based on the spirit’s knowledge and expertise. For example, if the caster contacts the creator of a spell, then surrenders his free will to cast the spell, he would receive a +4 bonus to that spell check; or, if the caster contacts his patron and casts a patron spell, he would receive a +4 bonus to the spell check. However, each time the caster allows the spirit this level of control, there is a 1% chance it takes over the caster’s body completely."
+        }
+      }
+    ]
+  }
+  

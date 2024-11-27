@@ -1,0 +1,33 @@
+{
+    "table_name": "neutralize-poison-or-disease",
+    "notes": "Level: 2 -- Range: Touch or further -- Duration: Permanent -- Casting time: 1 round -- Save: N/A",
+    "general": "This spell stabilizes further disruption from poison or disease and may reverse existing effects. The cleric may cast this spell on himself or someone he touches.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The target is cured with no visible effect.",
+          "2": "The target is cured and the mark of the cleric’s deity appears as a birthmark or small scar in a place that was previously affected by the poison or disease.",
+          "3": "The blinding rays of heavenly light shine forth on the target, making him feel an intense and almost painful heat, burning off the toxins that infest his body.",
+          "4": "The target’s skin peels instantaneously, as with a severe sunburn, and as the old skin sloughs off the new skin beneath appears younger and healthier as the toxins are removed."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-13": "Failure.",
+          "14-15": "The cleric retards the subsequent effects of one poison or disease that is affecting the target and removes the remaining dosage or effect from the target’s system. Any effects suffered already cannot be reversed. For example, an ally that has lost 3 points of Strength to an ongoing disease may stop future Strength loss, but the existing loss is not recovered.",
+          "16-19": "The cleric retards the subsequent effects of one poison or disease that is affecting the target and removes the remaining dosage or effect from the target’s system. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life. For example, an ally that lost 3 points of Strength over the course of three weeks to an ongoing disease will recover those lost points over the next three weeks.",
+          "20-21": "The target receives a +2 bonus to Fort saves to resist poison or disease for the next day. Additionally, the cleric retards the subsequent effects of one poison or disease that is affecting the target and removes the remaining dosage or effect from the target’s system. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life.",
+          "22-25": "The target receives a +4 bonus to Fort saves to resist poison or disease for the next day. Additionally, the cleric retards the subsequent effects of two poisons or diseases that are affecting the target and removes the remaining dosage or effect from the target’s system. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life.",
+          "26-29": "The cleric can lead a prayer in which up to 4 other creatures can participate. All creatures praying must link hands with each other and form a circle that terminates in the cleric’s grasp. Those that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed over the same time frame under which they were first suffered. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer receive a +4 bonus to resist poisons and diseases for the next week.",
+          "30-31": "The cleric can lead a prayer in which up to 12 other creatures can participate. All creatures praying must link hands with each other and form a circle that terminates in the cleric’s grasp. All creatures that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed over the course of the next 24 hours. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer are completely immune to all terrestrial poisons and diseases for the next week and receive a +4 bonus to resist supernatural or magical poisons and diseases for the next week.",
+          "32-33": "The cleric can lead a prayer in which up to 50 other creatures can participate. All creatures praying must link hands with each other and form a circle that terminates in the cleric’s grasp. All creatures that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed over the course of the next 24 hours. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer are completely immune to all poisons and diseases for the next month.",
+          "34+": "The cleric can lead a prayer in which up to 200 other creatures can participate. All creatures praying must be within the cleric’s line of sight. All creatures that pray with the cleric are completely cured of all poisons or diseases affecting them, and the poisons and diseases are removed from their systems. In addition, any effects suffered already are reversed immediately. However, a creature that has already been killed by the poison or disease is not brought back to life. Finally, all allies participating in the prayer are completely immune to all poisons and diseases for the next month."
+        }
+      }
+    ]
+  }
+  

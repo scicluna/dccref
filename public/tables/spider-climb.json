@@ -1,0 +1,57 @@
+{
+    "table_name": "spider-climb",
+    "notes": "Level: 1 -- Range: Self or touch -- Duration: 1 turn per CL -- Casting time: 1 action -- Save: None",
+    "general": "The caster gains the spider’s ability to climb vertical surfaces. ",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Four extra spider-like limbs sprout from the caster’s torso",
+          "2": "The caster’s hands and feet ooze sticky goo",
+          "3": "The caster’s fingers and toes glow with a strange orange light",
+          "4": "The caster grows six additional eyes"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster grows four large spider-like limbs from his back",
+          "2": "Caster can spin small webs like a spider and throw them up to 30’ as a sticky goo (ranged attack roll, DC 12 Strength or Agility check for target to escape)",
+          "3": "Caster grows short, spindly hairs across the surface of his skin, much like a spider",
+          "4": "Caster grows six extra eyes, clustered around his normal eyes, so they resemble a spider’s",
+          "5": "Caster’s hands and feet excrete an oily, sticky substance that causes small objects to stick to them",
+          "6": "Minor"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Caster sticks himself to the floor and cannot move his feet until he makes a DC 16 Strength check",
+          "2": "Caster makes his appendages magically slippery and has trouble standing straight for the next 1d6 rounds, falling over constantly unless he makes a DC 12 Agility check each round",
+          "3": "Caster launches a glob of webby fibers at nearest ally, entangling his companion until the ally makes a DC 12 Strength or Agility check to escape",
+          "4": "Caster summons a horde of poisonous spiders, which arrives one round later and swarm across all nearby creatures, inflicting scores of bites and forcing a DC 8 Fort save by all creatures within 50’ with failure indicating a mild poison (1 hp damage plus -1 penalty to all rolls for 1 hour)",
+          "5": "Caster plus 1d4 nearby creatures are flipped upside down in mid-air, with their feet adhering to a point in the air about 8’ above ground level, and although they are able to move about as normal in this upside-down state they remain upside down for 1d6 hours"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire; (1-2) corruption; (3+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The caster becomes much more skilled at climbing, gaining a +10 bonus to Climb checks as long as his hands and feet are bare. Items weighing less than 5 lbs. stick to the caster's hands during this time, making spellcasting impossible for the duration.",
+          "14-17": "The caster becomes extremely skilled at climbing, gaining a +20 bonus to Climb checks as long as his hands and feet are bare. Items weighing less than 5 lbs. stick to the caster's hands during this time, making spellcasting impossible for the duration.",
+          "18-19": "The caster gains the actual climbing ability of a spider as long as his hands and feet are bare. He can hang upside down, climb completely vertical surfaces with no handholds, move across spider webs, and even scurry along upside down at obtuse angles. The caster moves at his normal speed and need never make Climb checks. He is immune to spider web spells. The caster’s hands and feet must remain bare, and items weighing less than 5 lbs. stick to his hands during this time, making spellcasting impossible for the duration.",
+          "20-23": "The caster gains the actual climbing ability of a spider, even when using gloves and shoes, and when carrying objects in his hands. He can hang upside down, climb completely vertical surfaces with no handholds, move across spider webs, and even scurry along upside down at obtuse angles. The caster moves at his normal speed, need never make Climb checks, and is immune to spider web spells.",
+          "24-27": "The caster and one ally touched gain the actual climbing ability of a spider, even when using gloves and shoes, and when carrying objects in hand. The caster and his ally can hang upside down, climb completely vertical surfaces with no handholds, move across spider webs, and even scurry along upside down at obtuse angles. The caster and his affected ally move at their normal speeds, need never make Climb checks, and are immune to spider web spells.",
+          "28-29": "The caster and all allies within 10’ gain the actual climbing ability of a spider, even when using gloves and shoes, and when carrying objects in hand. The caster and affected allies can hang upside down, climb completely vertical surfaces with no handholds, move across spider webs, and even scurry along upside down at obtuse angles. Those affected move at their normal speeds, need never make Climb checks, and are immune to spider web spells.",
+          "30-31": "For a duration of 1 hour per caster level, the caster and all allies within 10’ gain the actual climbing ability of a spider, even when using gloves and shoes, and when carrying objects in hand. The caster and his affected allies can hang upside down, climb completely vertical surfaces with no handholds, move across spider webs, and even scurry along upside down at obtuse angles. Those affected move at their normal speeds, need never make Climb checks, and are immune to spider web spells.",
+          "32+": "For the next day, the caster and all allies within 20’ gain all the abilities of a spider. First, those affected can climb as a natural ability, hang upside down, climb vertical surfaces and overhangs, and move on any surface regardless of handholds. Second, the recipients of this spell can launch sticky spider webs that can ensnare enemies. This counts as a ranged attack (at an additional +4 bonus) with a 50’ range, and targets are unable to move or take any action until they make a DC 16 Strength or Agility check. Finally, the melee attacks of those benefiting from the spell carry a poison; any wound inflicted also imposes a DC 16 Fort save or the target takes an additional 1d6 damage and loses 1d4 points of Strength."
+        }
+      }
+    ]
+  }
+  

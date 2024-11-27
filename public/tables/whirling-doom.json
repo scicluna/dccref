@@ -1,0 +1,29 @@
+{
+    "table_name": "whirling-doom",
+    "notes": "Level: 5 -- Range: 50’ per CL -- Duration: 1 round per level -- Casting time: 1 action -- Save: See below",
+    "general": "The cleric creates a motionless barrier of whirling blades to bar passage and eviscerate those who come into contact with it. Enemies can attempt to fire missiles through the curtain of steel, but all creatures on the opposite side of the barrier enjoy a +4 bonus to their AC and a +2 bonus to Ref saves made against attacks originating on the other side.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "A field of spinning, razor-sharp blades appear in the air."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-19": "Failure.",
+          "20-21": "The curtain occupies a vertical wall 20’ square. Those passing through the blades suffer 1d6 points of damage per CL. If the barrier is created in an area already occupied by living creatures, they receive a Ref save to leap out of the area of effect before the blades commence slashing. A successful save indicates half damage is taken.",
+          "22-25": "The curtain occupies a vertical wall 40’ square. Those passing through the blades suffer 1d8 points of damage per CL. If the barrier is created in an area already occupied by living creatures, they receive a Ref save to leap out of the area of effect before the blades commence slashing. A successful save indicates half damage is taken.",
+          "26-27": "The curtain occupies a vertical wall 60’ square or a ring-shaped wall 20’ in diameter. Those passing through the blades suffer 1d10 points of damage per CL. If the barrier is created in an area already occupied by living creatures, they receive a Ref save to leap out of the area of effect before the blades commence slashing. A successful save indicates half damage is taken.",
+          "28-29": "The curtain occupies a vertical wall 80’ square or a ring-shaped wall 30’ in diameter. Those passing through the blades suffer 1d12 points of damage per CL. If the barrier is created in an area already occupied by living creatures, they receive a Ref save to leap out of the area of effect before the blades commence slashing. A successful save indicates half damage is taken.",
+          "30-35": "The cleric creates two separate barriers. Each is either a wall 40’ square or a ring-shaped wall 20’ in diameter. Those passing through the blades suffer 1d12 points of damage per CL. If the barrier is created in an area already occupied by living creatures, they receive a Ref save to leap out of the area of effect before the blades commence slashing. A successful save indicates half damage is taken.",
+          "36-37": "The cleric creates two separate barriers. Each is either a wall 60’ square or a ring-shaped wall 30’ in diameter. Those passing through the blades suffer 1d20 points of damage per CL. If the barrier is created in an area already occupied by living creatures, they automatically take damage with no save. Alternately, the cleric can create a barrier 10’ square that moves at a rate of 20’ per round in any direction of his choosing. Those caught in the barrier’s path must make a Ref save or suffer 1d20 points of damage per CL. Those who make their save are unharmed. Moving the barrier requires complete concentration on the part of the cleric, but he can choose to perform other actions in a round if he leaves the whirling curtain of steel motionless for that time. He may then move the barrier on subsequent rounds until the spell’s duration ends.",
+          "38+": "The cleric creates a terrifying field of whirling death. This barrier fills an area equal to 20’ square per CL and the blades can be angled to face any direction of the cleric’s choosing (horizontal, vertical, angled, etc.). Those caught in the barrier’s path must make a Ref save or suffer 2d20 points of damage per CL. No save is allowed. The barrier cannot be moved, but it takes up any and all available space within the area of effect, altering its shape to fit down long hallways, oddly shaped rooms, etc."
+        }
+      }
+    ]
+  }
+  

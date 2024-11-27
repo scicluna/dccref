@@ -1,0 +1,33 @@
+{
+    "table_name": "speak-with-the-dead",
+    "notes": "Level: 3 -- Range: Self -- Duration: Varies -- Casting time: 1 hour -- Save: N/A",
+    "general": "The cleric speaks with a dead creature, and it answers his questions. The cleric must be in the presence of the dead creature’s body and be able to speak in a language that the creature understands. It will answer the cleric’s questions to the extent of its knowledge, which is the same it possessed in life. Note that creatures with stubborn or disobedient personalities may still exhibit the same personality traits in death.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Corpse miraculously 'heals' such that it rises and talks conversationally with the cleric until returning to its rotting state at the end of the duration.",
+          "2": "Corpse glows in a soft light and its lips or jaws move to answer any questions.",
+          "3": "The corpse’s spirit appears as a ghostly apparition, floating above the corpse to answer any questions.",
+          "4": "The corpse animates such that it writes answers to questions, such as by scratching the answers in the dirt or using its clotted blood to write on the walls."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-15": "Failure.",
+          "16-17": "The cleric may ask one question of a creature dead up to one week and converse for up to one round. The creature’s body must be largely intact; e.g., a fragment of a shattered skull is not sufficient to answer a question, but a cadaver is.",
+          "18-21": "The cleric may ask two questions of a creature dead up to one month and converse for up to two rounds. The creature’s body must be largely intact; e.g., a fragment of a shattered skull is not sufficient to answer a question, but a cadaver is.",
+          "22-23": "The cleric may ask three questions of a creature dead up to one year and converse for up to two turns. The creature’s body must be largely intact; e.g., a fragment of a shattered skull is not sufficient to answer a question, but a cadaver is.",
+          "24-26": "The cleric may ask four questions of a creature dead up to 10 years and converse for up to two turns. The cleric need only have a fragment of the creature’s body – for example, a skull or head – but the creature’s ability to communicate is limited by its remaining anatomy. If the cleric possesses only a tooth or knucklebone, the deceased cannot speak, and another spell may be needed to establish communication. The cleric may communicate with the un-dead using this spell; they count as 'dead' for purposes of the spell.",
+          "27-31": "The cleric may ask five questions of a creature dead up to 100 years and converse for up to two turns. The cleric need only have a fragment of the creature’s body – for example, a skull or bone chip – and the creature can communicate even with fragmented anatomy, as its spirit speaks through it. The cleric may communicate with the un-dead using this spell, as well as other creatures whose souls have departed due to supernatural means; they count as 'dead' for purposes of the spell.",
+          "32-33": "The cleric may ask six questions of a creature dead up to 1,000 years and converse for up to an hour. The cleric need only have a fragment of the creature’s body – for example, a skull or bone chip – and the creature can communicate even with fragmented anatomy, as its spirit speaks through it. The cleric may communicate with the un-dead using this spell, as well as other creatures whose souls have departed due to supernatural means; they count as 'dead' for purposes of the spell.",
+          "34-35": "The cleric may ask any number of questions of a creature dead up to 10,000 years and converse for up to an hour. The cleric need only have a fragment of the creature’s body – for example, a skull or bone chip – and the creature can communicate even with fragmented anatomy, as its spirit speaks through it. The cleric may communicate with the un-dead using this spell, as well as other creatures whose souls have departed due to supernatural means; they count as 'dead' for purposes of the spell.",
+          "36+": "The cleric may ask any number of questions of a creature dead up to 100,000 years and converse for up to a day. The cleric can communicate mentally directly with the creature and need not have any physical specimen of its corpse, though specific knowledge of its identity and location of birth, death, or deeds."
+        }
+      }
+    ]
+  }
+  

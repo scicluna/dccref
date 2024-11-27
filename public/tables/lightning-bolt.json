@@ -1,0 +1,56 @@
+{
+    "table_name": "lightning-bolt",
+    "notes": "Level: 3 -- Range: See below -- Duration: See below -- Casting time: 1 round -- Save: Reflex vs. spell check DC",
+    "general": "With this spell, the caster summons forth a mighty discharge of electrical energy, sufficient to electrocute most creatures, splinter wooden objects, blast stone to bits, and melt metals.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "Varies",
+        "table": {
+          "1": "A bolt of lightning crackles from the caster’s outstretched hand and strikes the target.",
+          "2": "A storm cloud appears above the target, followed by a flash of lightning.",
+          "3": "A sudden flash of light from the caster’s fingertips arcs toward the target.",
+          "4": "A surge of electrical energy ripples through the air before striking the target."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "caster is permanently charged with static electricity, causing him to take 1 point of shock damage every time he touches a metal object, and causing him to inflict 1 point of shock damage every time he touches a creature wearing metal armor.",
+          "2": "caster’s hair permanently stands on end, defying gravity in a most peculiar way.",
+          "3": "caster is forever sensitive to electrical currents, allowing him to discover water underground as a dowser but also causing him to take +1 damage per die on all electrical attacks.",
+          "4": "caster’s brain is scrambled by electrical currents, causing his Intelligence and Personality scores to transpose.",
+          "5": "major",
+          "6": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d3",
+        "table": {
+          "1": "caster zaps himself for 2d4 damage.",
+          "2": "caster zaps one randomly determined ally within 30’ for 2d4 damage.",
+          "3": "caster charges the point where he stands with electrical energy, such that any creature within 10’ of that point on a following round who wears metal armor or carries metal weapons will take 2d6 damage as the electrical charge is released; the charge does not dissipate until released."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster releases a single lightning bolt aimed at one target. The target must be within 100’, and it takes 3d6 damage.",
+          "18-21": "The caster releases a single lightning bolt aimed at one target to which he has line of sight. The bolt has a range of 50’ from the point of origination, which can be anywhere within 50’ of the caster. The lightning bolt does 4d6 damage.",
+          "22-23": "Static electricity! The caster designates a target within 100’. The target and all living targets within 30’ of it (including allies and potentially the caster if he is in range) take 2d6 damage.",
+          "24-26": "Chain lightning! The caster releases a single lightning bolt that jumps between up to four targets. The first target must be within 50’ of the caster, and each subsequent target must be within 30’ of the prior target. The lightning bolt cannot loop back to a prior target. The first target takes 4d6 damage, the second target takes 3d6 damage, the third target takes 2d6 damage, and the final target takes 1d6 damage.",
+          "27-31": "Forked lightning! The caster releases five lightning bolts, one from each finger on one hand, but all targets must be within a 45 degree arc in front of the caster. A single target cannot be hit by more than one lightning bolt; if there are fewer than five eligible targets, then the last lightning bolts strike the ground and are lost. Maximum range of any single bolt is 150’. Each target takes 5d6 damage.",
+          "32-33": "Ball lightning! The caster picks a point within 200’. A mighty charge of electricity explodes at that point. The target directly at the point of explosion takes 10d6 damage. All creatures within 20’ take 6d6 damage.",
+          "34-35": "Lightning storm! Dark clouds roll overhead as the caster directs blasts of electricity from the heavens. The caster may choose up to six targets within 500’ and in line of sight. Lightning bolts arc down from the sky to strike these targets. Each target is hit by 1d7 bolts doing 1d12 damage each.",
+          "36+": "The caster releases a single massive lightning bolt that forks to hit up to eight targets. The caster chooses a point of origination within 1,000’. The bolt has a range of 400’ from the point of origination and does total damage of 24d6. The caster can divide that damage between up to eight targets as he sees fit. For example, the first target could take 17d6, then the next seven targets take 1d6 each."
+        }
+      }
+    ]
+  }
+  

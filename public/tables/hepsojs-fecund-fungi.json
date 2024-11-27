@@ -1,0 +1,56 @@
+{
+    "table_name": "hepsojs-fecund-fungi",
+    "notes": "Level: 5 -- Range: 100’ plus 20’ per CL -- Duration: Varies -- Casting Time: 1 action -- Save: Varies",
+    "general": "The caster draws upon and amplifies the ever-present spores of fungi and mold to produce spectacular effects, including choking clouds, ablative armor, restraining bonds, and spontaneous fungus generation.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Tiny tendrils of fungus sprout from the caster’s fingers as he works his magic.",
+          "2": "A cloud of scintillating spores wafts from the caster’s mouth and nose before the magic takes shape.",
+          "3": "Small puffball fungi sprout out the caster’s feet and spiral out towards the spell’s target(s).",
+          "4": "The caster’s flesh becomes covered in fuzzy spores that then coalesce into the desired effect."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster develops a chronic cough, hacking up mold spores.",
+          "2": "Small growths of leathery fungi develop on the caster’s skin.",
+          "3": "The perpetual odor of mold and mildew accompanies the caster.",
+          "4": "The caster’s head takes on a misshapen, mushroom-like form."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "Tiny mushroom homunculi appear at the caster’s feet; they trip him and steal a small item from his possession before running off.",
+          "2": "The air around the caster in a 10’ radius is filled with thick spores making it difficult to see for 1d3 rounds (missile attacks and saving throws suffer a -2 penalty).",
+          "3": "The caster’s throat becomes choked with spongy fungi and he can do nothing but cough to clear it for 1d4 rounds.",
+          "4": "Painful fungal growths erupt from the caster’s skin doing 1d6 damage.",
+          "5": "The spell unwittingly summons either a primeval ooze or shrooman to the caster’s location; the summoned creatures arrive in 1d5 rounds and are either hungry or unhappy at being called."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster causes the mildew and mold spores in the air to spontaneously multiply, creating a dense cloud of choking particles. The area of effect is 50’ square and 10’ in height. All air-breathing creatures within the cloud must make a Fort save or be incapacitated by wracking coughs and suffer 1d6+CL damage each round. Those that make their saves take no damage and may act freely, but the cough imposes a -3 penalty to all attacks, saves, spell checks, ability checks, and initiative rolls until the spell’s duration expires. The cloud lasts for 1 round per CL.",
+          "20-23": "The caster grows thick, leathery fungi over his body that prevents him from taking damage. This ablative armor protects the caster from a number of attacks equal to his CL. Each time the caster takes physical damage, he can make a Fort save with a DC equal to the amount of damage the attack caused. A successful save indicates damage, but the attack is deducted from the amount of defensive armor remaining. The fungus armor only defends against physical attacks of a magical or non-magical nature and provides no protection against psychic, illusionary, or other mental attacks. The armor remains until destroyed, dispelled, or for 1 hour per CL.",
+          "24-25": "The caster summons thick, ropey strands of fungus that emerge from the ground and restrain and crush his enemies. These pale tendrils sprout in an area 60’ square and attack all targets within that space. Each tendril attacks with a +4 bonus to hit. A successful strike indicates the target is entangled by the tendril and cannot move. In addition, the fungus constricts and targets suffer 1d8+4 damage each round until freed or the spell ends. A successful Ref saving throw by the entangled target indicates its arms are free and it can attempt to attack the tendrils with a weapon or cast a spell. These attempts suffer a -4 penalty. Tendrils have an AC of 15 and 25 hit points. A trapped target can also free itself with a DC 25 Strength check or an appropriate Mighty Deed of Arms at the judge’s discretion.",
+          "26-28": "The caster calls up thick stands of giant mushrooms to block passages, form protective walls, or create spongy ramps to reach higher ground. The amount of fungi generated can fill an area up to 150’ square and 10’ in height. It can be molded to take the shape of walls, pillars, cubes, ramps, and other solid shapes provided it has solid ground upon which to rest. Bridges, arches, and other curved forms are also allowed, but complete spheres are beyond the spell’s ability. The caster can create openings in the fungi such as doorways, arrow slits, and vents at the time of the spell’s casting, but later additions need be cut into the spongy material with edged weapons or tools. The fungi last for 30 minutes per CL and dissolves into a smelly, slimy mass once the spell ends. Hacking a man-sized hole through 10’ of fungi requires 10 minutes of work; additional workers can reduce this time by 1 minute per assistant.",
+          "29-33": "The caster calls into being a horde of shroomen to do his bidding. These laconic creatures emerge from the ground as puffballs that break open to reveal the fungoid humanoids within. The caster calls up 2 shroomen per CL. They remain under the caster’s complete control until destroyed or released from service, upon which they depart slowly but peacefully. The shroomen have typical stats for their species.",
+          "34-35": "The caster taps into the psychotropic nature of certain fungi to forge a mystic connection with the unseen realms. While under the effects of this hallucinogenic state, attempts to contact patrons, call for divine aid, summon demons, or use divination magic enjoy a +8 bonus to their spell checks if performed within the next hour. However, meddling with magic in this state can be detrimental to one’s sanity. If the modified spell check fails, the caster must make a Will save or go permanently insane. Certain restorative magics may be able to restore the caster’s sanity, but he never fully shakes the terrors he witnessed while under the psychotropic effects of this spell.",
+          "36-37": "The caster causes the natural fungi that exist on and inside living creatures to rebel against their hosts, turning on them and destroying them from the inside out. The caster can affect a number of creatures within range equal to his CL. Each target must make a Fort save or suffer the effects of protoplasmic breakdown (see primeval slime). This destruction lasts for a number of rounds equal to the caster’s CL but can be stopped with neutralize poison or disease with a spell check of 30+. Otherwise, the afflicted creatures suffer 1d4 Stamina loss each round until the spell runs its course. The spell lasts CL rounds.",
+          "38+": "The caster contacts Mycetes-Thrax, the Great Sleeping Growth that lurks beneath the soil. This titanic entity is a single fungus that stretches for a hundred leagues under the earth and has grown sentient and wise with the eons. Mycetes-Thrax can serve as a patron if the caster knows the proper spells, and it rewards its servants with utterly alien but useful and fearsome powers. Its wisdom is great and it knows much forgotten lore. The caster can ask a number of questions of Mycetes-Thrax equal to his CL, which it answers truthfully. The judge will deem whether the Sleeping Growth knows the answers. Lastly, if the caster desires destruction, Mycetes-Thrax can ripple its great, slumbering corpus, causing destructive earthquakes, tsunamis, and avalanches in locations up to 300 miles away."
+        }
+      }
+    ]
+  }
+  

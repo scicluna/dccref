@@ -1,0 +1,56 @@
+{
+    "spell_name": "spider-web",
+    "notes": "Level: 2 -- Range: Varies -- Duration: Varies -- Casting time: 1 action -- Save: Varies (see below)",
+    "general": "The caster creates a sticky spider web with which to entangle his foes. Unless objects are trapped by the web, it is difficult to see, effectively invisible unless someone is searching for it. A creature that touches the web is held fast, able to escape only by a DC 20 Strength or Agility check. The web can be burned off (possibly wounding captured creatures) or hacked through with a very sharp blade by a creature not already caught (AC 16, 5 hp to free one creature). A dull blade or blunt object will simply become entangled; even a strike with an exceptionally sharp blade has a 25% chance of entangling the weapon. Melee attacks aimed at the creatures held by the web run a 10% risk per attack of entangling the attacker.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Some form of spider web, as determined by the caster (long and stringy, a clumped mass, elegant, torn, etc.)"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "cobwebs form permanently between the caster’s fingers",
+          "2": "as the caster speaks, a dribble of webby mass forms at the corners of his mouth",
+          "3": "the caster’s hair becomes sticky like a web, and small objects (leaves, twigs, dust, bird feathers, etc.) are constantly becoming stuck",
+          "4": "caster grows six extra eyes, like those of a spider, at the crown of his head",
+          "5": "caster’s mouth forms fangs like those of a spider",
+          "6": "caster’s skin emits an oily, friction-resistant residue, which makes him immune to tangling in spider webs (both magical or mundane) but also gives him a 10% chance of slipping off any rope, ledge, wall, or other climbing surface that relies on friction for success",
+          "7": "minor",
+          "8": "major"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "globular mass of webbing plops from the caster’s hand and explodes at his feet, entangling him and everything within 10’ of him for 1d6 minutes (DC 20 Strength or Agility to escape)",
+          "2": "the caster inadvertently summons not a spider web but instead the poisonous spider that lives in it, which immediately attacks him before scurrying away 1d4+1 rounds later (Atk bite +3 melee, dmg 1d3 + poison (DC 20 Fort or 2d4 Stamina), AC 8, HP 6)",
+          "3": "the demon queen of the spider pits tires of her servants being misused by mortals and takes notice of the caster, who finds himself beset by arachnid opponents at all turns (judge’s discretion) for the next 1d7+1 days – these spiders, both mundane and demonic, attack exclusively the caster and clearly seek to punish him",
+          "4": "the caster misfires a jet of spider web into the sky, which descends in clumpy strands; all creatures within 25’ (including the caster) must make a DC 10 Ref save or be entangled in a small bit of web, which causes a -2 penalty to all actions for 1d4 rounds as the target untangles himself"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint + misfire; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire",
+          "2-11": "Lost. Failure.",
+          "12-13": "Failure, but spell is not lost.",
+          "14-15": "The caster weaves a spider web up to 10’ in diameter. It can be placed in any static location (such as a door frame or hallway) touched. The web lasts for 1d6 hours before dissolving.",
+          "16-19": "The caster weaves a spider web up to 20’ in diameter. It can be placed in any static location (such as a door frame or hallway) touched. The web lasts for 1d6 hours before dissolving.",
+          "20-21": "The caster weaves a spider web up to 30’ in diameter. It can be placed in any static location (such as a door frame or hallway) touched. The web lasts for 1d6 days before dissolving.",
+          "22-25": "The caster weaves a spider web up to 30’ in diameter. The web lasts for 1d6 days before dissolving. The caster can place the web in a static location or fling the web a distance of up to 50’. If aimed at a living creature or small target, the caster must make a normal missile fire attack roll against the target, though he receive a +6 bonus to reflect the fact that the web need only touch the target not pierce its armor. A miss means the web lands 1d30’ away in a random direction, still potentially capturing the target.",
+          "26-29": "The caster weaves a spider web with a shape he can manipulate within a total mass of roughly 30’ x 30’ x 1’. For example, the caster could create a spidery rope 900’ long or a rectangular web 10’ x 90’ that runs the length of a corridor floor. The web lasts for 2d6+CL days before dissolving. The caster can place the web in a static location or fling the web a distance of up to 200’. If aimed at a living creature or small target, the caster must make a normal missile fire attack roll against the target, though he receives a +6 bonus to reflect the fact that the web need only touch the target not pierce its armor. A miss means the web lands 1d30’ away in a random direction, still potentially capturing the target.",
+          "30-31": "The caster weaves up to three spider webs with shapes he can manipulate within a total mass of roughly 30’ x 30’ x 1’. For example, the caster could create a spidery rope 900’ long, or a rectangular web 10’ x 90’ that runs the length of a corridor floor, or a single “personal” web 5’x5’ designed to target one creature. Each web lasts for 2d6+CL days before dissolving. The caster can place a web in a static location or fling a web a distance of up to 200’. The caster can aim all three webs at living targets in the round of casting if he wishes. If aimed at a living creature or small target, the caster must make a normal missile fire attack roll against the target, though he receives a +8 bonus to reflect the fact that the web need only touch the target not pierce its armor. A miss means the web lands 1d30’ away in a random direction, still potentially capturing the target.",
+          "32-33": "The caster weaves up to three spider webs with shapes he can manipulate within a total mass of roughly 30’ x 30’ x 1’. For example, the caster could create a spidery rope 900’ long, or a rectangular web 10’ x 90’ that runs the length of a corridor floor, or a single “personal” web 5’x5’ designed to target one creature. Each web lasts for 1d6+CL months before dissolving. The caster can place a web in a static location or fling a web a distance of up to 200’. The caster can aim all three webs at living targets in the round of casting if he wishes. If aimed at a living creature or small target, the caster must make a normal missile fire attack roll against the target, though he receives a +8 bonus to reflect the fact that the web need only touch the target not pierce its armor. A miss means the web lands 1d30’ away in a random direction, still potentially capturing the target.",
+          "34+": "The caster can fill an enormous space with sticky cobwebs. The space can be up to a mile in diameter: the interior of a castle, the entire span of a battlefield, or the ceiling of a vast cavern. Alternately, the caster can choose to make the webbed space quite small and can restrict it to up to 10 human-shaped targets if he wishes. If the space covered is large, the caster can sculpt the mass of webbing to a general three-dimensional shape, but he does not have the control to individually exclude “holes” within the space (i.e., if he casts over a battlefield he can choose a rectangular shape, circular shape, oval shape, etc., but entangles all creatures inside the web). The webbing is particularly dense and can only be escaped with a DC 25 Strength or Agility check. It is also fire-resistant, with a 25% chance to resist new fires or extinguish existing fires each round. The webbing is permanent in duration until destroyed or magically dispelled."
+        }
+      }
+    ]
+  }
+  

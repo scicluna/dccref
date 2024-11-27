@@ -1,0 +1,55 @@
+{
+    "spell_name": "scare",
+    "notes": "Range: 30’ or more -- Duration: 1 round or longer -- Casting time: 1 round -- Save: Will save vs. spell check DC",
+    "general": "This spell causes its victim to experience abject terror, potentially fleeing the scene or cowering in fright. The spell does not affect automatons, golems, mindless un-dead (such as zombies or skeletons), and other creatures that do not feel fear.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "caster’s visage transforms into something horrible",
+          "2": "target’s worst nightmare appears before its eyes for a brief instant",
+          "3": "nothing visual occurs but unreasoning fear grips target",
+          "4": "an image of a terrible monster momentarily flashes into existence then disappears"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d12",
+        "table": {
+          "1": "the caster develops an irrational fear related to (1) chickens, (2) horses, (3) rocks, (4) clouds, (5) apples, (6) snakes, such that he must flee in fear if he fails a DC 10 Will save whenever he sees such a creature or object",
+          "2": "the caster is especially susceptible to fear, receiving a -2 penalty to saves to resist it from now on",
+          "3": "caster’s face changes to resemble the monster that he fears most",
+          "4-7": "minor",
+          "8-9": "major",
+          "10-12": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d4",
+        "table": {
+          "1": "nearest ally is absolutely terrified and must make DC 12 Will save or run in fear for 1d4+1 rounds",
+          "2": "caster’s visage is momentarily transformed into something absolutely horrid, frightening his familiar, which runs away for 24 hours"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse.",
+          "2-11": "Failure, but spell is not lost.",
+          "12-13": "The caster can target one creature within 30’ and line of sight. That creature receives a Will save to resist the effect. Failure indicates it experiences a moment of fright. It immediately flees the area at maximum speed. The scare lasts only one round; on the round following the failed save, the creature recovers its wits.",
+          "14-15": "The caster can target one creature within 30’ and line of sight. That creature receives a Will save to resist the effect. Failure indicates it experiences a moment of fright. It immediately flees the area at maximum speed. The scare lasts 1d4+1 rounds.",
+          "16-19": "The caster can target one creature within 30’ and line of sight. That creature receives a Will save to resist the effect. Failure indicates it experiences a moment of fright. It immediately flees the area at maximum speed. The scare lasts 1d4+1 rounds.",
+          "20-21": "The caster can target two creatures within 60’ and line of sight. Those creatures receive a Will save to resist the effect. Failure indicates they experience a moment of fright. They immediately flee the area at maximum speed. The scare lasts 1d6+1 rounds.",
+          "22-25": "The caster can frighten three enemies within 60’. They receive a Will save to resist the effect. Failure indicates they experience a moment of fright. They immediately flee the area at maximum speed. The scare lasts 1d6+1 rounds.",
+          "26-29": "The caster can frighten all enemies within 60’. Creatures of 1 HD or less are automatically frightened; others receive a Will save to resist the effect. Failure indicates they experience a moment of fright. They immediately flee the area at maximum speed. The scare lasts 1d6+1 rounds.",
+          "30-31": "The caster can frighten all enemies within 60’. Creatures of 2 HD or less are automatically frightened; others receive a Will save to resist the effect. Failure indicates they experience a moment of fright. The fright is so painful they take 1d4 points of damage (potentially dropping dead from fear!), and then immediately flee the area at maximum speed. The scare lasts 2d6+1 rounds.",
+          "32-33": "The caster can frighten all enemies within 90’. Creatures of 2 HD or less are automatically frightened; others receive a Will save to resist the effect. Failure indicates they experience a moment of fright. The fright is so painful they take 1d8 points of damage (potentially dropping dead from fear!), and then immediately flee the area at maximum speed. The scare lasts 3d6+1 rounds.",
+          "34+": "The caster can frighten all enemies within 120’. Creatures of 3 HD or less are automatically frightened; others receive a Will save to resist the effect. Failure indicates they experience a moment of fright. The fright is so painful they take 2d8 points of damage (potentially dropping dead from fear!), and then immediately flee the area at maximum speed. The scare lasts 3d6+1 rounds."
+        }
+      }
+    ]
+  }
+  

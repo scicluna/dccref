@@ -1,0 +1,87 @@
+{
+    "table_name": "demon-summoning",
+    "notes": "Level: 3 -- Range: 20’ -- Duration: Varies -- Casting time: 1 turn -- Save: Will vs. spell check",
+    "general": "This spell summons a demon to do the caster’s bidding. Demons are intelligent, capricious, ambitious, and emotional, and do not always respond positively to summoning. The spell requires a darksome ritual and at least 1 point of spellburn. The effects of the spell vary according to the ritual performed. The caster can appeal to his patron if he has one; attempt to summon a specific demon if he knows its true name; or he can merely attempt to summon any demon. Use the appropriate column below depending on the intended result. The demon summoned is not necessarily under the caster’s control. Except as noted below, the demon always receives a Will save vs. the spell check result to resist control. If the demon succeeds in its save, it lashes out when summoned. There is a base 50% chance it attacks the caster, reduced by -20% if the caster summoned a demon in service to his patron, and another -20% if the caster knows the demon’s true name. If the demon does not attack the caster, it attacks another nearby creature.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "an egg shimmers into existence, then hatches into the demon summoned",
+          "2": "flash of dark clouds and demon appears",
+          "3": "demon’s skeleton appears first, then organs appear, then muscles knit them together, then skin grows and the demon appears",
+          "4": "demon erupts from ground fully formed"
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d8",
+        "table": {
+          "1": "caster’s face takes on the appearance of the demon he attempted to summon",
+          "2": "caster’s body takes on aspects of the demon he attempted to summon",
+          "3": "caster’s face becomes pock-marked and he temporarily loses 1d4 points of Int as the demon struggles violently with the casting attempt",
+          "4": "caster wheezes and has trouble breathing in the presence of demons of the type he attempted to summon",
+          "5": "minor",
+          "6": "major",
+          "7": "greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d1",
+        "table": {}
+      },
+      {
+        "subtable_name": "With Patron",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint; (1-4) corruption; (5+) patron taint (or corruption if no patron)",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster summons a type I demon in service to his patron that remains for 1d4+1 rounds.",
+          "18-21": "The caster summons a type I demon in service to his patron that remains for 1d4+1 turns.",
+          "22-23": "The caster summons a type II demon in service to his patron that remains for 1d4+1 rounds.",
+          "24-26": "The caster summons a type III demon in service to his patron that remains for 1d4+1 rounds.",
+          "27-31": "The caster summons a type IV demon in service to his patron that remains for 1d4+1 rounds.",
+          "32-33": "The caster summons a type V demon in service to his patron that remains for 1d4+1 rounds.",
+          "34-35": "The caster summons a type VI demon in service to his patron that remains for 1d4+1 rounds.",
+          "36+": "The caster summons a type VI demon in service to his patron that remains for 1d4+1 turns."
+        }
+      },
+      {
+        "subtable_name": "Without Patron",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint; (1-4) corruption; (5+) patron taint (or corruption if no patron)",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster summons a randomly determined type I demon that remains for a single round.",
+          "18-21": "The caster summons a randomly determined type I demon that remains for 1d4+1 rounds.",
+          "22-23": "The caster summons a randomly determined type II demon that remains for 1d4+1 rounds.",
+          "24-26": "The caster summons a randomly determined type III demon that remains for 1d4+1 rounds.",
+          "27-31": "The caster summons a randomly determined type IV demon that remains for 1d4+1 rounds.",
+          "32-33": "The caster summons a randomly determined type V demon that remains for 1d4+1 rounds.",
+          "34-35": "The caster summons a randomly determined type VI demon that remains for 1d4+1 rounds.",
+          "36+": "The caster summons a randomly determined type VI demon that remains for 1d4+1 turns."
+        }
+      },
+      {
+        "subtable_name": "True Name Known",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + patron taint; (1-4) corruption; (5+) patron taint (or corruption if no patron)",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster can summon a demon of type I, whose true name he knows. It is automatically under the caster’s control for 1 round, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "18-21": "The caster can summon a demon of type I or II, whose true name he knows. It is automatically under the caster’s control for 1 round, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "22-23": "The caster can summon a demon of type I, II, or III, whose true name he knows. It is automatically under the caster’s control for 1 round, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "24-26": "The caster can summon a demon of type I, II, III, or IV, whose true name he knows. It is automatically under the caster’s control for 1 round, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "27-31": "The caster can summon a demon of type I, II, III, IV, or V, whose true name he knows. It is automatically under the caster’s control for 1 round, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "32-33": "The caster can summon a demon of type I, II, III, IV, V, or VI, whose true name he knows. It is automatically under the caster’s control for 1 round, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "34-35": "The caster can summon a demon of type I, II, III, IV, V, or VI, whose true name he knows. It is automatically under the caster’s control for 2 rounds, then it receives a Will save to resist control. The demon remains on this plane for 1d4+1 rounds.",
+          "36+": "The caster can summon a demon of type I, II, III, IV, V, or VI, whose true name he knows. It is automatically under the caster’s control for the entire time it is present. The demon remains on this plane for 1d4+1 turns."
+        }
+      }
+    ]
+  }
+  

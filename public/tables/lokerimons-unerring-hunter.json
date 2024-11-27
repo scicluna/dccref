@@ -1,0 +1,56 @@
+{
+    "table_name": "lokerimons-unerring-hunter",
+    "notes": "Level: 5 -- Range: Varies -- Duration: Varies -- Casting Time: 10 minutes -- Save: None",
+    "general": "The caster conjures a magical hunter to kill or capture his quarry. This spell creates either a lesser or greater unerring hunter.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "The hunter coalesces from the shadows and then streaks off in search of its target.",
+          "2": "Caster vomits up a mass of bile and cancerous flesh that assumes the hunter’s form.",
+          "3": "The target dreams of a faceless entity pursuing him every night until the hunter finds him.",
+          "4": "The target’s possessions burst into flames and the hunter forms from the smoke it creates."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Caster gains a mania about where his allies or enemies are at any given moment.",
+          "2": "Caster begins to eat like a hound, eschewing silverware to eat and drink with his mouth alone.",
+          "3": "Caster takes on a doglike appearance.",
+          "4": "Caster has horrible nightmares of being chased that might cause temporary Stamina loss at the judge’s discretion."
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d5",
+        "table": {
+          "1": "A lesser unerring hunter appears and attacks the caster.",
+          "2": "The caster offends the hunter race and cannot attempt to cast this spell again until either 1 year has passed or he undertakes steps to make amends.",
+          "3": "Target becomes aware it is being sought and knows who is attempting to find it.",
+          "4": "Target’s possession is destroyed in the attempt and the caster must find a new item to replace it.",
+          "5": "Caster is targeted by a lesser unerring hunter that attempts to capture him and bring him to his intended target."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and worse! Roll 1d6 modified by Luck.",
+          "2-11": "Lost. Failure.",
+          "12-17": "Failure, but spell is not lost.",
+          "18-19": "The caster conjures a lesser unerring hunter to locate, capture, or kill his enemies. It can take nearly any twisted form the caster desires so long as it is man-sized or smaller. The caster must have an object belonging to the target in order for the hunter to lock on to its victim. Without such an item, the spell fails. If given the wrong item (an object belonging to someone other than the intended quarry), the hunter carries out its mission on the owner of the item regardless of the caster’s wishes. The hunter can track down a single target up to 10 miles away and pursues its prey for up to 24 hours before fading out of existence.",
+          "20-23": "The caster conjures a lesser unerring hunter to locate, capture, or kill his enemies. It can take nearly any twisted form the caster desires so long as it is man-sized or smaller. The caster must have an object belonging to the target in order for the hunter to lock on to its victim. Without such an item, the spell fails. If given the wrong item (an object belonging to someone other than the intended quarry), the hunter carries out its mission on the owner of the item regardless of the caster’s wishes. The lesser hunter can track its target up to 50 miles away or until 48 hours have passed.",
+          "24-25": "The caster conjures a lesser unerring hunter to locate, capture, or kill his enemies. It can take nearly any twisted form the caster desires so long as it is man-sized or smaller. The caster does not need an object belonging to the target, but without it there is a possibility that the hunter fails to “find the scent” of its intended prey. If the caster lacks an object but has seen the target personally, the hunter has a 90% chance of successfully tracking the victim. If the caster has seen an image of the intended target, the hunter has a 75% chance of finding its victim. If the caster has only a verbal description of the intended target, the hunter has just a 50% chance of locating its quarry. A hunter that fails to find the scent of its prey dissipates after an hour and the spell cannot be cast again until 24 hours have passed. The unerring hunter can track its target up to 100 miles away or until 7 days have passed.",
+          "26-28": "The caster conjures a lesser unerring hunter to locate, capture, or kill his enemies. It can take nearly any twisted form the caster desires so long as it is man-sized or smaller. The caster does not need an object belonging to the target, but without it there is a possibility that the hunter fails to “find the scent” of its intended prey. If the caster lacks an object but has seen the target personally, the hunter has a 90% chance of successfully tracking the victim. If the caster has seen an image of the intended target, the hunter has a 75% chance of finding its victim. If the caster has only a verbal description of the intended target, the hunter has just a 50% chance of locating its quarry. A hunter that fails to find the scent of its prey dissipates after an hour and the spell cannot be cast again until 24 hours have passed. The lesser unerring hunter can track its target up to 250 miles away or until two weeks have passed.",
+          "29-33": "The caster conjures a greater unerring hunter to locate, capture, or kill his enemies. It can take nearly any twisted form the caster desires so long as it is man-sized or smaller. It tracks its target up to 500 miles away or until 1 month has passed. It always finds the trail of its target regardless of whether the caster has an object belonging to its victim or not.",
+          "34-35": "The caster can either summon forth a lesser unerring hunter that pursues its target regardless of distance/time until it is either successful or destroyed, or the caster can set a greater unerring hunter against a foe that is up to 1,000 miles away or for up to 3 month’s time. He does not need an object belonging to the target.",
+          "36-37": "The caster can either summon up to three unerring hunters to pursue multiple targets or a single greater hunter that relentlessly tracks its target until successful or destroyed. Multiple lesser unerring hunters can be sent against a single target and all three must be destroyed to prevent the spell from being renewed against the target for one month’s time. Regardless of whether multiple lesser hunters or a single greater hunter are summoned, there is no limit to time or distance on the hunt, and an object related to the target is not required.",
+          "38+": "The caster conjures up three greater unerring hunters to track down his target. These hunters can track their quarry across any distance and into other planes of existence if necessary. They hunt until successful or destroyed. An object belonging to the target is not required."
+        }
+      }
+    ]
+  }
+  

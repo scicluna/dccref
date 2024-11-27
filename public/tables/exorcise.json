@@ -1,0 +1,50 @@
+{
+    "table_name": "exorcise",
+    "notes": "Level: 3 -- Range: 1 mile per CL (but see below) -- Duration: Instantaneous -- Casting time: 1 hour -- Save: See below",
+    "general": "The cleric calls upon divine forces to tear asunder the bonds linking mortals and their supernatural patrons, at the risk of drawing unwanted attention to himself. This spell requires much from the cleric and can only be performed once every seven days after a period of fasting, prayer, and mental preparation. Typically, an item belonging to the target, or a piece of the target’s physical body (hair, blood, fingernail, etc.) is required to cast this spell. Attempting the spell without such an item imposes a -4 penalty to the spell check. Additionally, casting the spell without a physical link to the target reduces the range of the spell to 100’ per CL.\n\nWhen cast, the cleric makes a spell check as normal. If his spell check exceeds the spell check made when the original patron bond was cast, the bond is broken and the subject of the bond loses all benefits of that bond immediately. This can include losing patron spells he has previously learned. The subject cannot attempt to reform the patron bond until one month has passed or some powerful magic has offset the exorcism. In addition, the subject may suffer side effects from the breaking of the bond (see below).\n\nIf the cleric’s spell check is insufficient to break the patron bond, it is likely that the powers involved attempt to punish the cleric for his meddling. The cleric must make a Luck check to avoid drawing attention to himself and facing the wrath of the supernatural agents involved. If the Luck check fails, the cleric can expect to face the patron’s minions, or at higher levels, the patron itself!\n\nWhile the text of this spell refers to a patron bond, the spell could be used in a similar manner to break other, similar supernatural bonds, where they are encountered.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d1",
+        "table": {
+          "1": "Ghostly representations of the cleric’s deity or its agents appear and begin breaking the cosmic cords that bind the target to his supernatural patron."
+        }
+      },
+      {
+        "subtable_name": "Corruption",
+        "dice_size": "1d6",
+        "table": {
+          "1": "Caster is haunted by dream-like flashbacks to a primordial time, freezing up for 1d4 rounds whenever rolling a natural 13 on any die roll (attack, spell check, saving throw, etc.).",
+          "2": "Caster is marked by supernatural powers as a champion of a distant cause. Supernatural creatures take a negative view, with a +25% increase in hostility towards the caster.",
+          "3": "The champion that the caster attempted to summon was a permanent guard in the Courts of Chaos. The caster is marked with a sign of disfavor, visible only to chaos lords and their minions, who treat the caster with displeasure.",
+          "4": "Minor",
+          "5": "Major",
+          "6": "Greater"
+        }
+      },
+      {
+        "subtable_name": "Misfire",
+        "dice_size": "1d2",
+        "table": {
+          "1": "Caster marks an allied warrior as a candidate for the eternal warrior castings of other times, giving that warrior a 1% chance each day of randomly disappearing to fight for distant causes.",
+          "2": "In casting this spell, the caster inadvertently reverses its parameters and sends himself to the time of the warrior. The caster disappears at sunrise and reappears at sunset, suffering 2d4 hp loss and 1d6 randomly expended spells, with no memory of his time away."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d36",
+        "table": {
+          "1-15": "Failure. The cleric must make a DC 5 Luck check to avoid attracting the patron’s notice. If failed, the subject is alerted that someone is attempting to sever his patron bond.",
+          "16-17": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. The subject of the bond is dazed for 1d6 rounds as the bond breaks, suffering a -2 penalty to all rolls during that time. If the cleric’s spell check was insufficient to break the bond, he must make a DC 10 Luck check to avoid the patron’s notice. If failed, a minor agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives in 1d5 days after the failed casting.",
+          "18-21": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. The subject of the bond is paralyzed for 1d6 rounds as the bond breaks. If the cleric’s spell check was insufficient to break the bond, he must make a DC 12 Luck check to avoid the patron’s notice. If failed, a minor agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives in 1d4 days after the failed casting.",
+          "22-23": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. The subject of the bond takes 1d6 + CL in damage as the bond severs. If the cleric’s spell check was insufficient to break the bond, he must make a DC 14 Luck check to avoid the patron’s notice. If failed, a moderately powerful agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives in 1d3 days after the failed casting.",
+          "24-26": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. The subject of the bond takes 1d8 + CL in damage and 1 point of temporary ability damage (chosen at random) as the bond severs. If the cleric’s spell check was insufficient to break the bond, he must make a DC 16 Luck check to avoid the patron’s notice. If failed, a moderately powerful agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives in 1d2 days after the failed casting.",
+          "27-31": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. As the bond severs, the subject of the bond takes 1d10 + CL in damage, 1 point of temporary ability damage (chosen at random), and loses the ability to cast one random spell for the day if a spellcaster. If the cleric’s spell check was insufficient to break the bond, he must make a DC 18 Luck check to avoid the patron’s notice. If failed, a moderately powerful agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives in 1d2 days after the failed casting.",
+          "32-33": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. As the bond severs, the subject of the bond takes 2d6 + CL in damage, 2 points of temporary ability damage (chosen at random), and must make a Will save or be struck senseless for 1d6 hours. If the cleric’s spell check was insufficient to break the bond, he must make a DC 20 Luck check to avoid the patron’s notice. If failed, a powerful agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives the day the casting failed. If the Luck check is successful, the cleric still suffers cosmic backlash and becomes the subject of a minor curse of the judge’s choosing.",
+          "34-35": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. As the bond severs, the subject of the bond takes 3d6 + CL in damage, 3 points of temporary ability damage (chosen at random), and must make a Will save or lose all spells for 24 hours if a spellcaster. If the cleric’s spell check was insufficient to break the bond, he must make a DC 22 Luck check to avoid the patron’s notice. If failed, an extremely powerful agent of the patron (judge’s choice) seeks out the cleric with the intent to harm him. It arrives within 1d12 hours of the failed casting. If the Luck check is successful, the cleric still suffers cosmic backlash and becomes the subject of a minor curse of the judge’s choosing.",
+          "36+": "The cleric exorcises a patron bond whose original spell check was less than the cleric’s spell check roll. As the bond severs, the subject must make a DC 22 Fort save. If successful, he suffers 3d8 + CL damage, 4 points of temporary ability damage (chosen at random), and loses 1 permanent ability point. If the save is failed, he undergoes a horrific physical transformation, his body wracked by supernatural forces gone awry. The exact details of the transformation are left to the judge, but could include becoming a horrific monster, turned into mobile slime, transmutation into sentient, immobile stone, etc. If the cleric’s spell check was insufficient to break the bond, he automatically attracts the attention of the subject’s patron who immediately appears at the cleric’s location with the intent of destroying him."
+        }
+      }
+    ]
+  }
+  

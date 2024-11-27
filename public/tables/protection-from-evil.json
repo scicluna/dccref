@@ -1,0 +1,33 @@
+{
+    "table_name": "protection-from-evil",
+    "notes": "Level: 1 -- Range: Self or more -- Duration: 1 turn per CL -- Casting time: 1 action -- Save: Varies",
+    "general": "The cleric calls upon his deity to protect him from harm. He is protected even if he is not aware of the danger. The definition of 'evil' is based on the cleric: generally it encompasses creatures of opposed alignment, those unholy to the cleric’s deity, and those with clear harmful intent. Depending on the strength of the spell, it may detect even more subtle dangers. This spell may be reversed to protect from good.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Translucent holy symbol.",
+          "2": "Soft, protective aura.",
+          "3": "Glowing halo."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Corruption + Misfire + Patron Taint.",
+          "2-11": "Lost. Failure.",
+          "12-13": "The cleric receives a +1 bonus to saving throws made against evil effects, evil creatures, un-dead, demons, and anything else unholy to his faith.",
+          "14-17": "The cleric receives a +1 bonus to saving throws made against evil effects, evil creatures, un-dead, demons, and anything else unholy to his faith. In addition, all attempts to attack the cleric by evil or unholy creatures are made at a -1 penalty.",
+          "18-19": "The cleric receives a +1 bonus to saving throws made against evil effects, evil creatures, un-dead, demons, and anything else unholy to his faith. In addition, all attempts to attack the cleric by evil or unholy creatures are made at a -1 penalty. Finally, all wounds suffered from evil or unholy sources have their damage reduced by 1 point per die (minimum damage 1 point per die).",
+          "20-23": "In relation to evil effects, evil creatures, and anything else unholy to the cleric’s faith, the cleric and all allies within a 10’ radius receive a +1 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -1 penalty, and damage suffered from evil sources is reduced by 1 point per die (minimum damage 1 point per die).",
+          "24-27": "In relation to evil effects, evil creatures, and anything else unholy to the cleric’s faith, the cleric and all allies within a 20’ radius receive a +2 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -2 penalty, and damage suffered from evil sources is reduced by 2 points per die (minimum damage 1 point per die).",
+          "28-29": "In relation to evil effects, evil creatures, and anything else unholy to the cleric’s faith, the cleric and all allies within a 30’ radius receive a +3 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -3 penalty, and damage suffered from evil sources is reduced by 3 points per die (minimum damage 1 point per die).",
+          "30-31": "Evil effects, evil creatures, and anything else unholy to the cleric’s faith find it painful to come near the cleric. Any such creature that advances within 40’ of the cleric takes 1d4+CL damage each round on the cleric’s activation. This is automatic as a consequence of being near the cleric. Additionally, the cleric and all allies within a 40’ radius receive a +4 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -4 penalty, and damage suffered from evil sources is reduced by 4 points per die (minimum damage 1 point per die).",
+          "32+": "Evil effects, evil creatures, and anything else unholy to the cleric’s faith find it painful to come near the cleric. Any such creature that advances within 40’ of the cleric takes 2d6+CL damage each round on the cleric’s activation. This is automatic as a consequence of being near the cleric. Additionally, the cleric and all allies within a 40’ radius receive a +4 bonus to saving throws against evil creatures, enemy attack rolls against them suffer a -4 penalty, and damage suffered from evil sources is reduced by 4 points per die (minimum damage 1 point per die)."
+        }
+      }
+    ]
+  }
+  

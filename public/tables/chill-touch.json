@@ -1,0 +1,55 @@
+{
+  "table_name": "chill-touch",
+  "notes": "Level: 1 -- Range: Touch -- Duration: Varies -- Casting time: 1 action -- Save: Will vs. check",
+  "general": "This necromantic spell delivers the chill touch of the dead. The caster must spellburn at least 1 point when casting this spell.",
+  "sub_tables": [
+    {
+      "subtable_name": "Manifestation",
+      "dice_size": "1d4",
+      "table": {
+        "1": "The wizard’s hands glow blue.",
+        "2": "The wizard’s hands turn black.",
+        "3": "The wizard emits a strong odor of corruption.",
+        "4": "The wizard’s hands appear skeletal."
+      }
+    },
+    {
+      "subtable_name": "Corruption",
+      "dice_size": "1d8",
+      "table": {
+        "1": "Skin on caster’s face withers and dries out to give him a skull-like appearance.",
+        "2": "Skin on caster’s hands falls away to give him skeletal hands.",
+        "3": "Caster permanently glows with a sickly blue aura.",
+        "4": "Un-dead are attracted to caster and flock to him like moths.",
+        "5-6": "Minor corruption.",
+        "7": "Major corruption.",
+        "8": "Greater corruption."
+      }
+    },
+    {
+      "subtable_name": "Misfire",
+      "dice_size": "1d3",
+      "table": {
+        "1": "Caster shocks himself with necromantic energy for 1d4 damage.",
+        "2": "Caster shocks one randomly determined nearby ally for 1d4 damage.",
+        "3": "Caster sends a blast of necromantic energy into the nearest corpse, animating it as an un-dead zombie with 1d6 hit points (if no nearby corpse, no effect)."
+      }
+    },
+    {
+      "subtable_name": "Spell Results",
+      "dice_size": "1d20",
+      "table": {
+        "1": "Lost, failure, and worse! Roll 1d6 modified by Luck: (0 or less) corruption + misfire + patron taint; (1-2) corruption; (3) patron taint (or corruption if no patron); (4+) misfire.",
+        "2-11": "Lost. Failure.",
+        "12-13": "The caster’s hands are charged with negative energy! On the next round, the next creature the caster attacks takes an additional 1d6 damage. Un-dead creatures take an additional +2 points of damage.",
+        "14-17": "The caster’s hands are charged with negative energy! On the next round, the caster receives a +2 to attack rolls, and the next creature the caster attacks takes an additional 1d6 damage. Un-dead creatures take an additional +2 points of damage.",
+        "18-19": "The caster’s hands are charged with negative energy! For the next turn, the caster receives a +2 to attack rolls, and every creature the caster attacks takes an additional 1d6 damage. Un-dead creatures take an additional +2 points of damage.",
+        "20-23": "The caster’s hands are charged with negative energy! For the next turn, the caster receives a +2 to attack rolls, and every creature the caster attacks takes an additional 2d6 damage. Un-dead creatures take an additional +2 points of damage.",
+        "24-27": "The caster’s hands are charged with negative energy! For the next turn, the caster receives a +4 to attack rolls, and every creature the caster attacks takes an additional 2d6 damage as well as 1d4 points of Strength loss. Un-dead creatures take an additional +4 points of damage.",
+        "28-29": "The caster’s hands are charged with negative energy! For the next hour, the caster receives a +4 to attack rolls, and every creature the caster attacks takes an additional 2d6 damage as well as 1d4 points of Strength loss. Un-dead creatures take an additional +4 points of damage.",
+        "30-31": "The caster’s hands are charged with negative energy! For the next hour, the caster receives a +6 to attack rolls, and every creature the caster attacks takes an additional 3d6 damage as well as 1d4 points of Strength loss. Un-dead creatures take an additional +6 points of damage.",
+        "32+": "The caster’s body glows a sickly blue light as he crackles with withering necromantic energy. Any creature within 10’ of the caster takes 1d6 damage each round it stays within the field, and un-dead creatures take 1d6+2 damage. Until the next sunrise, the caster receives a +8 bonus to all attack rolls, and every creature the caster attacks takes an additional 3d6 damage (with un-dead suffering an extra +8)."
+      }
+    }
+  ]
+}

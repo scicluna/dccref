@@ -1,0 +1,34 @@
+{
+    "table_name": "reap-the-whirlwind",
+    "notes": "Level: 3 (Azi Dahaka) -- Range: Self -- Duration: 1d5 rounds + CL -- Casting time: 1 round -- Save: None",
+    "general": "Azi Dahaka is the patron of storms and waste. By transforming himself into a raging sandstorm, the caster embodies his patron’s fiercest traits.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "Caster and his equipment dissolve into whirling sand.",
+          "2": "A howling wind erupts, reducing the caster to sand.",
+          "3": "Caster raises his head to the sky as if to scream, and his insides pour out as sand."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1": "Lost, failure, and patron taint.",
+          "2-11": "Lost. Failure.",
+          "12-15": "Failure, but spell is not lost.",
+          "16-17": "The caster and all his equipment transform into a whirling vortex of sand. For the duration of the spell, he is immune to non-magical, physical attacks. While in sand form, the caster cannot make physical attacks but can cast spells as appropriate to his new form.",
+          "18-21": "The caster transforms into a whirling vortex of sand up to 25’ in height and 10’ in diameter. He can fly at twice his normal speed and is immune to non-magical, physical attacks. Any creature caught within the vortex must make a Fort save against the spell check or be scoured for 1d12+CL damage. Objects weighing less than 1 pound are lifted into the air and drawn into the whirlwind.",
+          "22-23": "The caster transforms into a towering whirlwind up to 60’ in height and 30’ in diameter. He can fly at thrice his normal speed and is immune to non-magical, physical attacks. Creatures caught within the vortex are blinded and must make a Fort save against the spell check or be scoured for 1d16+CL damage. Objects weighing less than 25 pounds are lifted into the air and drawn into the whirlwind.",
+          "24-26": "The caster transforms into a raging sandstorm up to 120’ in height and 60’ in diameter. He can fly at thrice his normal speed and is immune to non-magical, physical attacks. Creatures caught within the vortex are blinded and must make a Fort save against the spell check or be scoured for 1d24+CL damage. Objects weighing less than 50 pounds are lifted into the air and drawn into the whirlwind.",
+          "27-31": "The caster transforms into a raging sandstorm up to 300’ in height and 150’ in diameter. He can fly at thrice his normal speed and is immune to non-magical, physical attacks. Creatures caught within the vortex are blinded and deafened and must make a Fort save against the spell check or be scoured for 2d12+CL damage. Objects weighing less than 100 pounds are lifted into the air and drawn into the whirlwind.",
+          "32-33": "The caster transforms into a harrowing sandstorm up to 600’ in height and 300’ in diameter. He can fly at thrice his normal speed and is immune to non-magical, physical attacks. Creatures caught within the vortex are blinded and deafened and must make a Fort save against the spell check or be scoured for 3d12+CL damage. Man-sized objects or smaller must make a DC 15 Strength check or be torn from the ground. At the end of the spell’s duration, they fall to the ground, suffering another 6d6 damage.",
+          "34-35": "The caster transforms into a destructive sandstorm up to 1,000’ in height and 500’ in diameter. He can fly at thrice his normal speed and is immune to non-magical, physical attacks. Any creature caught within the vortex is blinded, deafened, knocked prone, and must make a Fort save against the spell check or be scoured for 4d12+CL damage. Horse-sized objects or smaller must make a DC 20 Strength check or be torn from the ground. At the end of the spell’s duration, they fall to the ground, suffering another 6d6 damage. Wooden constructions are laid flat, and objects 4’ high or less are left buried in the sand.",
+          "36+": "The caster transforms into a devastating sandstorm up to 2,000’ in height and 1000’ in diameter. He can fly at thrice his normal speed and is immune to non-magical, physical attacks. Any creature caught within the vortex is blinded, deafened, knocked prone, and must make a Fort save against the spell check or be scoured for 5d12+CL damage. Elephant-sized objects or smaller must make a DC 25 Strength check or be torn from the ground. At the end of the spell’s duration, they fall to the ground, suffering another 6d6 damage. Stone constructions are hurled down, and objects in the caster’s path are left buried beneath 10’ of sand."
+        }
+      }
+    ]
+  }
+  

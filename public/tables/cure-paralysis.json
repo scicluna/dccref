@@ -1,0 +1,32 @@
+{
+    "table_name": "cure-paralysis",
+    "notes": "Level: 2 -- Range: Touch or more -- Duration: One day or permanent (see below) -- Casting time: 1 round -- Save: N/A",
+    "general": "The cleric frees a creature from paralysis. More powerful castings also cure petrifaction and other motion-limiting effects.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d3",
+        "table": {
+          "1": "target fades to invisibility then returns to normal state",
+          "2": "a host of fairy carpenters rise from the ground to hammer the target back into normal condition",
+          "3": "a glittering golden curtain falls before the target; when it is lifted the target is returned to normal state"
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-13": "Failure.",
+          "14-15": "One creature touched is immediately cured of paralysis. If the paralysis was due to mundane reasons (e.g., a severed spinal cord) or a magical effect of limited duration (e.g., a paralysis spell that is not permanent), the cure is permanent and ongoing. If the paralysis was due to a magical effect that is permanent, the paralysis is healed for one day but returns at the onset of the next day.",
+          "16-19": "One creature touched is immediately and permanently cured of paralysis.",
+          "20-21": "One creature touched is immediately and permanently cured of paralysis, as well as any other condition that limits motion. For example, a creature turned to stone is returned to its natural state. The spell also cures transformations to ice or other substances.",
+          "22-25": "Up to two creatures touched are immediately and permanently cured of paralysis, as well as any other condition that limits motion. For example, a creature turned to stone is returned to its natural state. The spell also cures transformations to ice or other substances.",
+          "26-29": "Up to two creatures within 30’ of the cleric are immediately and permanently cured of paralysis, as well as any other condition that limits motion. For example, a creature turned to stone is returned to its natural state. The spell also cures transformations to ice or other substances.",
+          "30-31": "All creatures within 30’ of the cleric are immediately and permanently cured of paralysis, as well as any other condition that limits motion. For example, a creature turned to stone is returned to its natural state. The spell also cures transformations to ice or other substances.",
+          "32-33": "All creatures within 60’ of the cleric are immediately and permanently cured of paralysis, as well as any other condition that limits motion. For example, a creature turned to stone is returned to its natural state. The spell also cures transformations to ice or other substances.",
+          "34+": "All creatures within 120’ of the cleric are immediately and permanently cured of paralysis, as well as any other condition that limits motion. For example, a creature turned to stone is returned to its natural state. The spell also cures transformations to ice or other substances."
+        }
+      }
+    ]
+  }
+  
