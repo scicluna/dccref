@@ -40,7 +40,7 @@ export async function GET(request: Request) {
   }
 }
 
-export async function loadTables() {
+async function loadTables() {
   const tablesDir = path.join(process.cwd(), 'public', 'tables');
 
   try {
