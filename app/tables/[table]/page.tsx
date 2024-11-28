@@ -28,7 +28,8 @@ export default function TablePage() {
           return;
         }
   
-        const res = await fetch(`/tables/${table}.json`);
+        const res = await fetch(`${window.location.origin}/tables/${table}.json`);
+        console.log('Fetch response:', res);
         if (!res.ok) {
           throw new Error('Table not found');
         }
