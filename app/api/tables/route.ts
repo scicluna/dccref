@@ -3,7 +3,7 @@ import path from 'path';
 import { NextResponse } from 'next/server';
 
 export async function GET() {
-  const tablesDir = path.join(process.cwd(), 'public/tables');
+  const tablesDir = path.join(process.cwd(), '/tables');
 
   try {
     const files = fs.readdirSync(tablesDir).filter((file) => file.endsWith('.json'));
