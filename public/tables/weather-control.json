@@ -1,0 +1,33 @@
+{
+    "table_name": "weather-control",
+    "notes": "Level: 5 -- Range: 2 miles -- Duration: 4d12+CL hours -- Casting time: 1 turn plus 1 turn -- Save: N/A",
+    "general": "The cleric alters natural weather patterns to create conditions of his choosing, even to the extent of producing very unnatural effects for the season and region. This spell takes 1 turn to cast, after which another ten minutes is required for the change in the weather to appear. Winds always blow from a direction chosen by the cleric, and the weather change is usually (but not always) dependent on the season.",
+    "sub_tables": [
+      {
+        "subtable_name": "Manifestation",
+        "dice_size": "1d4",
+        "table": {
+          "1": "Flashes of lightning appear in the cleric’s eyes.",
+          "2": "The cleric’s chest swells unnaturally before he exhales a gust of wind.",
+          "3": "Strange colored and shaped clouds form over the cleric’s position.",
+          "4": "The air grows completely still and animals quiet as the weather begins to change."
+        }
+      },
+      {
+        "subtable_name": "Spell Results",
+        "dice_size": "1d20",
+        "table": {
+          "1-19": "Failure.",
+          "20-21": "The cleric alters the weather slightly to produce a more pleasant or inclement condition. A light fog appears on a clear day; a light rain clears up; a soft breeze stirs otherwise still air; a light snowfall begins, etc.",
+          "22-25": "The cleric produces a noticeable change in the weather, creating small squalls or stilling the same. Fog rolls in; rain begins to fall; snow starts to accumulate; winds gain strength; etc. The cleric can create weather effects strong enough to alter a farming season’s outcome.",
+          "26-27": "The cleric creates strong alterations in local weather patterns to produce impressive meteorological effects. Heavy snowfall suddenly begins; rain falls in sheets; strong winds start to blow; dense fog blankets the land, etc. The cleric can create weather effects strong enough to affect the success of an army or navy in battle.",
+          "28-29": "The cleric produces destructive weather or calms the same. A blizzard blankets the area; hailstones fall from the sky; gale-force winds tear at rooftops; thunderstorms throw lightning down; tornadoes begin to touch down; etc. These destructive conditions are powerful enough to cause environmental damage to creatures caught outside (typically 1 to 1d4 points per round of exposure). The weather change is dependent on the season and the cleric has no control over the direction the weather takes. He cannot steer tornadoes at specific buildings or cause lightning to strike a special target. He can still control the wind’s direction, however.",
+          "30-35": "The cleric produces weather that is highly destructive and blatantly unnatural. Snow falls in high summer; heat waves melt polar glaciers; sleet storms wreak havoc on the desert, etc. Destructive conditions are powerful enough to cause environmental damage to creatures caught outside (typically 1 to 1d4 points per round of exposure). The cleric can also produce anomalous weather events if he desires. These include snows of unusual hues, rains of fishes or frogs; clouds of specific shapes or patterns, etc.",
+          "36-37": "The cleric’s command of the weather is terrifying. Not only can he create weather that is obviously unnatural for the season and climate, but he can direct the weather as if it were an extension of his body. Lightning strikes at specific individuals (10d6 damage per strike), windstorms affect certain buildings while leaving others untouched; storm winds fill the sails of some ships while avoiding others; etc. The judge has final say on what the effect(s) of the directed weather is, but these effects are powerful enough to cause massive devastation.",
+          "38-39": "The cleric creates a magical maelstrom of weather that is magnificent in its power. Up to three weather effects of his choosing occur simultaneously, provided they do not conflict with one another. The cleric can have gale force winds, freezing sleet, and lightning happen in the same storm; summon down tornadoes, bludgeoning hail, and blinding rain all at once; ravage coasts with water spouts, tsunamis, and impenetrable fog; or any other combination of his choosing. The cleric could not, however, have scorching heat and freezing snow happen together. The judge has the final word on what combinations are allowable and the effects they have.",
+          "40+": "The cleric causes utter destruction or calms the same in the area of effect. Lightning-filled tornadoes lay waste to fortifications; tsunamis laden with icebergs tear apart coastlines; frigid sleet and glacier winds instantaneously freeze creatures and plant life; etc. The storm will go down in legend. The judge is the final arbitrator on the devastation caused, but it should be catastrophic beyond even the greatest perfect storm."
+        }
+      }
+    ]
+  }
+  
