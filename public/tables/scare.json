@@ -1,5 +1,5 @@
 {
-    "spell_name": "scare",
+    "table_name": "scare",
     "notes": "Range: 30’ or more -- Duration: 1 round or longer -- Casting time: 1 round -- Save: Will save vs. spell check DC",
     "general": "This spell causes its victim to experience abject terror, potentially fleeing the scene or cowering in fright. The spell does not affect automatons, golems, mindless un-dead (such as zombies or skeletons), and other creatures that do not feel fear.",
     "sub_tables": [

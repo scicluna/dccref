@@ -1,5 +1,5 @@
 {
-    "spell_name": "scorching-ray",
+    "table_name": "scorching-ray",
     "notes": "Level: 2 -- Range: 80’ -- Duration: Instantaneous -- Casting time: 1 action -- Save: Ref partial (see below)",
     "general": "The caster summons the flames of Hell to immolate his foes.",
     "sub_tables": [

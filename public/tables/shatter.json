@@ -1,6 +1,6 @@
 {
-    "spell_name": "shatter",
-    "notes": "Level: 2 Range: Touch or further Duration: Instantaneous or longer Casting time: 1 round Save: N/A",
+    "table_name": "shatter",
+    "notes": "Level: 2 Range: Touch or further -- Duration: Instantaneous or longer -- Casting time: 1 round -- Save: N/A",
     "general": "The caster shatters a physical object. This spell causes damage to inanimate objects and is particularly effective at objects made of crystal or glass. It has the potential to not only damage the object immediately but also cause ongoing fractures that make it more susceptible to future damage.",
     "sub_tables": [
       {

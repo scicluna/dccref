@@ -1,5 +1,5 @@
 {
-    "spell_name": "wizard-staff",
+    "table_name": "wizard-staff",
     "notes": "Level: 2 -- Range: Self -- Duration: Permanent -- Casting time: 1 week per caster level -- Save: N/A",
     "general": "With this spell, the wizard crafts a staff and imbues it with magical energies linked to his soul. A wizard can create only one staff at a time and suffers great pains if it is destroyed. The material cost is 1,000 gp per caster level, plus any unusual materials (e.g., an adamantine staff requires sufficient adamantine), plus a minimum of 2 points of spellburn per caster level to properly bond the staff. One point of this spellburn never heals; it is permanent ability loss. Additionally, the caster must have the requisite spells that will be placed into the staff, and be able to utilize them without rest during the casting period. The casting period is ongoing with brief spurts of restless sleep, and the caster does not heal spellburn (or other wounds) during this time. The staff’s efficacy is much greater at higher caster levels, and thus the time and material cost rises as the wizard progresses in power level. In the descriptions below, 'original caster level' refers to the level at which the wizard crafted the staff – if he advances in level after creating the staff, abilities associated with original caster level do not increase.",
     "sub_tables": [

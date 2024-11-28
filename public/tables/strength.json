@@ -1,5 +1,5 @@
 {
-    "spell_name": "strength",
+    "table_name": "strength",
     "notes": "Level: 2 -- Range: Varies -- Duration: Varies -- Casting time: 1 action -- Save: N/A",
     "general": "With an arcane incantation, the caster grants physical strength to a willing target.",
     "sub_tables": [

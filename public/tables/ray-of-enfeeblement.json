@@ -1,5 +1,5 @@
 {
-    "spell_name": "ray-of-enfeeblement",
+    "table_name": "ray-of-enfeeblement",
     "notes": "Level: 2 -- Range: 150’ -- Duration: Instantaneous -- Casting time: 1 action -- Save: Will vs. spell check",
     "general": "This necromantic spell requires at least 1 point of spellburn. The caster issues a dangerous strength-draining ray, which destroys the physical prowess of a target. Reducing a creature to 0 Strength transforms it into a jelly-like mass, unable to support its own weight or defend itself from attacks. If a target does not have a defined Strength score, assume 10 for normal humans and man-sized creatures. Lost ability scores heal back at the normal rate.",
     "sub_tables": [

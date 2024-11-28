@@ -1,5 +1,5 @@
 {
-    "spell_name": "spider-web",
+    "table_name": "spider-web",
     "notes": "Level: 2 -- Range: Varies -- Duration: Varies -- Casting time: 1 action -- Save: Varies (see below)",
     "general": "The caster creates a sticky spider web with which to entangle his foes. Unless objects are trapped by the web, it is difficult to see, effectively invisible unless someone is searching for it. A creature that touches the web is held fast, able to escape only by a DC 20 Strength or Agility check. The web can be burned off (possibly wounding captured creatures) or hacked through with a very sharp blade by a creature not already caught (AC 16, 5 hp to free one creature). A dull blade or blunt object will simply become entangled; even a strike with an exceptionally sharp blade has a 25% chance of entangling the weapon. Melee attacks aimed at the creatures held by the web run a 10% risk per attack of entangling the attacker.",
     "sub_tables": [
