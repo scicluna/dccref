@@ -4,7 +4,6 @@ import { useState, useCallback } from 'react';
 import { debounce } from '@/utils/debounce';
 import { kebabToTitle } from '@/utils/kebabtotitle';
 
-
 export default function Home() {
   const [searchTerm, setSearchTerm] = useState('');
   interface Result {
@@ -38,13 +37,12 @@ export default function Home() {
     }
   };
 
-  // Create a debounced version of fetchResults
   const debouncedFetchResults = useCallback(debounce(fetchResults, 300), []);
 
   const handleSearchChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const query = e.target.value;
     setSearchTerm(query);
-    debouncedFetchResults(query); // Trigger the debounced API call
+    debouncedFetchResults(query);
   };
 
   return (

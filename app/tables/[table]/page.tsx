@@ -24,12 +24,11 @@ export default function TablePage() {
       try {
         const { table } = params;
         if (!table) {
-          router.push('/404'); // Redirect if the table parameter is missing
+          router.push('/404');
           return;
         }
   
         const res = await fetch(`${window.location.origin}/tables/${table}.json`);
-        console.log('Fetch response:', res);
         if (!res.ok) {
           throw new Error('Table not found');
         }
@@ -37,8 +36,7 @@ export default function TablePage() {
         const data: TableData = await res.json();
         setTableData(data);
       } catch (error) {
-        console.error('Failed to fetch table data:', error);
-        router.push('/404'); // Redirect if there's an error
+        router.push('/404');
       }
     };
   
@@ -49,13 +47,11 @@ export default function TablePage() {
     return <div className="text-gray-700">Loading...</div>;
   }
 
-  // Parse roll range (e.g., "1-10") into min and max values
   const parseRollRange = (range: string) => {
     const [min, max] = range.replace('+', '').split('-').map(Number);
     return { min, max };
   };
 
-  // Determine the row that matches the roll
   const getRowForRoll = (roll: number, rows: { roll: string; result: string }[]) => {
     for (const row of rows) {
       const { min, max } = parseRollRange(row.roll);
@@ -66,13 +62,12 @@ export default function TablePage() {
         return row;
       }
     }
-    // If out of bounds, return first or last row
+
     if (roll < parseRollRange(rows[0].roll).min) return rows[0];
     if (roll > parseRollRange(rows[rows.length - 1].roll).max) return rows[rows.length - 1];
     return rows[rows.length - 1];
   };
 
-  // Dice roll logic
   const rollDice = (dice: string, bonus: number) => {
     const [num, sides] = dice.split('d').map(Number);
     const roll = Array.from({ length: num })
@@ -95,7 +90,6 @@ export default function TablePage() {
     const result = rollDice(currentDice, typeof bonus === 'string' ? parseFloat(bonus) : bonus);
     setRollResult(result);
 
-    // Highlight the appropriate row for the current subtable
     const rows = tableData.sub_tables.find(
       (table) => table.subtable_name === currentSubTable
     )?.table;
@@ -106,7 +100,6 @@ export default function TablePage() {
       setResultText(`Result: ${result}`);
     }
 
-    // Automatically close modal after roll
     setModalOpen(false);
   };
 
@@ -168,17 +161,15 @@ export default function TablePage() {
             <div className="mt-4">
               <label className="block mb-2">Bonus:</label>
                 <input
-                  type="text" // Use text input to handle partial inputs like "-"
-                  value={bonus === null ? '' : bonus} // Ensure null displays as an empty string
+                  type="text"
+                  value={bonus === null ? '' : bonus}
                   onChange={(e) => {
                     const value = e.target.value;
-                    // Allow empty, "-", or valid numbers
                     if (value === '' || value === '-' || !isNaN(Number(value))) {
                       setBonus(value === '' || value === '-' ? value : parseFloat(value));
                     }
                   }}
                   onBlur={() => {
-                    // Clean up: Convert "-" to 0 on blur
                     if (bonus === '-' as any) {
                       setBonus(0);
                     }

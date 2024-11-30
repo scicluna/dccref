@@ -17,7 +17,7 @@ export async function GET(request: Request) {
   try {
     const allTables = await loadTables();
 
-    // Fuse.js options
+    //fuse options
     const options = {
       keys: ['table', 'sub_tables', 'subtable_name', 'outcome', 'notes'],
       threshold: 0.3,
@@ -26,7 +26,6 @@ export async function GET(request: Request) {
     const fuse = new Fuse(allTables, options);
     const results = fuse.search(query);
 
-    // Remove duplicates by keeping only unique table names
     const uniqueResults = Array.from(
         new Map(
             results.map((result) => [result.item.table, result.item])
@@ -44,19 +43,14 @@ async function loadTables() {
   const tablesDir = path.join(process.cwd(), 'public', 'tables');
 
   try {
-    // Read all files in the directory
     const files = await fs.readdir(tablesDir);
-
-    // Filter JSON files
     const jsonFiles = files.filter((file) => file.endsWith('.json'));
 
-    // Load and parse each JSON file
     const tables = await Promise.all(
       jsonFiles.map(async (file) => {
         const filePath = path.join(tablesDir, file);
         const fileContent = await fs.readFile(filePath, 'utf8');
 
-        // Skip empty files
         if (!fileContent.trim()) {
           console.warn(`Skipping empty file: ${file}`);
           return null;
@@ -64,8 +58,6 @@ async function loadTables() {
 
         try {
           const parsed = JSON.parse(fileContent);
-
-          // Extract fields into a flat structure for search
           return {
             table: parsed.table_name,
             notes: parsed.notes,
