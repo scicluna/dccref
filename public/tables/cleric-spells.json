@@ -1,0 +1,74 @@
+{
+    "table_name": "cleric-spells",
+    "notes": "",
+    "general": "",
+    "sub_tables": [
+      {
+        "subtable_name": "1st Level",
+        "dice_size": "1d11",
+        "table": {
+            "1": "Blessing",
+            "2": "Darkness",
+            "3": "Detect Evil",
+            "4": "Detect Magic",
+            "5": "Food of the Gods",
+            "6": "Holy Sanctuary",
+            "7": "Paralysis",
+            "8": "Protection from Evil",
+            "9": "Resist Cold or Heat",
+            "10": "Second Sight",
+            "11": "Word of Command"
+        }
+      },
+      {
+        "subtable_name": "2nd Level",
+        "dice_size": "1d11",
+        "table": {
+            "1": "Banish",
+            "2": "Binding",
+            "3": "Cure Paralysis",
+            "4": "Curse",
+            "5": "Divine Symbol",
+            "6": "Lotus Stare",
+            "7": "Neutralize Poison or Disease",
+            "8": "Restore Vitality",
+            "9": "Snake Charm",
+            "10": "Stinging Stone",
+            "11": "Wood Wyrding"
+        }
+      },
+      {
+        "subtable_name": "3rd Level",
+        "dice_size": "1d7",
+        "table": {
+            "1": "Animate Dead",
+            "2": "Bolt from the Blue",
+            "3": "Exorcise",
+            "4": "Remove Curse",
+            "5": "Speak With the Dead",
+            "6": "Spiritual Weapon",
+            "7": "True Name"
+        }
+      },
+      {
+        "subtable_name": "4th Level",
+        "dice_size": "1d4",
+        "table": {
+            "1": "Affliction of the Gods",
+            "2": "Cause Earthquake",
+            "3": "Sanctify / Desecrate",
+            "4": "Vermin Blight"
+        }
+      },
+      {
+        "subtable_name": "5th Level",
+        "dice_size": "1d3",
+        "table": {
+            "1": "Righteous Fire",
+            "2": "Weather Control",
+            "3": "Whirling Doom"
+        }
+      }
+    ]
+  }
+  

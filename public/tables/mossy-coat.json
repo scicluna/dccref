@@ -1,0 +1,28 @@
+{
+    "table_name": "mossy-coat",
+    "notes": "Level: 1 (Yddgrrl) -- Range: Touch -- Duration: 1 Turn -- Casting time: 1 Action -- Save: None",
+    "general": "This spell causes a thick coating of moss to grow over the surface of the target, with varying effects. The caster may choose any effect equal to or lower than the spell result. In all cases, the moss is permeable to both water and air. Fire damage to the moss reduces the spell check result, so that a result of 27 is reduced to spell check result 20-23 with 4 points of fire damage.",
+    "sub_tables": [
+        {
+            "subtable_name": "Manifestation",
+            "dice_size": "None",
+            "table": "See below"
+        },
+        {
+            "subtable_name": "Spell Results",
+            "dice_size": "1d20",
+            "table": {
+                "1": "Lost, failure, and patron taint.",
+                "2-11": "Lost. Failure.",
+                "12-13": "An inch-thick coating of moss grows over a creature or object of up to 5 square feet in size. If a creature, the creature’s AC is improved by +1. An object is held in place unless a DC 5 Strength check is successful – this can be used to seal a window or door.",
+                "14-17": "Moss grows to a thickness of 1d3+1 inches, granting a creature a +2 bonus to AC, but causing a -1 penalty to Agility. An object cannot be moved without a DC 10 Strength check to break the grip of the moss.",
+                "18-19": "Moss grows to a thickness of 3d3 inches. This grants creatures a +2 bonus to AC and allows the creature to ignore the first 2 hp damage from any attack, as it is absorbed by the moss. Objects cannot be moved without a DC 10 Strength check, but an object of up to 10 square feet can be affected, allowing the caster to potentially seal large gates or prevent drawbridges from moving.",
+                "20-23": "Moss grows to a thickness of 1d3 feet. Creatures gain a +2 bonus to AC, and ignore the first 5 points of damage from any attack – 10 points if the attack is bludgeoning. The moss impairs creatures, who lose 10’ of movement speed, cannot make use of special movement types, and who take a -1d penalty on the dice chain to all die rolls. Objects require a DC 20 Strength check to move. Small objects are unlikely even to be found.",
+                "24-27": "Moss grows to a thickness of 3d3 feet. Creatures are immobilized, and ignore all bludgeoning damage (including falling damage), as well as the first 10 points of any other damage. Objects cannot be moved unless a DC 30 Strength check is successful. The caster can touch up to a number of creatures or objects equal to his caster level, one per round, so long as the spell duration remains.",
+                "28-29": "As 24-27, above, but the duration increases to 1d5 turns.",
+                "30-31": "As 24-27, above, but the duration increases to 1d5 hours.",
+                "32+": "A wave of moss erupts over all creatures and objects within 150’ of the caster, causing them to be coated in thick moss as in 24-27, above. Only the caster and his immediate possessions are unaffected. The moss remains in place for 1d5 days."
+            }
+        }
+    ]
+}

@@ -1,0 +1,124 @@
+{
+    "table_name": "wizard-spells",
+    "notes": "",
+    "general": ".",
+    "sub_tables": [
+      {
+        "subtable_name": "1st Level",
+        "dice_size": "1d27",
+        "table": {
+            "1": "Animal Summoning",
+            "2": "Cantrip",
+            "3": "Charm Person",
+            "4": "Chill Touch",
+            "5": "Choking Cloud",
+            "6": "Color Spray",
+            "7": "Comrpehend Languages",
+            "8": "Detect Magic",
+            "9": "Ekim's Mystical Mask",
+            "10": "Enlarge",
+            "11": "Feather Fall",
+            "12": "Find Familiar",
+            "13": "Flaming Hands",
+            "14": "Force Manipulation",
+            "15": "Invoke Patron",
+            "16": "Magic Missile",
+            "17": "Magic Shield",
+            "18": "Mending",
+            "19": "Patron Bond",
+            "20": "Read Magic",
+            "21": "Ropework",
+            "22": "Runic Alphabet, Mortal",
+            "23": "Sleep",
+            "24": "Spider Climb",
+            "25": "Ventriloquism",
+            "26": "Ward Portal",
+            "27": "(Patron Spell)"
+        }
+      },
+      {
+        "subtable_name": "2nd Level",
+        "dice_size": "1d24",
+        "table": {
+            "1": "Arcane Affinity",
+            "2": "Detect Evil",
+            "3": "Detect Invisible",
+            "4": "ESP",
+            "5": "Fire Resistance",
+            "6": "Forget",
+            "7": "Invisibility",
+            "8": "Invisible Companion",
+            "9": "Knock",
+            "10": "Levitation",
+            "11": "Locate Object",
+            "12": "Magic Mouth",
+            "13": "Mirror Image",
+            "14": "Monster Summoning",
+            "15": "Nythuul's Porcupine Coat",
+            "16": "Phantasm",
+            "17": "Ray of Enfeeblement",
+            "18": "Scare",
+            "19": "Scorching Ray",
+            "20": "Shatter",
+            "21": "Spider web",
+            "22": "Strength",
+            "23": "Wizard Staff",
+            "24": "(Patron Spell)"
+        }
+      },
+      {
+        "subtable_name": "3rd Level",
+        "dice_size": "1d24",
+        "table": {
+            "1": "Binding",
+            "2": "Breathe Life",
+            "3": "Consult Spirit",
+            "4": "Demon Summoning",
+            "5": "Dispel Magic",
+            "6": "Eldritch Hound",
+            "7": "Emirikol's Entropic Maelstrom",
+            "8": "Eternal Champion",
+            "9": "Fireball",
+            "10": "Fly",
+            "11": "Gust of Wind",
+            "12": "Haste",
+            "13": "Lightning Bolt",
+            "14": "Make Potion",
+            "15": "Paralysis",
+            "16": "Planar Step",
+            "17": "Runic Alphabet, Fey",
+            "18": "Slow",
+            "19": "Sword Magic",
+            "20": "Transference",
+            "21": "Turn to Stone",
+            "22": "Water Breathing",
+            "23": "Write Magic",
+            "24": "(Patron spell)"
+        }
+      },
+      {
+        "subtable_name": "4th Level",
+        "dice_size": "1d6",
+        "table": {
+            "1": "Control Fire",
+            "2": "Control Ice",
+            "3": "Lokerimon's Orderly Assistance",
+            "4": "Polymorph",
+            "5": "Transmute Earth",
+            "6": "Wizard Sense"
+        }
+      },
+      {
+        "subtable_name": "5th Level",
+        "dice_size": "1d5",
+        "table": {
+            "1": "Hepsoj's Fecund Fungi",
+            "2": "Lokerimon's Unerring Hunter",
+            "3": "Magic Bulwark",
+            "4": "Mind Purge",
+            "5": "Replication"
+        }
+      }
+    ]
+  }
+  

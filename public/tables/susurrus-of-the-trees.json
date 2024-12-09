@@ -1,0 +1,34 @@
+{
+    "table_name": "susurrus-of-the-trees",
+    "notes": "Level: 2 (Yddgrrl) -- Range: Varies -- Duration: Varies -- Casting time: 1 Round -- Save: None",
+    "general": "The caster is able to utilize the sound of wind in the trees to communicate with another creature. Both the caster and the creature must be in an area where trees exist – a forest, an orchard, a park – and the target creature must be known to the caster well enough that the caster can identify him. The trees carry the message through the agency of the World Root, relaying it in sounds intelligible only to the intended target. With higher spell check results, the caster can allow the target to reply, carry on a conversation of limited duration, or even include multiple targets, who must all be within range of the caster, but need not be near one another.",
+    "sub_tables": [
+        {
+            "subtable_name": "Manifestation",
+            "dice_size": "1d3",
+            "table": {
+                "1": "The caster and targets hear normal susurration of leaves in the trees, but hear actual words as though through telepathy.",
+                "2": "The sound of wind in trees is transformed to the sound of the actual spoken voices in the caster and targets’ ears.",
+                "3": "The caster and targets hear the voices of the trees, but mystically know who is speaking."
+            }
+        },
+        {
+            "subtable_name": "Spell Results",
+            "dice_size": "1d20",
+            "table": {
+                "1": "Lost, failure, and patron taint.",
+                "2-11": "Lost. Failure.",
+                "12-13": "Failure, but the spell is not lost.",
+                "14-15": "The caster can communicate up to 5 words to a single target, who cannot be more than 50’ away.",
+                "16-19": "The caster can communicate up to 15 words to a single target, who cannot be more than 500’ away.",
+                "20-21": "The caster can speak for up to 1d3 minutes to a single target, who cannot be more than 1 mile away. The target then has up to 1 minute to respond to the caster.",
+                "22-25": "The caster can carry on a conversation for up to 5 minutes with a single target within 5 miles.",
+                "26-29": "The caster can carry on a conversation for up to 10 minutes with 1d5 targets, each of which can be no more than 15 miles away from the caster. The caster must choose all targets when the communication begins.",
+                "30-31": "The caster can carry on a conversation for up to 30 minutes with up to 1d7 + caster level targets, each of which must be within 50 miles of the caster. The caster must choose all targets when the communication begins.",
+                "32-33": "The caster can carry on a conversation for up to 1 hour with up to 1d7 + caster level targets, each of which must be within 500 miles of the caster. The caster must choose all targets when the communication begins.",
+                "34+": "The caster can carry on one or more conversations for the remainder of the day, selecting and dropping targets as he sees fit. Targets must be on the same world as the caster, but there are no other limits to distance. The caster can choose no more than 20 targets at a time, but as the caster cycles through various conversations, there is no limit to the overall number of targets he may speak with."
+            }
+        }
+    ]
+}
+ 
